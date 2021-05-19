@@ -1,8 +1,12 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import {
   Map as MapContainer, TileLayer, Marker, Popup,
 } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useRouter } from 'next/router'
+import L from 'leaflet'
+
 import { RamenShop } from '../interfaces'
 
 type Props = {
@@ -20,6 +24,11 @@ const parseParamFloat = ( p: string | string[] ): number => {
 const LAT = 35.677204
 const LNG = 139.747853
 const ZOOM = 12
+
+const myMarkerIcon = L.icon( {
+  iconUrl: '/static/marker-icon.png',
+  iconSize: [25, 41],
+} )
 
 const Map = ( { items }: Props ): JSX.Element => {
   const router = useRouter()
@@ -49,7 +58,12 @@ const Map = ( { items }: Props ): JSX.Element => {
         />
 
         { items.map( ( item ) => (
-          <Marker position={[item.lat, item.lng]} key={item.id}>
+
+          <Marker
+            position={[item.lat, item.lng]}
+            key={item.id}
+            icon={myMarkerIcon}
+          >
             <Popup>
               <p>
                 <a href={item.url} target="_blank" rel="noreferrer">
