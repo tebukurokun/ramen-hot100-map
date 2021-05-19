@@ -21,8 +21,6 @@ import ListItemText from '@material-ui/core/ListItemText'
 import HomeIcon from '@material-ui/icons/Home'
 import ExploreIcon from '@material-ui/icons/Explore'
 import InfoIcon from '@material-ui/icons/Info'
-import ListIcon from '@material-ui/icons/List'
-import SettingsEthernetIcon from '@material-ui/icons/SettingsEthernet'
 import { colors } from '@material-ui/core'
 
 const drawerWidth = 200
