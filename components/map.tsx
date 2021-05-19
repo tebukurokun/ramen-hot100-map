@@ -20,6 +20,7 @@ const parseParamFloat = ( p: string | string[] ): number => {
 const LAT = 35.677204
 const LNG = 139.747853
 const ZOOM = 12
+
 const Map = ( { items }: Props ): JSX.Element => {
   const router = useRouter()
   const { lng, lat, zoom } = router.query
@@ -46,6 +47,7 @@ const Map = ( { items }: Props ): JSX.Element => {
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+
         { items.map( ( item ) => (
           <Marker position={[item.lat, item.lng]} key={item.id}>
             <Popup>
@@ -62,14 +64,14 @@ const Map = ( { items }: Props ): JSX.Element => {
           </Marker>
         ) ) }
       </MapContainer>
-      <button
+      {/* <button
         type="button"
         onClick={() => {
           router.push( '' )
         }}
       >
         Reset
-      </button>
+      </button> */}
     </div>
   )
 }
