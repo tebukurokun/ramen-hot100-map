@@ -142,7 +142,7 @@ const Layout: React.FC<LayoutProps> = ( {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              Ramen hot 100
+              Ramen Hot 100
             </Typography>
           </Toolbar>
         </AppBar>

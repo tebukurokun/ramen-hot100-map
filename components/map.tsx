@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Map as MapContainer, TileLayer, Marker, Popup,
 } from 'react-leaflet'
@@ -24,6 +24,10 @@ const Map = ( { items }: Props ): JSX.Element => {
   // const { lng, lat, zoom } = router.query
 
   const [mapState, setMapState] = useState( { lat: 35.677204, lng: 139.747853, zoom: 12 } )
+
+  useEffect( () => {
+    console.debug( JSON.stringify( mapState ) )
+  } )
 
   return (
     <div style={{ height: '100%', width: '100%' }}>
