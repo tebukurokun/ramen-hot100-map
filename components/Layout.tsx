@@ -75,7 +75,7 @@ const useStyles = makeStyles( ( theme: Theme ) => createStyles( {
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing( 3 ),
+    padding: theme.spacing( 1, 2 ),
     transition: theme.transitions.create( 'margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
@@ -142,7 +142,7 @@ const Layout: React.FC<LayoutProps> = ( {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" noWrap>
-              ramen hot 100
+              Ramen hot 100
             </Typography>
           </Toolbar>
         </AppBar>
