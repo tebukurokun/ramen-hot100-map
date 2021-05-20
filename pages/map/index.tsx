@@ -1,6 +1,5 @@
 import dynamic from 'next/dynamic'
 import { ComponentType, useMemo } from 'react'
-import Link from 'next/link'
 import { GetStaticProps } from 'next'
 import {
   makeStyles, createStyles,
@@ -19,7 +18,7 @@ const useStyles = makeStyles( ( ) => createStyles( {
     color: colors.orange[800],
   },
   mapArea: {
-    height: 800,
+    height: '70vh',
   },
 } ) )
 
@@ -28,7 +27,7 @@ const WithStaticProps = ( { items }: Props ): JSX.Element => {
 
   const Map: ComponentType<Props> = useMemo(
     () => dynamic( () => import( '../../components/map' ), {
-      loading: () => <p>A map is loading</p>,
+      loading: () => <p>A map is loading...</p>,
       ssr: false,
     } ),
     [],
@@ -48,11 +47,6 @@ const WithStaticProps = ( { items }: Props ): JSX.Element => {
       <div className={classes.mapArea}>
         <Map items={items} />
       </div>
-      <p>
-        <Link href="/">
-          <a>Go home</a>
-        </Link>
-      </p>
     </Layout>
   )
 }
