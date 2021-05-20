@@ -11,12 +11,26 @@ import L from 'leaflet'
 import { RamenShop } from '../interfaces'
 
 type Props = {
-  items: RamenShop[]
+  items: {
+    tokyo: RamenShop[],
+    east: RamenShop[],
+    west: RamenShop[],
+  }
 }
 
-const myMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icon.png',
-  iconSize: [25, 41],
+const tokyoMarkerIcon = L.icon( {
+  iconUrl: '/static/marker_red.png',
+  iconSize: [22, 40],
+} )
+
+const eastMarkerIcon = L.icon( {
+  iconUrl: '/static/marker_blue.png',
+  iconSize: [22, 40],
+} )
+
+const westMarkerIcon = L.icon( {
+  iconUrl: '/static/marker_green.png',
+  iconSize: [22, 40],
 } )
 
 const Map = ( { items }: Props ): JSX.Element => {
@@ -54,12 +68,13 @@ const Map = ( { items }: Props ): JSX.Element => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        { items.map( ( item ) => (
+        {/* tokyo */}
+        { items.tokyo.map( ( item ) => (
 
           <Marker
             position={[item.lat, item.lng]}
             key={item.id}
-            icon={myMarkerIcon}
+            icon={tokyoMarkerIcon}
           >
             <Popup>
               <p>
@@ -74,6 +89,51 @@ const Map = ( { items }: Props ): JSX.Element => {
             </Popup>
           </Marker>
         ) ) }
+
+        {/* east */}
+        { items.east.map( ( item ) => (
+
+          <Marker
+            position={[item.lat, item.lng]}
+            key={item.id}
+            icon={eastMarkerIcon}
+          >
+            <Popup>
+              <p>
+                <a href={item.url} target="_blank" rel="noreferrer">
+                  {item.name}
+                </a>
+              </p>
+              <p>
+                {item.address}
+              </p>
+
+            </Popup>
+          </Marker>
+        ) ) }
+
+        {/* west */}
+        { items.west.map( ( item ) => (
+
+          <Marker
+            position={[item.lat, item.lng]}
+            key={item.id}
+            icon={westMarkerIcon}
+          >
+            <Popup>
+              <p>
+                <a href={item.url} target="_blank" rel="noreferrer">
+                  {item.name}
+                </a>
+              </p>
+              <p>
+                {item.address}
+              </p>
+
+            </Popup>
+          </Marker>
+        ) ) }
+
       </MapContainer>
       {/* <button
         type="button"

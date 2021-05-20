@@ -7,10 +7,18 @@ import {
 import { colors } from '@material-ui/core'
 import Layout from '../../components/Layout'
 import { RamenShop } from '../../interfaces'
-import { ramenShopsData } from '../../utils/ramen-shop-data'
+import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
+
+// type Props = {
+//   items: RamenShop[]
+// }
 
 type Props = {
-  items: RamenShop[]
+  items: {
+    tokyo: RamenShop[],
+    east: RamenShop[],
+    west: RamenShop[],
+  }
 }
 
 const useStyles = makeStyles( ( ) => createStyles( {
@@ -55,8 +63,19 @@ export const getStaticProps: GetStaticProps = async () => {
   // Example for including static props in a Next.js function component page.
   // Don't forget to include the respective types for any props passed into
   // the component.
-  const items: RamenShop[] = ramenShopsData
-  return { props: { items } }
+  const tokyoItems: RamenShop[] = ramenShopsDataToyko
+  const eastItems: RamenShop[] = ramenShopsDataEast
+  const westItems: RamenShop[] = ramenShopsDataWest
+
+  return {
+    props: {
+      items: {
+        tokyo: tokyoItems,
+        east: eastItems,
+        west: westItems,
+      },
+    },
+  }
 }
 
 export default WithStaticProps
