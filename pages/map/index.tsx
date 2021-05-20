@@ -9,10 +9,6 @@ import Layout from '../../components/Layout'
 import { RamenShop } from '../../interfaces'
 import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
 
-// type Props = {
-//   items: RamenShop[]
-// }
-
 type Props = {
   items: {
     tokyo: RamenShop[],
