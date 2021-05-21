@@ -17,3 +17,11 @@ export interface RamenShop {
   lng: number
   lat: number
 }
+
+export interface RamenMapProps {
+  items: {
+    tokyo: RamenShop[],
+    east: RamenShop[],
+    west: RamenShop[],
+  }
+}
