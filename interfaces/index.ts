@@ -13,6 +13,7 @@ export interface RamenShop {
   id: string
   name: string
   url: string
+  code: string
   address: string
   lng: number
   lat: number
