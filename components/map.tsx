@@ -19,17 +19,17 @@ type Props = {
 }
 
 const tokyoMarkerIcon = L.icon( {
-  iconUrl: '/static/marker_red.png',
+  iconUrl: '/static/marker-icons/marker_red.png',
   iconSize: [22, 40],
 } )
 
 const eastMarkerIcon = L.icon( {
-  iconUrl: '/static/marker_blue.png',
+  iconUrl: '/static/marker-icons/marker_blue.png',
   iconSize: [22, 40],
 } )
 
 const westMarkerIcon = L.icon( {
-  iconUrl: '/static/marker_green.png',
+  iconUrl: '/static/marker-icons/marker_green.png',
   iconSize: [22, 40],
 } )
 
