@@ -6,16 +6,8 @@ import {
 } from '@material-ui/core/styles'
 import { colors } from '@material-ui/core'
 import Layout from '../../components/Layout'
-import { RamenShop } from '../../interfaces'
+import { RamenMapProps, RamenShop } from '../../interfaces'
 import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
-
-type Props = {
-  items: {
-    tokyo: RamenShop[],
-    east: RamenShop[],
-    west: RamenShop[],
-  }
-}
 
 const useStyles = makeStyles( ( ) => createStyles( {
   linkForDarkMode: {
@@ -26,10 +18,10 @@ const useStyles = makeStyles( ( ) => createStyles( {
   },
 } ) )
 
-const WithStaticProps = ( { items }: Props ): JSX.Element => {
+const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
   const classes = useStyles()
 
-  const Map: ComponentType<Props> = useMemo(
+  const Map: ComponentType<RamenMapProps> = useMemo(
     () => dynamic( () => import( '../../components/map' ), {
       loading: () => <p>A map is loading...</p>,
       ssr: false,
