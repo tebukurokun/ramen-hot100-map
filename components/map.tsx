@@ -2,13 +2,13 @@
 // @ts-nocheck
 import React, { useState, useEffect } from 'react'
 import {
-  Map as MapContainer, TileLayer, Marker, Popup,
+  Map as MapContainer, TileLayer,
 } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
-// import { useRouter } from 'next/router'
 import L from 'leaflet'
 
 import { RamenShop } from '../interfaces'
+import MarkerComponent from './mapComponents/marker'
 
 type Props = {
   items: {
@@ -34,9 +34,6 @@ const westMarkerIcon = L.icon( {
 } )
 
 const Map = ( { items }: Props ): JSX.Element => {
-  // const router = useRouter()
-  // const { lng, lat, zoom } = router.query
-
   const [mapState, setMapState] = useState( { lat: 35.677204, lng: 139.747853, zoom: 12 } )
 
   useEffect( () => {
@@ -53,13 +50,11 @@ const Map = ( { items }: Props ): JSX.Element => {
         ondragend={( event ) => {
           const z = event.target.getZoom()
           const c = event.target.getCenter()
-          // router.push( `?lng=${c.lng}&lat=${c.lat}&zoom=${z}` )
           setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
         }}
         onzoomend={( event ) => {
           const z = event.target.getZoom()
           const c = event.target.getCenter()
-          // router.push( `?lng=${c.lng}&lat=${c.lat}&zoom=${z}` )
           setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
         }}
       >
@@ -71,82 +66,25 @@ const Map = ( { items }: Props ): JSX.Element => {
         {/* tokyo */}
         { items.tokyo.map( ( item ) => (
 
-          <Marker
-            position={[item.lat, item.lng]}
-            key={item.id}
-            icon={tokyoMarkerIcon}
-          >
-            <Popup>
-              <p>
-                <a href={item.url} target="_blank" rel="noreferrer">
-                  {item.name}
-                </a>
-              </p>
-              <div>
-                <img src={`/static/ramen-images/${item.code}.jpg`} alt={`${item.name}`} style={{ maxHeight: '100%', maxWidth: '100%' }} />
-              </div>
+          <MarkerComponent item={item} icon={tokyoMarkerIcon} key={item.id} />
 
-              <p style={{ maxWidth: '200px' }}>
-                {item.address}
-              </p>
-
-            </Popup>
-          </Marker>
         ) ) }
 
         {/* east */}
         { items.east.map( ( item ) => (
 
-          <Marker
-            position={[item.lat, item.lng]}
-            key={item.id}
-            icon={eastMarkerIcon}
-          >
-            <Popup>
-              <p>
-                <a href={item.url} target="_blank" rel="noreferrer">
-                  {item.name}
-                </a>
-              </p>
-              <p>
-                {item.address}
-              </p>
+          <MarkerComponent item={item} icon={eastMarkerIcon} key={item.id} />
 
-            </Popup>
-          </Marker>
         ) ) }
 
         {/* west */}
         { items.west.map( ( item ) => (
 
-          <Marker
-            position={[item.lat, item.lng]}
-            key={item.id}
-            icon={westMarkerIcon}
-          >
-            <Popup>
-              <p>
-                <a href={item.url} target="_blank" rel="noreferrer">
-                  {item.name}
-                </a>
-              </p>
-              <p>
-                {item.address}
-              </p>
+          <MarkerComponent item={item} icon={westMarkerIcon} key={item.id} />
 
-            </Popup>
-          </Marker>
         ) ) }
 
       </MapContainer>
-      {/* <button
-        type="button"
-        onClick={() => {
-          router.push( '' )
-        }}
-      >
-        Reset
-      </button> */}
     </div>
   )
 }
