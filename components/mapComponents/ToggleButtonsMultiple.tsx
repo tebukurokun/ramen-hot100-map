@@ -16,6 +16,8 @@ const ToggleButtonsMultiple: React.VFC<Props> = ( { handleDisplayArea } ) => {
     [areas],
   )
 
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore TS6133: 'event' is declared but its value is never read.
   const handleAreas = ( event: React.MouseEvent<HTMLElement>, newFormats: string[] ) => {
     setAreas( newFormats )
   }
