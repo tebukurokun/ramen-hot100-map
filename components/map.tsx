@@ -7,16 +7,8 @@ import {
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
-import { RamenShop } from '../interfaces'
+import { RamenMapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
-
-type Props = {
-  items: {
-    tokyo: RamenShop[],
-    east: RamenShop[],
-    west: RamenShop[],
-  }
-}
 
 const tokyoMarkerIcon = L.icon( {
   iconUrl: '/static/marker-icons/marker_red.png',
@@ -33,8 +25,10 @@ const westMarkerIcon = L.icon( {
   iconSize: [22, 40],
 } )
 
-const Map = ( { items }: Props ): JSX.Element => {
-  const [mapState, setMapState] = useState( { lat: 35.677204, lng: 139.747853, zoom: 12 } )
+const Map = (
+  { items, areaDisplayFlg: { dispTokyo, dispEast, dispWest } }: RamenMapProps,
+): JSX.Element => {
+  const [mapState, setMapState] = useState( { lat: 35.677204, lng: 139.747853, zoom: 11 } )
 
   useEffect( () => {
     console.debug( JSON.stringify( mapState ) )
@@ -64,21 +58,21 @@ const Map = ( { items }: Props ): JSX.Element => {
         />
 
         {/* tokyo */}
-        { items.tokyo.map( ( item ) => (
+        { dispTokyo && items.tokyo.map( ( item ) => (
 
           <MarkerComponent item={item} icon={tokyoMarkerIcon} key={item.id} />
 
         ) ) }
 
         {/* east */}
-        { items.east.map( ( item ) => (
+        { dispEast && items.east.map( ( item ) => (
 
           <MarkerComponent item={item} icon={eastMarkerIcon} key={item.id} />
 
         ) ) }
 
         {/* west */}
-        { items.west.map( ( item ) => (
+        { dispWest && items.west.map( ( item ) => (
 
           <MarkerComponent item={item} icon={westMarkerIcon} key={item.id} />
 

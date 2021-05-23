@@ -19,10 +19,17 @@ export interface RamenShop {
   lat: number
 }
 
+export interface AreaDisplayFlg {
+  dispTokyo: boolean,
+  dispEast: boolean,
+  dispWest: boolean
+}
+
 export interface RamenMapProps {
   items: {
     tokyo: RamenShop[],
     east: RamenShop[],
     west: RamenShop[],
-  }
+  },
+  areaDisplayFlg: AreaDisplayFlg
 }

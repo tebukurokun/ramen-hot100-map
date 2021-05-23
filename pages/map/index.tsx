@@ -1,5 +1,7 @@
 import dynamic from 'next/dynamic'
-import { ComponentType, useMemo } from 'react'
+import React, {
+  useState, ComponentType, useMemo, useEffect,
+} from 'react'
 import { GetStaticProps } from 'next'
 import {
   makeStyles, createStyles,
@@ -7,8 +9,9 @@ import {
 import { colors } from '@material-ui/core'
 import ReactLoading from 'react-loading'
 import Layout from '../../components/Layout'
-import { RamenMapProps, RamenShop } from '../../interfaces'
+import { AreaDisplayFlg, RamenMapProps, RamenShop } from '../../interfaces'
 import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
+import ToggleButtonsMultiple from '../../components/mapComponents/ToggleButtonsMultiple'
 
 const useStyles = makeStyles( ( ) => createStyles( {
   linkForDarkMode: {
@@ -17,9 +20,26 @@ const useStyles = makeStyles( ( ) => createStyles( {
   mapArea: {
     height: '70vh',
   },
+  toggleButtonArea: {
+    margin: '20px 0',
+  },
 } ) )
 
 const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
+  const [areaDisplayFlg, setAreaDisplayFlg] = useState<AreaDisplayFlg>(
+    { dispTokyo: true, dispEast: true, dispWest: true },
+  )
+
+  useEffect(
+    () => {
+      console.debug( JSON.stringify( areaDisplayFlg ) )
+    },
+  )
+
+  const handleDisplayArea = ( areaList: Array<string> ) => {
+    setAreaDisplayFlg( { dispTokyo: areaList.includes( 'tokyo' ), dispEast: areaList.includes( 'east' ), dispWest: areaList.includes( 'west' ) } )
+  }
+
   const classes = useStyles()
 
   const Map: ComponentType<RamenMapProps> = useMemo(
@@ -48,8 +68,11 @@ const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
         {' '}
         <a href="https://award.tabelog.com/hyakumeiten/ramen_tokyo/2020/" className={classes.linkForDarkMode}>食べログ様サイト</a>
       </p>
-      <div className={classes.mapArea}>
-        <Map items={items} />
+      <div className={classes.toggleButtonArea}>
+        <ToggleButtonsMultiple handleDisplayArea={handleDisplayArea} />
+      </div>
+      <div className={classes.mapArea} onContextMenu={() => false}>
+        <Map items={items} areaDisplayFlg={areaDisplayFlg} />
       </div>
     </Layout>
   )
