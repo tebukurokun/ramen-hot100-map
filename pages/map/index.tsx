@@ -5,6 +5,7 @@ import {
   makeStyles, createStyles,
 } from '@material-ui/core/styles'
 import { colors } from '@material-ui/core'
+import ReactLoading from 'react-loading'
 import Layout from '../../components/Layout'
 import { RamenMapProps, RamenShop } from '../../interfaces'
 import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
@@ -23,11 +24,18 @@ const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
 
   const Map: ComponentType<RamenMapProps> = useMemo(
     () => dynamic( () => import( '../../components/map' ), {
-      loading: () => <p>A map is loading...</p>,
+      // eslint-disable-next-line react/display-name
+      loading: () => (
+        <div>
+          <ReactLoading type="spokes" color="#fff" />
+          <p>A map is loading...</p>
+        </div>
+      ),
       ssr: false,
     } ),
     [],
   )
+
   return (
 
     <Layout title="Ramen Map">
