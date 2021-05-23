@@ -26,6 +26,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
             {item.name}
           </a>
         </p>
+
         <div>
           <img src={`/static/ramen-images/${item.code}.jpg`} alt={`${item.name}`} style={{ maxHeight: '100%', maxWidth: '100%' }} />
         </div>
