@@ -1,6 +1,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-
+import Image from 'next/image'
 import {
   Marker, Popup,
 } from 'react-leaflet'
@@ -29,12 +29,14 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
 
         <div>
           <a href={item.url} target="_blank" rel="noreferrer">
-            <img
+            <Image
               src={`/static/ramen-images/${item.code}.jpg`}
               alt={`${item.name}`}
               style={{
                 width: 'auto', height: 'auto', maxHeight: '100%', maxWidth: '100%', minHeight: '100px',
               }}
+              width={150}
+              height={150}
             />
           </a>
         </div>
