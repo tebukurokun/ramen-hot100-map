@@ -1,6 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 import Image from 'next/image'
+import LocationOnIcon from '@material-ui/icons/LocationOn'
 import {
   Marker, Popup,
 } from 'react-leaflet'
@@ -21,7 +22,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
       icon={icon}
     >
       <Popup>
-        <p style={{ maxWidth: '100px' }}>
+        <p style={{ maxWidth: '100px', fontWeight: 'bolder' }}>
           <a href={item.url} target="_blank" rel="noreferrer">
             {item.name}
           </a>
@@ -41,8 +42,11 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
           </a>
         </div>
 
-        <p style={{ maxWidth: '100px' }}>
-          {item.address}
+        <p style={{ maxWidth: '100px', fontSize: 'smaller' }}>
+          <LocationOnIcon fontSize="small" />
+          <a href={`http://maps.google.co.jp/maps?q=${item.address}`} target="_blank" rel="noreferrer">
+            {item.address}
+          </a>
         </p>
 
       </Popup>
