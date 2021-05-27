@@ -19,6 +19,7 @@ const useStyles = makeStyles( ( ) => createStyles( {
   },
   mapArea: {
     height: '70vh',
+    maxWidth: '1500px',
   },
   toggleButtonArea: {
     margin: '20px 0',
