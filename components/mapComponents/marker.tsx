@@ -21,7 +21,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
       icon={icon}
     >
       <Popup>
-        <p>
+        <p style={{ maxWidth: '100px' }}>
           <a href={item.url} target="_blank" rel="noreferrer">
             {item.name}
           </a>
@@ -33,7 +33,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
               src={`/static/ramen-images/${item.code}.jpg`}
               alt={`${item.name}`}
               style={{
-                width: 'auto', height: 'auto', maxHeight: '100%', maxWidth: '100%', minHeight: '100px',
+                maxHeight: '100%', maxWidth: '100%',
               }}
               width={150}
               height={150}
@@ -41,7 +41,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
           </a>
         </div>
 
-        <p style={{ maxWidth: '150px' }}>
+        <p style={{ maxWidth: '100px' }}>
           {item.address}
         </p>
 
