@@ -123,6 +123,8 @@ const Layout: React.FC<LayoutProps> = ( {
           <title>{title}</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="description" content="ラーメン百名店の情報をマップで見ることができるサイトです。" />
+          <meta property="og:description" content="ラーメン百名店の情報をマップで見ることができるサイトです。" />
         </Head>
         <CssBaseline />
         <AppBar
