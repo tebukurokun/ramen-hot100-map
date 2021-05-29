@@ -6,7 +6,7 @@ const IndexPage = ():JSX.Element => (
     <h1>Hello 👋</h1>
     <p>
       <Link href="/about">
-        <a>About</a>
+        About
       </Link>
     </p>
   </Layout>

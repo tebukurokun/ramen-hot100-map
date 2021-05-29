@@ -51,6 +51,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
 
       </Popup>
     </Marker>
+
   )
 }
 

@@ -92,6 +92,7 @@ const useStyles = makeStyles( ( theme: Theme ) => createStyles( {
 } ) )
 
 function ListItemLink( props: ListItemProps<'a', { button?: true }> ) {
+  // eslint-disable-next-line react/jsx-props-no-spreading
   return <ListItem button component="a" {...props} />
 }
 
@@ -188,7 +189,6 @@ const Layout: React.FC<LayoutProps> = ( {
               </ListItemIcon>
               <ListItemText primary="Map" />
             </ListItemLink>
-
           </List>
         </Drawer>
         <main

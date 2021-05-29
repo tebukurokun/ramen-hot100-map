@@ -23,7 +23,7 @@ const AboutPage = (): JSX.Element => {
       </p>
       <p>
         <Link href="/">
-          <a>Go home</a>
+          Go home
         </Link>
       </p>
     </Layout>

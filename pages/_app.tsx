@@ -17,6 +17,7 @@ const CustomApp = ( { Component, pageProps }: AppProps ): JSX.Element => {
     <StylesProvider injectFirst>
       <ThemeProvider theme={theme}>
         <CssBaseline />
+        {/* eslint-disable-next-line react/jsx-props-no-spreading */}
         <Component {...pageProps} />
       </ThemeProvider>
     </StylesProvider>
