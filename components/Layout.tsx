@@ -75,7 +75,7 @@ const useStyles = makeStyles( ( theme: Theme ) => createStyles( {
   },
   content: {
     flexGrow: 1,
-    padding: theme.spacing( 1, 2 ),
+    padding: theme.spacing( 1, 1 ),
     transition: theme.transitions.create( 'margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,

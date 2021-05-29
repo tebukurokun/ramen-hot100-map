@@ -17,8 +17,11 @@ const useStyles = makeStyles( ( ) => createStyles( {
   linkForDarkMode: {
     color: colors.orange[800],
   },
+  descriptionArea: {
+    margin: '0 16px',
+  },
   mapArea: {
-    height: '70vh',
+    height: '80vh',
     maxWidth: '1500px',
   },
   toggleButtonArea: {
@@ -60,18 +63,23 @@ const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
   return (
 
     <Layout title="Ramen Map">
-      <h1>Ramen Map</h1>
-      <p>
-        ラーメン百名店のマップです。
-      </p>
-      <p>
-        出典:
-        {' '}
-        <a href="https://award.tabelog.com/hyakumeiten/ramen_tokyo/2020/" className={classes.linkForDarkMode}>食べログ様サイト</a>
-      </p>
+
+      <div className={classes.descriptionArea}>
+        <h1>Ramen Map</h1>
+        <p>
+          ラーメン百名店のマップです。
+        </p>
+        <p>
+          出典:
+          {' '}
+          <a href="https://award.tabelog.com/hyakumeiten/ramen_tokyo/2020/" className={classes.linkForDarkMode}>食べログ様サイト</a>
+        </p>
+      </div>
+
       <div className={classes.toggleButtonArea}>
         <ToggleButtonsMultiple handleDisplayArea={handleDisplayArea} />
       </div>
+
       <div className={classes.mapArea} onContextMenu={() => false}>
         <Map items={items} areaDisplayFlg={areaDisplayFlg} />
       </div>
