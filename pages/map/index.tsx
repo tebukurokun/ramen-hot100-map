@@ -13,6 +13,9 @@ import { AreaDisplayFlg, RamenMapProps, RamenShop } from '../../interfaces'
 import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
 import ToggleButtonsMultiple from '../../components/mapComponents/ToggleButtonsMultiple'
 
+import 'react-leaflet-markercluster/dist/styles.min.css'
+import 'leaflet/dist/leaflet.css'
+
 const useStyles = makeStyles( ( ) => createStyles( {
   linkForDarkMode: {
     color: colors.orange[800],
@@ -25,7 +28,7 @@ const useStyles = makeStyles( ( ) => createStyles( {
     maxWidth: '1500px',
   },
   toggleButtonArea: {
-    margin: '20px 0',
+    marginBottom: '5px',
   },
 } ) )
 
@@ -65,10 +68,7 @@ const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
     <Layout title="Ramen Map">
 
       <div className={classes.descriptionArea}>
-        <h1>Ramen Map</h1>
-        <p>
-          ラーメン百名店のマップです。
-        </p>
+        <h1>ラーメン百名店マップ</h1>
         <p>
           出典:
           {' '}

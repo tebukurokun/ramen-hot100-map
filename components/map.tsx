@@ -7,6 +7,7 @@ import {
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
+import MarkerClusterGroup from 'react-leaflet-markercluster'
 import { RamenMapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
 
@@ -56,27 +57,33 @@ const Map = (
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <MarkerClusterGroup>
 
-        {/* tokyo */}
-        { dispTokyo && items.tokyo.map( ( item ) => (
+          {/* tokyo */}
+          { dispTokyo && items.tokyo.map( ( item ) => (
 
-          <MarkerComponent item={item} icon={tokyoMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={tokyoMarkerIcon} key={item.id} />
 
-        ) ) }
+          ) ) }
+        </MarkerClusterGroup>
 
-        {/* east */}
-        { dispEast && items.east.map( ( item ) => (
+        <MarkerClusterGroup>
+          {/* east */}
+          { dispEast && items.east.map( ( item ) => (
 
-          <MarkerComponent item={item} icon={eastMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={eastMarkerIcon} key={item.id} />
 
-        ) ) }
+          ) ) }
+        </MarkerClusterGroup>
 
-        {/* west */}
-        { dispWest && items.west.map( ( item ) => (
+        <MarkerClusterGroup>
+          {/* west */}
+          { dispWest && items.west.map( ( item ) => (
 
-          <MarkerComponent item={item} icon={westMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={westMarkerIcon} key={item.id} />
 
-        ) ) }
+          ) ) }
+        </MarkerClusterGroup>
 
       </MapContainer>
     </div>
