@@ -180,6 +180,15 @@ const Layout: React.FC<LayoutProps> = ( {
           </List>
           <Divider />
           <List>
+            <ListItemLink href="/map">
+              <ListItemIcon>
+                <ExploreIcon />
+              </ListItemIcon>
+              <ListItemText primary="Map" />
+            </ListItemLink>
+          </List>
+          <Divider />
+          <List>
             <ListItemLink href="/ramen-map">
               <ListItemIcon>
                 <ExploreIcon />

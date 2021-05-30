@@ -12,7 +12,7 @@ function ListItemLink( props: ListItemProps<'a', { button?: true }> ) {
   return <ListItem button component="a" {...props} />
 }
 
-const mapIndexPage = () => {
+const mapIndexPage : React.VFC<void> = () => {
   return (
     <Layout title="Ramen Map">
 
