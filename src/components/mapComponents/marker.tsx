@@ -28,19 +28,22 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
           </a>
         </p>
 
-        <div>
-          <a href={item.url} target="_blank" rel="noreferrer">
-            <Image
-              src={`${item.imgPath}`}
-              alt={`${item.name}`}
-              style={{
-                maxHeight: '100%', maxWidth: '100%',
-              }}
-              width={150}
-              height={150}
-            />
-          </a>
-        </div>
+        {item.imgPath ? (
+          <div>
+            <a href={item.url} target="_blank" rel="noreferrer">
+              <Image
+                src={`${item.imgPath}`}
+                alt={`${item.name}`}
+                style={{
+                  maxHeight: '100%', maxWidth: '100%',
+                }}
+                width={150}
+                height={150}
+              />
+            </a>
+          </div>
+        )
+          : ''}
 
         <p style={{ maxWidth: '100px', fontSize: 'smaller' }}>
           <LocationOnIcon fontSize="small" />

@@ -34,3 +34,13 @@ export interface MapProps {
   },
   areaDisplayFlg: AreaDisplayFlg
 }
+
+export interface MapIndexProps {
+  title: string
+  referenceUrl: string
+  items: {
+    tokyo: Shop[],
+    east: Shop[],
+    west: Shop[],
+  },
+}
