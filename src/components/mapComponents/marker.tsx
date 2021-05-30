@@ -31,7 +31,7 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
         <div>
           <a href={item.url} target="_blank" rel="noreferrer">
             <Image
-              src={`/static/ramen-images/${item.code}.jpg`}
+              src={`${item.imgPath}`}
               alt={`${item.name}`}
               style={{
                 maxHeight: '100%', maxWidth: '100%',

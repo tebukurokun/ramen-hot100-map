@@ -14,6 +14,7 @@ export interface RamenShop {
   name: string
   url: string
   code: string
+  imgPath:string
   address: string
   lng: number
   lat: number

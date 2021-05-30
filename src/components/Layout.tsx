@@ -187,7 +187,7 @@ const Layout: React.FC<LayoutProps> = ( {
                 <ExploreIcon />
                 {' '}
               </ListItemIcon>
-              <ListItemText primary="Map" />
+              <ListItemText primary="Ramen Map" />
             </ListItemLink>
           </List>
         </Drawer>
