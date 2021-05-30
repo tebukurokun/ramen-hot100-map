@@ -65,18 +65,14 @@ const Map = (
             <MarkerComponent item={item} icon={tokyoMarkerIcon} key={item.id} />
 
           ) ) }
-        </MarkerClusterGroup>
 
-        <MarkerClusterGroup>
           {/* east */}
           { dispEast && items.east.map( ( item ) => (
 
             <MarkerComponent item={item} icon={eastMarkerIcon} key={item.id} />
 
           ) ) }
-        </MarkerClusterGroup>
 
-        <MarkerClusterGroup>
           {/* west */}
           { dispWest && items.west.map( ( item ) => (
 

@@ -9,7 +9,7 @@ import { colors } from '@material-ui/core'
 import ReactLoading from 'react-loading'
 
 import {
-  AreaDisplayFlg, MapIndexProps, MapProps, Shop,
+  AreaDisplayFlg, MapIndexProps, MapProps,
 } from '../interfaces'
 import ToggleButtonsMultiple from './mapComponents/ToggleButtonsMultiple'
 

@@ -168,14 +168,12 @@ const Layout: React.FC<LayoutProps> = ( {
             <ListItemLink href="/">
               <ListItemIcon>
                 <HomeIcon />
-                {' '}
               </ListItemIcon>
               <ListItemText primary="Home" />
             </ListItemLink>
             <ListItemLink href="/about">
               <ListItemIcon>
                 <InfoIcon />
-                {' '}
               </ListItemIcon>
               <ListItemText primary="About" />
             </ListItemLink>
@@ -185,9 +183,16 @@ const Layout: React.FC<LayoutProps> = ( {
             <ListItemLink href="/ramen-map">
               <ListItemIcon>
                 <ExploreIcon />
-                {' '}
               </ListItemIcon>
               <ListItemText primary="Ramen Map" />
+            </ListItemLink>
+          </List>
+          <List>
+            <ListItemLink href="/udon-map">
+              <ListItemIcon>
+                <ExploreIcon />
+              </ListItemIcon>
+              <ListItemText primary="Udon Map" />
             </ListItemLink>
           </List>
         </Drawer>
