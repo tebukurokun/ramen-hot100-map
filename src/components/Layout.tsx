@@ -182,7 +182,7 @@ const Layout: React.FC<LayoutProps> = ( {
           </List>
           <Divider />
           <List>
-            <ListItemLink href="/map">
+            <ListItemLink href="/ramen-map">
               <ListItemIcon>
                 <ExploreIcon />
                 {' '}

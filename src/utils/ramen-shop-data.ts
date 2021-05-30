@@ -1,7 +1,7 @@
-import { RamenShop } from '../interfaces'
-import * as tokyoData from './ramen-shops-tokyo.json'
-import * as eastData from './ramen-shops-east.json'
-import * as westData from './ramen-shops-west.json'
+import { Shop } from '../interfaces'
+import * as tokyoRamenData from './ramen-shops-tokyo.json'
+import * as eastRamenData from './ramen-shops-east.json'
+import * as westRamenData from './ramen-shops-west.json'
 
 /**
  * jsonファイルから取得したtokyoデータ
@@ -9,7 +9,7 @@ import * as westData from './ramen-shops-west.json'
  * example: {id: '1', name: 'Alice', url: 'https://tabelog.com/tokyo/A1314/A131402/13006051/', address: '東京都港区三田2-16-4', lng: 139.74152, lat: 35.64804,}
  *
  */
-const ramenShopsDataToyko: RamenShop[] = tokyoData.shops.map(
+const ramenShopsDataToyko: Shop[] = tokyoRamenData.shops.map(
   ( shop ) => {
     return {
       id: shop.id,
@@ -30,7 +30,7 @@ const ramenShopsDataToyko: RamenShop[] = tokyoData.shops.map(
  * example: {id: '1', name: 'Alice', url: 'https://tabelog.com/tokyo/A1314/A131402/13006051/', address: '東京都港区三田2-16-4', lng: 139.74152, lat: 35.64804,}
  *
  */
-const ramenShopsDataEast: RamenShop[] = eastData.shops.map(
+const ramenShopsDataEast: Shop[] = eastRamenData.shops.map(
   ( shop ) => {
     return {
       id: shop.id,
@@ -51,7 +51,7 @@ const ramenShopsDataEast: RamenShop[] = eastData.shops.map(
  * example: {id: '1', name: 'Alice', url: 'https://tabelog.com/tokyo/A1314/A131402/13006051/', address: '東京都港区三田2-16-4', lng: 139.74152, lat: 35.64804,}
  *
  */
-const ramenShopsDataWest: RamenShop[] = westData.shops.map(
+const ramenShopsDataWest: Shop[] = westRamenData.shops.map(
   ( shop ) => {
     return {
       id: shop.id,

@@ -9,7 +9,7 @@ import {
 import { colors } from '@material-ui/core'
 import ReactLoading from 'react-loading'
 import Layout from '../../components/Layout'
-import { AreaDisplayFlg, RamenMapProps, RamenShop } from '../../interfaces'
+import { AreaDisplayFlg, MapProps, Shop } from '../../interfaces'
 import { ramenShopsDataToyko, ramenShopsDataEast, ramenShopsDataWest } from '../../utils/ramen-shop-data'
 import ToggleButtonsMultiple from '../../components/mapComponents/ToggleButtonsMultiple'
 
@@ -32,7 +32,7 @@ const useStyles = makeStyles( ( ) => createStyles( {
   },
 } ) )
 
-const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
+const WithStaticProps = ( { items }: MapProps ): JSX.Element => {
   const [areaDisplayFlg, setAreaDisplayFlg] = useState<AreaDisplayFlg>(
     { dispTokyo: true, dispEast: true, dispWest: true },
   )
@@ -49,7 +49,7 @@ const WithStaticProps = ( { items }: RamenMapProps ): JSX.Element => {
 
   const classes = useStyles()
 
-  const Map: ComponentType<RamenMapProps> = useMemo(
+  const Map: ComponentType<MapProps> = useMemo(
     () => dynamic( () => import( '../../components/map' ), {
       // eslint-disable-next-line react/display-name
       loading: () => (
@@ -91,9 +91,9 @@ export const getStaticProps: GetStaticProps = async () => {
   // Example for including static props in a Next.js function component page.
   // Don't forget to include the respective types for any props passed into
   // the component.
-  const tokyoItems: RamenShop[] = ramenShopsDataToyko
-  const eastItems: RamenShop[] = ramenShopsDataEast
-  const westItems: RamenShop[] = ramenShopsDataWest
+  const tokyoItems: Shop[] = ramenShopsDataToyko
+  const eastItems: Shop[] = ramenShopsDataEast
+  const westItems: Shop[] = ramenShopsDataWest
 
   return {
     props: {

@@ -9,7 +9,7 @@ export type User = {
   name: string
 }
 
-export interface RamenShop {
+export interface Shop {
   id: string
   name: string
   url: string
@@ -26,11 +26,11 @@ export interface AreaDisplayFlg {
   dispWest: boolean
 }
 
-export interface RamenMapProps {
+export interface MapProps {
   items: {
-    tokyo: RamenShop[],
-    east: RamenShop[],
-    west: RamenShop[],
+    tokyo: Shop[],
+    east: Shop[],
+    west: Shop[],
   },
   areaDisplayFlg: AreaDisplayFlg
 }
