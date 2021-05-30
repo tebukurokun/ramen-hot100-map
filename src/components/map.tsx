@@ -29,7 +29,7 @@ const westMarkerIcon = L.icon( {
 const Map = (
   { items, areaDisplayFlg: { dispTokyo, dispEast, dispWest } }: RamenMapProps,
 ): JSX.Element => {
-  const [mapState, setMapState] = useState( { lat: 35.677204, lng: 139.747853, zoom: 11 } )
+  const [mapState, setMapState] = useState( { lat: 36.8, lng: 138.1, zoom: 6 } )
 
   useEffect( () => {
     console.debug( JSON.stringify( mapState ) )
