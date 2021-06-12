@@ -12,7 +12,7 @@ import * as westUdonData from './udon-west.json'
 const udonShopsDataToyko: Shop[] = tokyoUdonData.shops.map(
   ( shop ) => {
     return {
-      id: shop.id,
+      id: `tokyo-${shop.id}`,
       name: shop.name,
       area: 'tokyo',
       url: shop.url,
@@ -35,7 +35,7 @@ const udonShopsDataToyko: Shop[] = tokyoUdonData.shops.map(
 const udonShopsDataEast: Shop[] = eastUdonData.shops.map(
   ( shop ) => {
     return {
-      id: shop.id,
+      id: `east-${shop.id}`,
       name: shop.name,
       area: 'east',
       url: shop.url,
@@ -58,7 +58,7 @@ const udonShopsDataEast: Shop[] = eastUdonData.shops.map(
 const udonShopsDataWest: Shop[] = westUdonData.shops.map(
   ( shop ) => {
     return {
-      id: shop.id,
+      id: `west-${shop.id}`,
       name: shop.name,
       area: 'west',
       url: shop.url,

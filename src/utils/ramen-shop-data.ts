@@ -12,7 +12,7 @@ import * as westRamenData from './ramen-shops-west.json'
 const ramenShopsDataToyko: Shop[] = tokyoRamenData.shops.map(
   ( shop ) => {
     return {
-      id: shop.id,
+      id: `tokyo-${shop.id}`,
       name: shop.name,
       area: 'tokyo',
       url: shop.url,
@@ -35,7 +35,7 @@ const ramenShopsDataToyko: Shop[] = tokyoRamenData.shops.map(
 const ramenShopsDataEast: Shop[] = eastRamenData.shops.map(
   ( shop ) => {
     return {
-      id: shop.id,
+      id: `east-${shop.id}`,
       name: shop.name,
       area: 'east',
       url: shop.url,
@@ -58,7 +58,7 @@ const ramenShopsDataEast: Shop[] = eastRamenData.shops.map(
 const ramenShopsDataWest: Shop[] = westRamenData.shops.map(
   ( shop ) => {
     return {
-      id: shop.id,
+      id: `west-${shop.id}`,
       name: shop.name,
       area: 'west',
       url: shop.url,
