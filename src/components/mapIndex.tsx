@@ -11,7 +11,6 @@ import ReactLoading from 'react-loading'
 import {
   AreaDisplayFlg, MapIndexProps, MapProps,
 } from '../interfaces'
-import ToggleButtonsMultiple from './mapComponents/ToggleButtonsMultiple'
 
 import 'react-leaflet-markercluster/dist/styles.min.css'
 import 'leaflet/dist/leaflet.css'
@@ -24,7 +23,8 @@ const useStyles = makeStyles( ( ) => createStyles( {
     margin: '0 16px',
   },
   mapArea: {
-    height: '80vh',
+    height: 'calc(100vh - 80px)',
+    width: '100%',
     maxWidth: '1500px',
   },
   toggleButtonArea: {
@@ -67,18 +67,6 @@ const MapIndex = ( {
 
   return (
     <div>
-      <div className={classes.descriptionArea}>
-        <h1>{title}</h1>
-        <p>
-          出典:
-          {' '}
-          <a href={`${referenceUrl}`} className={classes.linkForDarkMode}>食べログ様サイト</a>
-        </p>
-      </div>
-
-      <div className={classes.toggleButtonArea}>
-        <ToggleButtonsMultiple handleDisplayArea={handleDisplayArea} />
-      </div>
 
       <div className={classes.mapArea} onContextMenu={() => false}>
         <Map items={items} areaDisplayFlg={areaDisplayFlg} />
