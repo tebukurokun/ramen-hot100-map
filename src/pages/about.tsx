@@ -19,7 +19,9 @@ const AboutPage = (): JSX.Element => {
       <h1>About</h1>
       <p>
         <a href="https://award.tabelog.com/hyakumeiten/ramen_tokyo/2020/" className={classes.linkForDarkMode}>ラーメン百名店</a>
-        の情報を検索するサイトです
+        、
+        <a href="https://award.tabelog.com/hyakumeiten/udon_tokyo/2020/" className={classes.linkForDarkMode}>うどん百名店</a>
+        の店舗情報を検索するサイトです
       </p>
       <p>
         <Link href="/">

@@ -14,6 +14,7 @@ const udonShopsDataToyko: Shop[] = tokyoUdonData.shops.map(
     return {
       id: shop.id,
       name: shop.name,
+      area: 'tokyo',
       url: shop.url,
       code: shop.code,
       // imgPath: `/static/images/udon/${shop.code}.jpg`,
@@ -36,6 +37,7 @@ const udonShopsDataEast: Shop[] = eastUdonData.shops.map(
     return {
       id: shop.id,
       name: shop.name,
+      area: 'east',
       url: shop.url,
       code: shop.code,
       // imgPath: `/static/images/udon/${shop.code}.jpg`,
@@ -58,6 +60,7 @@ const udonShopsDataWest: Shop[] = westUdonData.shops.map(
     return {
       id: shop.id,
       name: shop.name,
+      area: 'west',
       url: shop.url,
       code: shop.code,
       // imgPath: `/static/images/udon/${shop.code}.jpg`,
@@ -69,4 +72,10 @@ const udonShopsDataWest: Shop[] = westUdonData.shops.map(
   },
 )
 
-export { udonShopsDataToyko, udonShopsDataEast, udonShopsDataWest }
+const udonShopsData: Shop[] = udonShopsDataToyko
+  .concat( udonShopsDataEast )
+  .concat( udonShopsDataWest )
+
+export {
+  udonShopsDataToyko, udonShopsDataEast, udonShopsDataWest, udonShopsData,
+}

@@ -23,7 +23,7 @@ import ExploreIcon from '@material-ui/icons/Explore'
 import InfoIcon from '@material-ui/icons/Info'
 import { colors } from '@material-ui/core'
 
-const drawerWidth = 200
+const drawerWidth = 160
 
 const muiTheme = createMuiTheme( {
   palette: {
@@ -188,22 +188,6 @@ const Layout: React.FC<LayoutProps> = ( {
             </ListItemLink>
           </List>
           <Divider />
-          <List>
-            <ListItemLink href="/ramen-map">
-              <ListItemIcon>
-                <ExploreIcon />
-              </ListItemIcon>
-              <ListItemText primary="Ramen Map" />
-            </ListItemLink>
-          </List>
-          <List>
-            <ListItemLink href="/udon-map">
-              <ListItemIcon>
-                <ExploreIcon />
-              </ListItemIcon>
-              <ListItemText primary="Udon Map" />
-            </ListItemLink>
-          </List>
         </Drawer>
         <main
           className={clsx( classes.content, {

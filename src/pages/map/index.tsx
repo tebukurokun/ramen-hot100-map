@@ -1,48 +1,36 @@
-import List from '@material-ui/core/List'
-import ListItem, { ListItemProps } from '@material-ui/core/ListItem'
-import ListItemIcon from '@material-ui/core/ListItemIcon'
-import ListItemText from '@material-ui/core/ListItemText'
-import ExploreIcon from '@material-ui/icons/Explore'
-import LinkIcon from '@material-ui/icons/Link'
+import { GetStaticProps } from 'next'
 
 import Layout from '../../components/Layout'
+import {
+  MapIndexProps, Shop,
+} from '../../interfaces'
+import {
+  ramenShopsData,
+} from '../../utils/ramen-shop-data'
+import { udonShopsData } from '../../utils/udon-shop-data'
+import MapIndex from '../../components/mapIndex'
 
-function ListItemLink( props: ListItemProps<'a', { button?: true }> ) {
-  // eslint-disable-next-line react/jsx-props-no-spreading
-  return <ListItem button component="a" {...props} />
-}
-
-const mapIndexPage : React.VFC<void> = () => {
+const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
   return (
+
     <Layout title="Ramen Map">
-
-      <h1>
-        <ListItemIcon>
-          <ExploreIcon />
-        </ListItemIcon>
-        百名店マップ
-      </h1>
-
-      <List>
-        <ListItemLink href="/ramen-map">
-          <ListItemIcon>
-            <LinkIcon />
-          </ListItemIcon>
-          <ListItemText primary="ラーメン百名店マップ" />
-        </ListItemLink>
-      </List>
-
-      <List>
-        <ListItemLink href="/udon-map">
-          <ListItemIcon>
-            <LinkIcon />
-          </ListItemIcon>
-          <ListItemText primary="うどん百名店マップ" />
-        </ListItemLink>
-      </List>
-
+      <MapIndex items={items} />
     </Layout>
   )
 }
 
-export default mapIndexPage
+export default WithStaticProps
+
+export const getStaticProps: GetStaticProps = async () => {
+  const ramenItems: Shop[] = ramenShopsData
+  const udonItems: Shop[] = udonShopsData
+
+  return {
+    props: {
+      items: {
+        ramen: ramenItems,
+        udon: udonItems,
+      },
+    },
+  }
+}

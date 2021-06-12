@@ -8,28 +8,26 @@ import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 
 import MarkerClusterGroup from 'react-leaflet-markercluster'
-import { RamenMapProps } from '../interfaces'
+import { MapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
 
-const tokyoMarkerIcon = L.icon( {
+const ramenMarkerIcon = L.icon( {
   iconUrl: '/static/marker-icons/marker_red.png',
   iconSize: [22, 40],
 } )
 
-const eastMarkerIcon = L.icon( {
+const udonMarkerIcon = L.icon( {
   iconUrl: '/static/marker-icons/marker_blue.png',
   iconSize: [22, 40],
 } )
 
-const westMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icons/marker_green.png',
-  iconSize: [22, 40],
-} )
-
 const Map = (
-  { items, areaDisplayFlg: { dispTokyo, dispEast, dispWest } }: RamenMapProps,
+  { items }: MapProps,
 ): JSX.Element => {
   const [mapState, setMapState] = useState( { lat: 36.8, lng: 138.1, zoom: 6 } )
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [dispStatus, setDispStatus] = useState( { ramen: true, udon: true } )
 
   useEffect( () => {
     console.debug( JSON.stringify( mapState ) )
@@ -59,24 +57,17 @@ const Map = (
         />
         <MarkerClusterGroup>
 
-          {/* tokyo */}
-          { dispTokyo && items.tokyo.map( ( item ) => (
+          {/* ramen */}
+          { dispStatus.ramen && items.ramen.map( ( item ) => (
 
-            <MarkerComponent item={item} icon={tokyoMarkerIcon} key={item.id} />
-
-          ) ) }
-
-          {/* east */}
-          { dispEast && items.east.map( ( item ) => (
-
-            <MarkerComponent item={item} icon={eastMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={ramenMarkerIcon} key={item.id} />
 
           ) ) }
 
-          {/* west */}
-          { dispWest && items.west.map( ( item ) => (
+          {/* udon */}
+          { dispStatus.udon && items.udon.map( ( item ) => (
 
-            <MarkerComponent item={item} icon={westMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={udonMarkerIcon} key={item.id} />
 
           ) ) }
         </MarkerClusterGroup>

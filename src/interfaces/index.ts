@@ -11,6 +11,7 @@ export type User = {
 
 export interface Shop {
   id: string
+  area: 'tokyo' | 'east' | 'west'
   name: string
   url: string
   code: string
@@ -20,27 +21,16 @@ export interface Shop {
   lat: number
 }
 
-export interface AreaDisplayFlg {
-  dispTokyo: boolean,
-  dispEast: boolean,
-  dispWest: boolean
-}
-
 export interface MapProps {
   items: {
-    tokyo: Shop[],
-    east: Shop[],
-    west: Shop[],
+    ramen: Shop[],
+    udon: Shop[],
   },
-  areaDisplayFlg: AreaDisplayFlg
 }
 
 export interface MapIndexProps {
-  title: string
-  referenceUrl: string
   items: {
-    tokyo: Shop[],
-    east: Shop[],
-    west: Shop[],
+    ramen: Shop[],
+    udon: Shop[],
   },
 }
