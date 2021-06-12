@@ -11,9 +11,10 @@ import { RamenShop } from '../../interfaces'
 type Props = {
   item: RamenShop,
   icon: L.Icon
+  category: string
 }
 
-const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
+const MarkerComponent = ( { item, icon, category } : Props ): JSX.Element => {
   return (
     <Marker
       position={[item.lat, item.lng]}
@@ -26,7 +27,9 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
             {item.name}
           </a>
         </p>
-
+        <p>
+          {`${category}/${item.area.toUpperCase()}`}
+        </p>
         <p style={{ maxWidth: '100px', fontSize: 'smaller' }}>
           <LocationOnIcon fontSize="small" />
           <a href={`http://maps.google.co.jp/maps?q=${item.address}`} target="_blank" rel="noreferrer">

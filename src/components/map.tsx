@@ -81,14 +81,14 @@ const Map = (
           {/* ramen */}
           { dispStatus.ramen && items.ramen.map( ( item ) => (
 
-            <MarkerComponent item={item} icon={ramenMarkerIcon} key={`ramen-${item.id}`} />
+            <MarkerComponent item={item} category="ラーメン百名店" icon={ramenMarkerIcon} key={`ramen-${item.id}`} />
 
           ) ) }
 
           {/* udon */}
           { dispStatus.udon && items.udon.map( ( item ) => (
 
-            <MarkerComponent item={item} icon={udonMarkerIcon} key={`udon-${item.id}`} />
+            <MarkerComponent item={item} category="うどん百名店" icon={udonMarkerIcon} key={`udon-${item.id}`} />
 
           ) ) }
         </MarkerClusterGroup>
