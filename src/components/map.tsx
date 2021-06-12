@@ -6,7 +6,9 @@ import {
 } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-
+import Button from '@material-ui/core/Button'
+import MyLocationIcon from '@material-ui/icons/MyLocation'
+import Control from 'react-leaflet-control'
 import MarkerClusterGroup from 'react-leaflet-markercluster'
 import { MapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
@@ -32,6 +34,25 @@ const Map = (
   useEffect( () => {
     console.debug( JSON.stringify( mapState ) )
   } )
+
+  /**
+   * 現在地を取得しmapの中心を移動
+   */
+  const getCurrentLocation = () => {
+    const options = {
+      enableHighAccuracy: true,
+      timeout: 5000,
+      maximumAge: 0,
+    }
+    const error = ( err ) => {
+      console.warn( `ERROR(${err.code}): ${err.message}` )
+    }
+
+    navigator.geolocation.getCurrentPosition( ( position ) => {
+      const { latitude, longitude } = position.coords
+      setMapState( { lat: latitude, lng: longitude, zoom: 14 } )
+    }, error, options )
+  }
 
   return (
     <div style={{ height: '100%', width: '100%' }}>
@@ -60,17 +81,22 @@ const Map = (
           {/* ramen */}
           { dispStatus.ramen && items.ramen.map( ( item ) => (
 
-            <MarkerComponent item={item} icon={ramenMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={ramenMarkerIcon} key={`ramen-${item.id}`} />
 
           ) ) }
 
           {/* udon */}
           { dispStatus.udon && items.udon.map( ( item ) => (
 
-            <MarkerComponent item={item} icon={udonMarkerIcon} key={item.id} />
+            <MarkerComponent item={item} icon={udonMarkerIcon} key={`udon-${item.id}`} />
 
           ) ) }
         </MarkerClusterGroup>
+        <Control position="bottomright">
+          <Button variant="contained" onClick={getCurrentLocation}>
+            <MyLocationIcon fontSize="large" color="primary" />
+          </Button>
+        </Control>
 
       </MapContainer>
     </div>
