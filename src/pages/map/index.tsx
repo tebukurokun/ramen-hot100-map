@@ -13,7 +13,7 @@ import MapIndex from '../../components/mapIndex'
 const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
   return (
 
-    <Layout title="Ramen Map">
+    <Layout title="Hyakumeiten Map">
       <MapIndex items={items} />
     </Layout>
   )
