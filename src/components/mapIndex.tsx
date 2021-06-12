@@ -1,6 +1,6 @@
 import dynamic from 'next/dynamic'
 import React, {
-  useState, ComponentType, useMemo, useEffect,
+  useState, ComponentType, useMemo,
 } from 'react'
 import {
   makeStyles, createStyles,
@@ -33,21 +33,20 @@ const useStyles = makeStyles( ( ) => createStyles( {
 } ) )
 
 const MapIndex = ( {
-  title, referenceUrl, items,
+  items,
 } : MapIndexProps ): JSX.Element => {
-  const [areaDisplayFlg, setAreaDisplayFlg] = useState<AreaDisplayFlg>(
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const [areaDisplayFlg] = useState<AreaDisplayFlg>(
     { dispTokyo: true, dispEast: true, dispWest: true },
   )
 
-  useEffect(
-    () => {
-      console.debug( JSON.stringify( areaDisplayFlg ) )
-    },
-  )
-
-  const handleDisplayArea = ( areaList: Array<string> ) => {
-    setAreaDisplayFlg( { dispTokyo: areaList.includes( 'tokyo' ), dispEast: areaList.includes( 'east' ), dispWest: areaList.includes( 'west' ) } )
-  }
+  // const handleDisplayArea = ( areaList: Array<string> ) => {
+  //   setAreaDisplayFlg( {
+  //     dispTokyo: areaList.includes( 'tokyo' ),
+  //     dispEast: areaList.includes( 'east' ),
+  //     dispWest: areaList.includes( 'west' ),
+  //   } )
+  // }
 
   const classes = useStyles()
 
