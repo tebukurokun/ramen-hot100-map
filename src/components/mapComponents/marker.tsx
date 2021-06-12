@@ -1,6 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
-import Image from 'next/image'
 import LocationOnIcon from '@material-ui/icons/LocationOn'
 import {
   Marker, Popup,
@@ -27,23 +26,6 @@ const MarkerComponent = ( { item, icon } : Props ): JSX.Element => {
             {item.name}
           </a>
         </p>
-
-        {item.imgPath ? (
-          <div>
-            <a href={item.url} target="_blank" rel="noreferrer">
-              <Image
-                src={`${item.imgPath}`}
-                alt={`${item.name}`}
-                style={{
-                  maxHeight: '100%', maxWidth: '100%',
-                }}
-                width={150}
-                height={150}
-              />
-            </a>
-          </div>
-        )
-          : ''}
 
         <p style={{ maxWidth: '100px', fontSize: 'smaller' }}>
           <LocationOnIcon fontSize="small" />
