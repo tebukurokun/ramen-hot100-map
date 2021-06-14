@@ -77,6 +77,8 @@ const Map = (
       setMapState( { lat: latitude, lng: longitude, zoom: 14 } )
 
       setIsLocationLoading( false )
+
+      console.debug( 'getCurrentPosition success' )
     }
     /**
      * 現在地取得失敗時
@@ -129,11 +131,13 @@ const Map = (
 
           ) ) }
         </MarkerClusterGroup>
+
         <Control position="bottomright">
           <Button variant="contained" color="default" onClick={getCurrentLocation} disabled={isLocationLoading}>
             <MyLocationIcon fontSize="large" color="primary" className={isLocationLoading ? classes.loadingLocationButton : ' '} />
           </Button>
         </Control>
+
       </MapContainer>
     </div>
   )
