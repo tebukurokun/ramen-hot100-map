@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next'
+import Head from 'next/head'
 
 import {
   MapIndexProps, Shop,
@@ -11,7 +12,17 @@ import MapIndex from '../../components/mapIndex'
 
 const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
   return (
-    <MapIndex items={items} />
+    <div>
+      <Head>
+        <title>Hyakumeiten Map</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="ラーメン百名店の情報をマップで見ることができるサイトです。" />
+        <meta property="og:description" content="ラーメン百名店の情報をマップで見ることができるサイトです。" />
+      </Head>
+      <MapIndex items={items} />
+    </div>
+
   )
 }
 
