@@ -1,17 +1,20 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-nocheck
 import React, { useState, useEffect } from 'react'
+
 import {
   Map as MapContainer, TileLayer,
 } from 'react-leaflet'
 import L from 'leaflet'
+
 import Button from '@material-ui/core/Button'
 import MyLocationIcon from '@material-ui/icons/MyLocation'
-import Control from 'react-leaflet-control'
-import MarkerClusterGroup from 'react-leaflet-markercluster'
 import {
   makeStyles, createStyles,
 } from '@material-ui/core/styles'
+
+import Control from 'react-leaflet-control'
+import MarkerClusterGroup from 'react-leaflet-markercluster'
 
 import { MapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
@@ -95,6 +98,7 @@ const Map = (
 
   return (
     <div style={{ height: '100%', width: '100%' }}>
+
       <MapContainer
         center={[mapState.lat, mapState.lng]}
         zoom={mapState.zoom}
@@ -111,6 +115,7 @@ const Map = (
           setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
         }}
       >
+
         <TileLayer
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -139,6 +144,7 @@ const Map = (
         </Control>
 
       </MapContainer>
+
     </div>
   )
 }
