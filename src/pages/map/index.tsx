@@ -1,6 +1,5 @@
 import { GetStaticProps } from 'next'
 
-import Layout from '../../components/Layout'
 import {
   MapIndexProps, Shop,
 } from '../../interfaces'
@@ -12,10 +11,7 @@ import MapIndex from '../../components/mapIndex'
 
 const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
   return (
-
-    <Layout title="Hyakumeiten Map">
-      <MapIndex items={items} />
-    </Layout>
+    <MapIndex items={items} />
   )
 }
 
