@@ -25,7 +25,6 @@ const useStyles = makeStyles( ( ) => createStyles( {
   mapArea: {
     height: '100%',
     width: '100vw',
-    maxWidth: '1500px',
   },
 } ) )
 

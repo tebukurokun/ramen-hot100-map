@@ -96,14 +96,16 @@ const Map = (
     )
   }
 
+  const windowHeight = `${window.innerHeight}px`
+
   return (
-    <div style={{ height: '100vh', width: '100%' }}>
+    <div style={{ height: '100%', width: '100%' }}>
 
       <MapContainer
         center={[mapState.lat, mapState.lng]}
         zoom={mapState.zoom}
         scrollWheelZoom
-        style={{ height: '100vh', width: '100%' }}
+        style={{ minHeight: '80vh', height: windowHeight, width: '100%' }}
         ondragend={( event ) => {
           const z = event.target.getZoom()
           const c = event.target.getCenter()
