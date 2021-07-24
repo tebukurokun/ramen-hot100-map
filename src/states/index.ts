@@ -1,14 +1,6 @@
 export {
-  stateCurrentLocation,
-} from './state-current-location'
-
-export {
   stateSidePanel,
 } from './state-side-panel'
-
-export {
-  stateZoom,
-} from './state-zoom'
 
 export {
   stateMap,
