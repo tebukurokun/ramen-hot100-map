@@ -2,18 +2,25 @@ import dynamic from 'next/dynamic'
 import React, {
   ComponentType, useMemo,
 } from 'react'
+
 import {
   makeStyles, createStyles,
 } from '@material-ui/core/styles'
 import { colors } from '@material-ui/core'
+
 import ReactLoading from 'react-loading'
+
+import 'react-leaflet-markercluster/dist/styles.min.css'
+import 'leaflet/dist/leaflet.css'
+
+import {
+  RecoilRoot,
+} from 'recoil'
 
 import {
   MapIndexProps, MapProps,
 } from '../interfaces'
-
-import 'react-leaflet-markercluster/dist/styles.min.css'
-import 'leaflet/dist/leaflet.css'
+import SidePanel from './mapComponents/SidePanel'
 
 const useStyles = makeStyles( ( ) => createStyles( {
   linkForDarkMode: {
@@ -48,10 +55,12 @@ const MapIndex = ( {
   )
 
   return (
-    <div className={classes.mapArea} onContextMenu={() => false}>
-      <Map items={items} />
-    </div>
-
+    <RecoilRoot>
+      <div className={classes.mapArea} onContextMenu={() => false}>
+        <Map items={items} />
+        <SidePanel />
+      </div>
+    </RecoilRoot>
   )
 }
 
