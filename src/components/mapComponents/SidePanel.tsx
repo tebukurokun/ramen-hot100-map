@@ -1,6 +1,9 @@
 import React from 'react'
 import SlidingPanel from 'react-sliding-side-panel'
 import CloseIcon from '@material-ui/icons/Close'
+import {
+  makeStyles, createStyles,
+} from '@material-ui/core/styles'
 import styled from 'styled-components'
 import 'react-sliding-side-panel/lib/index.css'
 import { Button } from '@material-ui/core'
@@ -12,7 +15,6 @@ const PanelContainer = styled.div`
   width: 100%;
   background: rgb(240,240,240,0.8);
   flex-direction: column;
-  color: 'white';
 `
 
 const StyledButton = styled( Button )`
@@ -24,7 +26,15 @@ const PanelContentArea = styled.div`
   padding-left: 1rem;
 `
 
+const useStyles = makeStyles( ( ) => createStyles( {
+  sidePanel: {
+    boxShadow: '-10px 0 20px rgb(0 0 0 / 0.3)',
+  },
+} ) )
+
 const SidePanel = ( ): JSX.Element => {
+  const classes = useStyles()
+
   const [isOpen, setIsOpen] = useRecoilState( stateSidePanel )
 
   const onClose = () => {
@@ -38,6 +48,7 @@ const SidePanel = ( ): JSX.Element => {
         isOpen={isOpen}
         size={30}
         backdropClicked={onClose}
+        panelContainerClassName={classes.sidePanel}
       >
         <PanelContainer>
           <div className="silepanel-button-area">
