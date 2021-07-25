@@ -1,13 +1,13 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 
-import React, { useState } from 'react'
+import React from 'react'
 
 import {
   Map as MapContainer, TileLayer,
 } from 'react-leaflet'
 import L from 'leaflet'
 
-import { useRecoilState, useSetRecoilState } from 'recoil'
+import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
 
 import Button from '@material-ui/core/Button'
 import SettingsIcon from '@material-ui/icons/Settings'
@@ -23,6 +23,7 @@ import { MapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
 
 import { GeolocationButton } from './mapComponents/GeolocationButton'
+import { stateMarkerDisp } from '../states/state-marker-disp'
 
 const ramenMarkerIcon = L.icon( {
   iconUrl: '/static/marker-icons/marker_red.png',
@@ -41,8 +42,10 @@ const Map = (
 ): JSX.Element => {
   const [mapState, setMapState] = useRecoilState( stateMap )
 
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [dispStatus] = useState( { ramen: true, udon: true } )
+  /**
+   * marker category to display
+   */
+  const markerDispState = useRecoilValue( stateMarkerDisp )
 
   // is sidepanel open
   const setIsSidePanelOpen = useSetRecoilState( stateSidePanel )
@@ -80,14 +83,14 @@ const Map = (
         <MarkerClusterGroup>
 
           {/* ramen */}
-          { dispStatus.ramen && items.ramen.map( ( item ) => (
+          { markerDispState.ramen && items.ramen.map( ( item ) => (
 
             <MarkerComponent item={item} category="ラーメン百名店" icon={ramenMarkerIcon} key={`ramen-${item.id}`} />
 
           ) ) }
 
           {/* udon */}
-          { dispStatus.udon && items.udon.map( ( item ) => (
+          { markerDispState.udon && items.udon.map( ( item ) => (
 
             <MarkerComponent item={item} category="うどん百名店" icon={udonMarkerIcon} key={`udon-${item.id}`} />
 
