@@ -8,8 +8,6 @@ import {
 } from '@material-ui/core/styles'
 import { colors } from '@material-ui/core'
 
-import ReactLoading from 'react-loading'
-
 import 'react-leaflet-markercluster/dist/styles.min.css'
 import 'leaflet/dist/leaflet.css'
 
@@ -21,6 +19,7 @@ import {
   MapIndexProps, MapProps,
 } from '../interfaces'
 import SidePanel from './mapComponents/SidePanel'
+import MapLoadingPage from './MapLoadingPage'
 
 const useStyles = makeStyles( ( ) => createStyles( {
   linkForDarkMode: {
@@ -44,10 +43,7 @@ const MapIndex = ( {
     () => dynamic( () => import( './map' ), {
       // eslint-disable-next-line react/display-name
       loading: () => (
-        <div>
-          <ReactLoading type="spokes" color="#fff" />
-          <p>A map is loading...</p>
-        </div>
+        <MapLoadingPage />
       ),
       ssr: false,
     } ),

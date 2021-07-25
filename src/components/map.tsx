@@ -24,8 +24,6 @@ import MarkerComponent from './mapComponents/marker'
 
 import { GeolocationButton } from './mapComponents/GeolocationButton'
 
-import 'react-sliding-side-panel/lib/index.css'
-
 const ramenMarkerIcon = L.icon( {
   iconUrl: '/static/marker-icons/marker_red.png',
   iconSize: [22, 40],
