@@ -6,7 +6,6 @@ import React, {
 import {
   makeStyles, createStyles,
 } from '@material-ui/core/styles'
-import { colors } from '@material-ui/core'
 
 import 'react-leaflet-markercluster/dist/styles.min.css'
 import 'leaflet/dist/leaflet.css'
@@ -22,9 +21,6 @@ import SidePanel from './mapComponents/SidePanel'
 import MapLoadingPage from './MapLoadingPage'
 
 const useStyles = makeStyles( ( ) => createStyles( {
-  linkForDarkMode: {
-    color: colors.orange[800],
-  },
   descriptionArea: {
     margin: '0 16px',
   },
