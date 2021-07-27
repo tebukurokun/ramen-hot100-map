@@ -14,7 +14,7 @@ import SidePanelContent from './SidePanelContent'
 const PanelContainer = styled.div`
   height: 100%;
   width: 100%;
-  background: rgb(240,240,240,0.8);
+  background: rgb(245,245,245,0.8);
   flex-direction: column;
 `
 
