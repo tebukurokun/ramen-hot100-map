@@ -8,13 +8,14 @@ import L from 'leaflet'
 
 import { RamenShop } from '../../interfaces'
 
-type Props = {
+const MarkerComponent = (
+  { item, icon, category } :
+  {
   item: RamenShop,
   icon: L.Icon
   category: string
-}
-
-const MarkerComponent = ( { item, icon, category } : Props ): JSX.Element => {
+},
+): JSX.Element => {
   return (
     <Marker
       position={[item.lat, item.lng]}

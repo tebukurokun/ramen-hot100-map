@@ -17,25 +17,15 @@ import MarkerClusterGroup from 'react-leaflet-markercluster'
 
 import {
   stateSidePanel, stateMap,
+  stateMarkerDisp,
 } from '../states'
 
 import { MapProps } from '../interfaces'
 import MarkerComponent from './mapComponents/marker'
 
 import { GeolocationButton } from './mapComponents/GeolocationButton'
-import { stateMarkerDisp } from '../states/state-marker-disp'
 
-const ramenMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icons/marker_red.png',
-  iconSize: [22, 40],
-  className: 'ramen-marker-icon',
-} )
-
-const udonMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icons/marker_blue.png',
-  iconSize: [22, 40],
-  className: 'udon-marker-icon',
-} )
+import { ramenMarkerIcon, udonMarkerIcon } from './mapComponents/MarkerIcon'
 
 const Map = (
   { items }: MapProps,
