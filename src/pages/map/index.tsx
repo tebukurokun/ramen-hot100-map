@@ -8,7 +8,7 @@ import {
   ramenShopsData,
 } from '../../utils/ramen-shop-data'
 import { udonShopsData } from '../../utils/udon-shop-data'
-import MapIndex from '../../components/mapIndex'
+import MapIndex from '../../components/MapIndex'
 
 const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
   return (
