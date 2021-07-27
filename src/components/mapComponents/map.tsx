@@ -93,8 +93,8 @@ const Map = (
         </Control>
 
         <Control position="topright">
-          <Button variant="contained" color="default" disabled={isSidePanelOpen}>
-            <SettingsIcon fontSize="large" onClick={openSidePanel} />
+          <Button variant="contained" color="default" onClick={openSidePanel} disabled={isSidePanelOpen}>
+            <SettingsIcon fontSize="large" />
           </Button>
         </Control>
 
