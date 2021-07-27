@@ -17,7 +17,7 @@ import {
 import {
   MapIndexProps, MapProps,
 } from '../interfaces'
-import SidePanel from './mapComponents/SidePanel'
+import SidePanel from './MapSidePanel/SidePanel'
 import MapLoadingPage from './MapLoadingPage'
 
 const useStyles = makeStyles( ( ) => createStyles( {
