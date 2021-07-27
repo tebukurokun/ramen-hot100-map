@@ -5,7 +5,6 @@ import React from 'react'
 import {
   Map as MapContainer, TileLayer,
 } from 'react-leaflet'
-import L from 'leaflet'
 
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
 
@@ -18,14 +17,14 @@ import MarkerClusterGroup from 'react-leaflet-markercluster'
 import {
   stateSidePanel, stateMap,
   stateMarkerDisp,
-} from '../states'
+} from '../../states'
 
-import { MapProps } from '../interfaces'
-import MarkerComponent from './mapComponents/marker'
+import { MapProps } from '../../interfaces'
+import MarkerComponent from './marker'
 
-import { GeolocationButton } from './mapComponents/GeolocationButton'
+import { GeolocationButton } from './GeolocationButton'
 
-import { ramenMarkerIcon, udonMarkerIcon } from './mapComponents/MarkerIcon'
+import { ramenMarkerIcon, udonMarkerIcon } from './MarkerIcon'
 
 const Map = (
   { items }: MapProps,

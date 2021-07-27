@@ -36,7 +36,7 @@ const MapIndex = ( {
   const classes = useStyles()
 
   const Map: ComponentType<MapProps> = useMemo(
-    () => dynamic( () => import( './map' ), {
+    () => dynamic( () => import( './mapComponents/map' ), {
       // eslint-disable-next-line react/display-name
       loading: () => (
         <MapLoadingPage />
