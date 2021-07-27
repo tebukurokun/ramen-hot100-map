@@ -9,6 +9,7 @@ import 'react-sliding-side-panel/lib/index.css'
 import { Button } from '@material-ui/core'
 import { useRecoilState } from 'recoil'
 import { stateSidePanel } from '../../states/state-side-panel'
+import SidePanelContent from './SidePanelContent'
 
 const PanelContainer = styled.div`
   height: 100%;
@@ -20,10 +21,6 @@ const PanelContainer = styled.div`
 const StyledButton = styled( Button )`
   border-radius: 0;
   opacity: 0.8;
-`
-
-const PanelContentArea = styled.div`
-  padding-left: 1rem;
 `
 
 const useStyles = makeStyles( ( ) => createStyles( {
@@ -57,10 +54,7 @@ const SidePanel = ( ): JSX.Element => {
             </StyledButton>
           </div>
 
-          <PanelContentArea>
-            <h1>設定</h1>
-            <p>coming soon</p>
-          </PanelContentArea>
+          <SidePanelContent />
 
         </PanelContainer>
       </SlidingPanel>
