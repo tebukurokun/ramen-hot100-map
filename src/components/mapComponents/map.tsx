@@ -6,7 +6,7 @@ import {
   Map as MapContainer, TileLayer,
 } from 'react-leaflet'
 
-import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil'
+import { useRecoilState, useRecoilValue } from 'recoil'
 
 import Button from '@material-ui/core/Button'
 import SettingsIcon from '@material-ui/icons/Settings'
@@ -37,9 +37,11 @@ const Map = (
   const markerDispState = useRecoilValue( stateMarkerDisp )
 
   // is sidepanel open
-  const setIsSidePanelOpen = useSetRecoilState( stateSidePanel )
+  const [isSidePanelOpen, setIsSidePanelOpen] = useRecoilState( stateSidePanel )
 
   const openSidePanel = ( ) => {
+    console.debug( 'open SidePanel' )
+
     setIsSidePanelOpen( true )
   }
 
@@ -91,7 +93,7 @@ const Map = (
         </Control>
 
         <Control position="topright">
-          <Button variant="contained" color="default">
+          <Button variant="contained" color="default" disabled={isSidePanelOpen}>
             <SettingsIcon fontSize="large" onClick={openSidePanel} />
           </Button>
         </Control>
