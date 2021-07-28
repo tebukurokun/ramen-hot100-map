@@ -43,7 +43,7 @@ const SidePanel = ( ): JSX.Element => {
       <SlidingPanel
         type="right"
         isOpen={isOpen}
-        size={30}
+        size={40}
         backdropClicked={onClose}
         panelContainerClassName={classes.sidePanel}
       >
