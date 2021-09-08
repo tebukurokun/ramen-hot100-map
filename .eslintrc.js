@@ -10,6 +10,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
+    'plugin:@next/next/recommended',
   ],
   plugins: [
     'react',

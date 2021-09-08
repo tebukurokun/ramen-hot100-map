@@ -31,6 +31,7 @@
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
+    "@next/eslint-plugin-next": "^11.1.2",
     "@types/leaflet": "1.5.23",
     "@types/node": "^12.12.21",
     "@types/react": "^17.0.2",
