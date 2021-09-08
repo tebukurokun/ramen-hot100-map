@@ -35,3 +35,6 @@ public/static/images/
 
 # vercel
 .vercel
+
+# editor
+.vscode
