@@ -32,5 +32,6 @@ export interface MapIndexProps {
   items: {
     ramen: Shop[],
     udon: Shop[],
+    curry: Shop[]
   },
 }
