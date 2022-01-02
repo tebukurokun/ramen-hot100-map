@@ -8,6 +8,7 @@ import {
   ramenShopsData,
 } from '../../utils/ramen-shop-data'
 import { udonShopsData } from '../../utils/udon-shop-data'
+import { curryShopsData } from '../../utils/curry-shops-data'
 import MapIndex from '../../components/MapIndex'
 
 const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
@@ -31,12 +32,14 @@ export default WithStaticProps
 export const getStaticProps: GetStaticProps = async () => {
   const ramenItems: Shop[] = ramenShopsData
   const udonItems: Shop[] = udonShopsData
+  const curryItems: Shop[] = curryShopsData
 
   return {
     props: {
       items: {
         ramen: ramenItems,
         udon: udonItems,
+        curry: curryItems,
       },
     },
   }

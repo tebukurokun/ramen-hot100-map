@@ -25,7 +25,7 @@ import MarkerComponent from './Marker'
 
 import { GeolocationButton } from './GeolocationButton'
 
-import { ramenMarkerIcon, udonMarkerIcon } from './MarkerIcon'
+import { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon } from './MarkerIcon'
 
 const Map = (
   { items }: MapProps,
@@ -92,6 +92,12 @@ const Map = (
           { markerDispState.udon && items.udon.map( ( item ) => (
 
             <MarkerComponent item={item} category="うどん百名店" icon={udonMarkerIcon} key={`udon-${item.id}`} />
+
+          ) ) }
+          {/* curry */}
+          { markerDispState.curry && items.curry.map( ( item ) => (
+
+            <MarkerComponent item={item} category="カレー百名店" icon={curryMarkerIcon} key={`curry-${item.id}`} />
 
           ) ) }
         </MarkerClusterGroup>
