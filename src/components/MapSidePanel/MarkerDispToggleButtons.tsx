@@ -2,7 +2,7 @@ import React from 'react'
 
 import { useRecoilState } from 'recoil'
 
-import { red, blue } from '@material-ui/core/colors'
+import { red, blue, amber } from '@material-ui/core/colors'
 
 import { withStyles } from '@material-ui/core/styles'
 
@@ -41,6 +41,20 @@ const BlueSwitch = withStyles( {
   track: {},
 } )( Switch )
 
+const TurmericSwitch = withStyles( {
+  switchBase: {
+    color: amber[300],
+    '&$checked': {
+      color: amber[700],
+    },
+    '&$checked + $track': {
+      backgroundColor: amber[500],
+    },
+  },
+  checked: {},
+  track: {},
+} )( Switch )
+
 const MarkerDispToggleButtons: React.VFC = () => {
   const [markerDispState, setMarkerDispState] = useRecoilState( stateMarkerDisp )
 
@@ -60,6 +74,11 @@ const MarkerDispToggleButtons: React.VFC = () => {
         <FormControlLabel
           control={<BlueSwitch checked={markerDispState.udon} onChange={handleChange} name="udon" />}
           label="うどん"
+          labelPlacement="start"
+        />
+        <FormControlLabel
+          control={<TurmericSwitch checked={markerDispState.curry} onChange={handleChange} name="curry" />}
+          label="カレー"
           labelPlacement="start"
         />
       </FormGroup>

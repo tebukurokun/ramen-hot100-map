@@ -11,7 +11,6 @@ export type User = {
 
 export interface Shop {
   id: string
-  area: 'tokyo' | 'east' | 'west'
   name: string
   url: string
   code: string
@@ -25,6 +24,7 @@ export interface MapProps {
   items: {
     ramen: Shop[],
     udon: Shop[],
+    curry: Shop[]
   },
 }
 

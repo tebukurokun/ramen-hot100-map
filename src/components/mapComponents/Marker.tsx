@@ -29,7 +29,7 @@ const MarkerComponent = (
           </a>
         </p>
         <p>
-          {`${category}/${item.area.toUpperCase()}`}
+          {`${category}`}
         </p>
         <p style={{ maxWidth: '100px', fontSize: 'smaller' }}>
           <LocationOnIcon fontSize="small" />

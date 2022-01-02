@@ -12,4 +12,10 @@ const udonMarkerIcon = L.icon( {
   className: 'udon-marker-icon',
 } )
 
-export { ramenMarkerIcon, udonMarkerIcon }
+const curryMarkerIcon = L.icon( {
+  iconUrl: '/static/marker-icons/marker_turmeric.png',
+  iconSize: [22, 40],
+  className: 'curry-marker-icon',
+} )
+
+export { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon }
