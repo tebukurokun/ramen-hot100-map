@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import clsx from 'clsx'
 import {
-  ThemeProvider, createMuiTheme, makeStyles, useTheme, Theme, createStyles,
+  ThemeProvider, createTheme, makeStyles, useTheme, Theme, createStyles,
 } from '@material-ui/core/styles'
 import Drawer from '@material-ui/core/Drawer'
 import CssBaseline from '@material-ui/core/CssBaseline'
@@ -25,7 +25,7 @@ import { colors } from '@material-ui/core'
 
 const drawerWidth = 160
 
-const muiTheme = createMuiTheme( {
+const muiTheme = createTheme( {
   palette: {
     primary: {
       main: colors.blue[800],

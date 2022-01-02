@@ -14,6 +14,7 @@ import SettingsIcon from '@material-ui/icons/Settings'
 import Control from 'react-leaflet-control'
 import MarkerClusterGroup from 'react-leaflet-markercluster'
 
+import { LeafletEvent } from 'leaflet'
 import {
   stateSidePanel, stateMap,
   stateMarkerDisp,
@@ -45,6 +46,20 @@ const Map = (
     setIsSidePanelOpen( true )
   }
 
+  /**
+   *
+   * @param event {LeafletEvent}
+   */
+  const onChange = ( event: LeafletEvent ) => {
+    const z = event.target.getZoom()
+    const c = event.target.getCenter()
+    setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
+    console.debug( {
+      northEast: event.target.getBounds().getNorthEast(),
+      southWest: event.target.getBounds().getSouthWest(),
+    } )
+  }
+
   const windowHeight = `${window.innerHeight}px`
 
   return (
@@ -55,16 +70,9 @@ const Map = (
         zoom={mapState.zoom}
         scrollWheelZoom
         style={{ minHeight: '80vh', height: windowHeight, width: '100%' }}
-        ondragend={( event ) => {
-          const z = event.target.getZoom()
-          const c = event.target.getCenter()
-          setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
-        }}
-        onzoomend={( event ) => {
-          const z = event.target.getZoom()
-          const c = event.target.getCenter()
-          setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
-        }}
+        onload={() => { console.debug( 'load' ) }}
+        ondragend={( event ) => onChange( event )}
+        onzoomend={( event ) => onChange( event )}
       >
 
         <TileLayer

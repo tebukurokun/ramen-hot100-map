@@ -14,7 +14,6 @@ const ramenShopsDataToyko: Shop[] = tokyoRamenData.shops.map(
     return {
       id: `tokyo-${shop.id}`,
       name: shop.name,
-      area: 'tokyo',
       url: shop.url,
       code: shop.code,
       // imgPath: `/static/images/ramen/${shop.code}.jpg`,
@@ -37,7 +36,6 @@ const ramenShopsDataEast: Shop[] = eastRamenData.shops.map(
     return {
       id: `east-${shop.id}`,
       name: shop.name,
-      area: 'east',
       url: shop.url,
       code: shop.code,
       // imgPath: `/static/images/ramen/${shop.code}.jpg`,
@@ -60,7 +58,6 @@ const ramenShopsDataWest: Shop[] = westRamenData.shops.map(
     return {
       id: `west-${shop.id}`,
       name: shop.name,
-      area: 'west',
       url: shop.url,
       code: shop.code,
       // imgPath: `/static/images/ramen/${shop.code}.jpg`,
