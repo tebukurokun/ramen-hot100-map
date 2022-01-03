@@ -12,6 +12,7 @@ import { curryShopsData } from '../utils/curry-shops-data'
 import MapIndex from '../components/MapIndex'
 
 const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
+  console.info( 'Hyakumeiten Map v0.0.1' )
   return (
     <div>
       <Head>
