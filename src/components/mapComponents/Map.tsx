@@ -16,7 +16,7 @@ import MarkerClusterGroup from 'react-leaflet-markercluster'
 
 import { LeafletEvent } from 'leaflet'
 import {
-  stateSidePanel, stateMap,
+  stateSidePanel, mapSettingState,
   stateMarkerDisp,
 } from '../../states'
 
@@ -30,7 +30,7 @@ import { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon } from './MarkerIcon'
 const Map = (
   { items }: MapProps,
 ): JSX.Element => {
-  const [mapState, setMapState] = useRecoilState( stateMap )
+  const [mapSetting, setMapSetting] = useRecoilState( mapSettingState )
 
   /**
    * marker category to display
@@ -53,7 +53,7 @@ const Map = (
   const onChange = ( event: LeafletEvent ) => {
     const z = event.target.getZoom()
     const c = event.target.getCenter()
-    setMapState( { lat: c.lat, lng: c.lng, zoom: z } )
+    setMapSetting( { lat: c.lat, lng: c.lng, zoom: z } )
     console.debug( {
       northEast: event.target.getBounds().getNorthEast(),
       southWest: event.target.getBounds().getSouthWest(),
@@ -66,8 +66,8 @@ const Map = (
     <div style={{ height: '100%', width: '100%' }}>
 
       <MapContainer
-        center={[mapState.lat, mapState.lng]}
-        zoom={mapState.zoom}
+        center={[mapSetting.lat, mapSetting.lng]}
+        zoom={mapSetting.zoom}
         scrollWheelZoom
         style={{ minHeight: '80vh', height: windowHeight, width: '100%' }}
         onload={() => { console.debug( 'load' ) }}

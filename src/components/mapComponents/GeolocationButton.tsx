@@ -5,8 +5,8 @@ import MyLocationIcon from '@material-ui/icons/MyLocation'
 import {
   makeStyles, createStyles,
 } from '@material-ui/core/styles'
-import { useRecoilState, useSetRecoilState } from 'recoil'
-import { stateGeolocationLoading, stateMap } from '../../states'
+import { useRecoilState } from 'recoil'
+import { stateGeolocationLoading, mapSettingActions } from '../../states'
 
 const useStyles = makeStyles( ( ) => createStyles( {
   loadingLocationButton: {
@@ -23,8 +23,7 @@ export const GeolocationButton = (): JSX.Element => {
 
   const [geolocationLoading, setGeolocationLoading] = useRecoilState( stateGeolocationLoading )
 
-  const setMap = useSetRecoilState( stateMap )
-
+  const setMapSetting = mapSettingActions.useUpdateMapSetting()
   /**
    * 現在地を取得.
    */
@@ -46,7 +45,7 @@ export const GeolocationButton = (): JSX.Element => {
     const success = ( position: GeolocationPosition ) => {
       const { latitude, longitude } = position.coords
 
-      setMap( { lat: latitude, lng: longitude, zoom: 14 } )
+      setMapSetting( { lat: latitude, lng: longitude, zoom: 14 } )
 
       setGeolocationLoading( false )
 

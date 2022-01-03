@@ -3,8 +3,8 @@ export {
 } from './state-side-panel'
 
 export {
-  stateMap,
-} from './state-map'
+  mapSettingState, mapSettingActions,
+} from './mapSettingState'
 
 export {
   stateGeolocationLoading,
