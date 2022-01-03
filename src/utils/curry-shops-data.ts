@@ -1,11 +1,11 @@
 import { Shop } from '../interfaces'
-import * as curryData from './curry.json'
+import { shops } from './curry.json'
 
 /**
  * jsonファイルから取得したデータ
  *
  */
-const curryShopsData: Shop[] = curryData.shops.map(
+const curryShopsData: Shop[] = shops.map(
   ( shop ) => {
     return {
       id: `tokyo-${shop.id}`,

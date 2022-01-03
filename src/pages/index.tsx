@@ -1,37 +1,46 @@
-import List from '@material-ui/core/List'
-import ListItem, { ListItemProps } from '@material-ui/core/ListItem'
-import ListItemIcon from '@material-ui/core/ListItemIcon'
-import ListItemText from '@material-ui/core/ListItemText'
-import ExploreIcon from '@material-ui/icons/Explore'
-import LinkIcon from '@material-ui/icons/Link'
-import Layout from '../components/Layout'
+import { GetStaticProps } from 'next'
+import Head from 'next/head'
 
-function ListItemLink( props: ListItemProps<'a', { button?: true }> ) {
-  // eslint-disable-next-line react/jsx-props-no-spreading
-  return <ListItem button component="a" {...props} />
+import {
+  MapIndexProps, Shop,
+} from '../interfaces'
+import {
+  ramenShopsData,
+} from '../utils/ramen-shop-data'
+import { udonShopsData } from '../utils/udon-shop-data'
+import { curryShopsData } from '../utils/curry-shops-data'
+import MapIndex from '../components/MapIndex'
+
+const WithStaticProps = ( { items }: MapIndexProps ): JSX.Element => {
+  return (
+    <div>
+      <Head>
+        <title>Hyakumeiten Map</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content="ラーメン百名店の情報をマップで見ることができるサイトです。" />
+        <meta property="og:description" content="ラーメン百名店の情報をマップで見ることができるサイトです。" />
+      </Head>
+      <MapIndex items={items} />
+    </div>
+
+  )
 }
 
-const IndexPage = ():JSX.Element => (
-  <Layout title="Home">
-    <h1>
-      <ListItemIcon>
-        <ExploreIcon />
-      </ListItemIcon>
-      百名店マップ
-    </h1>
-    <p>
-      百名店に選ばれている店舗をマップで探せるサイトです。
-    </p>
-    <List>
-      <ListItemLink href="/map">
-        <ListItemIcon>
-          <LinkIcon />
-        </ListItemIcon>
-        <ListItemText primary="百名店マップを見る" />
-      </ListItemLink>
-    </List>
+export default WithStaticProps
 
-  </Layout>
-)
+export const getStaticProps: GetStaticProps = async () => {
+  const ramenItems: Shop[] = ramenShopsData
+  const udonItems: Shop[] = udonShopsData
+  const curryItems: Shop[] = curryShopsData
 
-export default IndexPage
+  return {
+    props: {
+      items: {
+        ramen: ramenItems,
+        udon: udonItems,
+        curry: curryItems,
+      },
+    },
+  }
+}
