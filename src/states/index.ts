@@ -1,6 +1,6 @@
 export {
   stateSidePanel,
-} from './state-side-panel'
+} from './sidePanelState'
 
 export {
   mapSettingActions, mapSettingSelectors

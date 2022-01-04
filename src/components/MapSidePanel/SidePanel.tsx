@@ -8,7 +8,7 @@ import styled from 'styled-components'
 import 'react-sliding-side-panel/lib/index.css'
 import { Button } from '@material-ui/core'
 import { useRecoilState } from 'recoil'
-import { stateSidePanel } from '../../states/state-side-panel'
+import { stateSidePanel } from '../../states/sidePanelState'
 import SidePanelContent from './SidePanelContent'
 
 const PanelContainer = styled.div`
