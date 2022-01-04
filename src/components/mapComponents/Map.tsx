@@ -16,8 +16,8 @@ import MarkerClusterGroup from 'react-leaflet-markercluster'
 
 import { LeafletEvent } from 'leaflet'
 import {
-  stateSidePanel, mapSettingState,
-  stateMarkerDisp,
+  stateSidePanel,
+  stateMarkerDisp,mapSettingActions, mapSettingSelectors
 } from '../../states'
 
 import { MapProps } from '../../interfaces'
@@ -30,8 +30,8 @@ import { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon } from './MarkerIcon'
 const Map = (
   { items }: MapProps,
 ): JSX.Element => {
-  const [mapSetting, setMapSetting] = useRecoilState( mapSettingState )
-
+  const mapSetting = mapSettingSelectors.useMapSetting()
+  const setMapSetting = mapSettingActions.useUpdateMapSetting()
   /**
    * marker category to display
    */

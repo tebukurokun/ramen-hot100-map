@@ -1,6 +1,6 @@
-import { atom, useSetRecoilState } from 'recoil'
+import { atom, selector, useRecoilValue, useSetRecoilState } from 'recoil'
 import { useCallback } from 'react'
-import { RecoilAtomKeys } from './RecoilKeys'
+import { RecoilAtomKeys, RecoilSelectorKeys } from './RecoilKeys'
 
 interface MapSetting {
   lat: number
@@ -8,8 +8,9 @@ interface MapSetting {
   zoom: number
 }
 
+// Actions定義
 export const mapSettingState = atom<MapSetting>( {
-  key: RecoilAtomKeys.MAP_STATE,
+  key: RecoilAtomKeys.MAP_SETTING_STATE,
   default: { lat: 36.8, lng: 138.1, zoom: 6 },
 } )
 
@@ -26,4 +27,20 @@ export const mapSettingActions: MapSettingActions = {
       [],
     )
   },
+}
+
+// selectors定義
+type MapSettingSelectors = {
+  useMapSetting: () => MapSetting
+}
+
+const mapSettingSelector = selector<MapSetting>(
+  {
+    key: RecoilSelectorKeys.MAP_SETTING,
+    get: ({get}) => get(mapSettingState)
+  }
+)
+
+export const mapSettingSelectors: MapSettingSelectors={
+  useMapSetting: () => useRecoilValue(mapSettingSelector)
 }

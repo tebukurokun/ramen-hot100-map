@@ -3,7 +3,7 @@ export {
 } from './state-side-panel'
 
 export {
-  mapSettingState, mapSettingActions,
+  mapSettingState, mapSettingActions, mapSettingSelectors
 } from './mapSettingState'
 
 export {
