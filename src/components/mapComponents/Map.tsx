@@ -6,8 +6,6 @@ import {
   Map as MapContainer, TileLayer,
 } from 'react-leaflet'
 
-import { useRecoilValue } from 'recoil'
-
 import Button from '@material-ui/core/Button'
 import SettingsIcon from '@material-ui/icons/Settings'
 
