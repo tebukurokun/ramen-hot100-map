@@ -8,12 +8,12 @@ interface MapSetting {
   zoom: number
 }
 
-// Actions定義
 const mapSettingState = atom<MapSetting>( {
   key: RecoilAtomKeys.MAP_SETTING_STATE,
   default: { lat: 36.8, lng: 138.1, zoom: 6 },
 } )
 
+// Actions定義
 type MapSettingActions = {
   useUpdateMapSetting: () => ( mapSetting: MapSetting ) => void
 }

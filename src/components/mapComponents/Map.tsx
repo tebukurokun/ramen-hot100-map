@@ -16,7 +16,7 @@ import MarkerClusterGroup from 'react-leaflet-markercluster'
 
 import { LeafletEvent } from 'leaflet'
 import {
-  stateMarkerDisp,mapSettingActions, mapSettingSelectors, isSidePanelOpenSelectors, isSidePanelOpenActions
+  mapSettingActions, mapSettingSelectors, isSidePanelOpenSelectors, isSidePanelOpenActions, markerDispSelectors
 } from '../../states'
 
 import { MapProps } from '../../interfaces'
@@ -34,7 +34,7 @@ const Map = (
   /**
    * marker category to display
    */
-  const markerDispState = useRecoilValue( stateMarkerDisp )
+  const markerDispState = markerDispSelectors.useMarkerDisp()
 
   // is sidepanel open
   const isSidePanelOpen = isSidePanelOpenSelectors.useIsSidePanelOpen()

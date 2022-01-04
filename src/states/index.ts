@@ -11,5 +11,5 @@ export {
 } from './geolocationLoadingState'
 
 export {
-  stateMarkerDisp,
-} from './state-marker-disp'
+  markerDispActions, markerDispSelectors
+} from './markerDispState'

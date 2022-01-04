@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { useRecoilState } from 'recoil'
-
 import { red, blue, amber } from '@material-ui/core/colors'
 
 import { withStyles } from '@material-ui/core/styles'
@@ -11,7 +9,7 @@ import FormControl from '@material-ui/core/FormControl'
 import FormGroup from '@material-ui/core/FormGroup'
 import FormControlLabel from '@material-ui/core/FormControlLabel'
 import Switch from '@material-ui/core/Switch'
-import { stateMarkerDisp } from '../../states'
+import { markerDispActions, markerDispSelectors } from '../../states'
 
 const RedSwitch = withStyles( {
   switchBase: {
@@ -56,7 +54,9 @@ const TurmericSwitch = withStyles( {
 } )( Switch )
 
 const MarkerDispToggleButtons: React.VFC = () => {
-  const [markerDispState, setMarkerDispState] = useRecoilState( stateMarkerDisp )
+
+  const markerDispState = markerDispSelectors.useMarkerDisp()
+  const setMarkerDispState = markerDispActions.useUpdateMarkerDisp()
 
   const handleChange = ( event: React.ChangeEvent<HTMLInputElement> ) => {
     setMarkerDispState( { ...markerDispState, [event.target.name]: event.target.checked } )
