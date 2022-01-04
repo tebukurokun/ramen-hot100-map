@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { atom, selector, useRecoilValue, useSetRecoilState } from 'recoil'
 import { RecoilAtomKeys, RecoilSelectorKeys } from './RecoilKeys'
 
-export const stateGeolocationLoading = atom<boolean>( {
+const stateGeolocationLoading = atom<boolean>( {
   key: RecoilAtomKeys.GEOLOCATION_LOADING_STATE,
   default: false,
 } )

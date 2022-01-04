@@ -1,5 +1,5 @@
 export {
-  stateSidePanel,
+  isSidePanelOpenSelectors, isSidePanelOpenActions
 } from './sidePanelState'
 
 export {

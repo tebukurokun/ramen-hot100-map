@@ -7,8 +7,7 @@ import {
 import styled from 'styled-components'
 import 'react-sliding-side-panel/lib/index.css'
 import { Button } from '@material-ui/core'
-import { useRecoilState } from 'recoil'
-import { stateSidePanel } from '../../states/sidePanelState'
+import { isSidePanelOpenSelectors, isSidePanelOpenActions } from '../../states'
 import SidePanelContent from './SidePanelContent'
 
 const PanelContainer = styled.div`
@@ -32,7 +31,8 @@ const useStyles = makeStyles( ( ) => createStyles( {
 const SidePanel = ( ): JSX.Element => {
   const classes = useStyles()
 
-  const [isOpen, setIsOpen] = useRecoilState( stateSidePanel )
+  const isOpen = isSidePanelOpenSelectors.useIsSidePanelOpen()
+  const setIsOpen = isSidePanelOpenActions.useUpdateIsSidePanelOpen( )
 
   const onClose = () => {
     setIsOpen( false )

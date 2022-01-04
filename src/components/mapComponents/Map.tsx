@@ -6,7 +6,7 @@ import {
   Map as MapContainer, TileLayer,
 } from 'react-leaflet'
 
-import { useRecoilState, useRecoilValue } from 'recoil'
+import { useRecoilValue } from 'recoil'
 
 import Button from '@material-ui/core/Button'
 import SettingsIcon from '@material-ui/icons/Settings'
@@ -16,8 +16,7 @@ import MarkerClusterGroup from 'react-leaflet-markercluster'
 
 import { LeafletEvent } from 'leaflet'
 import {
-  stateSidePanel,
-  stateMarkerDisp,mapSettingActions, mapSettingSelectors
+  stateMarkerDisp,mapSettingActions, mapSettingSelectors, isSidePanelOpenSelectors, isSidePanelOpenActions
 } from '../../states'
 
 import { MapProps } from '../../interfaces'
@@ -38,7 +37,8 @@ const Map = (
   const markerDispState = useRecoilValue( stateMarkerDisp )
 
   // is sidepanel open
-  const [isSidePanelOpen, setIsSidePanelOpen] = useRecoilState( stateSidePanel )
+  const isSidePanelOpen = isSidePanelOpenSelectors.useIsSidePanelOpen()
+  const setIsSidePanelOpen = isSidePanelOpenActions.useUpdateIsSidePanelOpen()
 
   const openSidePanel = ( ) => {
     console.debug( 'open SidePanel' )
