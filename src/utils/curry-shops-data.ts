@@ -8,7 +8,7 @@ import { shops } from './datafiles/curry.json'
 const curryShopsData: Shop[] = shops.map(
   ( shop ) => {
     return {
-      id: `tokyo-${shop.id}`,
+      id: shop.id,
       name: shop.name,
       url: shop.url,
       code: shop.code,
