@@ -1,7 +1,7 @@
 import { Shop } from '../interfaces'
-import * as tokyoRamenData from './ramen-shops-tokyo.json'
-import * as eastRamenData from './ramen-shops-east.json'
-import * as westRamenData from './ramen-shops-west.json'
+import * as tokyoRamenData from './datafiles/ramen-shops-tokyo.json'
+import * as eastRamenData from './datafiles/ramen-shops-east.json'
+import * as westRamenData from './datafiles/ramen-shops-west.json'
 
 /**
  * jsonファイルから取得したtokyoデータ

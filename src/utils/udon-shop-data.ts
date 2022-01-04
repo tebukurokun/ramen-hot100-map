@@ -1,7 +1,7 @@
 import { Shop } from '../interfaces'
-import * as tokyoUdonData from './udon-tokyo.json'
-import * as eastUdonData from './udon-east.json'
-import * as westUdonData from './udon-west.json'
+import * as tokyoUdonData from './datafiles/udon-tokyo.json'
+import * as eastUdonData from './datafiles/udon-east.json'
+import * as westUdonData from './datafiles/udon-west.json'
 
 /**
  * jsonファイルから取得したtokyoデータ

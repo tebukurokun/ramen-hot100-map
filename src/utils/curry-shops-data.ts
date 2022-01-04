@@ -1,5 +1,5 @@
 import { Shop } from '../interfaces'
-import { shops } from './curry.json'
+import { shops } from './datafiles/curry.json'
 
 /**
  * jsonファイルから取得したデータ
