@@ -3,12 +3,12 @@ export {
 } from './state-side-panel'
 
 export {
-  mapSettingState, mapSettingActions, mapSettingSelectors
+  mapSettingActions, mapSettingSelectors
 } from './mapSettingState'
 
 export {
-  stateGeolocationLoading,
-} from './state-geolocation-loading'
+  geolocationLoadingActions, geolocationLoadingSelectors
+} from './geolocationLoadingState'
 
 export {
   stateMarkerDisp,

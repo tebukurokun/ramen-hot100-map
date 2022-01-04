@@ -9,7 +9,7 @@ interface MapSetting {
 }
 
 // Actions定義
-export const mapSettingState = atom<MapSetting>( {
+const mapSettingState = atom<MapSetting>( {
   key: RecoilAtomKeys.MAP_SETTING_STATE,
   default: { lat: 36.8, lng: 138.1, zoom: 6 },
 } )
