@@ -1,15 +1,15 @@
 export {
-  isSidePanelOpenSelectors, isSidePanelOpenActions
+  isSidePanelOpenSelectors, isSidePanelOpenActions,
 } from './sidePanelState'
 
 export {
-  mapSettingActions, mapSettingSelectors
+  mapSettingActions, mapSettingSelectors,
 } from './mapSettingState'
 
 export {
-  geolocationLoadingActions, geolocationLoadingSelectors
+  geolocationLoadingActions, geolocationLoadingSelectors,
 } from './geolocationLoadingState'
 
 export {
-  markerDispActions, markerDispSelectors
+  markerDispActions, markerDispSelectors,
 } from './markerDispState'

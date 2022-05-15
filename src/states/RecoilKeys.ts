@@ -1,4 +1,3 @@
-// eslint-disable-next-line no-shadow
 export enum RecoilAtomKeys {
   GEOLOCATION_LOADING_STATE = 'geolocation-loading-state',
   MAP_SETTING_STATE = 'map-setting-state',
@@ -6,7 +5,6 @@ export enum RecoilAtomKeys {
   SIDE_PANEL_STATE = 'side-panel-disp-state',
 }
 
-// eslint-disable-next-line no-shadow
 export enum RecoilSelectorKeys {
   MAP_SETTING = 'map_setting',
   GEOLOCATION_LOADING = 'geolocation_loading',
