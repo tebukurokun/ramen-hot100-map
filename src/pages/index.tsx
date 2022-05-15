@@ -5,6 +5,7 @@ import { MapIndexProps, Shop } from "../interfaces";
 import { ramenShopsData } from "../utils/ramen-shop-data";
 import { udonShopsData } from "../utils/udon-shop-data";
 import { curryShopsData } from "../utils/curry-shops-data";
+import { yakinikuShopsData } from "../utils/yakiniku-shop-data";
 import MapIndex from "../components/MapIndex";
 
 const WithStaticProps = ({ items }: MapIndexProps): JSX.Element => {
@@ -35,6 +36,7 @@ export const getStaticProps: GetStaticProps = async () => {
   const ramenItems: Shop[] = ramenShopsData;
   const udonItems: Shop[] = udonShopsData;
   const curryItems: Shop[] = curryShopsData;
+  const yakinikuItems: Shop[] = yakinikuShopsData;
 
   return {
     props: {
@@ -42,6 +44,7 @@ export const getStaticProps: GetStaticProps = async () => {
         ramen: ramenItems,
         udon: udonItems,
         curry: curryItems,
+        yakiniku: yakinikuItems,
       },
     },
   };

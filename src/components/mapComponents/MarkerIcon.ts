@@ -1,21 +1,27 @@
-import L from 'leaflet'
+import L from "leaflet";
 
-const ramenMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icons/marker_red.png',
+const ramenMarkerIcon = L.icon({
+  iconUrl: "/static/marker-icons/marker_red.png",
   iconSize: [22, 40],
-  className: 'ramen-marker-icon',
-} )
+  className: "ramen-marker-icon",
+});
 
-const udonMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icons/marker_blue.png',
+const udonMarkerIcon = L.icon({
+  iconUrl: "/static/marker-icons/marker_blue.png",
   iconSize: [22, 40],
-  className: 'udon-marker-icon',
-} )
+  className: "udon-marker-icon",
+});
 
-const curryMarkerIcon = L.icon( {
-  iconUrl: '/static/marker-icons/marker_turmeric.png',
+const curryMarkerIcon = L.icon({
+  iconUrl: "/static/marker-icons/marker_turmeric.png",
   iconSize: [22, 40],
-  className: 'curry-marker-icon',
-} )
+  className: "curry-marker-icon",
+});
 
-export { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon }
+const yakinikuMarkerIcon = L.icon({
+  iconUrl: "/static/marker-icons/marker_green.png",
+  iconSize: [22, 40],
+  className: "yakiniku-marker-icon",
+});
+
+export { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon, yakinikuMarkerIcon };

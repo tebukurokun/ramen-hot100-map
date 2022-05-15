@@ -5,33 +5,35 @@
 // import { User } from 'path/to/interfaces';
 
 export type User = {
-  id: number
-  name: string
-}
+  id: number;
+  name: string;
+};
 
 export interface Shop {
-  id: string
-  name: string
-  url: string
-  code: string
-  imgPath:string
-  address: string
-  lng: number
-  lat: number
+  id: string;
+  name: string;
+  url: string;
+  code: string;
+  imgPath: string;
+  address: string;
+  lng: number;
+  lat: number;
 }
 
 export interface MapProps {
   items: {
-    ramen: Shop[],
-    udon: Shop[],
-    curry: Shop[]
-  },
+    ramen: Shop[];
+    udon: Shop[];
+    curry: Shop[];
+    yakiniku: Shop[];
+  };
 }
 
 export interface MapIndexProps {
   items: {
-    ramen: Shop[],
-    udon: Shop[],
-    curry: Shop[]
-  },
+    ramen: Shop[];
+    udon: Shop[];
+    curry: Shop[];
+    yakiniku: Shop[];
+  };
 }
