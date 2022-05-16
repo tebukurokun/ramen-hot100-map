@@ -30,6 +30,7 @@ import {
   curryMarkerIcon,
   yakinikuMarkerIcon,
 } from "./MarkerIcon";
+// import { shopData } from "../../utils/shops-data";
 
 const Map = ({ items }: MapProps): JSX.Element => {
   const mapSetting = mapSettingSelectors.useMapSetting();
@@ -42,6 +43,20 @@ const Map = ({ items }: MapProps): JSX.Element => {
   // is sidepanel open
   const isSidePanelOpen = isSidePanelOpenSelectors.useIsSidePanelOpen();
   const setIsSidePanelOpen = isSidePanelOpenActions.useUpdateIsSidePanelOpen();
+
+  interface StringKeyMarkerIconObject {
+    [key: string]: { markerIcon: L.Icon<L.IconOptions>; dispState: boolean };
+  }
+
+  const markerCategoryMap: StringKeyMarkerIconObject = {
+    ramen: { markerIcon: ramenMarkerIcon, dispState: markerDispState.ramen },
+    udon: { markerIcon: udonMarkerIcon, dispState: markerDispState.udon },
+    curry: { markerIcon: curryMarkerIcon, dispState: markerDispState.curry },
+    yakiniku: {
+      markerIcon: yakinikuMarkerIcon,
+      dispState: markerDispState.yakiniku,
+    },
+  };
 
   const openSidePanel = () => {
     console.debug("open SidePanel");
@@ -83,8 +98,19 @@ const Map = ({ items }: MapProps): JSX.Element => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MarkerClusterGroup>
-          {/* ramen */}
-          {markerDispState.ramen &&
+          {items.map((shopdata) => {
+            return shopdata.shops.map((shop) => (
+              <MarkerComponent
+                item={shop}
+                category={shopdata.categoryJp}
+                icon={markerCategoryMap[shopdata.category].markerIcon}
+                key={`${shopdata.category}-${shop.id}`}
+                dispState={markerCategoryMap[shopdata.category].dispState}
+              />
+            ));
+          })}
+
+          {/* {markerDispState.ramen &&
             items.ramen.map((item) => (
               <MarkerComponent
                 item={item}
@@ -92,10 +118,9 @@ const Map = ({ items }: MapProps): JSX.Element => {
                 icon={ramenMarkerIcon}
                 key={`ramen-${item.id}`}
               />
-            ))}
+            ))} */}
 
-          {/* udon */}
-          {markerDispState.udon &&
+          {/* {markerDispState.udon &&
             items.udon.map((item) => (
               <MarkerComponent
                 item={item}
@@ -103,9 +128,8 @@ const Map = ({ items }: MapProps): JSX.Element => {
                 icon={udonMarkerIcon}
                 key={`udon-${item.id}`}
               />
-            ))}
-          {/* curry */}
-          {markerDispState.curry &&
+            ))} */}
+          {/* {markerDispState.curry &&
             items.curry.map((item) => (
               <MarkerComponent
                 item={item}
@@ -113,9 +137,8 @@ const Map = ({ items }: MapProps): JSX.Element => {
                 icon={curryMarkerIcon}
                 key={`curry-${item.id}`}
               />
-            ))}
-          {/* yakiniku */}
-          {markerDispState.yakiniku &&
+            ))} */}
+          {/* {markerDispState.yakiniku &&
             items.yakiniku.map((item) => (
               <MarkerComponent
                 item={item}
@@ -123,7 +146,7 @@ const Map = ({ items }: MapProps): JSX.Element => {
                 icon={yakinikuMarkerIcon}
                 key={`yakiniku-${item.id}`}
               />
-            ))}
+            ))} */}
         </MarkerClusterGroup>
 
         <Control position="bottomright">

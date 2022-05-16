@@ -20,13 +20,10 @@ export interface Shop {
   lat: number;
 }
 
-export interface MapProps {
-  items: {
-    ramen: Shop[];
-    udon: Shop[];
-    curry: Shop[];
-    yakiniku: Shop[];
-  };
+export interface ShopData {
+  category: string;
+  categoryJp: string;
+  shops: Shop[];
 }
 
 export interface MapIndexProps {
@@ -36,4 +33,8 @@ export interface MapIndexProps {
     curry: Shop[];
     yakiniku: Shop[];
   };
+}
+
+export interface MapProps {
+  items: ShopData[];
 }
