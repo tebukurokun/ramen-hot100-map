@@ -1,5 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-
 import React from "react";
 
 import { Map as MapContainer, TileLayer } from "react-leaflet";
@@ -30,7 +28,6 @@ import {
   curryMarkerIcon,
   yakinikuMarkerIcon,
 } from "./MarkerIcon";
-// import { shopData } from "../../utils/shops-data";
 
 const Map = ({ items }: MapProps): JSX.Element => {
   const mapSetting = mapSettingSelectors.useMapSetting();
@@ -110,44 +107,6 @@ const Map = ({ items }: MapProps): JSX.Element => {
                 />
               ))
           )}
-
-          {/* {markerDispState.ramen &&
-            items.ramen.map((item) => (
-              <MarkerComponent
-                item={item}
-                category="ラーメン百名店"
-                icon={ramenMarkerIcon}
-                key={`ramen-${item.id}`}
-              />
-            ))} */}
-
-          {/* {markerDispState.udon &&
-            items.udon.map((item) => (
-              <MarkerComponent
-                item={item}
-                category="うどん百名店"
-                icon={udonMarkerIcon}
-                key={`udon-${item.id}`}
-              />
-            ))} */}
-          {/* {markerDispState.curry &&
-            items.curry.map((item) => (
-              <MarkerComponent
-                item={item}
-                category="カレー百名店"
-                icon={curryMarkerIcon}
-                key={`curry-${item.id}`}
-              />
-            ))} */}
-          {/* {markerDispState.yakiniku &&
-            items.yakiniku.map((item) => (
-              <MarkerComponent
-                item={item}
-                category="焼肉百名店"
-                icon={yakinikuMarkerIcon}
-                key={`yakiniku-${item.id}`}
-              />
-            ))} */}
         </MarkerClusterGroup>
 
         <Control position="bottomright">
