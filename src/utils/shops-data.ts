@@ -4,67 +4,35 @@ import { shops as curryShops } from "./datafiles/curry.json";
 import { shops as ramenShops } from "./datafiles/ramen.json";
 import { shops as udonShops } from "./datafiles/udon.json";
 
+type ShopsJson = typeof ramenShops;
+
+const jsonToEntity = (json: ShopsJson): Shop[] => {
+  return json.map((shop) => {
+    return {
+      id: shop.id,
+      name: shop.name,
+      url: shop.url,
+      code: shop.code,
+      // imgPath: `/static/images/ramen/${shop.code}.jpg`,
+      imgPath: "",
+      address: shop.address,
+      lng: parseFloat(shop.lng),
+      lat: parseFloat(shop.lat),
+    };
+  });
+};
+
 /**
  * jsonファイルから取得したデータ
  *
  */
-const curryShopsData: Shop[] = curryShops.map((shop) => {
-  return {
-    id: shop.id,
-    name: shop.name,
-    url: shop.url,
-    code: shop.code,
-    // imgPath: `/static/images/ramen/${shop.code}.jpg`,
-    imgPath: "",
-    address: shop.address,
-    lng: parseFloat(shop.lng),
-    lat: parseFloat(shop.lat),
-  };
-});
+const curryShopsData: Shop[] = jsonToEntity(curryShops);
 
-const yakinikuShopsData: Shop[] = yakinikuShops.map((shop) => {
-  return {
-    id: shop.id,
-    name: shop.name,
-    area: "west",
-    url: shop.url,
-    code: shop.code,
-    // imgPath: `/static/images/yakiniku/${shop.code}.jpg`,
-    imgPath: "",
-    address: shop.address,
-    lng: parseFloat(shop.lng),
-    lat: parseFloat(shop.lat),
-  };
-});
+const yakinikuShopsData: Shop[] = jsonToEntity(yakinikuShops);
 
-const ramenShopsData: Shop[] = ramenShops.map((shop) => {
-  return {
-    id: shop.id,
-    name: shop.name,
-    url: shop.url,
-    code: shop.code,
-    // imgPath: `/static/images/ramen/${shop.code}.jpg`,
-    imgPath: "",
-    address: shop.address,
-    lng: parseFloat(shop.lng),
-    lat: parseFloat(shop.lat),
-  };
-});
+const ramenShopsData: Shop[] = jsonToEntity(ramenShops);
 
-const udonShopsData: Shop[] = udonShops.map((shop) => {
-  return {
-    id: shop.id,
-    name: shop.name,
-    area: "west",
-    url: shop.url,
-    code: shop.code,
-    // imgPath: `/static/images/udon/${shop.code}.jpg`,
-    imgPath: "",
-    address: shop.address,
-    lng: parseFloat(shop.lng),
-    lat: parseFloat(shop.lat),
-  };
-});
+const udonShopsData: Shop[] = jsonToEntity(udonShops);
 
 const shopData: ShopData[] = [
   { category: "udon", categoryJp: "うどん百名店", shops: udonShopsData },
