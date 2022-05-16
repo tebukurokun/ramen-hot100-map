@@ -20,7 +20,7 @@ import {
 } from "../../states";
 
 import { MapProps } from "../../interfaces";
-import MarkerComponent from "./Marker";
+import MarkerComponent from "./MarkerComponent";
 
 import { GeolocationButton } from "./GeolocationButton";
 
@@ -98,17 +98,18 @@ const Map = ({ items }: MapProps): JSX.Element => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <MarkerClusterGroup>
-          {items.map((shopdata) => {
-            return shopdata.shops.map((shop) => (
-              <MarkerComponent
-                item={shop}
-                category={shopdata.categoryJp}
-                icon={markerCategoryMap[shopdata.category].markerIcon}
-                key={`${shopdata.category}-${shop.id}`}
-                dispState={markerCategoryMap[shopdata.category].dispState}
-              />
-            ));
-          })}
+          {items.map(
+            (shopdata) =>
+              markerCategoryMap[shopdata.category].dispState &&
+              shopdata.shops.map((shop) => (
+                <MarkerComponent
+                  item={shop}
+                  category={shopdata.categoryJp}
+                  icon={markerCategoryMap[shopdata.category].markerIcon}
+                  key={`${shopdata.category}-${shop.id}`}
+                />
+              ))
+          )}
 
           {/* {markerDispState.ramen &&
             items.ramen.map((item) => (
