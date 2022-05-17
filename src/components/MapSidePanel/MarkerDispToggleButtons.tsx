@@ -149,7 +149,7 @@ const MarkerDispToggleButtons: React.VFC = () => {
             name="japanese"
           />
         }
-        label="和食"
+        label="日本料理"
         labelPlacement="start"
       />
     </FormControl>

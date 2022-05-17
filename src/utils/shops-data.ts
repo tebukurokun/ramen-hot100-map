@@ -41,8 +41,16 @@ const shopData: ShopData[] = [
   { category: "udon", categoryJp: "うどん百名店", shops: udonShopsData },
   { category: "curry", categoryJp: "カレー百名店", shops: curryShopsData },
   { category: "ramen", categoryJp: "ラーメン百名店", shops: ramenShopsData },
-  { category: "yakiniku", categoryJp: "焼肉百名店", shops: yakinikuShopsData },
-  { category: "japanese", categoryJp: "和食百名店", shops: japaneseShopsData },
+  {
+    category: "yakiniku",
+    categoryJp: "焼肉百名店",
+    shops: yakinikuShopsData,
+  },
+  {
+    category: "japanese",
+    categoryJp: "日本料理百名店",
+    shops: japaneseShopsData,
+  },
 ];
 
 export { shopData };
