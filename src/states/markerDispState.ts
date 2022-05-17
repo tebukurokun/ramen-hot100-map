@@ -8,11 +8,18 @@ interface MarkerDispState {
   udon: boolean;
   curry: boolean;
   yakiniku: boolean;
+  japanese: boolean;
 }
 
 export const stateMarkerDisp = atom<MarkerDispState>({
   key: RecoilAtomKeys.MARKER_DISP_STATE,
-  default: { ramen: true, udon: true, curry: true, yakiniku: false },
+  default: {
+    ramen: true,
+    udon: true,
+    curry: true,
+    yakiniku: false,
+    japanese: false,
+  },
 });
 
 // Actions定義

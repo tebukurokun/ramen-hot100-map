@@ -1,6 +1,6 @@
 import React from "react";
 
-import { red, blue, amber, green } from "@material-ui/core/colors";
+import { red, blue, amber, green, grey } from "@material-ui/core/colors";
 
 import { withStyles } from "@material-ui/core/styles";
 
@@ -67,6 +67,20 @@ const GreenSwitch = withStyles({
   track: {},
 })(Switch);
 
+const GreySwitch = withStyles({
+  switchBase: {
+    color: grey[300],
+    "&$checked": {
+      color: grey[700],
+    },
+    "&$checked + $track": {
+      backgroundColor: grey[500],
+    },
+  },
+  checked: {},
+  track: {},
+})(Switch);
+
 const MarkerDispToggleButtons: React.VFC = () => {
   const markerDispState = markerDispSelectors.useMarkerDisp();
   const setMarkerDispState = markerDispActions.useUpdateMarkerDisp();
@@ -127,6 +141,17 @@ const MarkerDispToggleButtons: React.VFC = () => {
           labelPlacement="start"
         />
       </FormGroup>
+      <FormControlLabel
+        control={
+          <GreySwitch
+            checked={markerDispState.japanese}
+            onChange={handleChange}
+            name="japanese"
+          />
+        }
+        label="和食"
+        labelPlacement="start"
+      />
     </FormControl>
   );
 };

@@ -18,10 +18,22 @@ const curryMarkerIcon = Leaflet.icon({
   className: "curry-marker-icon",
 });
 
+const japaneseMarkerIcon = Leaflet.icon({
+  iconUrl: "/static/marker-icons/marker_grey.png",
+  iconSize: [22, 40],
+  className: "japanese-marker-icon",
+});
+
 const yakinikuMarkerIcon = Leaflet.icon({
   iconUrl: "/static/marker-icons/marker_green.png",
   iconSize: [22, 40],
   className: "yakiniku-marker-icon",
 });
 
-export { ramenMarkerIcon, udonMarkerIcon, curryMarkerIcon, yakinikuMarkerIcon };
+export {
+  ramenMarkerIcon,
+  udonMarkerIcon,
+  curryMarkerIcon,
+  yakinikuMarkerIcon,
+  japaneseMarkerIcon,
+};
