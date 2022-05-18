@@ -9,6 +9,8 @@ interface MarkerDispState {
   curry: boolean;
   yakiniku: boolean;
   japanese: boolean;
+  chinese: boolean;
+  italian: boolean;
 }
 
 export const stateMarkerDisp = atom<MarkerDispState>({
@@ -19,6 +21,8 @@ export const stateMarkerDisp = atom<MarkerDispState>({
     curry: true,
     yakiniku: false,
     japanese: false,
+    chinese: false,
+    italian: false,
   },
 });
 

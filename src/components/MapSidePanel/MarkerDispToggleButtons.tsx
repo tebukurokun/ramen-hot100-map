@@ -1,6 +1,14 @@
 import React from "react";
 
-import { red, blue, amber, green, grey } from "@material-ui/core/colors";
+import {
+  red,
+  blue,
+  amber,
+  green,
+  grey,
+  orange,
+  pink,
+} from "@material-ui/core/colors";
 
 import { withStyles } from "@material-ui/core/styles";
 
@@ -11,7 +19,7 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";
 import { markerDispActions, markerDispSelectors } from "../../states";
 
-const RedSwitch = withStyles({
+const RamenSwitch = withStyles({
   switchBase: {
     color: red[300],
     "&$checked": {
@@ -25,7 +33,7 @@ const RedSwitch = withStyles({
   track: {},
 })(Switch);
 
-const BlueSwitch = withStyles({
+const UdonSwitch = withStyles({
   switchBase: {
     color: blue[300],
     "&$checked": {
@@ -39,7 +47,7 @@ const BlueSwitch = withStyles({
   track: {},
 })(Switch);
 
-const TurmericSwitch = withStyles({
+const CurrySwitch = withStyles({
   switchBase: {
     color: amber[300],
     "&$checked": {
@@ -53,7 +61,7 @@ const TurmericSwitch = withStyles({
   track: {},
 })(Switch);
 
-const GreenSwitch = withStyles({
+const YakinikuSwitch = withStyles({
   switchBase: {
     color: green[300],
     "&$checked": {
@@ -67,7 +75,7 @@ const GreenSwitch = withStyles({
   track: {},
 })(Switch);
 
-const GreySwitch = withStyles({
+const JapaneseSwitch = withStyles({
   switchBase: {
     color: grey[300],
     "&$checked": {
@@ -75,6 +83,34 @@ const GreySwitch = withStyles({
     },
     "&$checked + $track": {
       backgroundColor: grey[500],
+    },
+  },
+  checked: {},
+  track: {},
+})(Switch);
+
+const ChineseSwitch = withStyles({
+  switchBase: {
+    color: orange[300],
+    "&$checked": {
+      color: orange[700],
+    },
+    "&$checked + $track": {
+      backgroundColor: orange[500],
+    },
+  },
+  checked: {},
+  track: {},
+})(Switch);
+
+const ItalianSwitch = withStyles({
+  switchBase: {
+    color: pink[300],
+    "&$checked": {
+      color: pink[700],
+    },
+    "&$checked + $track": {
+      backgroundColor: pink[500],
     },
   },
   checked: {},
@@ -98,7 +134,7 @@ const MarkerDispToggleButtons: React.VFC = () => {
       <FormGroup>
         <FormControlLabel
           control={
-            <RedSwitch
+            <RamenSwitch
               checked={markerDispState.ramen}
               onChange={handleChange}
               name="ramen"
@@ -109,7 +145,7 @@ const MarkerDispToggleButtons: React.VFC = () => {
         />
         <FormControlLabel
           control={
-            <BlueSwitch
+            <UdonSwitch
               checked={markerDispState.udon}
               onChange={handleChange}
               name="udon"
@@ -120,7 +156,7 @@ const MarkerDispToggleButtons: React.VFC = () => {
         />
         <FormControlLabel
           control={
-            <TurmericSwitch
+            <CurrySwitch
               checked={markerDispState.curry}
               onChange={handleChange}
               name="curry"
@@ -131,7 +167,7 @@ const MarkerDispToggleButtons: React.VFC = () => {
         />
         <FormControlLabel
           control={
-            <GreenSwitch
+            <YakinikuSwitch
               checked={markerDispState.yakiniku}
               onChange={handleChange}
               name="yakiniku"
@@ -140,18 +176,40 @@ const MarkerDispToggleButtons: React.VFC = () => {
           label="焼肉"
           labelPlacement="start"
         />
+        <FormControlLabel
+          control={
+            <JapaneseSwitch
+              checked={markerDispState.japanese}
+              onChange={handleChange}
+              name="japanese"
+            />
+          }
+          label="日本料理"
+          labelPlacement="start"
+        />
+        <FormControlLabel
+          control={
+            <ChineseSwitch
+              checked={markerDispState.chinese}
+              onChange={handleChange}
+              name="chinese"
+            />
+          }
+          label="中国料理"
+          labelPlacement="start"
+        />
+        <FormControlLabel
+          control={
+            <ItalianSwitch
+              checked={markerDispState.italian}
+              onChange={handleChange}
+              name="italian"
+            />
+          }
+          label="イタリアン"
+          labelPlacement="start"
+        />
       </FormGroup>
-      <FormControlLabel
-        control={
-          <GreySwitch
-            checked={markerDispState.japanese}
-            onChange={handleChange}
-            name="japanese"
-          />
-        }
-        label="日本料理"
-        labelPlacement="start"
-      />
     </FormControl>
   );
 };

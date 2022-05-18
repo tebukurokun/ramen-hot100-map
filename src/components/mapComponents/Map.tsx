@@ -28,6 +28,8 @@ import {
   curryMarkerIcon,
   yakinikuMarkerIcon,
   japaneseMarkerIcon,
+  italianMarkerIcon,
+  chineseMarkerIcon,
 } from "./MarkerIcon";
 
 const Map = ({ items }: MapProps): JSX.Element => {
@@ -57,6 +59,14 @@ const Map = ({ items }: MapProps): JSX.Element => {
     japanese: {
       markerIcon: japaneseMarkerIcon,
       dispState: markerDispState.japanese,
+    },
+    italian: {
+      markerIcon: italianMarkerIcon,
+      dispState: markerDispState.italian,
+    },
+    chinese: {
+      markerIcon: chineseMarkerIcon,
+      dispState: markerDispState.chinese,
     },
   };
 

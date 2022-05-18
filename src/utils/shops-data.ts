@@ -4,6 +4,8 @@ import { shops as curryShops } from "./datafiles/curry.json";
 import { shops as japaneseShops } from "./datafiles/japanese.json";
 import { shops as ramenShops } from "./datafiles/ramen.json";
 import { shops as udonShops } from "./datafiles/udon.json";
+import { shops as italianShops } from "./datafiles/italian.json";
+import { shops as chineseShops } from "./datafiles/chinese.json";
 
 type ShopsJson = typeof ramenShops;
 
@@ -28,14 +30,12 @@ const jsonToEntity = (json: ShopsJson): Shop[] => {
  *
  */
 const curryShopsData: Shop[] = jsonToEntity(curryShops);
-
 const yakinikuShopsData: Shop[] = jsonToEntity(yakinikuShops);
-
 const ramenShopsData: Shop[] = jsonToEntity(ramenShops);
-
 const udonShopsData: Shop[] = jsonToEntity(udonShops);
-
 const japaneseShopsData: Shop[] = jsonToEntity(japaneseShops);
+const italianShopsData: Shop[] = jsonToEntity(italianShops);
+const chineseShopsData: Shop[] = jsonToEntity(chineseShops);
 
 const shopData: ShopData[] = [
   { category: "udon", categoryJp: "うどん百名店", shops: udonShopsData },
@@ -50,6 +50,16 @@ const shopData: ShopData[] = [
     category: "japanese",
     categoryJp: "日本料理百名店",
     shops: japaneseShopsData,
+  },
+  {
+    category: "italian",
+    categoryJp: "日本料理百名店",
+    shops: italianShopsData,
+  },
+  {
+    category: "chinese",
+    categoryJp: "日本料理百名店",
+    shops: chineseShopsData,
   },
 ];
 
