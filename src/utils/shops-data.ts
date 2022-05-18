@@ -53,12 +53,12 @@ const shopData: ShopData[] = [
   },
   {
     category: "italian",
-    categoryJp: "日本料理百名店",
+    categoryJp: "イタリアン百名店",
     shops: italianShopsData,
   },
   {
     category: "chinese",
-    categoryJp: "日本料理百名店",
+    categoryJp: "中国料理百名店",
     shops: chineseShopsData,
   },
 ];
