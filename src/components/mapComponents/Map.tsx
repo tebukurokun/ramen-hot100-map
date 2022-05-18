@@ -71,8 +71,6 @@ const Map = ({ items }: MapProps): JSX.Element => {
   };
 
   const openSidePanel = () => {
-    console.debug("open SidePanel");
-
     setIsSidePanelOpen(true);
   };
 
@@ -84,10 +82,6 @@ const Map = ({ items }: MapProps): JSX.Element => {
     const z = event.target.getZoom();
     const c = event.target.getCenter();
     setMapSetting({ lat: c.lat, lng: c.lng, zoom: z });
-    console.debug({
-      northEast: event.target.getBounds().getNorthEast(),
-      southWest: event.target.getBounds().getSouthWest(),
-    });
   };
 
   const windowHeight = `${window.innerHeight}px`;
