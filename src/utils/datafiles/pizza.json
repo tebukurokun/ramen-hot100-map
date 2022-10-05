@@ -1,372 +1,28 @@
 {
   "shops": [{
-    "name": "ヴァカンツァ",
-    "url": "https://tabelog.com/tokyo/A1303/A130302/13007135/",
-    "address": "東京都 渋谷区 恵比寿 4-27-2 １Ｆ・２Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13007135",
-    "lat": "35.645724",
-    "lng": "139.715012",
-    "id": "pizza-0"
-  }, {
-    "name": "SAKURAGUMI",
-    "url": "https://tabelog.com/hyogo/A2805/A280502/28001438/",
-    "address": "兵庫県 赤穂市 御崎 2-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_28001438",
-    "lat": "34.727123",
-    "lng": "134.408569",
-    "id": "pizza-1"
-  }, {
-    "name": "山岡ピザ",
-    "url": "https://tabelog.com/nara/A2902/A290201/29000860/",
-    "address": "奈良県 生駒市 鬼取町 455",
-    "code": "hyakumeiten_pizza_2021_restaurant_29000860",
-    "lat": "34.671295",
-    "lng": "135.684938",
-    "id": "pizza-2"
-  }, {
-    "name": "IL PAPPALARDO",
-    "url": "https://tabelog.com/kyoto/A2601/A260304/26001638/",
-    "address": "京都府 京都市東山区 妙法院前側町 451-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_26001638",
-    "lat": "34.988716",
-    "lng": "135.777889",
-    "id": "pizza-3"
-  }, {
-    "name": "Pizzeria Bakka M'unica",
-    "url": "https://tabelog.com/tokyo/A1315/A131501/13182694/",
-    "address": "東京都 品川区 東大井 1-3-17 コーポマルイノ 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13182694",
-    "lat": "35.60494",
-    "lng": "139.743398",
-    "id": "pizza-4"
-  }, {
-    "name": "ナプレ 東京ミッドタウン店",
-    "url": "https://tabelog.com/tokyo/A1307/A130701/13037338/",
-    "address": "東京都 港区 赤坂 9-7-4 東京ミッドタウン ガレリア ガーデンテラス 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13037338",
-    "lat": "35.666219",
-    "lng": "139.730226",
-    "id": "pizza-5"
-  }, {
-    "name": "da GIORGIO",
-    "url": "https://tabelog.com/tokyo/A1311/A131101/13170979/",
-    "address": "東京都 文京区 湯島 3-37-14 ソルミオビル 1F 2F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13170979",
-    "lat": "35.707495",
-    "lng": "139.771484",
-    "id": "pizza-6"
-  }, {
-    "name": "ナポリスタカ 駒沢店",
-    "url": "https://tabelog.com/tokyo/A1317/A131707/13188330/",
-    "address": "東京都 世田谷区 上馬 4-5-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_13188330",
-    "lat": "35.633911",
-    "lng": "139.661197",
-    "id": "pizza-7"
-  }, {
-    "name": "ピッツェリア ダ マッシモ",
-    "url": "https://tabelog.com/hokkaido/A0101/A010301/1031158/",
-    "address": "北海道 札幌市白石区 川下 2条5丁目2-8",
-    "code": "hyakumeiten_pizza_2021_restaurant_1031158",
-    "lat": "43.048192",
-    "lng": "141.446276",
-    "id": "pizza-8"
-  }, {
-    "name": "ピッツェリア・スクニッツォ・ダ・シゲオ",
-    "url": "https://tabelog.com/osaka/A2701/A270103/27053555/",
-    "address": "大阪府 大阪市北区 本庄西 2丁目4-7",
-    "code": "hyakumeiten_pizza_2021_restaurant_27053555",
-    "lat": "34.713236",
-    "lng": "135.50551",
-    "id": "pizza-9"
-  }, {
-    "name": "マッシモッタヴィオ",
-    "url": "https://tabelog.com/tokyo/A1318/A131805/13132982/",
-    "address": "東京都 杉並区 永福 4-4-4 永福町ファイブビル",
-    "code": "hyakumeiten_pizza_2021_restaurant_13132982",
-    "lat": "35.676876",
-    "lng": "139.642708",
-    "id": "pizza-10"
-  }, {
-    "name": "ソロ ピッツァ ナポレターナ ダ ルーチョ 名古屋駅店",
-    "url": "https://tabelog.com/aichi/A2301/A230101/23059142/",
-    "address": "愛知県 名古屋市中村区 名駅 三丁目28-12 ダイナゴヤビルヂング 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_23059142",
-    "lat": "35.172052",
-    "lng": "136.884499",
-    "id": "pizza-11"
-  }, {
-    "name": "イ・ロッタ",
-    "url": "https://tabelog.com/tokyo/A1316/A131601/13003385/",
-    "address": "東京都 目黒区 下目黒 1-5-21 目黒ＤＫウェスト １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13003385",
-    "lat": "35.634267",
-    "lng": "139.712418",
-    "id": "pizza-12"
-  }, {
-    "name": "ZUZU",
-    "url": "https://tabelog.com/tokyo/A1322/A132203/13169429/",
-    "address": "東京都 板橋区 徳丸 3-15-2",
-    "code": "hyakumeiten_pizza_2021_restaurant_13169429",
-    "lat": "35.76989",
-    "lng": "139.658436",
-    "id": "pizza-13"
-  }, {
-    "name": "ピッツェリアブラチェリア チェザリ",
-    "url": "https://tabelog.com/aichi/A2301/A230105/23008274/",
-    "address": "愛知県 名古屋市中区 大須 3-36-44",
-    "code": "hyakumeiten_pizza_2021_restaurant_23008274",
-    "lat": "35.158644",
-    "lng": "136.902603",
-    "id": "pizza-14"
-  }, {
-    "name": "Pizzeria LUMEN",
-    "url": "https://tabelog.com/tokyo/A1304/A130401/13025499/",
-    "address": "東京都 新宿区 歌舞伎町 2-8-3 最上ビル新宿 １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13025499",
-    "lat": "35.694974",
-    "lng": "139.705797",
-    "id": "pizza-15"
-  }, {
     "name": "ジラソーレ リッコ",
     "url": "https://tabelog.com/osaka/A2706/A270602/27069878/",
     "address": "大阪府 吹田市 江坂町 1-23-32 リバーボール江坂 1F",
     "code": "hyakumeiten_pizza_2021_restaurant_27069878",
-    "lat": "34.757914",
-    "lng": "135.497483",
-    "id": "pizza-16"
+    "lat": "34.757899",
+    "lng": "135.497354",
+    "id": "pizza-0"
   }, {
-    "name": "シシリヤ",
-    "url": "https://tabelog.com/kanagawa/A1401/A140104/14001040/",
-    "address": "神奈川県 横浜市中区 相生町 1-7 和同ビル １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_14001040",
-    "lat": "35.44614",
-    "lng": "139.639291",
-    "id": "pizza-17"
-  }, {
-    "name": "花人逢",
-    "url": "https://tabelog.com/okinawa/A4702/A470202/47000232/",
-    "address": "沖縄県 国頭郡本部町 字山里1153-2",
-    "code": "hyakumeiten_pizza_2021_restaurant_47000232",
-    "lat": "26.668449",
-    "lng": "127.900886",
-    "id": "pizza-18"
-  }, {
-    "name": "ピッツェリア チーロ 東中野店",
-    "url": "https://tabelog.com/tokyo/A1319/A131901/13115030/",
-    "address": "東京都 中野区 東中野 3-8-3 フェニックスビル1Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13115030",
-    "lat": "35.706952",
-    "lng": "139.682689",
-    "id": "pizza-19"
+    "name": "ピッツェリア パーレンテッシ",
+    "url": "https://tabelog.com/tokyo/A1317/A131705/13006076/",
+    "address": "東京都 目黒区 東山 3-6-8 エクセル東山 2F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13006076",
+    "lat": "35.649798",
+    "lng": "139.687286",
+    "id": "pizza-1"
   }, {
     "name": "ピッツァ ケベロス 明治神宮前店",
     "url": "https://tabelog.com/tokyo/A1306/A130601/13171079/",
     "address": "東京都 渋谷区 神宮前 6-12-4 ヒダノビル 1F",
     "code": "hyakumeiten_pizza_2021_restaurant_13171079",
-    "lat": "35.666387",
-    "lng": "139.70488",
-    "id": "pizza-20"
-  }, {
-    "name": "アズーリ",
-    "url": "https://tabelog.com/hyogo/A2801/A280102/28004410/",
-    "address": "兵庫県 神戸市中央区 山本通 3-7-3 ユートピアトーア １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_28004410",
-    "lat": "34.695944",
-    "lng": "135.186761",
-    "id": "pizza-21"
-  }, {
-    "name": "ソロピッツァ ナポレターナ ダ ジェンナーロ 矢場店",
-    "url": "https://tabelog.com/aichi/A2301/A230103/23038884/",
-    "address": "愛知県 名古屋市中区 栄 3-32-8",
-    "code": "hyakumeiten_pizza_2021_restaurant_23038884",
-    "lat": "35.16302",
-    "lng": "136.907821",
-    "id": "pizza-22"
-  }, {
-    "name": "PIZZA BORSA",
-    "url": "https://tabelog.com/tokyo/A1305/A130501/13170403/",
-    "address": "東京都 豊島区 西池袋 3-30-8 渡辺ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13170403",
-    "lat": "35.730975",
-    "lng": "139.706196",
-    "id": "pizza-23"
-  }, {
-    "name": "アランジャルシ",
-    "url": "https://tabelog.com/tokyo/A1311/A131101/13057017/",
-    "address": "東京都 文京区 湯島 4-6-17 丸島ビル１F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13057017",
-    "lat": "35.707911",
-    "lng": "139.767283",
-    "id": "pizza-24"
-  }, {
-    "name": "terzo",
-    "url": "https://tabelog.com/hyogo/A2801/A280102/28035660/",
-    "address": "兵庫県 神戸市中央区 北長狭通 2-6-6 ヤナセビル 2F",
-    "code": "hyakumeiten_pizza_2021_restaurant_28035660",
-    "lat": "34.692232",
-    "lng": "135.189724",
-    "id": "pizza-25"
-  }, {
-    "name": "ナポリピッツァ Pizzeria la Rossa",
-    "url": "https://tabelog.com/tokyo/A1317/A131702/13130666/",
-    "address": "東京都 目黒区 目黒本町 5-33-25",
-    "code": "hyakumeiten_pizza_2021_restaurant_13130666",
-    "lat": "35.622271",
-    "lng": "139.697784",
-    "id": "pizza-26"
-  }, {
-    "name": "ラ・ピッコラ・ターヴォラ",
-    "url": "https://tabelog.com/tokyo/A1318/A131805/13005575/",
-    "address": "東京都 杉並区 永福 4-2-4",
-    "code": "hyakumeiten_pizza_2021_restaurant_13005575",
-    "lat": "35.676938",
-    "lng": "139.643611",
-    "id": "pizza-27"
-  }, {
-    "name": "イル・ピッツァイオーロ",
-    "url": "https://tabelog.com/miyagi/A0401/A040101/4016875/",
-    "address": "宮城県 仙台市青葉区 堤町 1-9-21 第13ジュリヤン 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_4016875",
-    "lat": "38.28411",
-    "lng": "140.870008",
-    "id": "pizza-28"
-  }, {
-    "name": "ラ・テラッツァ 芦ノ湖",
-    "url": "https://tabelog.com/kanagawa/A1410/A141001/14009281/",
-    "address": "神奈川県 足柄下郡箱根町 元箱根 61",
-    "code": "hyakumeiten_pizza_2021_restaurant_14009281",
-    "lat": "35.203648",
-    "lng": "139.030822",
-    "id": "pizza-29"
-  }, {
-    "name": "カトリカ",
-    "url": "https://tabelog.com/tokyo/A1312/A131203/13040601/",
-    "address": "東京都 墨田区 東向島 5丁目29-6",
-    "code": "hyakumeiten_pizza_2021_restaurant_13040601",
-    "lat": "35.72801",
-    "lng": "139.821793",
-    "id": "pizza-30"
-  }, {
-    "name": "ピッツエリア エ トラットリア ダ イーサ",
-    "url": "https://tabelog.com/tokyo/A1317/A131701/13103245/",
-    "address": "東京都 目黒区 青葉台 1-28-9",
-    "code": "hyakumeiten_pizza_2021_restaurant_13103245",
-    "lat": "35.647187",
-    "lng": "139.695415",
-    "id": "pizza-31"
-  }, {
-    "name": "ヴォメロ",
-    "url": "https://tabelog.com/tokyo/A1301/A130101/13139857/",
-    "address": "東京都 中央区 銀座 3-12-8 NKCビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13139857",
-    "lat": "35.670482",
-    "lng": "139.768912",
-    "id": "pizza-32"
-  }, {
-    "name": "ピッツェリアGG 吉祥寺",
-    "url": "https://tabelog.com/tokyo/A1320/A132001/13047308/",
-    "address": "東京都 武蔵野市 吉祥寺南町 1-17-1 プレジール B1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13047308",
-    "lat": "35.700944",
-    "lng": "139.578668",
-    "id": "pizza-33"
-  }, {
-    "name": "ダルブリガンテ",
-    "url": "https://tabelog.com/osaka/A2701/A270108/27004565/",
-    "address": "大阪府 大阪市福島区 福島 3-6-14",
-    "code": "hyakumeiten_pizza_2021_restaurant_27004565",
-    "lat": "34.69302",
-    "lng": "135.484312",
-    "id": "pizza-34"
-  }, {
-    "name": "PIZZERIA CAPOLI",
-    "url": "https://tabelog.com/tokyo/A1304/A130401/13123990/",
-    "address": "東京都 新宿区 新宿 4-1-9 Ｂ１Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13123990",
-    "lat": "35.688924",
-    "lng": "139.702469",
-    "id": "pizza-35"
-  }, {
-    "name": "ピッツァダバッボ",
-    "url": "https://tabelog.com/tokyo/A1302/A130204/13025362/",
-    "address": "東京都 中央区 日本橋人形町 2-21-1 FSビル １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13025362",
-    "lat": "35.685926",
-    "lng": "139.784489",
-    "id": "pizza-36"
-  }, {
-    "name": "トラットリア ピッツェリア polipo",
-    "url": "https://tabelog.com/hiroshima/A3401/A340118/34013074/",
-    "address": "広島県 広島市中区 東白島町 20-5",
-    "code": "hyakumeiten_pizza_2021_restaurant_34013074",
-    "lat": "34.402766",
-    "lng": "132.465772",
-    "id": "pizza-37"
-  }, {
-    "name": "SAVOY 麻布十番店",
-    "url": "https://tabelog.com/tokyo/A1307/A130702/13036875/",
-    "address": "東京都 港区 元麻布 3-10-1 中岡ビル ２Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13036875",
-    "lat": "35.657441",
-    "lng": "139.732252",
-    "id": "pizza-38"
-  }, {
-    "name": "デルソーレ",
-    "url": "https://tabelog.com/hokkaido/A0106/A010603/1009661/",
-    "address": "北海道 虻田郡ニセコ町 ニセコ 483- 1 ポテト共和国内",
-    "code": "hyakumeiten_pizza_2021_restaurant_1009661",
-    "lat": "42.846466",
-    "lng": "140.645617",
-    "id": "pizza-39"
-  }, {
-    "name": "ピッツェリア・ロマーナ・イル・ペンティート",
-    "url": "https://tabelog.com/tokyo/A1318/A131810/13000684/",
-    "address": "東京都 渋谷区 代々木 3-1-1 ＡＸＩＳ １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13000684",
-    "lat": "35.682273",
-    "lng": "139.696695",
-    "id": "pizza-40"
-  }, {
-    "name": "ピッツェリア ジターリア ダ フィリッポ",
-    "url": "https://tabelog.com/tokyo/A1321/A132103/13149962/",
-    "address": "東京都 練馬区 石神井町 2-13-5 グリーンハイム 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13149962",
-    "lat": "35.744473",
-    "lng": "139.609045",
-    "id": "pizza-41"
-  }, {
-    "name": "トラットリア ピッツェリア ラルテ",
-    "url": "https://tabelog.com/tokyo/A1317/A131706/13128533/",
-    "address": "東京都 世田谷区 三軒茶屋 1-35-17 1Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13128533",
-    "lat": "35.642984",
-    "lng": "139.67237",
-    "id": "pizza-42"
-  }, {
-    "name": "ピッツェリア・マリータ",
-    "url": "https://tabelog.com/kyoto/A2601/A260201/26020891/",
-    "address": "京都府 京都市中京区 堺町通錦小路上ル512",
-    "code": "hyakumeiten_pizza_2021_restaurant_26020891",
-    "lat": "35.156661",
-    "lng": "135.525198",
-    "id": "pizza-43"
-  }, {
-    "name": "パルテノペ 恵比寿店",
-    "url": "https://tabelog.com/tokyo/A1303/A130302/13005480/",
-    "address": "東京都 渋谷区 恵比寿 1-22-20 恵比寿幸和ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13005480",
-    "lat": "35.64616",
-    "lng": "139.713975",
-    "id": "pizza-44"
-  }, {
-    "name": "ザ ピッツァバー ON 38TH",
-    "url": "https://tabelog.com/tokyo/A1310/A131002/13167573/",
-    "address": "東京都 中央区 日本橋室町 2-1-1 マンダリンオリエンタル東京 38F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13167573",
-    "lat": "35.687048",
-    "lng": "139.773063",
-    "id": "pizza-45"
+    "lat": "35.666397",
+    "lng": "139.704858",
+    "id": "pizza-2"
   }, {
     "name": "ラ フィーリア デル プレジデンテ",
     "url": "https://tabelog.com/kanagawa/A1401/A140104/14064550/",
@@ -374,415 +30,31 @@
     "code": "hyakumeiten_pizza_2021_restaurant_14064550",
     "lat": "35.447247",
     "lng": "139.63509",
-    "id": "pizza-46"
-  }, {
-    "name": "DADA",
-    "url": "https://tabelog.com/kanagawa/A1404/A140402/14039433/",
-    "address": "神奈川県 鎌倉市 雪ノ下 1-11-2 雪ノ下ビル １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_14039433",
-    "lat": "35.322562",
-    "lng": "139.554413",
-    "id": "pizza-47"
-  }, {
-    "name": "エッセ ドゥエ 赤坂店",
-    "url": "https://tabelog.com/tokyo/A1308/A130801/13002191/",
-    "address": "東京都 港区 赤坂 6-11-13 ｆａｂｒｉｃビル B1F・1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13002191",
-    "lat": "35.669892",
-    "lng": "139.734837",
-    "id": "pizza-48"
-  }, {
-    "name": "ピッツェリア スペリアーモ！",
-    "url": "https://tabelog.com/kanagawa/A1401/A140301/14002481/",
-    "address": "神奈川県 横浜市西区 藤棚町 1-121",
-    "code": "hyakumeiten_pizza_2021_restaurant_14002481",
-    "lat": "35.451332",
-    "lng": "139.611748",
-    "id": "pizza-49"
-  }, {
-    "name": "ピッツェリア キアッキェローネ",
-    "url": "https://tabelog.com/kanagawa/A1401/A140102/14044667/",
-    "address": "神奈川県 横浜市中区 野毛町 3-158",
-    "code": "hyakumeiten_pizza_2021_restaurant_14044667",
-    "lat": "35.448372",
-    "lng": "139.627403",
-    "id": "pizza-50"
-  }, {
-    "name": "ピッツェリア・ダ・ガエターノ 薬院店",
-    "url": "https://tabelog.com/fukuoka/A4001/A400104/40028105/",
-    "address": "福岡県 福岡市中央区 渡辺通 り2-7-14 パグ​ーロ薬院1階",
-    "code": "hyakumeiten_pizza_2021_restaurant_40028105",
-    "lat": "33.582846",
-    "lng": "130.402077",
-    "id": "pizza-51"
-  }, {
-    "name": "トラットリア エ ピッツェリア アミーチ",
-    "url": "https://tabelog.com/ibaraki/A0802/A080201/8000842/",
-    "address": "茨城県 つくば市 手代木 286-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_8000842",
-    "lat": "36.060047",
-    "lng": "140.108684",
-    "id": "pizza-52"
-  }, {
-    "name": "ピッツァマン オオイマチ",
-    "url": "https://tabelog.com/tokyo/A1315/A131501/13113311/",
-    "address": "東京都 品川区 大井 1-11-8",
-    "code": "hyakumeiten_pizza_2021_restaurant_13113311",
-    "lat": "35.607541",
-    "lng": "139.732126",
-    "id": "pizza-53"
-  }, {
-    "name": "ピッツェリア ロマーナ ジャニコロ",
-    "url": "https://tabelog.com/tokyo/A1307/A130702/13122753/",
-    "address": "東京都 港区 麻布十番 2-8-8 渡邊ビルB1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13122753",
-    "lat": "35.65542",
-    "lng": "139.734822",
-    "id": "pizza-54"
-  }, {
-    "name": "エンボカ 軽井沢",
-    "url": "https://tabelog.com/nagano/A2003/A200301/20015714/",
-    "address": "長野県 北佐久郡軽井沢町 軽井沢 1277-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_20015714",
-    "lat": "36.350122",
-    "lng": "138.634155",
-    "id": "pizza-55"
-  }, {
-    "name": "築地トゥットベーネ",
-    "url": "https://tabelog.com/tokyo/A1313/A131301/13183253/",
-    "address": "東京都 中央区 築地 7-10-10",
-    "code": "hyakumeiten_pizza_2021_restaurant_13183253",
-    "lat": "35.666007",
-    "lng": "139.774879",
-    "id": "pizza-56"
-  }, {
-    "name": "ピッツァ ストラーダ",
-    "url": "https://tabelog.com/tokyo/A1307/A130702/13131245/",
-    "address": "東京都 港区 麻布十番 3-6-2 NS麻布十番ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13131245",
-    "lat": "35.653284",
-    "lng": "139.734766",
-    "id": "pizza-57"
-  }, {
-    "name": "ガレリア 富田林",
-    "url": "https://tabelog.com/osaka/A2708/A270802/27011027/",
-    "address": "大阪府 富田林市 向陽台 2-2-7",
-    "code": "hyakumeiten_pizza_2021_restaurant_27011027",
-    "lat": "34.502042",
-    "lng": "135.580383",
-    "id": "pizza-58"
-  }, {
-    "name": "エキ ポンテベッキオ ア オオサカ",
-    "url": "https://tabelog.com/osaka/A2701/A270101/27057161/",
-    "address": "大阪府 大阪市北区 梅田 3-1-3 ルクア 10F",
-    "code": "hyakumeiten_pizza_2021_restaurant_27057161",
-    "lat": "34.70294",
-    "lng": "135.49555",
-    "id": "pizza-59"
-  }, {
-    "name": "ピッツェリア デ ナプレ",
-    "url": "https://tabelog.com/miyagi/A0401/A040101/4000125/",
-    "address": "宮城県 仙台市青葉区 立町 26-19 井上ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_4000125",
-    "lat": "38.264735",
-    "lng": "140.86545",
-    "id": "pizza-60"
-  }, {
-    "name": "ピッツェリア パーレンテッシ",
-    "url": "https://tabelog.com/tokyo/A1317/A131705/13006076/",
-    "address": "東京都 目黒区 東山 3-6-8 エクセル東山 2F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13006076",
-    "lat": "35.649797",
-    "lng": "139.687269",
-    "id": "pizza-61"
-  }, {
-    "name": "ダ ユウキ",
-    "url": "https://tabelog.com/kyoto/A2601/A260301/26005239/",
-    "address": "京都府 京都市左京区 岡崎円勝寺町 36-3",
-    "code": "hyakumeiten_pizza_2021_restaurant_26005239",
-    "lat": "35.01161",
-    "lng": "135.78064",
-    "id": "pizza-62"
-  }, {
-    "name": "ベッラ・ナポリ",
-    "url": "https://tabelog.com/tokyo/A1312/A131201/13005043/",
-    "address": "東京都 江東区 高橋 9-3",
-    "code": "hyakumeiten_pizza_2021_restaurant_13005043",
-    "lat": "35.68527",
-    "lng": "139.799178",
-    "id": "pizza-63"
-  }, {
-    "name": "エンボカ 京都",
-    "url": "https://tabelog.com/kyoto/A2601/A260202/26017525/",
-    "address": "京都府 京都市中京区 西洞院六角下ル池須町406",
-    "code": "hyakumeiten_pizza_2021_restaurant_26017525",
-    "lat": "35.007067",
-    "lng": "135.755074",
-    "id": "pizza-64"
-  }, {
-    "name": "ラッテリア ベベ  カマクラ",
-    "url": "https://tabelog.com/kanagawa/A1404/A140402/14058636/",
-    "address": "神奈川県 鎌倉市 御成11-17",
-    "code": "hyakumeiten_pizza_2021_restaurant_14058636",
-    "lat": "35.318649",
-    "lng": "139.549342",
-    "id": "pizza-65"
-  }, {
-    "name": "ラ・バルカッチャ",
-    "url": "https://tabelog.com/osaka/A2701/A270101/27054558/",
-    "address": "大阪府 大阪市北区 豊崎 3-5-17 1階",
-    "code": "hyakumeiten_pizza_2021_restaurant_27054558",
-    "lat": "34.711156",
-    "lng": "135.499447",
-    "id": "pizza-66"
+    "id": "pizza-3"
   }, {
     "name": "ポルタ・ヌォーヴァ",
     "url": "https://tabelog.com/osaka/A2701/A270106/27000063/",
     "address": "大阪府 大阪市西区 靱本町 1-16-19 メゾンタール １Ｆ",
     "code": "hyakumeiten_pizza_2021_restaurant_27000063",
-    "lat": "34.684753",
-    "lng": "135.494782",
-    "id": "pizza-67"
+    "lat": "34.684744",
+    "lng": "135.49478",
+    "id": "pizza-4"
   }, {
-    "name": "エンボカ 東京",
-    "url": "https://tabelog.com/tokyo/A1318/A131811/13040937/",
-    "address": "東京都 渋谷区 元代々木16-16",
-    "code": "hyakumeiten_pizza_2021_restaurant_13040937",
-    "lat": "35.670943",
-    "lng": "139.683819",
-    "id": "pizza-68"
+    "name": "エキ ポンテベッキオ ア オオサカ",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27057161/",
+    "address": "大阪府 大阪市北区 梅田 3-1-3 ルクア 10F",
+    "code": "hyakumeiten_pizza_2021_restaurant_27057161",
+    "lat": "34.702943",
+    "lng": "135.494818",
+    "id": "pizza-5"
   }, {
-    "name": "ダ アチュ",
-    "url": "https://tabelog.com/gifu/A2101/A210101/21012908/",
-    "address": "岐阜県 岐阜市 神田町 7-17 神田ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_21012908",
-    "lat": "35.413619",
-    "lng": "136.759506",
-    "id": "pizza-69"
-  }, {
-    "name": "ナプレ 南青山本店",
-    "url": "https://tabelog.com/tokyo/A1306/A130602/13003493/",
-    "address": "東京都 港区 南青山 5-6-24 林ビル",
-    "code": "hyakumeiten_pizza_2021_restaurant_13003493",
-    "lat": "35.663783",
-    "lng": "139.711906",
-    "id": "pizza-70"
-  }, {
-    "name": "quarto",
-    "url": "https://tabelog.com/hyogo/A2801/A280101/28041401/",
-    "address": "兵庫県 神戸市中央区 中山手通 2-3-7 サンハイツ中山手ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_28041401",
-    "lat": "34.6945",
-    "lng": "135.188799",
-    "id": "pizza-71"
-  }, {
-    "name": "ゑんぞ",
-    "url": "https://tabelog.com/tokyo/A1311/A131103/13141862/",
-    "address": "東京都 台東区 浅草橋 1-17-2",
-    "code": "hyakumeiten_pizza_2021_restaurant_13141862",
-    "lat": "35.697403",
-    "lng": "139.785254",
-    "id": "pizza-72"
-  }, {
-    "name": "ピッツェリア イル・タンブレッロ",
-    "url": "https://tabelog.com/tokyo/A1302/A130204/13114239/",
-    "address": "東京都 中央区 日本橋堀留町 1-2-9 DIG DUG１階",
-    "code": "hyakumeiten_pizza_2021_restaurant_13114239",
-    "lat": "35.688622",
-    "lng": "139.778903",
-    "id": "pizza-73"
-  }, {
-    "name": "ピッツェリア エ トラットリア ダ・マサニエッロ",
-    "url": "https://tabelog.com/hyogo/A2803/A280303/28031917/",
-    "address": "兵庫県 宝塚市 伊孑志 1-8-20",
-    "code": "hyakumeiten_pizza_2021_restaurant_28031917",
-    "lat": "34.797908",
-    "lng": "135.354067",
-    "id": "pizza-74"
-  }, {
-    "name": "ピッツェリアGG 鎌倉",
-    "url": "https://tabelog.com/kanagawa/A1404/A140402/14051790/",
-    "address": "神奈川県 鎌倉市 由比ガ浜 2-9-62 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_14051790",
-    "lat": "35.314517",
-    "lng": "139.549057",
-    "id": "pizza-75"
-  }, {
-    "name": "ナポリスタカ 神谷町店",
-    "url": "https://tabelog.com/tokyo/A1307/A130704/13132020/",
-    "address": "東京都 港区 麻布台 1-11-4 いんなあとりっぷビル１Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13132020",
-    "lat": "35.660212",
-    "lng": "139.743274",
-    "id": "pizza-76"
-  }, {
-    "name": "タランテッラ ダ ルイジ",
-    "url": "https://tabelog.com/tokyo/A1316/A131602/13122166/",
-    "address": "東京都 港区 白金 3-22-2-1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13122166",
-    "lat": "35.64464",
-    "lng": "139.731293",
-    "id": "pizza-77"
-  }, {
-    "name": "マガジーノ",
-    "url": "https://tabelog.com/nara/A2903/A290302/29000162/",
-    "address": "奈良県 香芝市 鎌田 172-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_29000162",
-    "lat": "34.520676",
-    "lng": "135.712394",
-    "id": "pizza-78"
-  }, {
-    "name": "リンシエメ",
-    "url": "https://tabelog.com/tokyo/A1312/A131202/13193917/",
-    "address": "東京都 江東区 亀戸 1-31-7",
-    "code": "hyakumeiten_pizza_2021_restaurant_13193917",
-    "lat": "35.694734",
-    "lng": "139.825614",
-    "id": "pizza-79"
-  }, {
-    "name": "ベントエマーレ",
-    "url": "https://tabelog.com/tokyo/A1317/A131710/13114520/",
-    "address": "東京都 品川区 西五反田 5-26-10 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13114520",
-    "lat": "35.623533",
-    "lng": "139.711277",
-    "id": "pizza-80"
-  }, {
-    "name": "檪の丘",
-    "url": "https://tabelog.com/oita/A4402/A440201/44000453/",
-    "address": "大分県 由布市 湯布院町川北 893-1",
-    "code": "hyakumeiten_pizza_2021_restaurant_44000453",
-    "lat": "33.263073",
-    "lng": "131.330146",
-    "id": "pizza-81"
-  }, {
-    "name": "イル ピッツァイオーロ",
-    "url": "https://tabelog.com/tokyo/A1317/A131706/13013741/",
-    "address": "東京都 世田谷区 太子堂 4-20-7 QG三軒茶屋 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13013741",
-    "lat": "35.644454",
-    "lng": "139.668667",
-    "id": "pizza-82"
-  }, {
-    "name": "ピノッキオ",
-    "url": "https://tabelog.com/hyogo/A2801/A280101/28000493/",
-    "address": "兵庫県 神戸市中央区 中山手通 2-3-13 太洋ビル １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_28000493",
-    "lat": "34.694823",
-    "lng": "135.188619",
-    "id": "pizza-83"
-  }, {
-    "name": "トニーズピザ",
-    "url": "https://tabelog.com/tokyo/A1320/A132001/13005912/",
-    "address": "東京都 武蔵野市 吉祥寺南町 1-6-9",
-    "code": "hyakumeiten_pizza_2021_restaurant_13005912",
-    "lat": "35.701408",
-    "lng": "139.581106",
-    "id": "pizza-84"
-  }, {
-    "name": "ラ・トリプレッタ",
-    "url": "https://tabelog.com/tokyo/A1317/A131710/13165472/",
-    "address": "東京都 品川区 小山 3-13-12",
-    "code": "hyakumeiten_pizza_2021_restaurant_13165472",
-    "lat": "35.620289",
-    "lng": "139.705546",
-    "id": "pizza-85"
-  }, {
-    "name": "ピッツェリア カンテラ",
-    "url": "https://tabelog.com/tokyo/A1306/A130601/13180224/",
-    "address": "東京都 渋谷区 神宮前 6-28-6 Q plaza HARAJUKU 9F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13180224",
-    "lat": "35.667047",
-    "lng": "139.703858",
-    "id": "pizza-86"
-  }, {
-    "name": "ウッデンシップ",
-    "url": "https://tabelog.com/miyagi/A0403/A040304/4001876/",
-    "address": "宮城県 富谷市 富ケ丘 2-28-2",
-    "code": "hyakumeiten_pizza_2021_restaurant_4001876",
-    "lat": "38.361834",
-    "lng": "140.864789",
-    "id": "pizza-87"
-  }, {
-    "name": "ア フェネステッラ",
-    "url": "https://tabelog.com/nagano/A2003/A200301/20018926/",
-    "address": "長野県 北佐久郡軽井沢町 長倉 2622-5",
-    "code": "hyakumeiten_pizza_2021_restaurant_20018926",
-    "lat": "36.341996",
-    "lng": "138.602345",
-    "id": "pizza-88"
-  }, {
-    "name": "ピッツェリア ダ ティグレ",
-    "url": "https://tabelog.com/osaka/A2701/A270201/27079870/",
-    "address": "大阪府 大阪市西区 新町 1-18-13",
-    "code": "hyakumeiten_pizza_2021_restaurant_27079870",
-    "lat": "34.677278",
-    "lng": "135.494344",
-    "id": "pizza-89"
-  }, {
-    "name": "ソロピッツァ ナポレターナ ダ ピッコロ 大須本店",
-    "url": "https://tabelog.com/aichi/A2301/A230105/23000240/",
-    "address": "愛知県 名古屋市中区 大須 3-36-44",
-    "code": "hyakumeiten_pizza_2021_restaurant_23000240",
-    "lat": "35.158644",
-    "lng": "136.902603",
-    "id": "pizza-90"
-  }, {
-    "name": "SAVOY とまととちーず店",
-    "url": "https://tabelog.com/tokyo/A1307/A130702/13155593/",
-    "address": "東京都 港区 麻布十番 3-3-13 M2Kステージ 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_13155593",
-    "lat": "35.653751",
-    "lng": "139.735292",
-    "id": "pizza-91"
-  }, {
-    "name": "バードランド",
-    "url": "https://tabelog.com/fukui/A1801/A180102/18000038/",
-    "address": "福井県 坂井市 三国町緑ケ丘 4-19-21",
-    "code": "hyakumeiten_pizza_2021_restaurant_18000038",
-    "lat": "36.223877",
-    "lng": "136.155609",
-    "id": "pizza-92"
-  }, {
-    "name": "聖林館",
-    "url": "https://tabelog.com/tokyo/A1317/A131701/13003188/",
-    "address": "東京都 目黒区 上目黒 2-6-4",
-    "code": "hyakumeiten_pizza_2021_restaurant_13003188",
-    "lat": "35.64295",
-    "lng": "139.699125",
-    "id": "pizza-93"
-  }, {
-    "name": "ピッツェリア ダ・アオキ タッポスト",
-    "url": "https://tabelog.com/tokyo/A1321/A132102/13015826/",
-    "address": "東京都 練馬区 早宮 4-37-29 ラフィット豊島園 １Ｆ",
-    "code": "hyakumeiten_pizza_2021_restaurant_13015826",
-    "lat": "35.747831",
-    "lng": "139.649404",
-    "id": "pizza-94"
-  }, {
-    "name": "ナプレ 横浜高島屋店",
-    "url": "https://tabelog.com/kanagawa/A1401/A140101/14029630/",
-    "address": "神奈川県 横浜市西区 南幸 1-6-31 横浜タカシマヤ 8F",
-    "code": "hyakumeiten_pizza_2021_restaurant_14029630",
-    "lat": "35.465637",
-    "lng": "139.620744",
-    "id": "pizza-95"
-  }, {
-    "name": "BACAR",
-    "url": "https://tabelog.com/okinawa/A4701/A470101/47003553/",
-    "address": "沖縄県 那覇市 久茂地 3-16-15",
-    "code": "hyakumeiten_pizza_2021_restaurant_47003553",
-    "lat": "26.215949",
-    "lng": "127.681675",
-    "id": "pizza-96"
-  }, {
-    "name": "ラ ピッツァ ナポレターナ レガロ",
-    "url": "https://tabelog.com/osaka/A2701/A270108/27084799/",
-    "address": "大阪府 大阪市福島区 福島 1-5-2 堀野ビル 1F",
-    "code": "hyakumeiten_pizza_2021_restaurant_27084799",
-    "lat": "34.695215",
-    "lng": "135.48861",
-    "id": "pizza-97"
+    "name": "ヴォメロ",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13139857/",
+    "address": "東京都 中央区 銀座 3-12-8 NKCビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13139857",
+    "lat": "35.670481",
+    "lng": "139.768923",
+    "id": "pizza-6"
   }, {
     "name": "フレイズ フェイマス ピッツェリア",
     "url": "https://tabelog.com/tokyo/A1307/A130701/13124749/",
@@ -790,7 +62,479 @@
     "code": "hyakumeiten_pizza_2021_restaurant_13124749",
     "lat": "35.665131",
     "lng": "139.732578",
-    "id": "pizza-98"
+    "id": "pizza-7"
+  }, {
+    "name": "ナプレ 南青山本店",
+    "url": "https://tabelog.com/tokyo/A1306/A130602/13003493/",
+    "address": "東京都 港区 南青山 5-6-24 林ビル",
+    "code": "hyakumeiten_pizza_2021_restaurant_13003493",
+    "lat": "35.663783",
+    "lng": "139.711906",
+    "id": "pizza-8"
+  }, {
+    "name": "ZUZU",
+    "url": "https://tabelog.com/tokyo/A1322/A132203/13169429/",
+    "address": "東京都 板橋区 徳丸 3-15-2",
+    "code": "hyakumeiten_pizza_2021_restaurant_13169429",
+    "lat": "35.76989",
+    "lng": "139.658436",
+    "id": "pizza-9"
+  }, {
+    "name": "ピッツェリア イル・タンブレッロ",
+    "url": "https://tabelog.com/tokyo/A1302/A130204/13114239/",
+    "address": "東京都 中央区 日本橋堀留町 1-2-9 DIG DUG１階",
+    "code": "hyakumeiten_pizza_2021_restaurant_13114239",
+    "lat": "35.688607",
+    "lng": "139.778847",
+    "id": "pizza-10"
+  }, {
+    "name": "ソロ ピッツァ ナポレターナ ダ ルーチョ 名古屋駅店",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23059142/",
+    "address": "愛知県 名古屋市中村区 名駅 三丁目28-12 ダイナゴヤビルヂング 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_23059142",
+    "lat": "35.172078",
+    "lng": "136.884486",
+    "id": "pizza-11"
+  }, {
+    "name": "アズーリ",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28004410/",
+    "address": "兵庫県 神戸市中央区 山本通 3-7-3 ユートピアトーア １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_28004410",
+    "lat": "34.695936",
+    "lng": "135.186779",
+    "id": "pizza-12"
+  }, {
+    "name": "ピッツェリア デ ナプレ",
+    "url": "https://tabelog.com/miyagi/A0401/A040101/4000125/",
+    "address": "宮城県 仙台市青葉区 立町 26-19 井上ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_4000125",
+    "lat": "38.264735",
+    "lng": "140.86545",
+    "id": "pizza-13"
+  }, {
+    "name": "ピッツェリア スペリアーモ！",
+    "url": "https://tabelog.com/kanagawa/A1401/A140301/14002481/",
+    "address": "神奈川県 横浜市西区 藤棚町 1-121",
+    "code": "hyakumeiten_pizza_2021_restaurant_14002481",
+    "lat": "35.451332",
+    "lng": "139.611748",
+    "id": "pizza-14"
+  }, {
+    "name": "ピッツァマン オオイマチ",
+    "url": "https://tabelog.com/tokyo/A1315/A131501/13113311/",
+    "address": "東京都 品川区 大井 1-11-8",
+    "code": "hyakumeiten_pizza_2021_restaurant_13113311",
+    "lat": "35.607541",
+    "lng": "139.732126",
+    "id": "pizza-15"
+  }, {
+    "name": "リンシエメ",
+    "url": "https://tabelog.com/tokyo/A1312/A131202/13193917/",
+    "address": "東京都 江東区 亀戸 1-31-7",
+    "code": "hyakumeiten_pizza_2021_restaurant_13193917",
+    "lat": "35.694734",
+    "lng": "139.825614",
+    "id": "pizza-16"
+  }, {
+    "name": "ダ アチュ",
+    "url": "https://tabelog.com/gifu/A2101/A210101/21012908/",
+    "address": "岐阜県 岐阜市 神田町 7-17 神田ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_21012908",
+    "lat": "35.413616",
+    "lng": "136.759498",
+    "id": "pizza-17"
+  }, {
+    "name": "SAVOY 麻布十番店",
+    "url": "https://tabelog.com/tokyo/A1307/A130702/13036875/",
+    "address": "東京都 港区 元麻布 3-10-1 中岡ビル ２Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13036875",
+    "lat": "35.657443",
+    "lng": "139.732245",
+    "id": "pizza-18"
+  }, {
+    "name": "ナプレ 東京ミッドタウン店",
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13037338/",
+    "address": "東京都 港区 赤坂 9-7-4 東京ミッドタウン ガレリア ガーデンテラス 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13037338",
+    "lat": "35.666801",
+    "lng": "139.730804",
+    "id": "pizza-19"
+  }, {
+    "name": "カトリカ",
+    "url": "https://tabelog.com/tokyo/A1312/A131203/13040601/",
+    "address": "東京都 墨田区 東向島 5丁目29-6",
+    "code": "hyakumeiten_pizza_2021_restaurant_13040601",
+    "lat": "35.72801",
+    "lng": "139.821793",
+    "id": "pizza-20"
+  }, {
+    "name": "ピッツェリア チーロ 東中野店",
+    "url": "https://tabelog.com/tokyo/A1319/A131901/13115030/",
+    "address": "東京都 中野区 東中野 3-8-3 フェニックスビル1Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13115030",
+    "lat": "35.706952",
+    "lng": "139.682689",
+    "id": "pizza-21"
+  }, {
+    "name": "アランジャルシ",
+    "url": "https://tabelog.com/tokyo/A1311/A131101/13057017/",
+    "address": "東京都 文京区 湯島 4-6-17 丸島ビル１F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13057017",
+    "lat": "35.707911",
+    "lng": "139.767283",
+    "id": "pizza-22"
+  }, {
+    "name": "エンボカ 京都",
+    "url": "https://tabelog.com/kyoto/A2601/A260202/26017525/",
+    "address": "京都府 京都市中京区 西洞院六角下ル池須町406",
+    "code": "hyakumeiten_pizza_2021_restaurant_26017525",
+    "lat": "35.007067",
+    "lng": "135.75503",
+    "id": "pizza-23"
+  }, {
+    "name": "ベントエマーレ",
+    "url": "https://tabelog.com/tokyo/A1317/A131710/13114520/",
+    "address": "東京都 品川区 西五反田 5-26-10 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13114520",
+    "lat": "35.623533",
+    "lng": "139.711277",
+    "id": "pizza-24"
+  }, {
+    "name": "シシリヤ",
+    "url": "https://tabelog.com/kanagawa/A1401/A140104/14001040/",
+    "address": "神奈川県 横浜市中区 相生町 1-7 和同ビル １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_14001040",
+    "lat": "35.446146",
+    "lng": "139.639306",
+    "id": "pizza-25"
+  }, {
+    "name": "ラ・テラッツァ 芦ノ湖",
+    "url": "https://tabelog.com/kanagawa/A1410/A141001/14009281/",
+    "address": "神奈川県 足柄下郡箱根町 元箱根 61",
+    "code": "hyakumeiten_pizza_2021_restaurant_14009281",
+    "lat": "35.203648",
+    "lng": "139.030822",
+    "id": "pizza-26"
+  }, {
+    "name": "PIZZERIA CAPOLI",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13123990/",
+    "address": "東京都 新宿区 新宿 4-1-9 Ｂ１Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13123990",
+    "lat": "35.688924",
+    "lng": "139.702469",
+    "id": "pizza-27"
+  }, {
+    "name": "ピッツェリア ダ・アオキ タッポスト",
+    "url": "https://tabelog.com/tokyo/A1321/A132102/13015826/",
+    "address": "東京都 練馬区 早宮 4-37-29 ラフィット豊島園 １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13015826",
+    "lat": "35.747833",
+    "lng": "139.649415",
+    "id": "pizza-28"
+  }, {
+    "name": "ピッツァ ストラーダ",
+    "url": "https://tabelog.com/tokyo/A1307/A130702/13131245/",
+    "address": "東京都 港区 麻布十番 3-6-2 NS麻布十番ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13131245",
+    "lat": "35.653284",
+    "lng": "139.734766",
+    "id": "pizza-29"
+  }, {
+    "name": "ザ ピッツァバー ON 38TH",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13167573/",
+    "address": "東京都 中央区 日本橋室町 2-1-1 マンダリンオリエンタル東京 38F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13167573",
+    "lat": "35.687048",
+    "lng": "139.773063",
+    "id": "pizza-30"
+  }, {
+    "name": "イル・ピッツァイオーロ",
+    "url": "https://tabelog.com/miyagi/A0401/A040101/4016875/",
+    "address": "宮城県 仙台市青葉区 堤町 1-9-21 第13ジュリヤン 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_4016875",
+    "lat": "38.28411",
+    "lng": "140.870008",
+    "id": "pizza-31"
+  }, {
+    "name": "ダ ユウキ",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26005239/",
+    "address": "京都府 京都市左京区 岡崎円勝寺町 36-3",
+    "code": "hyakumeiten_pizza_2021_restaurant_26005239",
+    "lat": "35.01161",
+    "lng": "135.78064",
+    "id": "pizza-32"
+  }, {
+    "name": "ピノッキオ",
+    "url": "https://tabelog.com/hyogo/A2801/A280101/28000493/",
+    "address": "兵庫県 神戸市中央区 中山手通 2-3-13 太洋ビル １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_28000493",
+    "lat": "34.694823",
+    "lng": "135.188619",
+    "id": "pizza-33"
+  }, {
+    "name": "ア フェネステッラ",
+    "url": "https://tabelog.com/nagano/A2003/A200301/20018926/",
+    "address": "長野県 北佐久郡軽井沢町 長倉 2622-5",
+    "code": "hyakumeiten_pizza_2021_restaurant_20018926",
+    "lat": "36.341996",
+    "lng": "138.602345",
+    "id": "pizza-34"
+  }, {
+    "name": "トニーズピザ",
+    "url": "https://tabelog.com/tokyo/A1320/A132001/13005912/",
+    "address": "東京都 武蔵野市 吉祥寺南町 1-6-9",
+    "code": "hyakumeiten_pizza_2021_restaurant_13005912",
+    "lat": "35.701408",
+    "lng": "139.581106",
+    "id": "pizza-35"
+  }, {
+    "name": "Pizzeria LUMEN",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13025499/",
+    "address": "東京都 新宿区 歌舞伎町 2-8-3 最上ビル新宿 １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13025499",
+    "lat": "35.694975",
+    "lng": "139.705787",
+    "id": "pizza-36"
+  }, {
+    "name": "ピッツェリア ロマーナ ジャニコロ",
+    "url": "https://tabelog.com/tokyo/A1307/A130702/13122753/",
+    "address": "東京都 港区 麻布十番 2-8-8 渡邊ビルB1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13122753",
+    "lat": "35.65542",
+    "lng": "139.734822",
+    "id": "pizza-37"
+  }, {
+    "name": "ピッツェリア・ロマーナ・イル・ペンティート",
+    "url": "https://tabelog.com/tokyo/A1318/A131810/13000684/",
+    "address": "東京都 渋谷区 代々木 3-1-1 ＡＸＩＳ １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13000684",
+    "lat": "35.68227",
+    "lng": "139.696303",
+    "id": "pizza-38"
+  }, {
+    "name": "花人逢",
+    "url": "https://tabelog.com/okinawa/A4702/A470202/47000232/",
+    "address": "沖縄県 国頭郡本部町 字山里1153-2",
+    "code": "hyakumeiten_pizza_2021_restaurant_47000232",
+    "lat": "26.668449",
+    "lng": "127.900886",
+    "id": "pizza-39"
+  }, {
+    "name": "ゑんぞ",
+    "url": "https://tabelog.com/tokyo/A1311/A131103/13141862/",
+    "address": "東京都 台東区 浅草橋 1-17-2",
+    "code": "hyakumeiten_pizza_2021_restaurant_13141862",
+    "lat": "35.697403",
+    "lng": "139.785254",
+    "id": "pizza-40"
+  }, {
+    "name": "ラ・ピッコラ・ターヴォラ",
+    "url": "https://tabelog.com/tokyo/A1318/A131805/13005575/",
+    "address": "東京都 杉並区 永福 4-2-4",
+    "code": "hyakumeiten_pizza_2021_restaurant_13005575",
+    "lat": "35.676938",
+    "lng": "139.643611",
+    "id": "pizza-41"
+  }, {
+    "name": "エンボカ 東京",
+    "url": "https://tabelog.com/tokyo/A1318/A131811/13040937/",
+    "address": "東京都 渋谷区 元代々木16-16",
+    "code": "hyakumeiten_pizza_2021_restaurant_13040937",
+    "lat": "35.670943",
+    "lng": "139.683819",
+    "id": "pizza-42"
+  }, {
+    "name": "ダルブリガンテ",
+    "url": "https://tabelog.com/osaka/A2701/A270108/27004565/",
+    "address": "大阪府 大阪市福島区 福島 3-6-14",
+    "code": "hyakumeiten_pizza_2021_restaurant_27004565",
+    "lat": "34.69302",
+    "lng": "135.484312",
+    "id": "pizza-43"
+  }, {
+    "name": "quarto",
+    "url": "https://tabelog.com/hyogo/A2801/A280101/28041401/",
+    "address": "兵庫県 神戸市中央区 中山手通 2-3-7 サンハイツ中山手ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_28041401",
+    "lat": "34.694493",
+    "lng": "135.188854",
+    "id": "pizza-44"
+  }, {
+    "name": "ピッツェリア・マリータ",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26020891/",
+    "address": "京都府 京都市中京区 堺町通錦小路上ル512",
+    "code": "hyakumeiten_pizza_2021_restaurant_26020891",
+    "lat": "35.005985",
+    "lng": "135.76315",
+    "id": "pizza-45"
+  }, {
+    "name": "DADA",
+    "url": "https://tabelog.com/kanagawa/A1404/A140402/14039433/",
+    "address": "神奈川県 鎌倉市 雪ノ下 1-11-2 雪ノ下ビル １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_14039433",
+    "lat": "35.322553",
+    "lng": "139.554479",
+    "id": "pizza-46"
+  }, {
+    "name": "ピッツェリア ダ ティグレ",
+    "url": "https://tabelog.com/osaka/A2701/A270201/27079870/",
+    "address": "大阪府 大阪市西区 新町 1-18-13",
+    "code": "hyakumeiten_pizza_2021_restaurant_27079870",
+    "lat": "34.677278",
+    "lng": "135.494344",
+    "id": "pizza-47"
+  }, {
+    "name": "ピッツェリア カンテラ",
+    "url": "https://tabelog.com/tokyo/A1306/A130601/13180224/",
+    "address": "東京都 渋谷区 神宮前 6-28-6 Q plaza HARAJUKU 9F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13180224",
+    "lat": "35.667047",
+    "lng": "139.703858",
+    "id": "pizza-48"
+  }, {
+    "name": "パルテノペ 恵比寿店",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13005480/",
+    "address": "東京都 渋谷区 恵比寿 1-22-20 恵比寿幸和ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13005480",
+    "lat": "35.646152",
+    "lng": "139.713987",
+    "id": "pizza-49"
+  }, {
+    "name": "ガレリア 富田林",
+    "url": "https://tabelog.com/osaka/A2708/A270802/27011027/",
+    "address": "大阪府 富田林市 向陽台 2-2-7",
+    "code": "hyakumeiten_pizza_2021_restaurant_27011027",
+    "lat": "34.502277",
+    "lng": "135.580401",
+    "id": "pizza-50"
+  }, {
+    "name": "ラ・バルカッチャ",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27054558/",
+    "address": "大阪府 大阪市北区 豊崎 3-5-17 1階",
+    "code": "hyakumeiten_pizza_2021_restaurant_27054558",
+    "lat": "34.711156",
+    "lng": "135.499447",
+    "id": "pizza-51"
+  }, {
+    "name": "SAKURAGUMI",
+    "url": "https://tabelog.com/hyogo/A2805/A280502/28001438/",
+    "address": "兵庫県 赤穂市 御崎 2-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_28001438",
+    "lat": "34.727123",
+    "lng": "134.408569",
+    "id": "pizza-52"
+  }, {
+    "name": "BACAR",
+    "url": "https://tabelog.com/okinawa/A4701/A470101/47003553/",
+    "address": "沖縄県 那覇市 久茂地 3-16-15",
+    "code": "hyakumeiten_pizza_2021_restaurant_47003553",
+    "lat": "26.215949",
+    "lng": "127.681675",
+    "id": "pizza-53"
+  }, {
+    "name": "ピッツェリアGG 鎌倉",
+    "url": "https://tabelog.com/kanagawa/A1404/A140402/14051790/",
+    "address": "神奈川県 鎌倉市 由比ガ浜 2-9-62 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_14051790",
+    "lat": "35.314517",
+    "lng": "139.549057",
+    "id": "pizza-54"
+  }, {
+    "name": "トラットリア エ ピッツェリア アミーチ",
+    "url": "https://tabelog.com/ibaraki/A0802/A080201/8000842/",
+    "address": "茨城県 つくば市 手代木 286-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_8000842",
+    "lat": "36.060047",
+    "lng": "140.108684",
+    "id": "pizza-55"
+  }, {
+    "name": "タランテッラ ダ ルイジ",
+    "url": "https://tabelog.com/tokyo/A1316/A131602/13122166/",
+    "address": "東京都 港区 白金 3-22-2-1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13122166",
+    "lat": "35.64464",
+    "lng": "139.731293",
+    "id": "pizza-56"
+  }, {
+    "name": "ピッツェリア エ トラットリア ダ・マサニエッロ",
+    "url": "https://tabelog.com/hyogo/A2803/A280303/28031917/",
+    "address": "兵庫県 宝塚市 伊孑志 1-8-20",
+    "code": "hyakumeiten_pizza_2021_restaurant_28031917",
+    "lat": "34.797908",
+    "lng": "135.354067",
+    "id": "pizza-57"
+  }, {
+    "name": "ラッテリア ベベ  カマクラ",
+    "url": "https://tabelog.com/kanagawa/A1404/A140402/14058636/",
+    "address": "神奈川県 鎌倉市 御成11-17",
+    "code": "hyakumeiten_pizza_2021_restaurant_14058636",
+    "lat": "35.318649",
+    "lng": "139.549342",
+    "id": "pizza-58"
+  }, {
+    "name": "ナポリスタカ 神谷町店",
+    "url": "https://tabelog.com/tokyo/A1307/A130704/13132020/",
+    "address": "東京都 港区 麻布台 1-11-4 いんなあとりっぷビル１Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13132020",
+    "lat": "35.660219",
+    "lng": "139.743268",
+    "id": "pizza-59"
+  }, {
+    "name": "エッセ ドゥエ 赤坂店",
+    "url": "https://tabelog.com/tokyo/A1308/A130801/13002191/",
+    "address": "東京都 港区 赤坂 6-11-13 ｆａｂｒｉｃビル B1F・1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13002191",
+    "lat": "35.669892",
+    "lng": "139.734837",
+    "id": "pizza-60"
+  }, {
+    "name": "檪の丘",
+    "url": "https://tabelog.com/oita/A4402/A440201/44000453/",
+    "address": "大分県 由布市 湯布院町川北 893-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_44000453",
+    "lat": "33.263073",
+    "lng": "131.330146",
+    "id": "pizza-61"
+  }, {
+    "name": "Pizzeria Bakka M'unica",
+    "url": "https://tabelog.com/tokyo/A1315/A131501/13182694/",
+    "address": "東京都 品川区 東大井 1-3-17 コーポマルイノ 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13182694",
+    "lat": "35.60494",
+    "lng": "139.743398",
+    "id": "pizza-62"
+  }, {
+    "name": "聖林館",
+    "url": "https://tabelog.com/tokyo/A1317/A131701/13003188/",
+    "address": "東京都 目黒区 上目黒 2-6-4",
+    "code": "hyakumeiten_pizza_2021_restaurant_13003188",
+    "lat": "35.64295",
+    "lng": "139.699125",
+    "id": "pizza-63"
+  }, {
+    "name": "SAVOY とまととちーず店",
+    "url": "https://tabelog.com/tokyo/A1307/A130702/13155593/",
+    "address": "東京都 港区 麻布十番 3-3-13 M2Kステージ 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13155593",
+    "lat": "35.653753",
+    "lng": "139.735291",
+    "id": "pizza-64"
+  }, {
+    "name": "ナプレ 横浜高島屋店",
+    "url": "https://tabelog.com/kanagawa/A1401/A140101/14029630/",
+    "address": "神奈川県 横浜市西区 南幸 1-6-31 横浜タカシマヤ 8F",
+    "code": "hyakumeiten_pizza_2021_restaurant_14029630",
+    "lat": "35.465637",
+    "lng": "139.620744",
+    "id": "pizza-65"
+  }, {
+    "name": "ナポリスタカ 駒沢店",
+    "url": "https://tabelog.com/tokyo/A1317/A131707/13188330/",
+    "address": "東京都 世田谷区 上馬 4-5-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_13188330",
+    "lat": "35.633911",
+    "lng": "139.661197",
+    "id": "pizza-66"
   }, {
     "name": "アンティーカ・ピッツェリア・ダ・ミケーレ 恵比寿",
     "url": "https://tabelog.com/tokyo/A1303/A130302/13136144/",
@@ -798,6 +542,262 @@
     "code": "hyakumeiten_pizza_2021_restaurant_13136144",
     "lat": "35.645264",
     "lng": "139.711771",
+    "id": "pizza-67"
+  }, {
+    "name": "マッシモッタヴィオ",
+    "url": "https://tabelog.com/tokyo/A1318/A131805/13132982/",
+    "address": "東京都 杉並区 永福 4-4-4 永福町ファイブビル",
+    "code": "hyakumeiten_pizza_2021_restaurant_13132982",
+    "lat": "35.676855",
+    "lng": "139.642769",
+    "id": "pizza-68"
+  }, {
+    "name": "da GIORGIO",
+    "url": "https://tabelog.com/tokyo/A1311/A131101/13170979/",
+    "address": "東京都 文京区 湯島 3-37-14 ソルミオビル 1F 2F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13170979",
+    "lat": "35.707495",
+    "lng": "139.771484",
+    "id": "pizza-69"
+  }, {
+    "name": "ナポリピッツァ Pizzeria la Rossa",
+    "url": "https://tabelog.com/tokyo/A1317/A131702/13130666/",
+    "address": "東京都 目黒区 目黒本町 5-33-25",
+    "code": "hyakumeiten_pizza_2021_restaurant_13130666",
+    "lat": "35.622271",
+    "lng": "139.697784",
+    "id": "pizza-70"
+  }, {
+    "name": "ラ・トリプレッタ",
+    "url": "https://tabelog.com/tokyo/A1317/A131710/13165472/",
+    "address": "東京都 品川区 小山 3-13-12",
+    "code": "hyakumeiten_pizza_2021_restaurant_13165472",
+    "lat": "35.620289",
+    "lng": "139.705546",
+    "id": "pizza-71"
+  }, {
+    "name": "トラットリア ピッツェリア ラルテ",
+    "url": "https://tabelog.com/tokyo/A1317/A131706/13128533/",
+    "address": "東京都 世田谷区 三軒茶屋 1-35-17 1Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13128533",
+    "lat": "35.642984",
+    "lng": "139.67237",
+    "id": "pizza-72"
+  }, {
+    "name": "ソロピッツァ ナポレターナ ダ ジェンナーロ 矢場店",
+    "url": "https://tabelog.com/aichi/A2301/A230103/23038884/",
+    "address": "愛知県 名古屋市中区 栄 3-32-8",
+    "code": "hyakumeiten_pizza_2021_restaurant_23038884",
+    "lat": "35.16302",
+    "lng": "136.907821",
+    "id": "pizza-73"
+  }, {
+    "name": "イ・ロッタ",
+    "url": "https://tabelog.com/tokyo/A1316/A131601/13003385/",
+    "address": "東京都 目黒区 下目黒 1-5-21 目黒ＤＫウェスト １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13003385",
+    "lat": "35.634295",
+    "lng": "139.712417",
+    "id": "pizza-74"
+  }, {
+    "name": "バードランド",
+    "url": "https://tabelog.com/fukui/A1801/A180102/18000038/",
+    "address": "福井県 坂井市 三国町緑ケ丘 4-19-21",
+    "code": "hyakumeiten_pizza_2021_restaurant_18000038",
+    "lat": "36.223877",
+    "lng": "136.155609",
+    "id": "pizza-75"
+  }, {
+    "name": "ピッツェリア ジターリア ダ フィリッポ",
+    "url": "https://tabelog.com/tokyo/A1321/A132103/13149962/",
+    "address": "東京都 練馬区 石神井町 2-13-5 グリーンハイム たちばな 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13149962",
+    "lat": "35.744466",
+    "lng": "139.608956",
+    "id": "pizza-76"
+  }, {
+    "name": "ヴァカンツァ",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13007135/",
+    "address": "東京都 渋谷区 恵比寿 4-27-2 １Ｆ・２Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13007135",
+    "lat": "35.645724",
+    "lng": "139.715012",
+    "id": "pizza-77"
+  }, {
+    "name": "ピッツェリアブラチェリア チェザリ",
+    "url": "https://tabelog.com/aichi/A2301/A230105/23008274/",
+    "address": "愛知県 名古屋市中区 大須 3-36-44",
+    "code": "hyakumeiten_pizza_2021_restaurant_23008274",
+    "lat": "35.158644",
+    "lng": "136.902603",
+    "id": "pizza-78"
+  }, {
+    "name": "ピッツェリア・ダ・ガエターノ 薬院店",
+    "url": "https://tabelog.com/fukuoka/A4001/A400104/40028105/",
+    "address": "福岡県 福岡市中央区 渡辺通 り2-7-14 パグ​ーロ薬院1階",
+    "code": "hyakumeiten_pizza_2021_restaurant_40028105",
+    "lat": "33.582846",
+    "lng": "130.402077",
+    "id": "pizza-79"
+  }, {
+    "name": "ピッツァダバッボ",
+    "url": "https://tabelog.com/tokyo/A1302/A130204/13025362/",
+    "address": "東京都 中央区 日本橋人形町 2-21-1 FSビル １Ｆ",
+    "code": "hyakumeiten_pizza_2021_restaurant_13025362",
+    "lat": "35.685926",
+    "lng": "139.784474",
+    "id": "pizza-80"
+  }, {
+    "name": "ウッデンシップ",
+    "url": "https://tabelog.com/miyagi/A0403/A040304/4001876/",
+    "address": "宮城県 富谷市 富ケ丘 2-28-2",
+    "code": "hyakumeiten_pizza_2021_restaurant_4001876",
+    "lat": "38.361834",
+    "lng": "140.864789",
+    "id": "pizza-81"
+  }, {
+    "name": "マガジーノ",
+    "url": "https://tabelog.com/nara/A2903/A290302/29000162/",
+    "address": "奈良県 香芝市 鎌田 172-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_29000162",
+    "lat": "34.520676",
+    "lng": "135.712394",
+    "id": "pizza-82"
+  }, {
+    "name": "ラ ピッツァ ナポレターナ レガロ",
+    "url": "https://tabelog.com/osaka/A2701/A270108/27084799/",
+    "address": "大阪府 大阪市福島区 福島 1-5-2 堀野ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_27084799",
+    "lat": "34.695202",
+    "lng": "135.488616",
+    "id": "pizza-83"
+  }, {
+    "name": "ピッツェリア キアッキェローネ",
+    "url": "https://tabelog.com/kanagawa/A1401/A140102/14044667/",
+    "address": "神奈川県 横浜市中区 野毛町 3-158",
+    "code": "hyakumeiten_pizza_2021_restaurant_14044667",
+    "lat": "35.448372",
+    "lng": "139.627403",
+    "id": "pizza-84"
+  }, {
+    "name": "terzo",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28035660/",
+    "address": "兵庫県 神戸市中央区 北長狭通 2-6-6 ヤナセビル 2F",
+    "code": "hyakumeiten_pizza_2021_restaurant_28035660",
+    "lat": "34.692214",
+    "lng": "135.189656",
+    "id": "pizza-85"
+  }, {
+    "name": "築地トゥットベーネ",
+    "url": "https://tabelog.com/tokyo/A1313/A131301/13183253/",
+    "address": "東京都 中央区 築地 7-10-10",
+    "code": "hyakumeiten_pizza_2021_restaurant_13183253",
+    "lat": "35.666007",
+    "lng": "139.774879",
+    "id": "pizza-86"
+  }, {
+    "name": "ソロピッツァ ナポレターナ ダ ピッコロ 大須本店",
+    "url": "https://tabelog.com/aichi/A2301/A230105/23000240/",
+    "address": "愛知県 名古屋市中区 大須 3-36-44",
+    "code": "hyakumeiten_pizza_2021_restaurant_23000240",
+    "lat": "35.158644",
+    "lng": "136.902603",
+    "id": "pizza-87"
+  }, {
+    "name": "ピッツェリア ダ マッシモ",
+    "url": "https://tabelog.com/hokkaido/A0101/A010301/1031158/",
+    "address": "北海道 札幌市白石区 川下 2条5丁目2-8",
+    "code": "hyakumeiten_pizza_2021_restaurant_1031158",
+    "lat": "43.048192",
+    "lng": "141.446276",
+    "id": "pizza-88"
+  }, {
+    "name": "PIZZA BORSA",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13170403/",
+    "address": "東京都 豊島区 西池袋 3-30-8 渡辺ビル 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13170403",
+    "lat": "35.730973",
+    "lng": "139.706229",
+    "id": "pizza-89"
+  }, {
+    "name": "ピッツエリア エ トラットリア ダ イーサ",
+    "url": "https://tabelog.com/tokyo/A1317/A131701/13103245/",
+    "address": "東京都 目黒区 青葉台 1-28-9",
+    "code": "hyakumeiten_pizza_2021_restaurant_13103245",
+    "lat": "35.647187",
+    "lng": "139.695415",
+    "id": "pizza-90"
+  }, {
+    "name": "IL PAPPALARDO",
+    "url": "https://tabelog.com/kyoto/A2601/A260304/26001638/",
+    "address": "京都府 京都市東山区 妙法院前側町 451-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_26001638",
+    "lat": "34.988906",
+    "lng": "135.778",
+    "id": "pizza-91"
+  }, {
+    "name": "イル ピッツァイオーロ",
+    "url": "https://tabelog.com/tokyo/A1317/A131706/13013741/",
+    "address": "東京都 世田谷区 太子堂 4-20-7 QG三軒茶屋 1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13013741",
+    "lat": "35.644462",
+    "lng": "139.668661",
+    "id": "pizza-92"
+  }, {
+    "name": "トラットリア ピッツェリア polipo",
+    "url": "https://tabelog.com/hiroshima/A3401/A340118/34013074/",
+    "address": "広島県 広島市中区 東白島町 20-5",
+    "code": "hyakumeiten_pizza_2021_restaurant_34013074",
+    "lat": "34.402766",
+    "lng": "132.465772",
+    "id": "pizza-93"
+  }, {
+    "name": "ベッラ・ナポリ",
+    "url": "https://tabelog.com/tokyo/A1312/A131201/13005043/",
+    "address": "東京都 江東区 高橋 9-3",
+    "code": "hyakumeiten_pizza_2021_restaurant_13005043",
+    "lat": "35.68527",
+    "lng": "139.799178",
+    "id": "pizza-94"
+  }, {
+    "name": "ピッツェリアGG 吉祥寺",
+    "url": "https://tabelog.com/tokyo/A1320/A132001/13047308/",
+    "address": "東京都 武蔵野市 吉祥寺南町 1-17-1 プレジール B1F",
+    "code": "hyakumeiten_pizza_2021_restaurant_13047308",
+    "lat": "35.700944",
+    "lng": "139.578668",
+    "id": "pizza-95"
+  }, {
+    "name": "山岡ピザ",
+    "url": "https://tabelog.com/nara/A2902/A290201/29000860/",
+    "address": "奈良県 生駒市 鬼取町 455",
+    "code": "hyakumeiten_pizza_2021_restaurant_29000860",
+    "lat": "34.671295",
+    "lng": "135.684938",
+    "id": "pizza-96"
+  }, {
+    "name": "デルソーレ",
+    "url": "https://tabelog.com/hokkaido/A0106/A010603/1009661/",
+    "address": "北海道 虻田郡ニセコ町 ニセコ 483- 1 ポテト共和国内",
+    "code": "hyakumeiten_pizza_2021_restaurant_1009661",
+    "lat": "42.846466",
+    "lng": "140.645617",
+    "id": "pizza-97"
+  }, {
+    "name": "ピッツェリア・スクニッツォ・ダ・シゲオ",
+    "url": "https://tabelog.com/osaka/A2701/A270103/27053555/",
+    "address": "大阪府 大阪市北区 本庄西 2丁目4-7",
+    "code": "hyakumeiten_pizza_2021_restaurant_27053555",
+    "lat": "34.713236",
+    "lng": "135.50551",
+    "id": "pizza-98"
+  }, {
+    "name": "エンボカ 軽井沢",
+    "url": "https://tabelog.com/nagano/A2003/A200301/20015714/",
+    "address": "長野県 北佐久郡軽井沢町 軽井沢 1277-1",
+    "code": "hyakumeiten_pizza_2021_restaurant_20015714",
+    "lat": "36.350122",
+    "lng": "138.634155",
     "id": "pizza-99"
   }]
 }
