@@ -1,0 +1,803 @@
+{
+  "shops": [{
+    "name": "田代",
+    "url": "https://tabelog.com/aichi/A2303/A230302/23003045/",
+    "address": "愛知県 瀬戸市 深川町 13",
+    "code": "hyakumeiten_unagi_2022_restaurant_23003045",
+    "lat": "35.227243",
+    "lng": "137.102316",
+    "id": "unagi-0"
+  }, {
+    "name": "一二三本店",
+    "url": "https://tabelog.com/tokyo/A1317/A131709/13013099/",
+    "address": "東京都 世田谷区 若林 4-24-15",
+    "code": "hyakumeiten_unagi_2022_restaurant_13013099",
+    "lat": "35.645234",
+    "lng": "139.655343",
+    "id": "unagi-1"
+  }, {
+    "name": "かいだ屋",
+    "url": "https://tabelog.com/kochi/A3901/A390102/39000043/",
+    "address": "高知県 南国市 浜改田 1330-3",
+    "code": "hyakumeiten_unagi_2022_restaurant_39000043",
+    "lat": "33.534318",
+    "lng": "133.649133",
+    "id": "unagi-2"
+  }, {
+    "name": "小淵沢 井筒屋",
+    "url": "https://tabelog.com/yamanashi/A1902/A190201/19000064/",
+    "address": "山梨県 北杜市 小淵沢町 1035",
+    "code": "hyakumeiten_unagi_2022_restaurant_19000064",
+    "lat": "35.862952",
+    "lng": "138.317134",
+    "id": "unagi-3"
+  }, {
+    "name": "さくめ",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22011080/",
+    "address": "静岡県 浜松市北区 三ケ日町佐久米724-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_22011080",
+    "lat": "34.789623",
+    "lng": "137.599574",
+    "id": "unagi-4"
+  }, {
+    "name": "安斎",
+    "url": "https://tabelog.com/tokyo/A1319/A131906/13001105/",
+    "address": "東京都 杉並区 荻窪 4-12-16",
+    "code": "hyakumeiten_unagi_2022_restaurant_13001105",
+    "lat": "35.701817",
+    "lng": "139.620476",
+    "id": "unagi-5"
+  }, {
+    "name": "ちか定",
+    "url": "https://tabelog.com/shiga/A2501/A250101/25000697/",
+    "address": "滋賀県 大津市 玉野浦 7-4",
+    "code": "hyakumeiten_unagi_2022_restaurant_25000697",
+    "lat": "34.980671",
+    "lng": "135.908806",
+    "id": "unagi-6"
+  }, {
+    "name": "小川家",
+    "url": "https://tabelog.com/shizuoka/A2205/A220503/22000059/",
+    "address": "静岡県 下田市 2-8-14",
+    "code": "hyakumeiten_unagi_2022_restaurant_22000059",
+    "lat": "34.672654",
+    "lng": "138.944947",
+    "id": "unagi-7"
+  }, {
+    "name": "うなぎ 魚政",
+    "url": "https://tabelog.com/tokyo/A1324/A132403/13035339/",
+    "address": "東京都 葛飾区 東四ツ木4-14-4",
+    "code": "hyakumeiten_unagi_2022_restaurant_13035339",
+    "lat": "35.732081",
+    "lng": "139.835612",
+    "id": "unagi-8"
+  }, {
+    "name": "うなぎ屋 廣川",
+    "url": "https://tabelog.com/kyoto/A2601/A260403/26000921/",
+    "address": "京都府 京都市右京区 嵯峨天龍寺北造路町 44-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_26000921",
+    "lat": "35.01695",
+    "lng": "135.677287",
+    "id": "unagi-9"
+  }, {
+    "name": "吉寅",
+    "url": "https://tabelog.com/osaka/A2701/A270106/27001073/",
+    "address": "大阪府 大阪市中央区 備後町 1-6-6",
+    "code": "hyakumeiten_unagi_2022_restaurant_27001073",
+    "lat": "34.685534",
+    "lng": "135.507111",
+    "id": "unagi-10"
+  }, {
+    "name": "五代目 野田岩 麻布飯倉本店",
+    "url": "https://tabelog.com/tokyo/A1314/A131401/13002789/",
+    "address": "東京都 港区 東麻布 1-5-4",
+    "code": "hyakumeiten_unagi_2022_restaurant_13002789",
+    "lat": "35.658121",
+    "lng": "139.743334",
+    "id": "unagi-11"
+  }, {
+    "name": "瞬",
+    "url": "https://tabelog.com/shizuoka/A2201/A220101/22019273/",
+    "address": "静岡県 静岡市葵区 有永町 260-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_22019273",
+    "lat": "35.031831",
+    "lng": "138.39086",
+    "id": "unagi-12"
+  }, {
+    "name": "うな貴",
+    "url": "https://tabelog.com/miyagi/A0401/A040101/4000083/",
+    "address": "宮城県 仙台市青葉区 国分町 3-2-18",
+    "code": "hyakumeiten_unagi_2022_restaurant_4000083",
+    "lat": "38.265985",
+    "lng": "140.869338",
+    "id": "unagi-13"
+  }, {
+    "name": "鰻家",
+    "url": "https://tabelog.com/tokyo/A1321/A132101/13012445/",
+    "address": "東京都 豊島区 南長崎 5-18-17",
+    "code": "hyakumeiten_unagi_2022_restaurant_13012445",
+    "lat": "35.728062",
+    "lng": "139.682233",
+    "id": "unagi-14"
+  }, {
+    "name": "あつた蓬莱軒 松坂屋店",
+    "url": "https://tabelog.com/aichi/A2301/A230103/23000108/",
+    "address": "愛知県 名古屋市中区 栄 3-30-8 松坂屋名古屋店 南館 10F",
+    "code": "hyakumeiten_unagi_2022_restaurant_23000108",
+    "lat": "35.164522",
+    "lng": "136.907932",
+    "id": "unagi-15"
+  }, {
+    "name": "うなぎ 丸富",
+    "url": "https://tabelog.com/tokyo/A1315/A131501/13026638/",
+    "address": "東京都 品川区 南品川 3-6-2",
+    "code": "hyakumeiten_unagi_2022_restaurant_13026638",
+    "lat": "35.610676",
+    "lng": "139.744561",
+    "id": "unagi-16"
+  }, {
+    "name": "うなぎ 浜名",
+    "url": "https://tabelog.com/saitama/A1101/A110102/11003229/",
+    "address": "埼玉県 さいたま市浦和区 仲町 2-9-2 インフィニティうらわ １Ｆ",
+    "code": "hyakumeiten_unagi_2022_restaurant_11003229",
+    "lat": "35.861066",
+    "lng": "139.651588",
+    "id": "unagi-17"
+  }, {
+    "name": "うなぎ お㚙川 我孫子店",
+    "url": "https://tabelog.com/chiba/A1203/A120304/12029065/",
+    "address": "千葉県 我孫子市 本町 1-2-3 青木ビル 1F",
+    "code": "hyakumeiten_unagi_2022_restaurant_12029065",
+    "lat": "35.871929",
+    "lng": "140.009848",
+    "id": "unagi-18"
+  }, {
+    "name": "大國屋鰻兵衛",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26030320/",
+    "address": "京都府 京都市中京区 堺町通錦小路上ル539",
+    "code": "hyakumeiten_unagi_2022_restaurant_26030320",
+    "lat": "35.005008",
+    "lng": "135.763278",
+    "id": "unagi-19"
+  }, {
+    "name": "祇をん う桶や う",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26001387/",
+    "address": "京都府 京都市東山区 祇園西花見小路四条下ル",
+    "code": "hyakumeiten_unagi_2022_restaurant_26001387",
+    "lat": "35.002085",
+    "lng": "135.774349",
+    "id": "unagi-20"
+  }, {
+    "name": "鈴木",
+    "url": "https://tabelog.com/tokyo/A1326/A132601/13005981/",
+    "address": "東京都 調布市 布田 1-50-1 マートルコート調布第３",
+    "code": "hyakumeiten_unagi_2022_restaurant_13005981",
+    "lat": "35.651998",
+    "lng": "139.546497",
+    "id": "unagi-21"
+  }, {
+    "name": "川蝉",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9000024/",
+    "address": "栃木県 宇都宮市 大通り 5-1-19",
+    "code": "hyakumeiten_unagi_2022_restaurant_9000024",
+    "lat": "36.561346",
+    "lng": "139.892103",
+    "id": "unagi-22"
+  }, {
+    "name": "うなぎ家 しば福や",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23067466/",
+    "address": "愛知県 名古屋市西区 那古野 1-23-10",
+    "code": "hyakumeiten_unagi_2022_restaurant_23067466",
+    "lat": "35.175093",
+    "lng": "136.891536",
+    "id": "unagi-23"
+  }, {
+    "name": "神田きくかわ 日比谷店",
+    "url": "https://tabelog.com/tokyo/A1301/A130102/13000134/",
+    "address": "東京都 千代田区 丸の内 3-1-1 帝劇ビル B2F",
+    "code": "hyakumeiten_unagi_2022_restaurant_13000134",
+    "lat": "35.676401",
+    "lng": "139.760631",
+    "id": "unagi-24"
+  }, {
+    "name": "うなぎ料理 はし家",
+    "url": "https://tabelog.com/mie/A2401/A240101/24001425/",
+    "address": "三重県 津市 大門 4-10",
+    "code": "hyakumeiten_unagi_2022_restaurant_24001425",
+    "lat": "34.718111",
+    "lng": "136.513113",
+    "id": "unagi-25"
+  }, {
+    "name": "かぶと",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13016660/",
+    "address": "東京都 豊島区 池袋 2-53-2 池袋ESビル 1F",
+    "code": "hyakumeiten_unagi_2022_restaurant_13016660",
+    "lat": "35.733791",
+    "lng": "139.708998",
+    "id": "unagi-26"
+  }, {
+    "name": "鰻禅",
+    "url": "https://tabelog.com/tokyo/A1312/A131203/13058979/",
+    "address": "東京都 墨田区 吾妻橋 3-6-18",
+    "code": "hyakumeiten_unagi_2022_restaurant_13058979",
+    "lat": "35.708864",
+    "lng": "139.805713",
+    "id": "unagi-27"
+  }, {
+    "name": "辻屋",
+    "url": "https://tabelog.com/gifu/A2102/A210204/21000002/",
+    "address": "岐阜県 関市 本町 5-14",
+    "code": "hyakumeiten_unagi_2022_restaurant_21000002",
+    "lat": "35.486003",
+    "lng": "136.91543",
+    "id": "unagi-28"
+  }, {
+    "name": "うなぎのまつ嘉",
+    "url": "https://tabelog.com/nagano/A2002/A200201/20000103/",
+    "address": "長野県 松本市 中央 3-2-29",
+    "code": "hyakumeiten_unagi_2022_restaurant_20000103",
+    "lat": "36.23249",
+    "lng": "137.971895",
+    "id": "unagi-29"
+  }, {
+    "name": "うなぎ時任",
+    "url": "https://tabelog.com/tokyo/A1307/A130702/13224663/",
+    "address": "東京都 港区 麻布十番 2-5-11 AZABUMAISON201",
+    "code": "hyakumeiten_unagi_2022_restaurant_13224663",
+    "lat": "35.65623",
+    "lng": "139.733315",
+    "id": "unagi-30"
+  }, {
+    "name": "炭焼うなぎ 加茂",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22008615/",
+    "address": "静岡県 浜松市北区 三ヶ日町都筑 791-8",
+    "code": "hyakumeiten_unagi_2022_restaurant_22008615",
+    "lat": "34.791166",
+    "lng": "137.584864",
+    "id": "unagi-31"
+  }, {
+    "name": "魚登久",
+    "url": "https://tabelog.com/tochigi/A0903/A090302/9000136/",
+    "address": "栃木県 日光市 今市 467",
+    "code": "hyakumeiten_unagi_2022_restaurant_9000136",
+    "lat": "36.72444",
+    "lng": "139.686062",
+    "id": "unagi-32"
+  }, {
+    "name": "うなぎ亭 友栄",
+    "url": "https://tabelog.com/kanagawa/A1410/A141001/14001626/",
+    "address": "神奈川県 小田原市 風祭 122",
+    "code": "hyakumeiten_unagi_2022_restaurant_14001626",
+    "lat": "35.243315",
+    "lng": "139.126229",
+    "id": "unagi-33"
+  }, {
+    "name": "鰻はし本",
+    "url": "https://tabelog.com/tokyo/A1302/A130202/13011474/",
+    "address": "東京都 中央区 八重洲 1-5-10",
+    "code": "hyakumeiten_unagi_2022_restaurant_13011474",
+    "lat": "35.6819",
+    "lng": "139.770969",
+    "id": "unagi-34"
+  }, {
+    "name": "日本橋いづもや",
+    "url": "https://tabelog.com/tokyo/A1302/A130202/13011198/",
+    "address": "東京都 中央区 日本橋本石町 3-3-4",
+    "code": "hyakumeiten_unagi_2022_restaurant_13011198",
+    "lat": "35.687774",
+    "lng": "139.770929",
+    "id": "unagi-35"
+  }, {
+    "name": "炭焼うなぎ 喜多川",
+    "url": "https://tabelog.com/mie/A2402/A240201/24000042/",
+    "address": "三重県 四日市市 昌栄町 9-13",
+    "code": "hyakumeiten_unagi_2022_restaurant_24000042",
+    "lat": "34.958192",
+    "lng": "136.626984",
+    "id": "unagi-36"
+  }, {
+    "name": "うなぎ処　もりやま",
+    "url": "https://tabelog.com/miyazaki/A4501/A450101/45000876/",
+    "address": "宮崎県 宮崎市 高岡町浦之名 872",
+    "code": "hyakumeiten_unagi_2022_restaurant_45000876",
+    "lat": "31.947734",
+    "lng": "131.235664",
+    "id": "unagi-37"
+  }, {
+    "name": "わたべ",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13042184/",
+    "address": "東京都 文京区 小石川 1-9-14 アトラスタワー小石川 1Ｆ",
+    "code": "hyakumeiten_unagi_2022_restaurant_13042184",
+    "lat": "35.71148",
+    "lng": "139.752018",
+    "id": "unagi-38"
+  }, {
+    "name": "國よし",
+    "url": "https://tabelog.com/kanagawa/A1404/A140408/14000793/",
+    "address": "神奈川県 中郡大磯町 大磯 1085",
+    "code": "hyakumeiten_unagi_2022_restaurant_14000793",
+    "lat": "35.30819",
+    "lng": "139.315025",
+    "id": "unagi-39"
+  }, {
+    "name": "博多名代 吉塚うなぎ屋",
+    "url": "https://tabelog.com/fukuoka/A4001/A400102/40000017/",
+    "address": "福岡県 福岡市博多区 中洲 2-8-27",
+    "code": "hyakumeiten_unagi_2022_restaurant_40000017",
+    "lat": "33.592532",
+    "lng": "130.408926",
+    "id": "unagi-40"
+  }, {
+    "name": "上村うなぎ屋",
+    "url": "https://tabelog.com/kumamoto/A4304/A430403/43000195/",
+    "address": "熊本県 人吉市 紺屋町 129",
+    "code": "hyakumeiten_unagi_2022_restaurant_43000195",
+    "lat": "32.215383",
+    "lng": "130.759468",
+    "id": "unagi-41"
+  }, {
+    "name": "うなぎ処　岡",
+    "url": "https://tabelog.com/tokushima/A3601/A360102/36005434/",
+    "address": "徳島県 鳴門市 撫養町小桑島 字前浜272-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_36005434",
+    "lat": "34.179075",
+    "lng": "134.609505",
+    "id": "unagi-42"
+  }, {
+    "name": "うなせん",
+    "url": "https://tabelog.com/chiba/A1204/A120404/12001192/",
+    "address": "千葉県 香取市 小見川 5628",
+    "code": "hyakumeiten_unagi_2022_restaurant_12001192",
+    "lat": "35.860369",
+    "lng": "140.605866",
+    "id": "unagi-43"
+  }, {
+    "name": "うな善",
+    "url": "https://tabelog.com/fukuoka/A4001/A400104/40005813/",
+    "address": "福岡県 福岡市中央区 高砂 1-14-7-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_40005813",
+    "lat": "33.579523",
+    "lng": "130.408243",
+    "id": "unagi-44"
+  }, {
+    "name": "明神下 神田川 本店",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13000346/",
+    "address": "東京都 千代田区 外神田 2-5-11",
+    "code": "hyakumeiten_unagi_2022_restaurant_13000346",
+    "lat": "35.700439",
+    "lng": "139.769005",
+    "id": "unagi-45"
+  }, {
+    "name": "黒崎 田舎庵 日日屋",
+    "url": "https://tabelog.com/fukuoka/A4004/A400404/40001099/",
+    "address": "福岡県 北九州市八幡西区 黒崎 4丁目1-22",
+    "code": "hyakumeiten_unagi_2022_restaurant_40001099",
+    "lat": "33.86418",
+    "lng": "130.765542",
+    "id": "unagi-46"
+  }, {
+    "name": "小満津",
+    "url": "https://tabelog.com/tokyo/A1319/A131904/13001079/",
+    "address": "東京都 杉並区 和田 3-62-3 １Ｆ",
+    "code": "hyakumeiten_unagi_2022_restaurant_13001079",
+    "lat": "35.69735",
+    "lng": "139.661457",
+    "id": "unagi-47"
+  }, {
+    "name": "清月",
+    "url": "https://tabelog.com/aichi/A2301/A230110/23050355/",
+    "address": "愛知県 名古屋市東区 徳川町 2502 マルカネエクセレンス 1F",
+    "code": "hyakumeiten_unagi_2022_restaurant_23050355",
+    "lat": "35.185743",
+    "lng": "136.934975",
+    "id": "unagi-48"
+  }, {
+    "name": "うなぎの豊川",
+    "url": "https://tabelog.com/nara/A2901/A290102/29000217/",
+    "address": "奈良県 奈良市 富雄元町 3-3-12",
+    "code": "hyakumeiten_unagi_2022_restaurant_29000217",
+    "lat": "34.692472",
+    "lng": "135.732168",
+    "id": "unagi-49"
+  }, {
+    "name": "鰻専門店 愛川",
+    "url": "https://tabelog.com/tokyo/A1305/A130503/13029734/",
+    "address": "東京都 新宿区 高田馬場 1-17-22",
+    "code": "hyakumeiten_unagi_2022_restaurant_13029734",
+    "lat": "35.711316",
+    "lng": "139.707519",
+    "id": "unagi-50"
+  }, {
+    "name": "鰻 川淀",
+    "url": "https://tabelog.com/fukuoka/A4004/A400401/40012535/",
+    "address": "福岡県 北九州市小倉北区 魚町 1-4-16",
+    "code": "hyakumeiten_unagi_2022_restaurant_40012535",
+    "lat": "33.884629",
+    "lng": "130.880732",
+    "id": "unagi-51"
+  }, {
+    "name": "小暮や",
+    "url": "https://tabelog.com/chiba/A1203/A120304/12000292/",
+    "address": "千葉県 我孫子市 天王台 4-2-22 マンション １Ｆ",
+    "code": "hyakumeiten_unagi_2022_restaurant_12000292",
+    "lat": "35.872419",
+    "lng": "140.037618",
+    "id": "unagi-52"
+  }, {
+    "name": "はし本",
+    "url": "https://tabelog.com/tokyo/A1309/A130905/13018616/",
+    "address": "東京都 文京区 水道 2-5-7",
+    "code": "hyakumeiten_unagi_2022_restaurant_13018616",
+    "lat": "35.709333",
+    "lng": "139.736321",
+    "id": "unagi-53"
+  }, {
+    "name": "山の茶屋",
+    "url": "https://tabelog.com/tokyo/A1308/A130802/13002739/",
+    "address": "東京都 千代田区 永田町 2-10-6",
+    "code": "hyakumeiten_unagi_2022_restaurant_13002739",
+    "lat": "35.675301",
+    "lng": "139.740115",
+    "id": "unagi-54"
+  }, {
+    "name": "しら河 浄心本店",
+    "url": "https://tabelog.com/aichi/A2301/A230109/23001045/",
+    "address": "愛知県 名古屋市西区 城西 4-20-12",
+    "code": "hyakumeiten_unagi_2022_restaurant_23001045",
+    "lat": "35.191559",
+    "lng": "136.891716",
+    "id": "unagi-55"
+  }, {
+    "name": "鰻 むさし乃",
+    "url": "https://tabelog.com/saitama/A1101/A110102/11003959/",
+    "address": "埼玉県 さいたま市浦和区 東高砂町 8-3 1F",
+    "code": "hyakumeiten_unagi_2022_restaurant_11003959",
+    "lat": "35.857292",
+    "lng": "139.660166",
+    "id": "unagi-56"
+  }, {
+    "name": "東屋",
+    "url": "https://tabelog.com/saitama/A1103/A110303/11003094/",
+    "address": "埼玉県 川越市 西小仙波町 1-16-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_11003094",
+    "lat": "35.918948",
+    "lng": "139.488578",
+    "id": "unagi-57"
+  }, {
+    "name": "入船",
+    "url": "https://tabelog.com/miyazaki/A4504/A450401/45000054/",
+    "address": "宮崎県 西都市 南方 3316-3",
+    "code": "hyakumeiten_unagi_2022_restaurant_45000054",
+    "lat": "32.130442",
+    "lng": "131.394015",
+    "id": "unagi-58"
+  }, {
+    "name": "しげ吉",
+    "url": "https://tabelog.com/gifu/A2102/A210204/21000054/",
+    "address": "岐阜県 関市 山王通 1-3-29",
+    "code": "hyakumeiten_unagi_2022_restaurant_21000054",
+    "lat": "35.487312",
+    "lng": "136.898726",
+    "id": "unagi-59"
+  }, {
+    "name": "神泉いちのや",
+    "url": "https://tabelog.com/tokyo/A1303/A130301/13004659/",
+    "address": "東京都 渋谷区 神泉町 20-22 神泉ハイツ 1F",
+    "code": "hyakumeiten_unagi_2022_restaurant_13004659",
+    "lat": "35.657073",
+    "lng": "139.691463",
+    "id": "unagi-60"
+  }, {
+    "name": "一鰻",
+    "url": "https://tabelog.com/shizuoka/A2205/A220503/22004100/",
+    "address": "静岡県 伊東市 湯川 1-9-6",
+    "code": "hyakumeiten_unagi_2022_restaurant_22004100",
+    "lat": "34.974051",
+    "lng": "139.093021",
+    "id": "unagi-61"
+  }, {
+    "name": "うな平",
+    "url": "https://tabelog.com/kanagawa/A1404/A140404/14002103/",
+    "address": "神奈川県 藤沢市 辻堂東海岸 2-2-8",
+    "code": "hyakumeiten_unagi_2022_restaurant_14002103",
+    "lat": "35.324159",
+    "lng": "139.45814",
+    "id": "unagi-62"
+  }, {
+    "name": "石ばし",
+    "url": "https://tabelog.com/tokyo/A1309/A130905/13003531/",
+    "address": "東京都 文京区 水道 2-4-29",
+    "code": "hyakumeiten_unagi_2022_restaurant_13003531",
+    "lat": "35.709265",
+    "lng": "139.738439",
+    "id": "unagi-63"
+  }, {
+    "name": "炭焼鰻 はじめ",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22030160/",
+    "address": "静岡県 浜松市西区 雄踏町宇布見 9690",
+    "code": "hyakumeiten_unagi_2022_restaurant_22030160",
+    "lat": "34.699244",
+    "lng": "137.622704",
+    "id": "unagi-64"
+  }, {
+    "name": "別館山田",
+    "url": "https://tabelog.com/chiba/A1204/A120404/12001011/",
+    "address": "千葉県 香取市 玉造 1-1-22",
+    "code": "hyakumeiten_unagi_2022_restaurant_12001011",
+    "lat": "35.893705",
+    "lng": "140.484164",
+    "id": "unagi-65"
+  }, {
+    "name": "あつた蓬莱軒 本店",
+    "url": "https://tabelog.com/aichi/A2301/A230112/23000063/",
+    "address": "愛知県 名古屋市熱田区 神戸町 503",
+    "code": "hyakumeiten_unagi_2022_restaurant_23000063",
+    "lat": "35.120248",
+    "lng": "136.906874",
+    "id": "unagi-66"
+  }, {
+    "name": "ぬりや 泉町大通り",
+    "url": "https://tabelog.com/ibaraki/A0801/A080101/8001191/",
+    "address": "茨城県 水戸市 泉町 3-1-31",
+    "code": "hyakumeiten_unagi_2022_restaurant_8001191",
+    "lat": "36.379121",
+    "lng": "140.461973",
+    "id": "unagi-67"
+  }, {
+    "name": "イチビキ",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23001379/",
+    "address": "愛知県 名古屋市中村区 名駅南 1-3-16",
+    "code": "hyakumeiten_unagi_2022_restaurant_23001379",
+    "lat": "35.167815",
+    "lng": "136.890947",
+    "id": "unagi-68"
+  }, {
+    "name": "鰻楽",
+    "url": "https://tabelog.com/miyazaki/A4501/A450101/45000830/",
+    "address": "宮崎県 宮崎市 塩路 2300",
+    "code": "hyakumeiten_unagi_2022_restaurant_45000830",
+    "lat": "31.989598",
+    "lng": "131.472094",
+    "id": "unagi-69"
+  }, {
+    "name": "炭焼うなぎ あおいや",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22000099/",
+    "address": "静岡県 浜松市南区 飯田町 616-2",
+    "code": "hyakumeiten_unagi_2022_restaurant_22000099",
+    "lat": "34.707077",
+    "lng": "137.775363",
+    "id": "unagi-70"
+  }, {
+    "name": "うなぎ 赤坂 勢きね",
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13039787/",
+    "address": "東京都 港区 赤坂 9-1-7 赤坂レジデンシャルホテル １Ｆ",
+    "code": "hyakumeiten_unagi_2022_restaurant_13039787",
+    "lat": "35.668091",
+    "lng": "139.732747",
+    "id": "unagi-71"
+  }, {
+    "name": "田舎庵 小倉本店",
+    "url": "https://tabelog.com/fukuoka/A4004/A400401/40000419/",
+    "address": "福岡県 北九州市小倉北区 鍛冶町 1-1-13",
+    "code": "hyakumeiten_unagi_2022_restaurant_40000419",
+    "lat": "33.883511",
+    "lng": "130.881867",
+    "id": "unagi-72"
+  }, {
+    "name": "うなぎ専門店 本多",
+    "url": "https://tabelog.com/nagano/A2001/A200105/20001229/",
+    "address": "長野県 飯山市 大字飯山福寿町1117",
+    "code": "hyakumeiten_unagi_2022_restaurant_20001229",
+    "lat": "36.852669",
+    "lng": "138.365118",
+    "id": "unagi-73"
+  }, {
+    "name": "炭焼 うな富士 有楽町店",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13250032/",
+    "address": "東京都 千代田区 内幸町 1-7-1 H12",
+    "code": "hyakumeiten_unagi_2022_restaurant_13250032",
+    "lat": "35.669775",
+    "lng": "139.758819",
+    "id": "unagi-74"
+  }, {
+    "name": "炭火焼うなぎ 東山物産",
+    "url": "https://tabelog.com/mie/A2403/A240303/24006418/",
+    "address": "三重県 志摩市 阿児町鵜方 4032",
+    "code": "hyakumeiten_unagi_2022_restaurant_24006418",
+    "lat": "34.329293",
+    "lng": "136.824187",
+    "id": "unagi-75"
+  }, {
+    "name": "初小川",
+    "url": "https://tabelog.com/tokyo/A1311/A131102/13003702/",
+    "address": "東京都 台東区 雷門 2-8-4",
+    "code": "hyakumeiten_unagi_2022_restaurant_13003702",
+    "lat": "35.709752",
+    "lng": "139.79458",
+    "id": "unagi-76"
+  }, {
+    "name": "うなぎのまとい",
+    "url": "https://tabelog.com/shizuoka/A2205/A220503/22003157/",
+    "address": "静岡県 伊東市 東松原13-6",
+    "code": "hyakumeiten_unagi_2022_restaurant_22003157",
+    "lat": "34.971892",
+    "lng": "139.097082",
+    "id": "unagi-77"
+  }, {
+    "name": "竹屋",
+    "url": "https://tabelog.com/saga/A4102/A410201/41000183/",
+    "address": "佐賀県 唐津市 中町 1884-2",
+    "code": "hyakumeiten_unagi_2022_restaurant_41000183",
+    "lat": "33.448572",
+    "lng": "129.970355",
+    "id": "unagi-78"
+  }, {
+    "name": "うなぎ　なか勝",
+    "url": "https://tabelog.com/hiroshima/A3403/A340304/34003128/",
+    "address": "広島県 福山市 沖野上町 1-4-10",
+    "code": "hyakumeiten_unagi_2022_restaurant_34003128",
+    "lat": "34.475504",
+    "lng": "133.376766",
+    "id": "unagi-79"
+  }, {
+    "name": "うな富士",
+    "url": "https://tabelog.com/aichi/A2301/A230105/23000105/",
+    "address": "愛知県 名古屋市昭和区 白金 1-1-4 プレザアント白金",
+    "code": "hyakumeiten_unagi_2022_restaurant_23000105",
+    "lat": "35.149889",
+    "lng": "136.914604",
+    "id": "unagi-80"
+  }, {
+    "name": "駿河屋",
+    "url": "https://tabelog.com/chiba/A1204/A120401/12006496/",
+    "address": "千葉県 成田市 仲町 359",
+    "code": "hyakumeiten_unagi_2022_restaurant_12006496",
+    "lat": "35.784684",
+    "lng": "140.317527",
+    "id": "unagi-81"
+  }, {
+    "name": "紀文",
+    "url": "https://tabelog.com/gifu/A2101/A210103/21001137/",
+    "address": "岐阜県 養老郡養老町 飯田 1350-9",
+    "code": "hyakumeiten_unagi_2022_restaurant_21001137",
+    "lat": "35.327924",
+    "lng": "136.57163",
+    "id": "unagi-82"
+  }, {
+    "name": "うなぎの美鶴",
+    "url": "https://tabelog.com/kagoshima/A4601/A460101/46003010/",
+    "address": "鹿児島県 鹿児島市 下福元町 3573-4",
+    "code": "hyakumeiten_unagi_2022_restaurant_46003010",
+    "lat": "31.51048",
+    "lng": "130.493706",
+    "id": "unagi-83"
+  }, {
+    "name": "麟",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22037448/",
+    "address": "静岡県 浜松市中区 千歳町 42-2",
+    "code": "hyakumeiten_unagi_2022_restaurant_22037448",
+    "lat": "34.703179",
+    "lng": "137.729801",
+    "id": "unagi-84"
+  }, {
+    "name": "北御門 諫早本店",
+    "url": "https://tabelog.com/nagasaki/A4204/A420401/42000627/",
+    "address": "長崎県 諫早市 八天町 4-3",
+    "code": "hyakumeiten_unagi_2022_restaurant_42000627",
+    "lat": "32.846275",
+    "lng": "130.054238",
+    "id": "unagi-85"
+  }, {
+    "name": "かね春",
+    "url": "https://tabelog.com/kochi/A3901/A390101/39000409/",
+    "address": "高知県 高知市 春野町芳原 2569-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_39000409",
+    "lat": "33.505683",
+    "lng": "133.505263",
+    "id": "unagi-86"
+  }, {
+    "name": "うなぎ料理 あつみ",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22000096/",
+    "address": "静岡県 浜松市中区 千歳町 70",
+    "code": "hyakumeiten_unagi_2022_restaurant_22000096",
+    "lat": "34.704465",
+    "lng": "137.730624",
+    "id": "unagi-87"
+  }, {
+    "name": "うな豊",
+    "url": "https://tabelog.com/aichi/A2301/A230112/23006249/",
+    "address": "愛知県 名古屋市瑞穂区 豊岡通 3-40",
+    "code": "hyakumeiten_unagi_2022_restaurant_23006249",
+    "lat": "35.123132",
+    "lng": "136.938502",
+    "id": "unagi-88"
+  }, {
+    "name": "鰻家",
+    "url": "https://tabelog.com/osaka/A2701/A270301/27080635/",
+    "address": "大阪府 大阪市淀川区 西中島 4-5-22 第3新大阪ビル 1F",
+    "code": "hyakumeiten_unagi_2022_restaurant_27080635",
+    "lat": "34.727318",
+    "lng": "135.496674",
+    "id": "unagi-89"
+  }, {
+    "name": "うなぎの若林 大塚店",
+    "url": "https://tabelog.com/miyazaki/A4501/A450101/45003973/",
+    "address": "宮崎県 宮崎市 大塚町 天神後2668",
+    "code": "hyakumeiten_unagi_2022_restaurant_45003973",
+    "lat": "31.914977",
+    "lng": "131.392724",
+    "id": "unagi-90"
+  }, {
+    "name": "大和田",
+    "url": "https://tabelog.com/aichi/A2301/A230112/23005640/",
+    "address": "愛知県 名古屋市熱田区 玉の井町 8-18",
+    "code": "hyakumeiten_unagi_2022_restaurant_23005640",
+    "lat": "35.130263",
+    "lng": "136.905547",
+    "id": "unagi-91"
+  }, {
+    "name": "うなぎ屋酒坊・画荘 越後屋",
+    "url": "https://tabelog.com/saitama/A1106/A110601/11002889/",
+    "address": "埼玉県 所沢市 小手指町 4-21-22",
+    "code": "hyakumeiten_unagi_2022_restaurant_11002889",
+    "lat": "35.797679",
+    "lng": "139.436414",
+    "id": "unagi-92"
+  }, {
+    "name": "うなぎ 海雲",
+    "url": "https://tabelog.com/miyazaki/A4501/A450101/45010885/",
+    "address": "宮崎県 宮崎市 高千穂通 2-1-26 アートホテル宮崎スカイタワー 2F",
+    "code": "hyakumeiten_unagi_2022_restaurant_45010885",
+    "lat": "31.916514",
+    "lng": "131.428562",
+    "id": "unagi-93"
+  }, {
+    "name": "う嵐",
+    "url": "https://tabelog.com/shiga/A2501/A250101/25004102/",
+    "address": "滋賀県 大津市 浜大津 3-3-2",
+    "code": "hyakumeiten_unagi_2022_restaurant_25004102",
+    "lat": "35.011748",
+    "lng": "135.859073",
+    "id": "unagi-94"
+  }, {
+    "name": "山勢",
+    "url": "https://tabelog.com/nagano/A2002/A200201/20021045/",
+    "address": "長野県 松本市 中央 1-2-20",
+    "code": "hyakumeiten_unagi_2022_restaurant_20021045",
+    "lat": "36.232005",
+    "lng": "137.96548",
+    "id": "unagi-95"
+  }, {
+    "name": "伊賀喜",
+    "url": "https://tabelog.com/osaka/A2701/A270104/27011949/",
+    "address": "大阪府 大阪市中央区 谷町 1丁目6-5 伊賀喜ビル",
+    "code": "hyakumeiten_unagi_2022_restaurant_27011949",
+    "lat": "34.688947",
+    "lng": "135.517105",
+    "id": "unagi-96"
+  }, {
+    "name": "鰻 にしはら",
+    "url": "https://tabelog.com/osaka/A2701/A270104/27081196/",
+    "address": "大阪府 大阪市中央区 北新町 4-12",
+    "code": "hyakumeiten_unagi_2022_restaurant_27081196",
+    "lat": "34.685241",
+    "lng": "135.514732",
+    "id": "unagi-97"
+  }, {
+    "name": "入谷鬼子母神門前のだや",
+    "url": "https://tabelog.com/tokyo/A1311/A131104/13152282/",
+    "address": "東京都 台東区 下谷 2-3-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_13152282",
+    "lat": "35.720344",
+    "lng": "139.782931",
+    "id": "unagi-98"
+  }, {
+    "name": "尾花",
+    "url": "https://tabelog.com/tokyo/A1324/A132401/13003509/",
+    "address": "東京都 荒川区 南千住 5-33-1",
+    "code": "hyakumeiten_unagi_2022_restaurant_13003509",
+    "lat": "35.731632",
+    "lng": "139.796902",
+    "id": "unagi-99"
+  }]
+}

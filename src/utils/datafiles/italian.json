@@ -4,15 +4,15 @@
     "url": "https://tabelog.com/nagano/A2003/A200301/20011920/",
     "address": "長野県 北佐久郡軽井沢町 長倉 2147-689",
     "code": "hyakumeiten_italian_east_2021_restaurant_20011920",
-    "lat": "36.365974",
-    "lng": "138.587181",
+    "lat": "36.365976",
+    "lng": "138.587242",
     "id": "italian-0"
   }, {
     "name": "イル アオヤマ",
     "url": "https://tabelog.com/aichi/A2301/A230104/23054325/",
     "address": "愛知県 名古屋市東区 泉 2-8-7",
     "code": "hyakumeiten_italian_east_2021_restaurant_23054325",
-    "lat": "35.177445",
+    "lat": "35.17741",
     "lng": "136.917714",
     "id": "italian-1"
   }, {
@@ -28,8 +28,8 @@
     "url": "https://tabelog.com/aichi/A2301/A230108/23000441/",
     "address": "愛知県 名古屋市昭和区 山里町 70-2 山手アベニュー ２F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23000441",
-    "lat": "35.146191",
-    "lng": "136.96294",
+    "lat": "35.14618",
+    "lng": "136.962883",
     "id": "italian-3"
   }, {
     "name": "プレゼンテ スギ",
@@ -92,8 +92,8 @@
     "url": "https://tabelog.com/aomori/A0203/A020301/2006500/",
     "address": "青森県 八戸市 湊高台 1-19-6",
     "code": "hyakumeiten_italian_east_2021_restaurant_2006500",
-    "lat": "40.50766",
-    "lng": "141.536098",
+    "lat": "40.507677",
+    "lng": "141.536142",
     "id": "italian-11"
   }, {
     "name": "シクラメンテ",
@@ -108,8 +108,8 @@
     "url": "https://tabelog.com/kanagawa/A1401/A140105/14010542/",
     "address": "神奈川県 横浜市中区 山下町 36-1 B1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_14010542",
-    "lat": "35.443214",
-    "lng": "139.650786",
+    "lat": "35.443191",
+    "lng": "139.650819",
     "id": "italian-13"
   }, {
     "name": "ラ ヴィオレッタ",
@@ -132,8 +132,8 @@
     "url": "https://tabelog.com/yamanashi/A1902/A190201/19000325/",
     "address": "山梨県 北杜市 小淵沢町 129-1 リゾナーレ八ヶ岳内",
     "code": "hyakumeiten_italian_east_2021_restaurant_19000325",
-    "lat": "35.869285",
-    "lng": "138.327025",
+    "lat": "35.869311",
+    "lng": "138.327204",
     "id": "italian-16"
   }, {
     "name": "cucina Wada",
@@ -156,8 +156,8 @@
     "url": "https://tabelog.com/hokkaido/A0101/A010102/1055732/",
     "address": "北海道 札幌市中央区 南1条西8-20-1 ライオンズマンション小六ビル 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_1055732",
-    "lat": "43.058268",
-    "lng": "141.344805",
+    "lat": "43.05828",
+    "lng": "141.34482",
     "id": "italian-19"
   }, {
     "name": "カンブーザ",
@@ -188,16 +188,16 @@
     "url": "https://tabelog.com/hokkaido/A0104/A010403/1005335/",
     "address": "北海道 上川郡美瑛町 美沢 共生",
     "code": "hyakumeiten_italian_east_2021_restaurant_1005335",
-    "lat": "43.54423",
-    "lng": "142.520247",
+    "lat": "43.550212",
+    "lng": "142.524295",
     "id": "italian-23"
   }, {
     "name": "アロマフレスカ 名古屋",
     "url": "https://tabelog.com/aichi/A2301/A230103/23005178/",
     "address": "愛知県 名古屋市中区 栄 3-16-1 松坂屋名古屋店 本館 10F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23005178",
-    "lat": "35.165221",
-    "lng": "136.90784",
+    "lat": "35.165301",
+    "lng": "136.907917",
     "id": "italian-24"
   }, {
     "name": "トラットリアビコローレヨコハマ",
@@ -212,24 +212,24 @@
     "url": "https://tabelog.com/aichi/A2301/A230101/23059313/",
     "address": "愛知県 名古屋市中村区 名駅 3-28-12 大名古屋ビルヂング 3F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23059313",
-    "lat": "35.172052",
-    "lng": "136.884499",
+    "lat": "35.172078",
+    "lng": "136.884486",
     "id": "italian-26"
   }, {
     "name": "osteria LIU",
     "url": "https://tabelog.com/aichi/A2301/A230106/23009279/",
     "address": "愛知県 名古屋市千種区 向陽 1-11-14 池下ホームズ １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_23009279",
-    "lat": "35.16931",
-    "lng": "136.946704",
+    "lat": "35.169315",
+    "lng": "136.946715",
     "id": "italian-27"
   }, {
     "name": "クラリタ ダ マリッティマ",
     "url": "https://tabelog.com/kanagawa/A1404/A140403/14015527/",
     "address": "神奈川県 藤沢市 片瀬海岸 1-6-11 １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14015527",
-    "lat": "35.310433",
-    "lng": "139.489571",
+    "lat": "35.310445",
+    "lng": "139.489577",
     "id": "italian-28"
   }, {
     "name": "ラ・ベットラ・ダ・オチアイ ナゴヤ",
@@ -252,8 +252,8 @@
     "url": "https://tabelog.com/kanagawa/A1404/A140401/14043143/",
     "address": "神奈川県 鎌倉市 山ノ内 1384 北鎌倉 東慶寺 門前",
     "code": "hyakumeiten_italian_east_2021_restaurant_14043143",
-    "lat": "35.33542",
-    "lng": "139.546443",
+    "lat": "35.335141",
+    "lng": "139.54562",
     "id": "italian-31"
   }, {
     "name": "エノテーカ ピンキオーリ 名古屋",
@@ -268,32 +268,32 @@
     "url": "https://tabelog.com/chiba/A1203/A120301/12000870/",
     "address": "千葉県 柏市 柏 4-6-23 ＡＫビル 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_12000870",
-    "lat": "35.86385",
-    "lng": "139.974241",
+    "lat": "35.863849",
+    "lng": "139.974246",
     "id": "italian-33"
   }, {
     "name": "RISTORANTE REGA",
     "url": "https://tabelog.com/kanagawa/A1401/A140105/14012330/",
     "address": "神奈川県 横浜市中区 石川町 2-66-3 ルフェニックス 1Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14012330",
-    "lat": "35.437707",
-    "lng": "139.642001",
+    "lat": "35.437714",
+    "lng": "139.641988",
     "id": "italian-34"
   }, {
     "name": "トラットリア フランコ",
     "url": "https://tabelog.com/kanagawa/A1401/A140101/14035233/",
     "address": "神奈川県 横浜市西区 北幸 2-4-10 大明ビル 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_14035233",
-    "lat": "35.466796",
-    "lng": "139.617578",
+    "lat": "35.466766",
+    "lng": "139.617589",
     "id": "italian-35"
   }, {
     "name": "ヴィーニ デル ボッテゴン",
     "url": "https://tabelog.com/aichi/A2301/A230104/23047233/",
     "address": "愛知県 名古屋市東区 泉 2-21-3 司ビル 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23047233",
-    "lat": "35.175889",
-    "lng": "136.914777",
+    "lat": "35.175866",
+    "lng": "136.914757",
     "id": "italian-36"
   }, {
     "name": "トラットリア・アルベロ",
@@ -308,8 +308,8 @@
     "url": "https://tabelog.com/aichi/A2301/A230104/23005803/",
     "address": "愛知県 名古屋市東区 葵 1-19-30 マザックアートプラザ Ｂ２Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_23005803",
-    "lat": "35.171275",
-    "lng": "136.919948",
+    "lat": "35.171046",
+    "lng": "136.919936",
     "id": "italian-38"
   }, {
     "name": "リオス ボングスタイオ",
@@ -332,8 +332,8 @@
     "url": "https://tabelog.com/kanagawa/A1404/A140402/14062451/",
     "address": "神奈川県 鎌倉市 七里ガ浜東 3-1-14",
     "code": "hyakumeiten_italian_east_2021_restaurant_14062451",
-    "lat": "35.309982",
-    "lng": "139.517152",
+    "lat": "35.309977",
+    "lng": "139.517162",
     "id": "italian-41"
   }, {
     "name": "トラットリア ダ・テレーサ",
@@ -348,56 +348,56 @@
     "url": "https://tabelog.com/kanagawa/A1401/A140103/14045913/",
     "address": "神奈川県 横浜市西区 みなとみらい 4-6-2 みなとみらいグランドセントラルテラス",
     "code": "hyakumeiten_italian_east_2021_restaurant_14045913",
-    "lat": "35.459066",
-    "lng": "139.629404",
+    "lat": "35.458947",
+    "lng": "139.629592",
     "id": "italian-43"
   }, {
     "name": "オステリア・エノテカ・ダ・サスィーノ",
     "url": "https://tabelog.com/aomori/A0202/A020201/2000293/",
     "address": "青森県 弘前市 本町 56-8 グレイス本町 ２Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_2000293",
-    "lat": "40.600964",
-    "lng": "140.467066",
+    "lat": "40.600972",
+    "lng": "140.467008",
     "id": "italian-44"
   }, {
     "name": "ドルチェ ファール ニエンテ",
     "url": "https://tabelog.com/kanagawa/A1404/A140402/14001043/",
     "address": "神奈川県 鎌倉市 雪ノ下 1-5-34 ２Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14001043",
-    "lat": "35.322823",
-    "lng": "139.552862",
+    "lat": "35.322827",
+    "lng": "139.552838",
     "id": "italian-45"
   }, {
     "name": "オステリア パーチェ",
     "url": "https://tabelog.com/kanagawa/A1401/A140201/14030876/",
     "address": "神奈川県 横浜市青葉区 荏田町 1476-1 カーサビラ 3F",
     "code": "hyakumeiten_italian_east_2021_restaurant_14030876",
-    "lat": "35.56249",
-    "lng": "139.557473",
+    "lat": "35.562526",
+    "lng": "139.557503",
     "id": "italian-46"
   }, {
     "name": "リストランテ カノフィーロ",
     "url": "https://tabelog.com/hokkaido/A0101/A010102/1000030/",
     "address": "北海道 札幌市中央区 南2条西1丁目8 アスカビル ２Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_1000030",
-    "lat": "43.058264",
-    "lng": "141.35689",
+    "lat": "43.058233",
+    "lng": "141.356903",
     "id": "italian-47"
   }, {
     "name": "ファイ",
     "url": "https://tabelog.com/hokkaido/A0101/A010103/1003075/",
     "address": "北海道 札幌市中央区 南2条西5-30-1",
     "code": "hyakumeiten_italian_east_2021_restaurant_1003075",
-    "lat": "43.057895",
-    "lng": "141.350025",
+    "lat": "43.057848",
+    "lng": "141.349926",
     "id": "italian-48"
   }, {
     "name": "イタリアン オット",
     "url": "https://tabelog.com/saitama/A1106/A110601/11026106/",
     "address": "埼玉県 所沢市 日吉町 10-18 2F",
     "code": "hyakumeiten_italian_east_2021_restaurant_11026106",
-    "lat": "35.787996",
-    "lng": "139.471966",
+    "lat": "35.787993",
+    "lng": "139.471956",
     "id": "italian-49"
   }, {
     "name": "横浜馬車道 旬の肉料理イタリアン オステリア・アウストロ",
@@ -420,8 +420,8 @@
     "url": "https://tabelog.com/hokkaido/A0101/A010103/1033822/",
     "address": "北海道 札幌市中央区 南三条西 8丁目7-4 遠藤ビル1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_1033822",
-    "lat": "43.056271",
-    "lng": "141.346485",
+    "lat": "43.056291",
+    "lng": "141.346477",
     "id": "italian-52"
   }, {
     "name": "トラットリア・リョウゴク",
@@ -436,8 +436,8 @@
     "url": "https://tabelog.com/aichi/A2301/A230103/23000399/",
     "address": "愛知県 名古屋市東区 泉 1-22-7 IZUMI １ ビル １F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23000399",
-    "lat": "35.174611",
-    "lng": "136.910993",
+    "lat": "35.17466",
+    "lng": "136.910996",
     "id": "italian-54"
   }, {
     "name": "オステリア　オルカドーロ",
@@ -452,24 +452,24 @@
     "url": "https://tabelog.com/aichi/A2301/A230110/23032635/",
     "address": "愛知県 名古屋市東区 徳川町 1904 シャロームＫ １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_23032635",
-    "lat": "35.185747",
-    "lng": "136.930832",
+    "lat": "35.185738",
+    "lng": "136.930902",
     "id": "italian-56"
   }, {
     "name": "キートス",
     "url": "https://tabelog.com/aichi/A2301/A230104/23043215/",
     "address": "愛知県 名古屋市中区 新栄 2-4-15 新栄サンハイツ1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23043215",
-    "lat": "35.169356",
-    "lng": "136.923325",
+    "lat": "35.169361",
+    "lng": "136.923318",
     "id": "italian-57"
   }, {
     "name": "テルツィーナ",
     "url": "https://tabelog.com/hokkaido/A0101/A010102/1002157/",
     "address": "北海道 札幌市中央区 北2条東4丁目 サッポロファクトリーレンガ館1階",
     "code": "hyakumeiten_italian_east_2021_restaurant_1002157",
-    "lat": "43.046848",
-    "lng": "141.322114",
+    "lat": "43.065246",
+    "lng": "141.361889",
     "id": "italian-58"
   }, {
     "name": "シャトン",
@@ -492,8 +492,8 @@
     "url": "https://tabelog.com/kanagawa/A1401/A140101/14010823/",
     "address": "神奈川県 横浜市神奈川区 鶴屋町 2-19-2 井上ビル １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14010823",
-    "lat": "35.469188",
-    "lng": "139.622278",
+    "lat": "35.469176",
+    "lng": "139.622287",
     "id": "italian-61"
   }, {
     "name": "イル・パチョッコーネ・ディ・キャンティ",
@@ -516,15 +516,15 @@
     "url": "https://tabelog.com/kanagawa/A1408/A140803/14000879/",
     "address": "神奈川県 伊勢原市 上粕屋 298-1 アネーロ １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14000879",
-    "lat": "35.408568",
-    "lng": "139.304306",
+    "lat": "35.408566",
+    "lng": "139.304326",
     "id": "italian-64"
   }, {
     "name": "リストランテ パドリーノ・デル・ショーザン",
     "url": "https://tabelog.com/miyagi/A0401/A040101/4008730/",
     "address": "宮城県 仙台市青葉区 上杉 2-1-50 勝山館 １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_4008730",
-    "lat": "38.273856",
+    "lat": "38.27387",
     "lng": "140.872931",
     "id": "italian-65"
   }, {
@@ -548,8 +548,8 @@
     "url": "https://tabelog.com/kanagawa/A1401/A140104/14002095/",
     "address": "神奈川県 横浜市中区 太田町 4-47 コーワ太田町ビル １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14002095",
-    "lat": "35.448046",
-    "lng": "139.63706",
+    "lat": "35.448048",
+    "lng": "139.637056",
     "id": "italian-68"
   }, {
     "name": "Vv.lab",
@@ -564,8 +564,8 @@
     "url": "https://tabelog.com/hokkaido/A0104/A010405/1041992/",
     "address": "北海道 上川郡上川町 菊水 旭ヶ丘",
     "code": "hyakumeiten_italian_east_2021_restaurant_1041992",
-    "lat": "43.798532",
-    "lng": "142.823203",
+    "lat": "43.798013",
+    "lng": "142.821498",
     "id": "italian-70"
   }, {
     "name": "ガストロノミーソール ヤナギヤ",
@@ -588,8 +588,8 @@
     "url": "https://tabelog.com/aichi/A2301/A230106/23058455/",
     "address": "愛知県 名古屋市千種区 若水 3-30-3 小川マンション 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23058455",
-    "lat": "35.173513",
-    "lng": "136.948818",
+    "lat": "35.17351",
+    "lng": "136.948821",
     "id": "italian-73"
   }, {
     "name": "レオーネ・マルチアーノ",
@@ -628,8 +628,8 @@
     "url": "https://tabelog.com/aichi/A2301/A230102/23007484/",
     "address": "愛知県 名古屋市中区 丸の内 2-12-30",
     "code": "hyakumeiten_italian_east_2021_restaurant_23007484",
-    "lat": "35.175623",
-    "lng": "136.900474",
+    "lat": "35.175611",
+    "lng": "136.90045",
     "id": "italian-78"
   }, {
     "name": "オステリア ラ・マンテ 本店",
@@ -637,15 +637,15 @@
     "address": "愛知県 名古屋市中村区 那古野 1-39-3 さくらＨｉｌｌｓリバーサイドＷＥＳＴ １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_23038406",
     "lat": "35.173474",
-    "lng": "136.892417",
+    "lng": "136.892392",
     "id": "italian-79"
   }, {
     "name": "ゴッチャポント",
     "url": "https://tabelog.com/aichi/A2302/A230201/23013536/",
     "address": "愛知県 一宮市 森本 2-15-6",
     "code": "hyakumeiten_italian_east_2021_restaurant_23013536",
-    "lat": "35.291718",
-    "lng": "136.813338",
+    "lat": "35.291713",
+    "lng": "136.813347",
     "id": "italian-80"
   }, {
     "name": "エノテカ・オルモ・デル・カウカソ",
@@ -676,8 +676,8 @@
     "url": "https://tabelog.com/kanagawa/A1401/A140104/14068940/",
     "address": "神奈川県 横浜市中区 常盤町 5-72-1 GM横浜馬車道ビル 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_14068940",
-    "lat": "35.447317",
-    "lng": "139.63435",
+    "lat": "35.447319",
+    "lng": "139.634372",
     "id": "italian-84"
   }, {
     "name": "イノウエ グリリア",
@@ -708,8 +708,8 @@
     "url": "https://tabelog.com/kanagawa/A1404/A140402/14000283/",
     "address": "神奈川県 鎌倉市 西鎌倉 1-2-1",
     "code": "hyakumeiten_italian_east_2021_restaurant_14000283",
-    "lat": "35.322831",
-    "lng": "139.506125",
+    "lat": "35.322776",
+    "lng": "139.506099",
     "id": "italian-88"
   }, {
     "name": "ラ・リリアーナ",
@@ -732,24 +732,24 @@
     "url": "https://tabelog.com/aichi/A2301/A230106/23032828/",
     "address": "愛知県 名古屋市東区 代官町 10-7 山本ビル 1Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_23032828",
-    "lat": "35.178412",
-    "lng": "136.925016",
+    "lat": "35.178387",
+    "lng": "136.925098",
     "id": "italian-91"
   }, {
     "name": "セラフィーノ",
     "url": "https://tabelog.com/kanagawa/A1404/A140404/14039203/",
     "address": "神奈川県 藤沢市 鵠沼橘 1-16-14 ヤマキビル１Ａ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14039203",
-    "lat": "35.337125",
-    "lng": "139.485477",
+    "lat": "35.337133",
+    "lng": "139.485465",
     "id": "italian-92"
   }, {
     "name": "ヴィネリア カッシーニ",
     "url": "https://tabelog.com/aichi/A2301/A230105/23051011/",
     "address": "愛知県 名古屋市中区 伊勢山 1-9-13 伊勢山ハイツ 1F",
     "code": "hyakumeiten_italian_east_2021_restaurant_23051011",
-    "lat": "35.149417",
-    "lng": "136.89992",
+    "lat": "35.149425",
+    "lng": "136.899874",
     "id": "italian-93"
   }, {
     "name": "オルトレヴィーノ",
@@ -780,7 +780,7 @@
     "url": "https://tabelog.com/chiba/A1202/A120201/12024353/",
     "address": "千葉県 船橋市 本町 1-23-20 立山ビル １Ｆ",
     "code": "hyakumeiten_italian_east_2021_restaurant_12024353",
-    "lat": "35.700438",
+    "lat": "35.700402",
     "lng": "139.981381",
     "id": "italian-97"
   }, {
@@ -788,16 +788,16 @@
     "url": "https://tabelog.com/kanagawa/A1404/A140402/14008725/",
     "address": "神奈川県 鎌倉市 雪ノ下 1-7-6",
     "code": "hyakumeiten_italian_east_2021_restaurant_14008725",
-    "lat": "35.323414",
-    "lng": "139.553442",
+    "lat": "35.323419",
+    "lng": "139.553428",
     "id": "italian-98"
   }, {
     "name": "クルベル・キャン",
     "url": "https://tabelog.com/kanagawa/A1404/A140402/14035176/",
     "address": "神奈川県 鎌倉市 小町 2-9-14 植山ビル20Ｂ",
     "code": "hyakumeiten_italian_east_2021_restaurant_14035176",
-    "lat": "35.320676",
-    "lng": "139.552326",
+    "lat": "35.320644",
+    "lng": "139.552345",
     "id": "italian-99"
   }, {
     "name": "ペレグリーノ",
@@ -812,8 +812,8 @@
     "url": "https://tabelog.com/tokyo/A1303/A130303/13109940/",
     "address": "東京都 渋谷区 恵比寿西 2-13-16 ラングス代官山 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13109940",
-    "lat": "35.650847",
-    "lng": "139.705996",
+    "lat": "35.650842",
+    "lng": "139.706016",
     "id": "italian-101"
   }, {
     "name": "K+",
@@ -852,16 +852,16 @@
     "url": "https://tabelog.com/tokyo/A1307/A130701/13194346/",
     "address": "東京都 港区 六本木 6-12-3 六本木ヒルズけやき坂通り 六本木ヒルズレジデンスＣ棟 3F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13194346",
-    "lat": "35.658894",
-    "lng": "139.730146",
+    "lat": "35.659068",
+    "lng": "139.729498",
     "id": "italian-106"
   }, {
     "name": "ヴィンチェロ",
     "url": "https://tabelog.com/tokyo/A1304/A130402/13004299/",
     "address": "東京都 新宿区 新宿 5-1-13 ＭＯＡビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13004299",
-    "lat": "35.692724",
-    "lng": "139.712419",
+    "lat": "35.692753",
+    "lng": "139.712418",
     "id": "italian-107"
   }, {
     "name": "ドンブラボー",
@@ -884,24 +884,24 @@
     "url": "https://tabelog.com/tokyo/A1307/A130703/13110652/",
     "address": "東京都 港区 南青山 7-11-5 HOUSE7115 B1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13110652",
-    "lat": "35.658621",
-    "lng": "139.718664",
+    "lat": "35.658601",
+    "lng": "139.718746",
     "id": "italian-110"
   }, {
     "name": "ラパルタメント ディ ナオキ",
     "url": "https://tabelog.com/tokyo/A1307/A130702/13120467/",
     "address": "東京都 港区 麻布十番 3-3-9 VORT麻布十番Ⅱ 4F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13120467",
-    "lat": "35.653633",
-    "lng": "139.735724",
+    "lat": "35.653636",
+    "lng": "139.735725",
     "id": "italian-111"
   }, {
     "name": "リストランテ ペガソ",
     "url": "https://tabelog.com/tokyo/A1307/A130703/13152248/",
     "address": "東京都 港区 南青山 7-12-12 ムジカーサ南青山 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13152248",
-    "lat": "35.65773",
-    "lng": "139.718404",
+    "lat": "35.657737",
+    "lng": "139.718388",
     "id": "italian-112"
   }, {
     "name": "ICARO miyamoto",
@@ -916,8 +916,8 @@
     "url": "https://tabelog.com/tokyo/A1303/A130302/13166739/",
     "address": "東京都 渋谷区 恵比寿西 1-16-7 ハギワラビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13166739",
-    "lat": "35.648746",
-    "lng": "139.707034",
+    "lat": "35.648677",
+    "lng": "139.707073",
     "id": "italian-114"
   }, {
     "name": "リストランテ ラ チャウ",
@@ -940,8 +940,8 @@
     "url": "https://tabelog.com/tokyo/A1318/A131814/13003427/",
     "address": "東京都 世田谷区 祖師谷 3-4-9 松紀ビル １Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13003427",
-    "lat": "35.642926",
-    "lng": "139.606545",
+    "lat": "35.642963",
+    "lng": "139.606524",
     "id": "italian-117"
   }, {
     "name": "ロマンティコ",
@@ -956,32 +956,32 @@
     "url": "https://tabelog.com/tokyo/A1301/A130102/13218266/",
     "address": "東京都 千代田区 有楽町 1-1-2 東京ミッドタウン日比谷 3F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13218266",
-    "lat": "35.673528",
-    "lng": "139.759654",
+    "lat": "35.67373",
+    "lng": "139.759138",
     "id": "italian-119"
   }, {
     "name": "プリズマ",
     "url": "https://tabelog.com/tokyo/A1306/A130602/13123890/",
     "address": "東京都 港区 南青山 6-4-6 青山ＡＬＬＥＹ 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13123890",
-    "lat": "35.661559",
-    "lng": "139.7166",
+    "lat": "35.661617",
+    "lng": "139.716637",
     "id": "italian-120"
   }, {
     "name": "アロマフレスカ",
     "url": "https://tabelog.com/tokyo/A1301/A130101/13129298/",
     "address": "東京都 中央区 銀座 2-6-5 GINZA TRECIOUS 12F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13129298",
-    "lat": "35.673755",
-    "lng": "139.767165",
+    "lat": "35.673689",
+    "lng": "139.767161",
     "id": "italian-121"
   }, {
     "name": "プリンチピオ",
     "url": "https://tabelog.com/tokyo/A1307/A130702/13144481/",
     "address": "東京都 港区 麻布十番 2-4-8 麻布十番舘 2F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13144481",
-    "lat": "35.655758",
-    "lng": "139.734784",
+    "lat": "35.655753",
+    "lng": "139.734787",
     "id": "italian-122"
   }, {
     "name": "ダペピ",
@@ -1004,24 +1004,24 @@
     "url": "https://tabelog.com/tokyo/A1307/A130702/13004549/",
     "address": "東京都 港区 麻布十番 2-17-8 パークＩビル 1Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13004549",
-    "lat": "35.654072",
-    "lng": "139.735819",
+    "lat": "35.654078",
+    "lng": "139.735858",
     "id": "italian-125"
   }, {
     "name": "インカント",
     "url": "https://tabelog.com/tokyo/A1307/A130703/13043684/",
     "address": "東京都 港区 南麻布 4-12-2 ピュアーレ広尾 ２Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13043684",
-    "lat": "35.647383",
-    "lng": "139.723991",
+    "lat": "35.647372",
+    "lng": "139.724009",
     "id": "italian-126"
   }, {
     "name": "オステリア・オリエーラ",
     "url": "https://tabelog.com/tokyo/A1304/A130401/13099830/",
     "address": "東京都 新宿区 新宿 3-7-5 一兆ビル ２F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13099830",
-    "lat": "35.691108",
-    "lng": "139.706076",
+    "lat": "35.690953",
+    "lng": "139.705964",
     "id": "italian-127"
   }, {
     "name": "リストランテ･ヒロ  青山",
@@ -1036,16 +1036,16 @@
     "url": "https://tabelog.com/tokyo/A1309/A130901/13149817/",
     "address": "東京都 渋谷区 千駄ヶ谷 3-17-12 カミムラビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13149817",
-    "lat": "35.67594",
-    "lng": "139.708031",
+    "lat": "35.675949",
+    "lng": "139.708045",
     "id": "italian-129"
   }, {
     "name": "シチリア屋",
     "url": "https://tabelog.com/tokyo/A1323/A132301/13172747/",
     "address": "東京都 文京区 白山 1-5-5 MC白山ビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13172747",
-    "lat": "35.7158",
-    "lng": "139.752485",
+    "lat": "35.715799",
+    "lng": "139.752483",
     "id": "italian-130"
   }, {
     "name": "カーザ ヴィニタリア",
@@ -1060,24 +1060,24 @@
     "url": "https://tabelog.com/tokyo/A1307/A130703/13166111/",
     "address": "東京都 渋谷区 広尾 5-19-7 協和ビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13166111",
-    "lat": "35.649021",
-    "lng": "139.72012",
+    "lat": "35.649029",
+    "lng": "139.720178",
     "id": "italian-132"
   }, {
     "name": "マジカメンテ",
     "url": "https://tabelog.com/tokyo/A1303/A130302/13121950/",
     "address": "東京都 渋谷区 恵比寿 3-41-9 恵比寿台ハイツ 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13121950",
-    "lat": "35.643906",
-    "lng": "139.719083",
+    "lat": "35.643919",
+    "lng": "139.719094",
     "id": "italian-133"
   }, {
     "name": "レストラン ラッセ",
     "url": "https://tabelog.com/tokyo/A1316/A131601/13125439/",
     "address": "東京都 目黒区 目黒 1-4-15 ヴェローナ目黒 B1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13125439",
-    "lat": "35.63449",
-    "lng": "139.713497",
+    "lat": "35.632841",
+    "lng": "139.713028",
     "id": "italian-134"
   }, {
     "name": "ALTER EGO",
@@ -1108,8 +1108,8 @@
     "url": "https://tabelog.com/tokyo/A1307/A130703/13001593/",
     "address": "東京都 港区 南麻布 4-11-35 インペリアル広尾 B101",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13001593",
-    "lat": "35.646975",
-    "lng": "139.726685",
+    "lat": "35.647045",
+    "lng": "139.726211",
     "id": "italian-138"
   }, {
     "name": "エルバ ダ ナカヒガシ",
@@ -1132,8 +1132,8 @@
     "url": "https://tabelog.com/tokyo/A1301/A130101/13113809/",
     "address": "東京都 中央区 銀座 2-6-5 銀座トレシャス 12F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13113809",
-    "lat": "35.673755",
-    "lng": "139.767165",
+    "lat": "35.673706",
+    "lng": "139.767152",
     "id": "italian-141"
   }, {
     "name": "リストランテ ASO",
@@ -1156,16 +1156,16 @@
     "url": "https://tabelog.com/tokyo/A1304/A130403/13058484/",
     "address": "東京都 渋谷区 千駄ヶ谷 4-5-1 ニュー外苑ハイツ 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13058484",
-    "lat": "35.679674",
-    "lng": "139.70434",
+    "lat": "35.67968",
+    "lng": "139.704325",
     "id": "italian-144"
   }, {
     "name": "エリオ・ロカンダ・イタリアーナ",
     "url": "https://tabelog.com/tokyo/A1308/A130803/13000293/",
     "address": "東京都 千代田区 麹町 2-5-2 半蔵門ハウス １Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13000293",
-    "lat": "35.683502",
-    "lng": "139.740664",
+    "lat": "35.683482",
+    "lng": "139.740615",
     "id": "italian-145"
   }, {
     "name": "トラットリア グランボッカ",
@@ -1180,24 +1180,24 @@
     "url": "https://tabelog.com/tokyo/A1303/A130301/13026215/",
     "address": "東京都 渋谷区 渋谷 2-3-6",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13026215",
-    "lat": "35.659351",
-    "lng": "139.708738",
+    "lat": "35.659242",
+    "lng": "139.70873",
     "id": "italian-147"
   }, {
     "name": "アンティカ オステリア カルネヤ",
     "url": "https://tabelog.com/tokyo/A1309/A130905/13045549/",
     "address": "東京都 新宿区 南山伏町 3-6 市ヶ谷NHビル1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13045549",
-    "lat": "35.699014",
-    "lng": "139.729847",
+    "lat": "35.699016",
+    "lng": "139.729837",
     "id": "italian-148"
   }, {
     "name": "トラットリア デッラ ランテルナ マジカ",
     "url": "https://tabelog.com/tokyo/A1316/A131601/13015855/",
     "address": "東京都 品川区 上大崎 2-9-26 Ｔ＆Ｈ Ｍｅｍｏｒｙ 1Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13015855",
-    "lat": "35.636653",
-    "lng": "139.715684",
+    "lat": "35.636664",
+    "lng": "139.715704",
     "id": "italian-149"
   }, {
     "name": "Giglio",
@@ -1212,8 +1212,8 @@
     "url": "https://tabelog.com/tokyo/A1317/A131701/13020531/",
     "address": "東京都 目黒区 青葉台 1-23-3 青葉台東和ビル 2Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13020531",
-    "lat": "35.64662",
-    "lng": "139.696901",
+    "lat": "35.646633",
+    "lng": "139.696919",
     "id": "italian-151"
   }, {
     "name": "Felicelina",
@@ -1244,32 +1244,32 @@
     "url": "https://tabelog.com/tokyo/A1307/A130701/13057753/",
     "address": "東京都 港区 西麻布 1-10-8 第2大晃ビル1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13057753",
-    "lat": "35.660857",
-    "lng": "139.724239",
+    "lat": "35.660887",
+    "lng": "139.724261",
     "id": "italian-155"
   }, {
     "name": "アンティカ・オステリア・デル・ポンテ",
     "url": "https://tabelog.com/tokyo/A1302/A130201/13004061/",
     "address": "東京都 千代田区 丸の内 2-4-1 丸の内ビルディング 36F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13004061",
-    "lat": "35.681183",
-    "lng": "139.76377",
+    "lat": "35.681057",
+    "lng": "139.763818",
     "id": "italian-156"
   }, {
     "name": "ラ スフォリーナ",
     "url": "https://tabelog.com/tokyo/A1306/A130603/13157731/",
     "address": "東京都 港区 六本木 7-3-22 やまうちビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13157731",
-    "lat": "35.665475",
-    "lng": "139.727857",
+    "lat": "35.665485",
+    "lng": "139.727842",
     "id": "italian-157"
   }, {
     "name": "リストランテ・ホンダ",
     "url": "https://tabelog.com/tokyo/A1306/A130603/13016590/",
     "address": "東京都 港区 北青山 2-12-35 タートルストーン青山ビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13016590",
-    "lat": "35.669938",
-    "lng": "139.715272",
+    "lat": "35.669907",
+    "lng": "139.715295",
     "id": "italian-158"
   }, {
     "name": "トルナヴェント",
@@ -1292,8 +1292,8 @@
     "url": "https://tabelog.com/tokyo/A1303/A130302/13001646/",
     "address": "東京都 渋谷区 恵比寿 1-15-9 シルク恵比寿 １Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13001646",
-    "lat": "35.647739",
-    "lng": "139.7121",
+    "lat": "35.647779",
+    "lng": "139.712133",
     "id": "italian-161"
   }, {
     "name": "イタリア料理 フィオレンツァ",
@@ -1324,16 +1324,16 @@
     "url": "https://tabelog.com/tokyo/A1314/A131403/13005730/",
     "address": "東京都 港区 港南 2-16-3 品川グランドセントラルタワー 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13005730",
-    "lat": "35.626615",
-    "lng": "139.740774",
+    "lat": "35.626642",
+    "lng": "139.740577",
     "id": "italian-165"
   }, {
     "name": "代官山ASO チェレステ 日本橋店",
     "url": "https://tabelog.com/tokyo/A1302/A130202/13021095/",
     "address": "東京都 中央区 日本橋室町 1-4-1 日本橋三越本店 新館 10F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13021095",
-    "lat": "35.6851",
-    "lng": "139.774113",
+    "lat": "35.685641",
+    "lng": "139.77358",
     "id": "italian-166"
   }, {
     "name": "イル ギオットーネ 丸の内店",
@@ -1348,32 +1348,32 @@
     "url": "https://tabelog.com/tokyo/A1302/A130201/13069992/",
     "address": "東京都 千代田区 丸の内 1-8-3 丸の内トラストタワー本館 シャングリ・ラ 東京 28F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13069992",
-    "lat": "35.68265",
-    "lng": "139.769457",
+    "lat": "35.682512",
+    "lng": "139.769535",
     "id": "italian-168"
   }, {
     "name": "リストランテ ダ ニーノ",
     "url": "https://tabelog.com/tokyo/A1307/A130701/13023972/",
     "address": "東京都 港区 南青山 1-15-19 グランドメゾン乃木坂 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13023972",
-    "lat": "35.667987",
-    "lng": "139.726635",
+    "lat": "35.668",
+    "lng": "139.726634",
     "id": "italian-169"
   }, {
     "name": "エミリア",
     "url": "https://tabelog.com/tokyo/A1306/A130601/13099554/",
     "address": "東京都 渋谷区 神宮前 2-25-4 パストラーレ神宮前 １Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13099554",
-    "lat": "35.674289",
-    "lng": "139.710704",
+    "lat": "35.674288",
+    "lng": "139.710698",
     "id": "italian-170"
   }, {
     "name": "トルッキオ",
     "url": "https://tabelog.com/tokyo/A1309/A130906/13002401/",
     "address": "東京都 千代田区 九段南 2-1-32 第３青葉ビル Ｂ１Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13002401",
-    "lat": "35.692813",
-    "lng": "139.746355",
+    "lat": "35.692527",
+    "lng": "139.746381",
     "id": "italian-171"
   }, {
     "name": "ヴォーロ・コズィ",
@@ -1388,24 +1388,24 @@
     "url": "https://tabelog.com/tokyo/A1307/A130703/13159153/",
     "address": "東京都 港区 南麻布 5-2-40 日興パレス 1",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13159153",
-    "lat": "35.655496",
-    "lng": "139.723695",
+    "lat": "35.655518",
+    "lng": "139.72363",
     "id": "italian-173"
   }, {
     "name": "ヴァッカロッサ",
     "url": "https://tabelog.com/tokyo/A1308/A130801/13156942/",
     "address": "東京都 港区 赤坂 6-4-11 ドミエメロード 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13156942",
-    "lat": "35.670058",
-    "lng": "139.734647",
+    "lat": "35.670052",
+    "lng": "139.734641",
     "id": "italian-174"
   }, {
     "name": "Ostu",
     "url": "https://tabelog.com/tokyo/A1318/A131810/13044972/",
     "address": "東京都 渋谷区 代々木 5-67-6 代々木松浦ビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13044972",
-    "lat": "35.670462",
-    "lng": "139.690559",
+    "lat": "35.670452",
+    "lng": "139.690564",
     "id": "italian-175"
   }, {
     "name": "mondo",
@@ -1428,16 +1428,16 @@
     "url": "https://tabelog.com/tokyo/A1301/A130101/13022542/",
     "address": "東京都 中央区 銀座 2-4-12 ミキモト ギンザ２ 8Ｆ・9Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13022542",
-    "lat": "35.673761",
-    "lng": "139.765914",
+    "lat": "35.673751",
+    "lng": "139.765947",
     "id": "italian-178"
   }, {
     "name": "カッフェ・クラシカ",
     "url": "https://tabelog.com/tokyo/A1314/A131403/13019698/",
     "address": "東京都 港区 高輪 3-26-27 エキュート品川 2F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13019698",
-    "lat": "35.628797",
-    "lng": "139.738698",
+    "lat": "35.62858",
+    "lng": "139.739412",
     "id": "italian-179"
   }, {
     "name": "ピアッティ カステリーナ",
@@ -1452,8 +1452,8 @@
     "url": "https://tabelog.com/tokyo/A1306/A130602/13003490/",
     "address": "東京都 港区 南青山 7-3-6 南青山HYビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13003490",
-    "lat": "35.658879",
-    "lng": "139.716309",
+    "lat": "35.658874",
+    "lng": "139.716305",
     "id": "italian-181"
   }, {
     "name": "RISTORANTE YAGI",
@@ -1468,24 +1468,24 @@
     "url": "https://tabelog.com/tokyo/A1301/A130101/13134899/",
     "address": "東京都 中央区 銀座 8-10-4 和孝銀座8丁目ビル Ｂ1Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13134899",
-    "lat": "35.667932",
-    "lng": "139.762605",
+    "lat": "35.667951",
+    "lng": "139.762564",
     "id": "italian-183"
   }, {
     "name": "パッソ・ア・パッソ",
     "url": "https://tabelog.com/tokyo/A1313/A131303/13004092/",
     "address": "東京都 江東区 深川 2-6-1 アワーズビル １Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13004092",
-    "lat": "35.67467",
-    "lng": "139.796295",
+    "lat": "35.674664",
+    "lng": "139.796303",
     "id": "italian-184"
   }, {
     "name": "AWkitchen TOKYO 新丸ビル店",
     "url": "https://tabelog.com/tokyo/A1302/A130201/13038476/",
     "address": "東京都 千代田区 丸の内 1-5-1 新丸の内ビルディング 5F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13038476",
-    "lat": "35.682624",
-    "lng": "139.764117",
+    "lat": "35.682752",
+    "lng": "139.764581",
     "id": "italian-185"
   }, {
     "name": "代官山ASO チェレステ 二子玉川店",
@@ -1500,16 +1500,16 @@
     "url": "https://tabelog.com/tokyo/A1301/A130101/13045135/",
     "address": "東京都 中央区 銀座 2-7-12 ブルガリ銀座タワー ９Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13045135",
-    "lat": "35.672956",
-    "lng": "139.767136",
+    "lat": "35.67292",
+    "lng": "139.767263",
     "id": "italian-187"
   }, {
     "name": "クチーナ ヒラタ",
     "url": "https://tabelog.com/tokyo/A1307/A130702/13001690/",
     "address": "東京都 港区 麻布十番 2-13-10 エンドウビル ３Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13001690",
-    "lat": "35.654846",
-    "lng": "139.735016",
+    "lat": "35.654782",
+    "lng": "139.735004",
     "id": "italian-188"
   }, {
     "name": "リナシメント",
@@ -1532,40 +1532,40 @@
     "url": "https://tabelog.com/tokyo/A1307/A130703/13016523/",
     "address": "東京都 港区 西麻布 4-19-9 ウォール西麻布 B1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13016523",
-    "lat": "35.657765",
-    "lng": "139.718646",
+    "lat": "35.657679",
+    "lng": "139.718592",
     "id": "italian-191"
   }, {
     "name": "リストランテ･ヒロ チェントロ 丸ビル店",
     "url": "https://tabelog.com/tokyo/A1302/A130201/13004069/",
     "address": "東京都 千代田区 丸の内 2-4-1 丸の内ビルディング 35F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13004069",
-    "lat": "35.681183",
-    "lng": "139.76377",
+    "lat": "35.681057",
+    "lng": "139.763818",
     "id": "italian-192"
   }, {
     "name": "ラ・ビスボッチャ",
     "url": "https://tabelog.com/tokyo/A1307/A130703/13001647/",
     "address": "東京都 渋谷区 恵比寿 2-36-13 広尾MTRビル 1F",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13001647",
-    "lat": "35.645738",
-    "lng": "139.72254",
+    "lat": "35.645791",
+    "lng": "139.722525",
     "id": "italian-193"
   }, {
     "name": "イル・テアトロ",
     "url": "https://tabelog.com/tokyo/A1309/A130905/13003823/",
     "address": "東京都 文京区 関口 2-10-8 ホテル椿山荘東京 3Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13003823",
-    "lat": "35.71217",
-    "lng": "139.725631",
+    "lat": "35.713113",
+    "lng": "139.725709",
     "id": "italian-194"
   }, {
     "name": "ラ･スコリエーラ",
     "url": "https://tabelog.com/tokyo/A1306/A130603/13002849/",
     "address": "東京都 港区 赤坂 4-15-1 赤坂ガーデンシティ Ｂ１Ｆ",
     "code": "hyakumeiten_italian_tokyo_2021_restaurant_13002849",
-    "lat": "35.674057",
-    "lng": "139.731439",
+    "lat": "35.674271",
+    "lng": "139.731458",
     "id": "italian-195"
   }, {
     "name": "キャンティ 飯倉本店",
@@ -1612,8 +1612,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270101/27075332/",
     "address": "大阪府 大阪市北区 堂島 1-2-15 浜村サンプラザビル 2F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27075332",
-    "lat": "34.696485",
-    "lng": "135.498772",
+    "lat": "34.696487",
+    "lng": "135.49877",
     "id": "italian-201"
   }, {
     "name": "ヴィラ・アイーダ",
@@ -1636,8 +1636,8 @@
     "url": "https://tabelog.com/okayama/A3305/A330502/33012069/",
     "address": "岡山県 瀬戸内市 牛窓町牛窓 496 牛窓国際交流ヴィラ",
     "code": "hyakumeiten_italian_west_2021_restaurant_33012069",
-    "lat": "34.624776",
-    "lng": "134.160589",
+    "lat": "34.624778",
+    "lng": "134.160591",
     "id": "italian-204"
   }, {
     "name": "チェルカ トローヴァ",
@@ -1668,8 +1668,8 @@
     "url": "https://tabelog.com/ehime/A3801/A380101/38009262/",
     "address": "愛媛県 松山市 千舟町 4-1-4 ヒラキビル 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_38009262",
-    "lat": "33.836581",
-    "lng": "132.767396",
+    "lat": "33.836577",
+    "lng": "132.767379",
     "id": "italian-208"
   }, {
     "name": "cenci",
@@ -1700,8 +1700,8 @@
     "url": "https://tabelog.com/hyogo/A2801/A280101/28032418/",
     "address": "兵庫県 神戸市中央区 中山手通 1-27-12 富士産業ビル1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_28032418",
-    "lat": "34.697116",
-    "lng": "135.19051",
+    "lat": "34.697127",
+    "lng": "135.190493",
     "id": "italian-212"
   }, {
     "name": "リストランテ ナカモト",
@@ -1724,16 +1724,16 @@
     "url": "https://tabelog.com/osaka/A2701/A270102/27000522/",
     "address": "大阪府 大阪市中央区 北浜 1-8-16 大阪証券取引所ビル １Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27000522",
-    "lat": "34.691288",
-    "lng": "135.507149",
+    "lat": "34.691316",
+    "lng": "135.507283",
     "id": "italian-215"
   }, {
     "name": "モード ディ ポンテベッキオ",
     "url": "https://tabelog.com/osaka/A2701/A270101/27000763/",
     "address": "大阪府 大阪市北区 梅田 3-3-20 明治安田生命大阪梅田ビル 30F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27000763",
-    "lat": "34.698698",
-    "lng": "135.491537",
+    "lat": "34.698699",
+    "lng": "135.491604",
     "id": "italian-216"
   }, {
     "name": "ラッフィナート",
@@ -1756,8 +1756,8 @@
     "url": "https://tabelog.com/kyoto/A2601/A260202/26007432/",
     "address": "京都府 京都市中京区 東洞院通竹屋町下ル三本木五丁目496-3",
     "code": "hyakumeiten_italian_west_2021_restaurant_26007432",
-    "lat": "35.015152",
-    "lng": "135.760913",
+    "lat": "35.015139",
+    "lng": "135.760961",
     "id": "italian-219"
   }, {
     "name": "サンタ ルチア",
@@ -1780,8 +1780,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270201/27009401/",
     "address": "大阪府 大阪市中央区 東心斎橋 1-19-15 Ｕｎａｇｉｄａｎｉ Ｂｌｏｃｋ ２Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27009401",
-    "lat": "34.67464",
-    "lng": "135.502491",
+    "lat": "34.674627",
+    "lng": "135.502488",
     "id": "italian-222"
   }, {
     "name": "トラットリア パッパ",
@@ -1844,8 +1844,8 @@
     "url": "https://tabelog.com/kyoto/A2601/A260202/26005142/",
     "address": "京都府 京都市中京区 三条木屋町上ル三軒目 三条木屋町ビルⅡ ３Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_26005142",
-    "lat": "35.00921",
-    "lng": "135.770557",
+    "lat": "35.0091",
+    "lng": "135.770593",
     "id": "italian-230"
   }, {
     "name": "リストランテKubotsu",
@@ -1892,8 +1892,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270106/27005160/",
     "address": "大阪府 大阪市西区 靱本町 1丁目16-20 本町アートスクェアー１F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27005160",
-    "lat": "34.684684",
-    "lng": "135.494942",
+    "lat": "34.684671",
+    "lng": "135.494931",
     "id": "italian-236"
   }, {
     "name": "ラ ピニャータ",
@@ -1916,16 +1916,16 @@
     "url": "https://tabelog.com/hyogo/A2801/A280101/28034851/",
     "address": "兵庫県 神戸市中央区 加納町 3-11‐2 奥田ビル 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_28034851",
-    "lat": "34.698122",
-    "lng": "135.193309",
+    "lat": "34.698123",
+    "lng": "135.193313",
     "id": "italian-239"
   }, {
     "name": "ラ・ロカンダ ザ・リッツ・カールトン京都",
     "url": "https://tabelog.com/kyoto/A2601/A260202/26023294/",
     "address": "京都府 京都市中京区 鴨川二条大橋畔 リッツカールトン京都 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_26023294",
-    "lat": "35.013803",
-    "lng": "135.770847",
+    "lat": "35.013909",
+    "lng": "135.770856",
     "id": "italian-240"
   }, {
     "name": "SAISIR",
@@ -1948,16 +1948,16 @@
     "url": "https://tabelog.com/osaka/A2701/A270108/27001173/",
     "address": "大阪府 大阪市福島区 福島 5-6-11 シュエット吉本 ２Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27001173",
-    "lat": "34.696515",
-    "lng": "135.487358",
+    "lat": "34.69652",
+    "lng": "135.487346",
     "id": "italian-243"
   }, {
     "name": "il luogo di TAKEUCHI",
     "url": "https://tabelog.com/osaka/A2701/A270108/27050186/",
     "address": "大阪府 大阪市福島区 福島 5‐1‐26 MF 西梅田ビル1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27050186",
-    "lat": "34.696971",
-    "lng": "135.489935",
+    "lat": "34.696978",
+    "lng": "135.489916",
     "id": "italian-244"
   }, {
     "name": "il PePe",
@@ -1972,8 +1972,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270101/27072626/",
     "address": "大阪府 大阪市北区 大深町 3-1 グランフロント大阪 北館 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27072626",
-    "lat": "34.705897",
-    "lng": "135.494465",
+    "lat": "34.705922",
+    "lng": "135.494714",
     "id": "italian-246"
   }, {
     "name": "ペッシェ・ロッソ",
@@ -1988,8 +1988,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270104/27093817/",
     "address": "大阪府 大阪市北区 天満 2-7-1 末澤ビル 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27093817",
-    "lat": "34.693399",
-    "lng": "135.517223",
+    "lat": "34.693379",
+    "lng": "135.517217",
     "id": "italian-248"
   }, {
     "name": "THE SODOH HIGASHIYAMA KYOTO",
@@ -2004,8 +2004,8 @@
     "url": "https://tabelog.com/kyoto/A2601/A260201/26002013/",
     "address": "京都府 京都市中京区 東洞院通錦小路下ル阪東屋町675",
     "code": "hyakumeiten_italian_west_2021_restaurant_26002013",
-    "lat": "35.00472",
-    "lng": "135.761132",
+    "lat": "35.004015",
+    "lng": "135.761028",
     "id": "italian-250"
   }, {
     "name": "マチェレリーアディタケウチ",
@@ -2020,8 +2020,8 @@
     "url": "https://tabelog.com/hyogo/A2801/A280101/28015970/",
     "address": "兵庫県 神戸市中央区 中山手通 1-9-5",
     "code": "hyakumeiten_italian_west_2021_restaurant_28015970",
-    "lat": "34.695524",
-    "lng": "135.192019",
+    "lat": "34.695519",
+    "lng": "135.192028",
     "id": "italian-252"
   }, {
     "name": "麺匠 パスタバカ一代",
@@ -2036,8 +2036,8 @@
     "url": "https://tabelog.com/okayama/A3301/A330101/33010293/",
     "address": "岡山県 岡山市北区 平和町 5-24 アシモ西川 １F",
     "code": "hyakumeiten_italian_west_2021_restaurant_33010293",
-    "lat": "34.664053",
-    "lng": "133.923001",
+    "lat": "34.664046",
+    "lng": "133.923051",
     "id": "italian-254"
   }, {
     "name": "チュカテ",
@@ -2052,8 +2052,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270102/27000260/",
     "address": "大阪府 大阪市西区 京町堀 1-4-22 肥後橋プラザビル １Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27000260",
-    "lat": "34.688155",
-    "lng": "135.497391",
+    "lat": "34.688179",
+    "lng": "135.497363",
     "id": "italian-256"
   }, {
     "name": "Ristorante 美郷",
@@ -2061,15 +2061,15 @@
     "address": "京都府 京都市下京区 堺町 通松原下ル鍛冶屋町246-2",
     "code": "hyakumeiten_italian_west_2021_restaurant_26002665",
     "lat": "34.998084",
-    "lng": "135.76328",
+    "lng": "135.763213",
     "id": "italian-257"
   }, {
     "name": "イルベッカフィーコ",
     "url": "https://tabelog.com/osaka/A2701/A270102/27065002/",
     "address": "大阪府 大阪市西区 江戸堀 1-23-30 ダコタハウス 2F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27065002",
-    "lat": "34.689547",
-    "lng": "135.493148",
+    "lat": "34.689559",
+    "lng": "135.493161",
     "id": "italian-258"
   }, {
     "name": "L’ISOLETTA",
@@ -2100,8 +2100,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270102/27071832/",
     "address": "大阪府 大阪市北区 西天満 4-1-20 リープラザ 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27071832",
-    "lat": "34.696185",
-    "lng": "135.505787",
+    "lat": "34.696195",
+    "lng": "135.505799",
     "id": "italian-262"
   }, {
     "name": "裏ヒロヤ",
@@ -2116,8 +2116,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270106/27004543/",
     "address": "大阪府 大阪市中央区 北久宝寺町 2-1-11 アライアンス船場 １Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27004543",
-    "lat": "34.680041",
-    "lng": "135.505547",
+    "lat": "34.680045",
+    "lng": "135.505568",
     "id": "italian-264"
   }, {
     "name": "アンティカ・オステリア・ダル・ポンピエーレ",
@@ -2132,8 +2132,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270106/27070237/",
     "address": "大阪府 大阪市中央区 北久宝寺町 4-3-12 小原第五ビル 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27070237",
-    "lat": "34.679719",
-    "lng": "135.499011",
+    "lat": "34.679714",
+    "lng": "135.499006",
     "id": "italian-266"
   }, {
     "name": "トラットリア セッテ ハイアット リージェンシー 京都",
@@ -2148,24 +2148,24 @@
     "url": "https://tabelog.com/osaka/A2701/A270201/27006683/",
     "address": "大阪府 大阪市中央区 西心斎橋 1-10-28 心斎橋Ｍビル １０Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27006683",
-    "lat": "34.674039",
-    "lng": "135.498275",
+    "lat": "34.674038",
+    "lng": "135.498251",
     "id": "italian-268"
   }, {
     "name": "オステリア ガウダンテ 大阪駅前第4ビル店",
     "url": "https://tabelog.com/osaka/A2701/A270101/27002094/",
     "address": "大阪府 大阪市北区 梅田 1-11-4 大阪駅前第4ビル B1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27002094",
-    "lat": "34.699888",
-    "lng": "135.498922",
+    "lat": "34.699879",
+    "lng": "135.498857",
     "id": "italian-269"
   }, {
     "name": "リストランテ・ヒロ OSAKA ブリーゼブリーゼ",
     "url": "https://tabelog.com/osaka/A2701/A270101/27018171/",
     "address": "大阪府 大阪市北区 梅田 2-4-9 ブリーゼブリーゼ 5Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_27018171",
-    "lat": "34.698621",
-    "lng": "135.493953",
+    "lat": "34.698885",
+    "lng": "135.494061",
     "id": "italian-270"
   }, {
     "name": "トラットリア チェーロ",
@@ -2188,8 +2188,8 @@
     "url": "https://tabelog.com/hyogo/A2801/A280105/28006891/",
     "address": "兵庫県 神戸市東灘区 田中町 1-2-12 ドゥース本山 Ｂ１Ｆ",
     "code": "hyakumeiten_italian_west_2021_restaurant_28006891",
-    "lat": "34.723503",
-    "lng": "135.276522",
+    "lat": "34.723575",
+    "lng": "135.27655",
     "id": "italian-273"
   }, {
     "name": "ラ セッテ 広瀬北町本店",
@@ -2228,8 +2228,8 @@
     "url": "https://tabelog.com/kyoto/A2601/A260101/26001972/",
     "address": "京都府 京都市下京区 烏丸 通塩小路下る東塩小路町901 ジェイアール京都伊勢丹 10F",
     "code": "hyakumeiten_italian_west_2021_restaurant_26001972",
-    "lat": "34.985871",
-    "lng": "135.75704",
+    "lat": "34.985866",
+    "lng": "135.756998",
     "id": "italian-278"
   }, {
     "name": "asse+ plus",
@@ -2252,8 +2252,8 @@
     "url": "https://tabelog.com/osaka/A2701/A270108/27050941/",
     "address": "大阪府 大阪市福島区 福島 3-11-22",
     "code": "hyakumeiten_italian_west_2021_restaurant_27050941",
-    "lat": "34.694095",
-    "lng": "135.485251",
+    "lat": "34.694086",
+    "lng": "135.485269",
     "id": "italian-281"
   }, {
     "name": "両忘",
@@ -2284,16 +2284,16 @@
     "url": "https://tabelog.com/osaka/A2701/A270102/27068624/",
     "address": "大阪府 大阪市西区 京町堀 2-3-4 サンヤマトビル 3F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27068624",
-    "lat": "34.686307",
-    "lng": "135.492163",
+    "lat": "34.686319",
+    "lng": "135.492173",
     "id": "italian-285"
   }, {
     "name": "TN",
     "url": "https://tabelog.com/hyogo/A2801/A280102/28042894/",
     "address": "兵庫県 神戸市中央区 山本通 5-4-12 ヒルビューマンション 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_28042894",
-    "lat": "34.692985",
-    "lng": "135.180397",
+    "lat": "34.692984",
+    "lng": "135.180407",
     "id": "italian-286"
   }, {
     "name": "ちゅらぬうじ",
@@ -2316,16 +2316,16 @@
     "url": "https://tabelog.com/kyoto/A2601/A260201/26017856/",
     "address": "京都府 京都市中京区 堺町通蛸薬師下ル菊屋町512-2",
     "code": "hyakumeiten_italian_west_2021_restaurant_26017856",
-    "lat": "35.005899",
-    "lng": "135.763185",
+    "lat": "35.005896",
+    "lng": "135.763151",
     "id": "italian-289"
   }, {
     "name": "GIGLI",
     "url": "https://tabelog.com/miyazaki/A4501/A450101/45005449/",
     "address": "宮崎県 宮崎市 中央通 3-22 高野ビル 2F",
     "code": "hyakumeiten_italian_west_2021_restaurant_45005449",
-    "lat": "31.916666",
-    "lng": "131.421198",
+    "lat": "31.916742",
+    "lng": "131.42113",
     "id": "italian-290"
   }, {
     "name": "ニジイロ アルコバレーノ",
@@ -2348,16 +2348,16 @@
     "url": "https://tabelog.com/osaka/A2701/A270201/27003204/",
     "address": "大阪府 大阪市西区 新町 1-23-2",
     "code": "hyakumeiten_italian_west_2021_restaurant_27003204",
-    "lat": "34.67656",
-    "lng": "135.495825",
+    "lat": "34.676527",
+    "lng": "135.495683",
     "id": "italian-293"
   }, {
     "name": "サーラ ビアンキ アル・ケッチァーノ",
     "url": "https://tabelog.com/mie/A2402/A240203/24011543/",
     "address": "三重県 三重郡菰野町 菰野 4800-1",
     "code": "hyakumeiten_italian_west_2021_restaurant_24011543",
-    "lat": "35.013756",
-    "lng": "136.482785",
+    "lat": "35.013406",
+    "lng": "136.482571",
     "id": "italian-294"
   }, {
     "name": "アルテシンポジオ",
@@ -2368,20 +2368,12 @@
     "lng": "135.328821",
     "id": "italian-295"
   }, {
-    "name": "hikari-yurari",
-    "url": "https://tabelog.com/kyoto/A2601/A260202/26002637/",
-    "address": "京都府 京都市中京区 押小路通麩屋町東入橘町611-1 ヴァインオークトゥエルブ B1F",
-    "code": "hyakumeiten_italian_west_2021_restaurant_26002637",
-    "lat": "35.012107",
-    "lng": "135.766061",
-    "id": "italian-296"
-  }, {
     "name": "ラ・ストラーダ",
     "url": "https://tabelog.com/osaka/A2701/A270108/27062948/",
     "address": "大阪府 大阪市福島区 福島 3-1-39 メリヤス会館 1F",
     "code": "hyakumeiten_italian_west_2021_restaurant_27062948",
-    "lat": "34.690599",
-    "lng": "135.484579",
+    "lat": "34.690556",
+    "lng": "135.484531",
     "id": "italian-297"
   }, {
     "name": "サリーレ",

@@ -1,0 +1,803 @@
+{
+  "shops": [{
+    "name": "歓迎 本店",
+    "url": "https://tabelog.com/tokyo/A1315/A131503/13003304/",
+    "address": "東京都 大田区 蒲田 5-13-26 大田区生活センター １Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13003304",
+    "lat": "35.559818",
+    "lng": "139.715454",
+    "id": "gyoza-0"
+  }, {
+    "name": "宝雲亭",
+    "url": "https://tabelog.com/fukuoka/A4001/A400102/40000125/",
+    "address": "福岡県 福岡市博多区 中洲 2-4-20",
+    "code": "hyakumeiten_gyoza_2021_restaurant_40000125",
+    "lat": "33.591652",
+    "lng": "130.407854",
+    "id": "gyoza-1"
+  }, {
+    "name": "福みつ",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22001373/",
+    "address": "静岡県 浜松市中区 佐藤 1-25-8",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22001373",
+    "lat": "34.713321",
+    "lng": "137.745418",
+    "id": "gyoza-2"
+  }, {
+    "name": "山東 2号店",
+    "url": "https://tabelog.com/kanagawa/A1401/A140105/14000483/",
+    "address": "神奈川県 横浜市中区 山下町 150-3",
+    "code": "hyakumeiten_gyoza_2021_restaurant_14000483",
+    "lat": "35.443738",
+    "lng": "139.645389",
+    "id": "gyoza-3"
+  }, {
+    "name": "鉄なべ餃子なかよし",
+    "url": "https://tabelog.com/tokyo/A1319/A131905/13000676/",
+    "address": "東京都 杉並区 梅里 2-40-16 ビラージュ白井ビル",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13000676",
+    "lat": "35.697825",
+    "lng": "139.63957",
+    "id": "gyoza-4"
+  }, {
+    "name": "太陽",
+    "url": "https://tabelog.com/tokyo/A1319/A131904/13000732/",
+    "address": "東京都 杉並区 高円寺北 3-22-12 第6東和ビル 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13000732",
+    "lat": "35.706209",
+    "lng": "139.649384",
+    "id": "gyoza-5"
+  }, {
+    "name": "餃子 照井 飯坂本店",
+    "url": "https://tabelog.com/fukushima/A0701/A070101/7000722/",
+    "address": "福島県 福島市 飯坂町 錦町1-21",
+    "code": "hyakumeiten_gyoza_2021_restaurant_7000722",
+    "lat": "37.832623",
+    "lng": "140.453005",
+    "id": "gyoza-6"
+  }, {
+    "name": "你好 恵馨閣",
+    "url": "https://tabelog.com/tokyo/A1315/A131503/13120494/",
+    "address": "東京都 大田区 西蒲田 7-45-1 イプセ蒲田 2F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13120494",
+    "lat": "35.562932",
+    "lng": "139.713954",
+    "id": "gyoza-7"
+  }, {
+    "name": "博多祇園鉄なべ",
+    "url": "https://tabelog.com/fukuoka/A4001/A400101/40000836/",
+    "address": "福岡県 福岡市博多区 祇園町 2-20",
+    "code": "hyakumeiten_gyoza_2021_restaurant_40000836",
+    "lat": "33.592619",
+    "lng": "130.414231",
+    "id": "gyoza-8"
+  }, {
+    "name": "PAIRON 飯田橋本店",
+    "url": "https://tabelog.com/tokyo/A1309/A130905/13127427/",
+    "address": "東京都 新宿区 新小川町 8-32",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13127427",
+    "lat": "35.705843",
+    "lng": "139.741495",
+    "id": "gyoza-9"
+  }, {
+    "name": "ぎょうざの店 ひょうたん 三宮店",
+    "url": "https://tabelog.com/hyogo/A2801/A280101/28000495/",
+    "address": "兵庫県 神戸市中央区 北長狭通 1-31-37",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28000495",
+    "lat": "34.692249",
+    "lng": "135.191835",
+    "id": "gyoza-10"
+  }, {
+    "name": "ぎょうざの美鈴",
+    "url": "https://tabelog.com/mie/A2403/A240301/24000014/",
+    "address": "三重県 伊勢市 宮町 1-2-17",
+    "code": "hyakumeiten_gyoza_2021_restaurant_24000014",
+    "lat": "34.494237",
+    "lng": "136.698477",
+    "id": "gyoza-11"
+  }, {
+    "name": "むつ菊",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22003100/",
+    "address": "静岡県 浜松市中区 助信町 41-27",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22003100",
+    "lat": "34.723946",
+    "lng": "137.73668",
+    "id": "gyoza-12"
+  }, {
+    "name": "哈爾濱餃子",
+    "url": "https://tabelog.com/tokyo/A1324/A132403/13003085/",
+    "address": "東京都 葛飾区 堀切 3-7-17",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13003085",
+    "lat": "35.746915",
+    "lng": "139.826939",
+    "id": "gyoza-13"
+  }, {
+    "name": "岐州",
+    "url": "https://tabelog.com/gifu/A2101/A210101/21001121/",
+    "address": "岐阜県 岐阜市 住田町 1-31 マツノビル １Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_21001121",
+    "lat": "35.411614",
+    "lng": "136.757842",
+    "id": "gyoza-14"
+  }, {
+    "name": "たつみ",
+    "url": "https://tabelog.com/aichi/A2301/A230104/23053109/",
+    "address": "愛知県 名古屋市中区 新栄 2-8-13 シャトー秋月 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_23053109",
+    "lat": "35.168324",
+    "lng": "136.922918",
+    "id": "gyoza-15"
+  }, {
+    "name": "菜香餃子房",
+    "url": "https://tabelog.com/tokyo/A1324/A132402/13158080/",
+    "address": "東京都 足立区 千住 1-39-9",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13158080",
+    "lat": "35.747916",
+    "lng": "139.803976",
+    "id": "gyoza-16"
+  }, {
+    "name": "亀戸ぎょうざ 錦糸町店",
+    "url": "https://tabelog.com/tokyo/A1312/A131201/13041091/",
+    "address": "東京都 墨田区 江東橋 3-9-1",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13041091",
+    "lat": "35.69472",
+    "lng": "139.813219",
+    "id": "gyoza-17"
+  }, {
+    "name": "ぎょうざ大学",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28001632/",
+    "address": "兵庫県 神戸市中央区 元町通 2-3-5",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28001632",
+    "lat": "34.688097",
+    "lng": "135.187274",
+    "id": "gyoza-18"
+  }, {
+    "name": "餃子李",
+    "url": "https://tabelog.com/fukuoka/A4001/A400104/40000194/",
+    "address": "福岡県 福岡市中央区 薬院 3-1-11 福海ビル 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_40000194",
+    "lat": "33.581128",
+    "lng": "130.400131",
+    "id": "gyoza-19"
+  }, {
+    "name": "丸正餃子店 本店",
+    "url": "https://tabelog.com/osaka/A2707/A270704/27003163/",
+    "address": "大阪府 大東市 三住町 1-35",
+    "code": "hyakumeiten_gyoza_2021_restaurant_27003163",
+    "lat": "34.710352",
+    "lng": "135.622615",
+    "id": "gyoza-20"
+  }, {
+    "name": "昇龍",
+    "url": "https://tabelog.com/tokyo/A1311/A131101/13003608/",
+    "address": "東京都 台東区 上野 6-10-14",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13003608",
+    "lat": "35.710396",
+    "lng": "139.774853",
+    "id": "gyoza-21"
+  }, {
+    "name": "萬里",
+    "url": "https://tabelog.com/kanagawa/A1401/A140102/14006776/",
+    "address": "神奈川県 横浜市中区 野毛町 2-71",
+    "code": "hyakumeiten_gyoza_2021_restaurant_14006776",
+    "lat": "35.448501",
+    "lng": "139.630256",
+    "id": "gyoza-22"
+  }, {
+    "name": "来々軒",
+    "url": "https://tabelog.com/tokyo/A1313/A131303/13098822/",
+    "address": "東京都 江東区 東陽 3-21-4 ライオンズマンション 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13098822",
+    "lat": "35.66919",
+    "lng": "139.811442",
+    "id": "gyoza-23"
+  }, {
+    "name": "餃天堂",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9001001/",
+    "address": "栃木県 宇都宮市 駅前通り 3-3-2",
+    "code": "hyakumeiten_gyoza_2021_restaurant_9001001",
+    "lat": "36.558538",
+    "lng": "139.89754",
+    "id": "gyoza-24"
+  }, {
+    "name": "独一処餃子 葛西本店",
+    "url": "https://tabelog.com/tokyo/A1313/A131305/13008712/",
+    "address": "東京都 江戸川区 中葛西 3-33-19",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13008712",
+    "lat": "35.664574",
+    "lng": "139.871079",
+    "id": "gyoza-25"
+  }, {
+    "name": "開楽 本店",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13017017/",
+    "address": "東京都 豊島区 南池袋 1-27-2",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13017017",
+    "lat": "35.729311",
+    "lng": "139.712946",
+    "id": "gyoza-26"
+  }, {
+    "name": "新ちゃん",
+    "url": "https://tabelog.com/hyogo/A2803/A280304/28027880/",
+    "address": "兵庫県 尼崎市 東桜木町 96",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28027880",
+    "lat": "34.717086",
+    "lng": "135.412879",
+    "id": "gyoza-27"
+  }, {
+    "name": "えびすの安兵衛",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13117106/",
+    "address": "東京都 渋谷区 恵比寿 4-9-15 荻原ビル5 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13117106",
+    "lat": "35.645605",
+    "lng": "139.714693",
+    "id": "gyoza-28"
+  }, {
+    "name": "餃子の店 三幸園 白山通り店",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13006530/",
+    "address": "東京都 千代田区 神田神保町 1-13",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13006530",
+    "lat": "35.695135",
+    "lng": "139.758495",
+    "id": "gyoza-29"
+  }, {
+    "name": "亀戸ぎょうざ 両国支店",
+    "url": "https://tabelog.com/tokyo/A1312/A131201/13039735/",
+    "address": "東京都 墨田区 両国 4-34-10",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13039735",
+    "lat": "35.695019",
+    "lng": "139.797293",
+    "id": "gyoza-30"
+  }, {
+    "name": "歓迎 西口店",
+    "url": "https://tabelog.com/tokyo/A1315/A131503/13025054/",
+    "address": "東京都 大田区 西蒲田 7-67-5",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13025054",
+    "lat": "35.562084",
+    "lng": "139.714694",
+    "id": "gyoza-31"
+  }, {
+    "name": "餃子の王さま",
+    "url": "https://tabelog.com/tokyo/A1311/A131102/13016814/",
+    "address": "東京都 台東区 浅草 1-30-8",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13016814",
+    "lat": "35.71213",
+    "lng": "139.79569",
+    "id": "gyoza-32"
+  }, {
+    "name": "ぎょうざの店 ひょうたん 元町店",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28000494/",
+    "address": "兵庫県 神戸市中央区 元町通 1-11-15",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28000494",
+    "lat": "34.689796",
+    "lng": "135.188948",
+    "id": "gyoza-33"
+  }, {
+    "name": "ぎょうざ 歩兵 祇園本店",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26018951/",
+    "address": "京都府 京都市東山区 清本町 373-3",
+    "code": "hyakumeiten_gyoza_2021_restaurant_26018951",
+    "lat": "35.005235",
+    "lng": "135.774519",
+    "id": "gyoza-34"
+  }, {
+    "name": "泰興楼 自由ヶ丘店",
+    "url": "https://tabelog.com/tokyo/A1317/A131703/13005118/",
+    "address": "東京都 世田谷区 奥沢 6-31-17",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13005118",
+    "lat": "35.605519",
+    "lng": "139.665837",
+    "id": "gyoza-35"
+  }, {
+    "name": "屋台安兵衛",
+    "url": "https://tabelog.com/kochi/A3901/A390101/39000019/",
+    "address": "高知県 高知市 廿代町 4-19",
+    "code": "hyakumeiten_gyoza_2021_restaurant_39000019",
+    "lat": "33.56324",
+    "lng": "133.54096",
+    "id": "gyoza-36"
+  }, {
+    "name": "清ちゃん",
+    "url": "https://tabelog.com/hiroshima/A3401/A340110/34004387/",
+    "address": "広島県 広島市中区 銀山町 13-11",
+    "code": "hyakumeiten_gyoza_2021_restaurant_34004387",
+    "lat": "34.390766",
+    "lng": "132.466462",
+    "id": "gyoza-37"
+  }, {
+    "name": "春香園 蒲田店",
+    "url": "https://tabelog.com/tokyo/A1315/A131503/13057671/",
+    "address": "東京都 大田区 蒲田 5-22-1",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13057671",
+    "lat": "35.562295",
+    "lng": "139.718954",
+    "id": "gyoza-38"
+  }, {
+    "name": "鉄なべ 中洲本店",
+    "url": "https://tabelog.com/fukuoka/A4001/A400103/40000910/",
+    "address": "福岡県 福岡市中央区 西中洲 1-5",
+    "code": "hyakumeiten_gyoza_2021_restaurant_40000910",
+    "lat": "33.590467",
+    "lng": "130.406328",
+    "id": "gyoza-39"
+  }, {
+    "name": "中華珍満",
+    "url": "https://tabelog.com/tokyo/A1311/A131101/13016725/",
+    "address": "東京都 台東区 上野 3-28-10",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13016725",
+    "lat": "35.707625",
+    "lng": "139.773961",
+    "id": "gyoza-40"
+  }, {
+    "name": "でっかい餃子 曽さんの店 代々木店",
+    "url": "https://tabelog.com/tokyo/A1304/A130403/13021680/",
+    "address": "東京都 渋谷区 代々木 1-33-2",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13021680",
+    "lat": "35.682658",
+    "lng": "139.702376",
+    "id": "gyoza-41"
+  }, {
+    "name": "金春 本館",
+    "url": "https://tabelog.com/tokyo/A1315/A131503/13008262/",
+    "address": "東京都 大田区 蒲田 4-5-6 プロスペリアルビル １・２Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13008262",
+    "lat": "35.561476",
+    "lng": "139.722633",
+    "id": "gyoza-42"
+  }, {
+    "name": "原宿餃子樓",
+    "url": "https://tabelog.com/tokyo/A1306/A130601/13001284/",
+    "address": "東京都 渋谷区 神宮前 6-2-4",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13001284",
+    "lat": "35.667554",
+    "lng": "139.706146",
+    "id": "gyoza-43"
+  }, {
+    "name": "按田餃子 代々木上原店",
+    "url": "https://tabelog.com/tokyo/A1318/A131811/13140146/",
+    "address": "東京都 渋谷区 西原 3-21-2 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13140146",
+    "lat": "35.670595",
+    "lng": "139.681923",
+    "id": "gyoza-44"
+  }, {
+    "name": "餃子のハルピン",
+    "url": "https://tabelog.com/tokyo/A1320/A132002/13005875/",
+    "address": "東京都 三鷹市 下連雀 3-31-8",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13005875",
+    "lat": "35.697746",
+    "lng": "139.560553",
+    "id": "gyoza-45"
+  }, {
+    "name": "餃子専門店 祥雲",
+    "url": "https://tabelog.com/hyogo/A2801/A280101/28006275/",
+    "address": "兵庫県 神戸市中央区 加納町 4-8-19 北上ホテル１Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28006275",
+    "lat": "34.696375",
+    "lng": "135.192805",
+    "id": "gyoza-46"
+  }, {
+    "name": "亀戸餃子 本店",
+    "url": "https://tabelog.com/tokyo/A1312/A131202/13003078/",
+    "address": "東京都 江東区 亀戸 5-3-4",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13003078",
+    "lat": "35.698718",
+    "lng": "139.826243",
+    "id": "gyoza-47"
+  }, {
+    "name": "野方餃子",
+    "url": "https://tabelog.com/tokyo/A1321/A132104/13154377/",
+    "address": "東京都 中野区 野方 6-18-8 杉山ビル 1Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13154377",
+    "lat": "35.723041",
+    "lng": "139.652199",
+    "id": "gyoza-48"
+  }, {
+    "name": "餃子とスパークリング バブルス",
+    "url": "https://tabelog.com/aichi/A2301/A230102/23068000/",
+    "address": "愛知県 名古屋市中区 栄 2-1-12 ダイアパレス伏見 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_23068000",
+    "lat": "35.167865",
+    "lng": "136.89845",
+    "id": "gyoza-49"
+  }, {
+    "name": "雲龍亭 本店",
+    "url": "https://tabelog.com/nagasaki/A4201/A420101/42000060/",
+    "address": "長崎県 長崎市 本石灰町 2-15",
+    "code": "hyakumeiten_gyoza_2021_restaurant_42000060",
+    "lat": "32.742651",
+    "lng": "129.879668",
+    "id": "gyoza-50"
+  }, {
+    "name": "むつぎく",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22021065/",
+    "address": "静岡県 浜松市中区 砂山町 356-5",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22021065",
+    "lat": "34.701897",
+    "lng": "137.734935",
+    "id": "gyoza-51"
+  }, {
+    "name": "ひろめで安兵衛",
+    "url": "https://tabelog.com/kochi/A3901/A390101/39000464/",
+    "address": "高知県 高知市 帯屋町 2-3-1 ひろめ市場",
+    "code": "hyakumeiten_gyoza_2021_restaurant_39000464",
+    "lat": "33.560575",
+    "lng": "133.535654",
+    "id": "gyoza-52"
+  }, {
+    "name": "ミスター・ギョーザ",
+    "url": "https://tabelog.com/kyoto/A2601/A260604/26000028/",
+    "address": "京都府 京都市南区 唐橋高田町 42",
+    "code": "hyakumeiten_gyoza_2021_restaurant_26000028",
+    "lat": "34.979602",
+    "lng": "135.741568",
+    "id": "gyoza-53"
+  }, {
+    "name": "横浜とんとん",
+    "url": "https://tabelog.com/kanagawa/A1401/A140301/14003956/",
+    "address": "神奈川県 横浜市保土ケ谷区 星川 1-15-27",
+    "code": "hyakumeiten_gyoza_2021_restaurant_14003956",
+    "lat": "35.455226",
+    "lng": "139.592757",
+    "id": "gyoza-54"
+  }, {
+    "name": "大連",
+    "url": "https://tabelog.com/tokyo/A1315/A131502/13003379/",
+    "address": "東京都 大田区 山王 1-25-14",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13003379",
+    "lat": "35.593189",
+    "lng": "139.725457",
+    "id": "gyoza-55"
+  }, {
+    "name": "香蘭",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9010705/",
+    "address": "栃木県 宇都宮市 本町 1-24",
+    "code": "hyakumeiten_gyoza_2021_restaurant_9010705",
+    "lat": "36.562752",
+    "lng": "139.882389",
+    "id": "gyoza-56"
+  }, {
+    "name": "歓迎 銀座中央通り店",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13154973/",
+    "address": "東京都 中央区 京橋 3-1-1 東京スクエアガーデン B1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13154973",
+    "lat": "35.676129",
+    "lng": "139.768815",
+    "id": "gyoza-57"
+  }, {
+    "name": "龍門",
+    "url": "https://tabelog.com/tokyo/A1315/A131504/13017770/",
+    "address": "東京都 大田区 西糀谷 3-35-3",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13017770",
+    "lat": "35.554064",
+    "lng": "139.739117",
+    "id": "gyoza-58"
+  }, {
+    "name": "餃子坊　豚八戒",
+    "url": "https://tabelog.com/tokyo/A1319/A131905/13090377/",
+    "address": "東京都 杉並区 阿佐谷南 3-37-5",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13090377",
+    "lat": "35.704241",
+    "lng": "139.635157",
+    "id": "gyoza-59"
+  }, {
+    "name": "餃子 福福",
+    "url": "https://tabelog.com/hyogo/A2803/A280302/28007605/",
+    "address": "兵庫県 芦屋市 前田町 5-8",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28007605",
+    "lat": "34.731133",
+    "lng": "135.300202",
+    "id": "gyoza-60"
+  }, {
+    "name": "ぎょうざ処 高辻 亮昌 本店",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26017170/",
+    "address": "京都府 京都市下京区 堀之内町 263 １Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_26017170",
+    "lat": "35.000278",
+    "lng": "135.755606",
+    "id": "gyoza-61"
+  }, {
+    "name": "湖月",
+    "url": "https://tabelog.com/oita/A4402/A440202/44000056/",
+    "address": "大分県 別府市 北浜 1-9-4",
+    "code": "hyakumeiten_gyoza_2021_restaurant_44000056",
+    "lat": "33.279059",
+    "lng": "131.504707",
+    "id": "gyoza-62"
+  }, {
+    "name": "餃子の店 もも",
+    "url": "https://tabelog.com/osaka/A2701/A270203/27008027/",
+    "address": "大阪府 大阪市阿倍野区 阪南町 1-46-8",
+    "code": "hyakumeiten_gyoza_2021_restaurant_27008027",
+    "lat": "34.63406",
+    "lng": "135.516379",
+    "id": "gyoza-63"
+  }, {
+    "name": "百老亭 今池店",
+    "url": "https://tabelog.com/aichi/A2301/A230106/23029601/",
+    "address": "愛知県 名古屋市千種区 今池 1-13-14",
+    "code": "hyakumeiten_gyoza_2021_restaurant_23029601",
+    "lat": "35.168226",
+    "lng": "136.935738",
+    "id": "gyoza-64"
+  }, {
+    "name": "リトル泰興楼 Fei店",
+    "url": "https://tabelog.com/tokyo/A1302/A130202/13133812/",
+    "address": "東京都 中央区 八重洲 1-4-16 東京建物八重洲ビル B1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13133812",
+    "lat": "35.682353",
+    "lng": "139.771366",
+    "id": "gyoza-65"
+  }, {
+    "name": "老辺餃子舘 新宿本店",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13012005/",
+    "address": "東京都 新宿区 西新宿 1-18-1 小川ビル 3F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13012005",
+    "lat": "35.688925",
+    "lng": "139.698669",
+    "id": "gyoza-66"
+  }, {
+    "name": "ぎょうざ専門店 赤萬 元町店",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28002361/",
+    "address": "兵庫県 神戸市中央区 元町通 1-11-10",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28002361",
+    "lat": "34.689751",
+    "lng": "135.188864",
+    "id": "gyoza-67"
+  }, {
+    "name": "您好",
+    "url": "https://tabelog.com/tokyo/A1318/A131807/13001812/",
+    "address": "東京都 渋谷区 西原 2-27-4 升本酒店 ２Ｆ",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13001812",
+    "lat": "35.675256",
+    "lng": "139.678335",
+    "id": "gyoza-68"
+  }, {
+    "name": "鎮海楼",
+    "url": "https://tabelog.com/tokyo/A1316/A131601/13020138/",
+    "address": "東京都 品川区 上大崎 2-15-6 市川ビル 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13020138",
+    "lat": "35.634595",
+    "lng": "139.716854",
+    "id": "gyoza-69"
+  }, {
+    "name": "おけ以",
+    "url": "https://tabelog.com/tokyo/A1309/A130905/13000410/",
+    "address": "東京都 千代田区 富士見 2-12-16",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13000410",
+    "lat": "35.698825",
+    "lng": "139.744585",
+    "id": "gyoza-70"
+  }, {
+    "name": "餃子の福包 新宿店",
+    "url": "https://tabelog.com/tokyo/A1304/A130402/13050544/",
+    "address": "東京都 新宿区 新宿 2-8-6 KDX新宿286ビル 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13050544",
+    "lat": "35.689265",
+    "lng": "139.708988",
+    "id": "gyoza-71"
+  }, {
+    "name": "みんみん",
+    "url": "https://tabelog.com/tokyo/A1320/A132001/13015935/",
+    "address": "東京都 武蔵野市 吉祥寺本町 1-1-9",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13015935",
+    "lat": "35.703783",
+    "lng": "139.579374",
+    "id": "gyoza-72"
+  }, {
+    "name": "五十番",
+    "url": "https://tabelog.com/fukuoka/A4008/A400801/40007271/",
+    "address": "福岡県 久留米市 東町 34-42",
+    "code": "hyakumeiten_gyoza_2021_restaurant_40007271",
+    "lat": "33.312916",
+    "lng": "130.519071",
+    "id": "gyoza-73"
+  }, {
+    "name": "十番",
+    "url": "https://tabelog.com/tokyo/A1319/A131901/13013490/",
+    "address": "東京都 中野区 東中野 3-7-26",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13013490",
+    "lat": "35.707137",
+    "lng": "139.682384",
+    "id": "gyoza-74"
+  }, {
+    "name": "石松餃子 新東名店",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22022797/",
+    "address": "静岡県 浜松市浜北区 大平 36 新東名高速道路NEOPASA浜松上り線",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22022797",
+    "lat": "34.843025",
+    "lng": "137.750651",
+    "id": "gyoza-75"
+  }, {
+    "name": "東京餃子楼 三軒茶屋店",
+    "url": "https://tabelog.com/tokyo/A1317/A131706/13004530/",
+    "address": "東京都 世田谷区 太子堂 4-4-2 ラウスパレス三軒茶屋",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13004530",
+    "lat": "35.643212",
+    "lng": "139.667631",
+    "id": "gyoza-76"
+  }, {
+    "name": "八仙",
+    "url": "https://tabelog.com/miyagi/A0401/A040101/4000029/",
+    "address": "宮城県 仙台市青葉区 一番町 2-4-13 文化横丁",
+    "code": "hyakumeiten_gyoza_2021_restaurant_4000029",
+    "lat": "38.259073",
+    "lng": "140.872897",
+    "id": "gyoza-77"
+  }, {
+    "name": "大陸",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13000118/",
+    "address": "東京都 新宿区 歌舞伎町 1-6-3 石塚ビル 4F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13000118",
+    "lat": "35.693609",
+    "lng": "139.702554",
+    "id": "gyoza-78"
+  }, {
+    "name": "中央亭",
+    "url": "https://tabelog.com/shizuoka/A2205/A220501/22003420/",
+    "address": "静岡県 沼津市 大手町 4-4-7",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22003420",
+    "lat": "35.098964",
+    "lng": "138.858263",
+    "id": "gyoza-79"
+  }, {
+    "name": "銀座 天龍 本店",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13193356/",
+    "address": "東京都 中央区 銀座 2-5-19 PUZZLE GINZA 4F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13193356",
+    "lat": "35.674195",
+    "lng": "139.766954",
+    "id": "gyoza-80"
+  }, {
+    "name": "一味玲玲 本店",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13020141/",
+    "address": "東京都 港区 新橋 3-19-2 2階",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13020141",
+    "lat": "35.665014",
+    "lng": "139.757551",
+    "id": "gyoza-81"
+  }, {
+    "name": "ぎょうざ専門店 赤萬 三宮店",
+    "url": "https://tabelog.com/hyogo/A2801/A280101/28004179/",
+    "address": "兵庫県 神戸市中央区 北長狭通 2-2-1",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28004179",
+    "lat": "34.692049",
+    "lng": "135.190894",
+    "id": "gyoza-82"
+  }, {
+    "name": "亜細亜割烹 蓮月",
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13182912/",
+    "address": "東京都 港区 南青山 1-23-7 Grange南青山 101",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13182912",
+    "lat": "35.666527",
+    "lng": "139.724778",
+    "id": "gyoza-83"
+  }, {
+    "name": "元祖ハルピン",
+    "url": "https://tabelog.com/tokyo/A1320/A132002/13054311/",
+    "address": "東京都 三鷹市 下連雀 3-31-9",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13054311",
+    "lat": "35.697745",
+    "lng": "139.560518",
+    "id": "gyoza-84"
+  }, {
+    "name": "喜慕里",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22002540/",
+    "address": "静岡県 浜松市南区 増楽町 563-3",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22002540",
+    "lat": "34.688545",
+    "lng": "137.688963",
+    "id": "gyoza-85"
+  }, {
+    "name": "東亭",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13008958/",
+    "address": "東京都 豊島区 東池袋 2-50-13",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13008958",
+    "lat": "35.732604",
+    "lng": "139.719731",
+    "id": "gyoza-86"
+  }, {
+    "name": "石松餃子 JR浜松駅店",
+    "url": "https://tabelog.com/shizuoka/A2202/A220201/22029778/",
+    "address": "静岡県 浜松市中区 砂山町 6-1 メイワン エキマチウエスト 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_22029778",
+    "lat": "34.704167",
+    "lng": "137.734444",
+    "id": "gyoza-87"
+  }, {
+    "name": "天平 北新地本店",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27000184/",
+    "address": "大阪府 大阪市北区 曽根崎新地 1-8-12",
+    "code": "hyakumeiten_gyoza_2021_restaurant_27000184",
+    "lat": "34.697522",
+    "lng": "135.500042",
+    "id": "gyoza-88"
+  }, {
+    "name": "正嗣 駒生店",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9001047/",
+    "address": "栃木県 宇都宮市 駒生町 1301-8",
+    "code": "hyakumeiten_gyoza_2021_restaurant_9001047",
+    "lat": "36.578472",
+    "lng": "139.844309",
+    "id": "gyoza-89"
+  }, {
+    "name": "旭軒 駅前本店",
+    "url": "https://tabelog.com/fukuoka/A4001/A400101/40000204/",
+    "address": "福岡県 福岡市博多区 博多駅前 2-15-22",
+    "code": "hyakumeiten_gyoza_2021_restaurant_40000204",
+    "lat": "33.590593",
+    "lng": "130.416601",
+    "id": "gyoza-90"
+  }, {
+    "name": "餃子菜館 勝ちゃん",
+    "url": "https://tabelog.com/ishikawa/A1702/A170202/17000692/",
+    "address": "石川県 小松市 土居原町 395",
+    "code": "hyakumeiten_gyoza_2021_restaurant_17000692",
+    "lat": "36.403985",
+    "lng": "136.450681",
+    "id": "gyoza-91"
+  }, {
+    "name": "正嗣 宮島本店",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9000046/",
+    "address": "栃木県 宇都宮市 馬場通り 4-3-1",
+    "code": "hyakumeiten_gyoza_2021_restaurant_9000046",
+    "lat": "36.561592",
+    "lng": "139.887711",
+    "id": "gyoza-92"
+  }, {
+    "name": "英洋軒 姫路駅前店",
+    "url": "https://tabelog.com/hyogo/A2805/A280501/28037232/",
+    "address": "兵庫県 姫路市 駅前町 301",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28037232",
+    "lat": "34.828825",
+    "lng": "134.692391",
+    "id": "gyoza-93"
+  }, {
+    "name": "和の中",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9000118/",
+    "address": "栃木県 宇都宮市 駒生町 1296-33",
+    "code": "hyakumeiten_gyoza_2021_restaurant_9000118",
+    "lat": "36.579082",
+    "lng": "139.845029",
+    "id": "gyoza-94"
+  }, {
+    "name": "青源 パセオ店",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9010290/",
+    "address": "栃木県 宇都宮市 川向町 1-23 宇都宮駅ビルパセオ 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_9010290",
+    "lat": "36.559579",
+    "lng": "139.898254",
+    "id": "gyoza-95"
+  }, {
+    "name": "淡水軒",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28000846/",
+    "address": "兵庫県 神戸市中央区 元町高架通 2-138",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28000846",
+    "lat": "34.689215",
+    "lng": "135.186447",
+    "id": "gyoza-96"
+  }, {
+    "name": "壇太",
+    "url": "https://tabelog.com/tokyo/A1316/A131603/13020500/",
+    "address": "東京都 港区 高輪 3-7-14",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13020500",
+    "lat": "35.632683",
+    "lng": "139.73171",
+    "id": "gyoza-97"
+  }, {
+    "name": "餃子荘 ムロ",
+    "url": "https://tabelog.com/tokyo/A1305/A130503/13019237/",
+    "address": "東京都 新宿区 高田馬場 1-33-2",
+    "code": "hyakumeiten_gyoza_2021_restaurant_13019237",
+    "lat": "35.710981",
+    "lng": "139.703732",
+    "id": "gyoza-98"
+  }, {
+    "name": "餃子屋 満園",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28023397/",
+    "address": "兵庫県 神戸市中央区 三宮町 2-11-1 センタープラザ西館 1F",
+    "code": "hyakumeiten_gyoza_2021_restaurant_28023397",
+    "lat": "34.69116",
+    "lng": "135.1912",
+    "id": "gyoza-99"
+  }]
+}

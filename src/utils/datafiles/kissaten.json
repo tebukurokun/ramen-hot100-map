@@ -1,0 +1,803 @@
+{
+  "shops": [{
+    "name": "ローヤル珈琲店 本店",
+    "url": "https://tabelog.com/tokyo/A1311/A131102/13008614/",
+    "address": "東京都 台東区 浅草 1-39-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13008614",
+    "lat": "35.712768",
+    "lng": "139.794457",
+    "id": "kissaten-0"
+  }, {
+    "name": "珈琲 天国",
+    "url": "https://tabelog.com/tokyo/A1311/A131102/13025425/",
+    "address": "東京都 台東区 浅草 1-41-9",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13025425",
+    "lat": "35.713033",
+    "lng": "139.794089",
+    "id": "kissaten-1"
+  }, {
+    "name": "ばん珈琲店",
+    "url": "https://tabelog.com/osaka/A2701/A270107/27037023/",
+    "address": "大阪府 大阪市中央区 森之宮中央1-16-21",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27037023",
+    "lat": "34.681212",
+    "lng": "135.532278",
+    "id": "kissaten-2"
+  }, {
+    "name": "COFFEE HALL くぐつ草",
+    "url": "https://tabelog.com/tokyo/A1320/A132001/13005791/",
+    "address": "東京都 武蔵野市 吉祥寺本町 1-7-7 島田ビル Ｂ１Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13005791",
+    "lat": "35.70419",
+    "lng": "139.578227",
+    "id": "kissaten-3"
+  }, {
+    "name": "珈琲館 紅鹿舎",
+    "url": "https://tabelog.com/tokyo/A1301/A130102/13002146/",
+    "address": "東京都 千代田区 有楽町 1-6-8 松井ビル １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13002146",
+    "lat": "35.673594",
+    "lng": "139.760898",
+    "id": "kissaten-4"
+  }, {
+    "name": "天のや",
+    "url": "https://tabelog.com/tokyo/A1307/A130702/13014306/",
+    "address": "東京都 港区 麻布十番 3-1-9",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13014306",
+    "lat": "35.653266",
+    "lng": "139.736357",
+    "id": "kissaten-5"
+  }, {
+    "name": "シビタス",
+    "url": "https://tabelog.com/tokyo/A1315/A131503/13045798/",
+    "address": "東京都 大田区 西蒲田 7-69-1 東急プラザ蒲田 4F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13045798",
+    "lat": "35.561868",
+    "lng": "139.715353",
+    "id": "kissaten-6"
+  }, {
+    "name": "茶房 武蔵野文庫",
+    "url": "https://tabelog.com/tokyo/A1320/A132001/13005823/",
+    "address": "東京都 武蔵野市 吉祥寺本町 2-13-4",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13005823",
+    "lat": "35.705146",
+    "lng": "139.576938",
+    "id": "kissaten-7"
+  }, {
+    "name": "アメリカン",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13051375/",
+    "address": "東京都 中央区 銀座 4丁目11-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13051375",
+    "lat": "35.669827",
+    "lng": "139.768762",
+    "id": "kissaten-8"
+  }, {
+    "name": "コヒア アラビカ",
+    "url": "https://tabelog.com/tokyo/A1308/A130801/13013444/",
+    "address": "東京都 港区 赤坂 3-18-2 Ｂ１Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13013444",
+    "lat": "35.67549",
+    "lng": "139.736624",
+    "id": "kissaten-9"
+  }, {
+    "name": "皇琲亭",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13003947/",
+    "address": "東京都 豊島区 東池袋 1-7-2 東駒ビル １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13003947",
+    "lat": "35.731274",
+    "lng": "139.713858",
+    "id": "kissaten-10"
+  }, {
+    "name": "さえら",
+    "url": "https://tabelog.com/hokkaido/A0101/A010102/1000026/",
+    "address": "北海道 札幌市中央区 大通西 2 都心ビル Ｂ３Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_1000026",
+    "lat": "43.060238",
+    "lng": "141.354375",
+    "id": "kissaten-11"
+  }, {
+    "name": "高木珈琲店 高辻本店",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26005195/",
+    "address": "京都府 京都市下京区 高辻通室町東入ル骨屋町175",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26005195",
+    "lat": "35.000208",
+    "lng": "135.75839",
+    "id": "kissaten-12"
+  }, {
+    "name": "カフェ・アンセーニュ・ダングル 自由が丘店",
+    "url": "https://tabelog.com/tokyo/A1317/A131703/13017724/",
+    "address": "東京都 目黒区 自由が丘 1-13-6 鳥井ビル １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13017724",
+    "lat": "35.608066",
+    "lng": "139.670245",
+    "id": "kissaten-13"
+  }, {
+    "name": "神田伯剌西爾",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13011590/",
+    "address": "東京都 千代田区 神田神保町 1-7 小宮山ビル Ｂ1Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13011590",
+    "lat": "35.695741",
+    "lng": "139.759553",
+    "id": "kissaten-14"
+  }, {
+    "name": "月光茶房",
+    "url": "https://tabelog.com/tokyo/A1306/A130602/13010596/",
+    "address": "東京都 渋谷区 神宮前 3-5-2 ＥＦビル Ｂ１Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13010596",
+    "lat": "35.668936",
+    "lng": "139.712386",
+    "id": "kissaten-15"
+  }, {
+    "name": "茶房 天井棧敷",
+    "url": "https://tabelog.com/oita/A4402/A440201/44000043/",
+    "address": "大分県 由布市 湯布院町川上 2633-1 亀の井別荘内",
+    "code": "hyakumeiten_kissaten_2022_restaurant_44000043",
+    "lat": "33.265743",
+    "lng": "131.367421",
+    "id": "kissaten-16"
+  }, {
+    "name": "自家焙煎珈琲 凡",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13000735/",
+    "address": "東京都 新宿区 新宿 3-23-1 都里一ビル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13000735",
+    "lat": "35.692724",
+    "lng": "139.700769",
+    "id": "kissaten-17"
+  }, {
+    "name": "DEN",
+    "url": "https://tabelog.com/tokyo/A1311/A131104/13041212/",
+    "address": "東京都 台東区 根岸 3-3-18 メゾン根岸（鶯谷） １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13041212",
+    "lat": "35.722167",
+    "lng": "139.781485",
+    "id": "kissaten-18"
+  }, {
+    "name": "ダンケ 心斎橋",
+    "url": "https://tabelog.com/osaka/A2701/A270201/27053278/",
+    "address": "大阪府 大阪市中央区 心斎橋筋 1-2-22 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27053278",
+    "lat": "34.672425",
+    "lng": "135.501036",
+    "id": "kissaten-19"
+  }, {
+    "name": "喫茶チロル",
+    "url": "https://tabelog.com/kyoto/A2601/A260203/26002251/",
+    "address": "京都府 京都市中京区 御池通大宮西入ル門前町539-3",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26002251",
+    "lat": "35.011052",
+    "lng": "135.747439",
+    "id": "kissaten-20"
+  }, {
+    "name": "さぼうる 2",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13011604/",
+    "address": "東京都 千代田区 神田神保町 1-11",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13011604",
+    "lat": "35.695558",
+    "lng": "139.758519",
+    "id": "kissaten-21"
+  }, {
+    "name": "ヘッケルン",
+    "url": "https://tabelog.com/tokyo/A1308/A130802/13057178/",
+    "address": "東京都 港区 西新橋 1-20-11 安藤ビル1S",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13057178",
+    "lat": "35.667799",
+    "lng": "139.752153",
+    "id": "kissaten-22"
+  }, {
+    "name": "元町サントス",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28001590/",
+    "address": "兵庫県 神戸市中央区 元町通 2-3-12",
+    "code": "hyakumeiten_kissaten_2022_restaurant_28001590",
+    "lat": "34.688422",
+    "lng": "135.187442",
+    "id": "kissaten-23"
+  }, {
+    "name": "フランソア喫茶室",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26000900/",
+    "address": "京都府 京都市下京区 西木屋町通四条下ル",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26000900",
+    "lat": "35.004245",
+    "lng": "135.770001",
+    "id": "kissaten-24"
+  }, {
+    "name": "ワンモア",
+    "url": "https://tabelog.com/tokyo/A1312/A131202/13002937/",
+    "address": "東京都 江戸川区 平井 5-22-11",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13002937",
+    "lat": "35.707772",
+    "lng": "139.842639",
+    "id": "kissaten-25"
+  }, {
+    "name": "エビアンコーヒー",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28000650/",
+    "address": "兵庫県 神戸市中央区 元町通 1-7-2",
+    "code": "hyakumeiten_kissaten_2022_restaurant_28000650",
+    "lat": "34.689171",
+    "lng": "135.189321",
+    "id": "kissaten-26"
+  }, {
+    "name": "生きている珈琲",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26017295/",
+    "address": "京都府 京都市下京区 四条通麩屋町西入 立売東町みのや四条ビルB１F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26017295",
+    "lat": "35.003941",
+    "lng": "135.765141",
+    "id": "kissaten-27"
+  }, {
+    "name": "ピノキオ",
+    "url": "https://tabelog.com/tokyo/A1322/A132203/13088456/",
+    "address": "東京都 板橋区 大山金井町 16-8",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13088456",
+    "lat": "35.744702",
+    "lng": "139.706967",
+    "id": "kissaten-28"
+  }, {
+    "name": "ヴェルデ",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13050095/",
+    "address": "東京都 渋谷区 恵比寿西 1-20-8 コンド恵比寿 1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13050095",
+    "lat": "35.646429",
+    "lng": "139.706525",
+    "id": "kissaten-29"
+  }, {
+    "name": "胡桃堂喫茶店",
+    "url": "https://tabelog.com/tokyo/A1325/A132502/13206891/",
+    "address": "東京都 国分寺市 本町 2-17-3",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13206891",
+    "lat": "35.701599",
+    "lng": "139.48353",
+    "id": "kissaten-30"
+  }, {
+    "name": "Cafe Bach",
+    "url": "https://tabelog.com/tokyo/A1324/A132401/13003759/",
+    "address": "東京都 台東区 日本堤 1-23-9",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13003759",
+    "lat": "35.726796",
+    "lng": "139.80022",
+    "id": "kissaten-31"
+  }, {
+    "name": "KAKO 柳橋店",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23032087/",
+    "address": "愛知県 名古屋市中村区 名駅 5-30-4 名駅KDビル1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_23032087",
+    "lat": "35.169096",
+    "lng": "136.890201",
+    "id": "kissaten-32"
+  }, {
+    "name": "ゼー六 本町店",
+    "url": "https://tabelog.com/osaka/A2701/A270106/27001820/",
+    "address": "大阪府 大阪市中央区 本町 1-3-22",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27001820",
+    "lat": "34.683348",
+    "lng": "135.509289",
+    "id": "kissaten-33"
+  }, {
+    "name": "古瀬戸珈琲店",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13006272/",
+    "address": "東京都 千代田区 神田小川町 3-10 江本ビル 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13006272",
+    "lat": "35.696129",
+    "lng": "139.761318",
+    "id": "kissaten-34"
+  }, {
+    "name": "加藤珈琲店",
+    "url": "https://tabelog.com/aichi/A2301/A230103/23006305/",
+    "address": "愛知県 名古屋市東区 東桜 1-3-2 さくらビル1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_23006305",
+    "lat": "35.173627",
+    "lng": "136.910389",
+    "id": "kissaten-35"
+  }, {
+    "name": "みやざわ",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13024142/",
+    "address": "東京都 中央区 銀座 8-5-25 西銀座会館 １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13024142",
+    "lat": "35.669228",
+    "lng": "139.760481",
+    "id": "kissaten-36"
+  }, {
+    "name": "さぼうる",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13000609/",
+    "address": "東京都 千代田区 神田神保町 1-11",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13000609",
+    "lat": "35.695558",
+    "lng": "139.758519",
+    "id": "kissaten-37"
+  }, {
+    "name": "カフェ・ド・ランブル",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13002564/",
+    "address": "東京都 中央区 銀座 8-10-15 SBM BLDG 1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13002564",
+    "lat": "35.667928",
+    "lng": "139.762361",
+    "id": "kissaten-38"
+  }, {
+    "name": "珈琲専門店 エース",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13020976/",
+    "address": "東京都 千代田区 内神田 3-10-6",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13020976",
+    "lat": "35.691485",
+    "lng": "139.769142",
+    "id": "kissaten-39"
+  }, {
+    "name": "前田珈琲 室町本店",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26001559/",
+    "address": "京都府 京都市中京区 蛸薬師通烏丸西入橋弁慶町236",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26001559",
+    "lat": "35.00621",
+    "lng": "135.759287",
+    "id": "kissaten-40"
+  }, {
+    "name": "六曜社 地下店",
+    "url": "https://tabelog.com/kyoto/A2601/A260202/26000159/",
+    "address": "京都府 京都市中京区 河原町三条下ル大黒町36 B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26000159",
+    "lat": "35.011637",
+    "lng": "135.744991",
+    "id": "kissaten-41"
+  }, {
+    "name": "トリコロール 本店",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13007761/",
+    "address": "東京都 中央区 銀座 5-9-17",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13007761",
+    "lat": "35.670234",
+    "lng": "139.765198",
+    "id": "kissaten-42"
+  }, {
+    "name": "エレーナ",
+    "url": "https://tabelog.com/kanagawa/A1401/A140105/14007970/",
+    "address": "神奈川県 横浜市中区 山手町 24",
+    "code": "hyakumeiten_kissaten_2022_restaurant_14007970",
+    "lat": "35.436185",
+    "lng": "139.64488",
+    "id": "kissaten-43"
+  }, {
+    "name": "いち",
+    "url": "https://tabelog.com/osaka/A2706/A270601/27012020/",
+    "address": "大阪府 豊中市 新千里東町 1-3 せんちゅうパル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27012020",
+    "lat": "34.809736",
+    "lng": "135.494901",
+    "id": "kissaten-44"
+  }, {
+    "name": "喫茶葦島",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26015997/",
+    "address": "京都府 京都市中京区 三条通河原町東入大黒町37 文明堂ビル 5Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26015997",
+    "lat": "35.008663",
+    "lng": "135.769313",
+    "id": "kissaten-45"
+  }, {
+    "name": "文明堂茶館 ル・カフェ",
+    "url": "https://tabelog.com/kanagawa/A1401/A140104/14003248/",
+    "address": "神奈川県 横浜市中区 伊勢佐木町 1-5-3 文明堂ビル １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_14003248",
+    "lat": "35.444934",
+    "lng": "139.633214",
+    "id": "kissaten-46"
+  }, {
+    "name": "珈琲 まるも",
+    "url": "https://tabelog.com/nagano/A2002/A200201/20000622/",
+    "address": "長野県 松本市 中央 3-3-10",
+    "code": "hyakumeiten_kissaten_2022_restaurant_20000622",
+    "lat": "36.234264",
+    "lng": "137.972354",
+    "id": "kissaten-47"
+  }, {
+    "name": "イワタコーヒー店",
+    "url": "https://tabelog.com/kanagawa/A1404/A140402/14002091/",
+    "address": "神奈川県 鎌倉市 小町 1-5-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_14002091",
+    "lat": "35.319488",
+    "lng": "139.55154",
+    "id": "kissaten-48"
+  }, {
+    "name": "コーヒーハウス マキ",
+    "url": "https://tabelog.com/kyoto/A2601/A260302/26009412/",
+    "address": "京都府 京都市上京区 河原町今出川上ル清龍町211",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26009412",
+    "lat": "35.030935",
+    "lng": "135.769939",
+    "id": "kissaten-49"
+  }, {
+    "name": "BUCYO Coffee KAKO",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23007465/",
+    "address": "愛知県 名古屋市中村区 名駅南 1-10-9 山善ビル1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_23007465",
+    "lat": "35.166077",
+    "lng": "136.890573",
+    "id": "kissaten-50"
+  }, {
+    "name": "一六珈琲店",
+    "url": "https://tabelog.com/tokyo/A1329/A132901/13039610/",
+    "address": "東京都 立川市 錦町 1-4-19 親松ビル 102号",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13039610",
+    "lat": "35.695865",
+    "lng": "139.416821",
+    "id": "kissaten-51"
+  }, {
+    "name": "カヤバ珈琲",
+    "url": "https://tabelog.com/tokyo/A1311/A131104/13019585/",
+    "address": "東京都 台東区 谷中 6-1-29",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13019585",
+    "lat": "35.721152",
+    "lng": "139.770735",
+    "id": "kissaten-52"
+  }, {
+    "name": "平岡珈琲店",
+    "url": "https://tabelog.com/osaka/A2701/A270106/27000071/",
+    "address": "大阪府 大阪市中央区 瓦町 3-6-11",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27000071",
+    "lat": "34.686024",
+    "lng": "135.501529",
+    "id": "kissaten-53"
+  }, {
+    "name": "リザルブ珈琲店",
+    "url": "https://tabelog.com/osaka/A2706/A270604/27046966/",
+    "address": "大阪府 高槻市 芥川町 3-19-3",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27046966",
+    "lat": "34.852008",
+    "lng": "135.611096",
+    "id": "kissaten-54"
+  }, {
+    "name": "ショパン",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13011258/",
+    "address": "東京都 千代田区 神田須田町 1-19-9",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13011258",
+    "lat": "35.696878",
+    "lng": "139.768858",
+    "id": "kissaten-55"
+  }, {
+    "name": "炭火焙煎珈琲・凛",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13004102/",
+    "address": "東京都 中央区 銀座 4-4-5 銀座ハタビル ２Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13004102",
+    "lat": "35.672087",
+    "lng": "139.765035",
+    "id": "kissaten-56"
+  }, {
+    "name": "ニューアストリア",
+    "url": "https://tabelog.com/osaka/A2706/A270601/27002923/",
+    "address": "大阪府 豊中市 新千里東町 1-3-8 せんちゅうパル Ｂ１Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27002923",
+    "lat": "34.809736",
+    "lng": "135.494901",
+    "id": "kissaten-57"
+  }, {
+    "name": "草枕",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13043012/",
+    "address": "東京都 港区 西新橋 1-10-1 日美ビル１階",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13043012",
+    "lat": "35.668979",
+    "lng": "139.75285",
+    "id": "kissaten-58"
+  }, {
+    "name": "十一房珈琲店",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13007721/",
+    "address": "東京都 中央区 銀座 2-2-19",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13007721",
+    "lat": "35.674932",
+    "lng": "139.765791",
+    "id": "kissaten-59"
+  }, {
+    "name": "トロワ・シャンブル",
+    "url": "https://tabelog.com/tokyo/A1318/A131802/13013091/",
+    "address": "東京都 世田谷区 代沢 5-36-14 湯浅ビル 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13013091",
+    "lat": "35.65924",
+    "lng": "139.667312",
+    "id": "kissaten-60"
+  }, {
+    "name": "コーヒーハウス かこ 花車本店",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23005509/",
+    "address": "愛知県 名古屋市中村区 名駅 5-16-17 花車ビル南館 １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_23005509",
+    "lat": "35.170422",
+    "lng": "136.89022",
+    "id": "kissaten-61"
+  }, {
+    "name": "馬車道十番館",
+    "url": "https://tabelog.com/kanagawa/A1401/A140104/14000115/",
+    "address": "神奈川県 横浜市中区 常盤町 5-67 1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_14000115",
+    "lat": "35.447389",
+    "lng": "139.634827",
+    "id": "kissaten-62"
+  }, {
+    "name": "カフェ・鈴木",
+    "url": "https://tabelog.com/kanagawa/A1408/A140802/14004103/",
+    "address": "神奈川県 厚木市 中町 3-5-6 ロックヒルズ １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_14004103",
+    "lat": "35.440622",
+    "lng": "139.362705",
+    "id": "kissaten-63"
+  }, {
+    "name": "サンシャイン",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27038064/",
+    "address": "大阪府 大阪市北区 曽根崎 2-11-8 B2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27038064",
+    "lat": "34.700479",
+    "lng": "135.500096",
+    "id": "kissaten-64"
+  }, {
+    "name": "六曜社 珈琲店",
+    "url": "https://tabelog.com/kyoto/A2601/A260202/26013227/",
+    "address": "京都府 京都市中京区 河原町三条下ル大黒町40",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26013227",
+    "lat": "35.008466",
+    "lng": "135.769188",
+    "id": "kissaten-65"
+  }, {
+    "name": "茜屋珈琲店",
+    "url": "https://tabelog.com/hyogo/A2801/A280101/28001625/",
+    "address": "兵庫県 神戸市中央区 北長狭通 1-9-4 コースト岸卯ビル 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_28001625",
+    "lat": "34.69263",
+    "lng": "135.19169",
+    "id": "kissaten-66"
+  }, {
+    "name": "茶亭 羽當",
+    "url": "https://tabelog.com/tokyo/A1303/A130301/13001169/",
+    "address": "東京都 渋谷区 渋谷 1-15-19 二葉ビル 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13001169",
+    "lat": "35.660485",
+    "lng": "139.702607",
+    "id": "kissaten-67"
+  }, {
+    "name": "珈琲舎 蔵",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13011597/",
+    "address": "東京都 千代田区 神田神保町 1-26 矢崎ビル ２Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13011597",
+    "lat": "35.697087",
+    "lng": "139.759338",
+    "id": "kissaten-68"
+  }, {
+    "name": "YOU",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13002318/",
+    "address": "東京都 中央区 銀座 4-13-17 高野ビル １F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13002318",
+    "lat": "35.669464",
+    "lng": "139.768659",
+    "id": "kissaten-69"
+  }, {
+    "name": "カフェ香咲",
+    "url": "https://tabelog.com/tokyo/A1306/A130601/13001955/",
+    "address": "東京都 渋谷区 神宮前 3-41-1",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13001955",
+    "lat": "35.671172",
+    "lng": "139.713622",
+    "id": "kissaten-70"
+  }, {
+    "name": "トミィ",
+    "url": "https://tabelog.com/tokyo/A1312/A131201/13007983/",
+    "address": "東京都 墨田区 錦糸 2-10-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13007983",
+    "lat": "35.698899",
+    "lng": "139.812487",
+    "id": "kissaten-71"
+  }, {
+    "name": "ダフニ",
+    "url": "https://tabelog.com/tokyo/A1314/A131402/13056306/",
+    "address": "東京都 港区 芝 5-10-11 １階",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13056306",
+    "lat": "35.649033",
+    "lng": "139.746094",
+    "id": "kissaten-72"
+  }, {
+    "name": "喫茶 マドラグ",
+    "url": "https://tabelog.com/kyoto/A2601/A260202/26019438/",
+    "address": "京都府 京都市中京区 押小路通西洞院東入ル北側",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26019438",
+    "lat": "35.012311",
+    "lng": "135.755625",
+    "id": "kissaten-73"
+  }, {
+    "name": "ラドリオ",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13006555/",
+    "address": "東京都 千代田区 神田神保町 1-3",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13006555",
+    "lat": "35.695437",
+    "lng": "139.759693",
+    "id": "kissaten-74"
+  }, {
+    "name": "スマート珈琲店",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26000647/",
+    "address": "京都府 京都市中京区 寺町通三条上ル天性寺前町537",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26000647",
+    "lat": "35.009453",
+    "lng": "135.767098",
+    "id": "kissaten-75"
+  }, {
+    "name": "ミロンガ・ヌオーバ",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13006552/",
+    "address": "東京都 千代田区 神田神保町 1-3",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13006552",
+    "lat": "35.695437",
+    "lng": "139.759693",
+    "id": "kissaten-76"
+  }, {
+    "name": "トゥジュール デビュテ",
+    "url": "https://tabelog.com/tokyo/A1316/A131603/13059498/",
+    "address": "東京都 品川区 東五反田 5-27-12 扇寿ビル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13059498",
+    "lat": "35.627078",
+    "lng": "139.723307",
+    "id": "kissaten-77"
+  }, {
+    "name": "築地",
+    "url": "https://tabelog.com/kyoto/A2601/A260201/26001588/",
+    "address": "京都府 京都市中京区 米屋町 384-2",
+    "code": "hyakumeiten_kissaten_2022_restaurant_26001588",
+    "lat": "35.004354",
+    "lng": "135.769716",
+    "id": "kissaten-78"
+  }, {
+    "name": "はまの屋パーラー 有楽町店",
+    "url": "https://tabelog.com/tokyo/A1301/A130102/13041024/",
+    "address": "東京都 千代田区 有楽町 1-12-1 新有楽町ビル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13041024",
+    "lat": "35.67556",
+    "lng": "139.762093",
+    "id": "kissaten-79"
+  }, {
+    "name": "純喫茶 アメリカン",
+    "url": "https://tabelog.com/osaka/A2701/A270202/27005758/",
+    "address": "大阪府 大阪市中央区 道頓堀 1-7-4 株式会社アメリカンビル",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27005758",
+    "lat": "34.668381",
+    "lng": "135.503041",
+    "id": "kissaten-80"
+  }, {
+    "name": "高山珈琲",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13011257/",
+    "address": "東京都 千代田区 神田須田町 1-12",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13011257",
+    "lat": "35.695436",
+    "lng": "139.769458",
+    "id": "kissaten-81"
+  }, {
+    "name": "自家焙煎珈琲工房 カフェ バーンホーフ 三番街店",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27011966/",
+    "address": "大阪府 大阪市北区 芝田 1-1-3 阪急三番街 B2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27011966",
+    "lat": "34.705967",
+    "lng": "135.498475",
+    "id": "kissaten-82"
+  }, {
+    "name": "アラビヤコーヒー",
+    "url": "https://tabelog.com/osaka/A2701/A270202/27001511/",
+    "address": "大阪府 大阪市中央区 難波 1-6-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27001511",
+    "lat": "34.667963",
+    "lng": "135.501856",
+    "id": "kissaten-83"
+  }, {
+    "name": "ビクトリー",
+    "url": "https://tabelog.com/osaka/A2701/A270102/27000271/",
+    "address": "大阪府 大阪市西区 江戸堀 1-23-31",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27000271",
+    "lat": "34.689622",
+    "lng": "135.493396",
+    "id": "kissaten-84"
+  }, {
+    "name": "ル プルミエ カフェ in ビギ・ファースト",
+    "url": "https://tabelog.com/osaka/A2701/A270201/27004529/",
+    "address": "大阪府 大阪市中央区 心斎橋筋 1-3-28 ビギ1stビル 3F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27004529",
+    "lat": "34.674243",
+    "lng": "135.501747",
+    "id": "kissaten-85"
+  }, {
+    "name": "アンセーニュダングル 原宿店",
+    "url": "https://tabelog.com/tokyo/A1306/A130601/13007015/",
+    "address": "東京都 渋谷区 千駄ヶ谷 3-61-11 第二駒信ビル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13007015",
+    "lat": "35.673643",
+    "lng": "139.70412",
+    "id": "kissaten-86"
+  }, {
+    "name": "カフェ・トロワバグ",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13011637/",
+    "address": "東京都 千代田区 神田神保町 1-12-1 富田ビル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13011637",
+    "lat": "35.6963",
+    "lng": "139.758249",
+    "id": "kissaten-87"
+  }, {
+    "name": "ミカド珈琲店 日本橋本店",
+    "url": "https://tabelog.com/tokyo/A1302/A130202/13006305/",
+    "address": "東京都 中央区 日本橋室町 1-6-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13006305",
+    "lat": "35.685554",
+    "lng": "139.774923",
+    "id": "kissaten-88"
+  }, {
+    "name": "倉敷珈琲館",
+    "url": "https://tabelog.com/okayama/A3302/A330201/33000383/",
+    "address": "岡山県 倉敷市 本町 4-1",
+    "code": "hyakumeiten_kissaten_2022_restaurant_33000383",
+    "lat": "34.595794",
+    "lng": "133.772268",
+    "id": "kissaten-89"
+  }, {
+    "name": "タイズ",
+    "url": "https://tabelog.com/tokyo/A1310/A131004/13018359/",
+    "address": "東京都 文京区 湯島 4-1-13 １Ｆ",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13018359",
+    "lat": "35.707685",
+    "lng": "139.764409",
+    "id": "kissaten-90"
+  }, {
+    "name": "ロッジ赤石",
+    "url": "https://tabelog.com/tokyo/A1311/A131102/13058004/",
+    "address": "東京都 台東区 浅草 3-8-4",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13058004",
+    "lat": "35.716999",
+    "lng": "139.795113",
+    "id": "kissaten-91"
+  }, {
+    "name": "珈琲美美",
+    "url": "https://tabelog.com/fukuoka/A4001/A400105/40000004/",
+    "address": "福岡県 福岡市中央区 赤坂 2-6-27",
+    "code": "hyakumeiten_kissaten_2022_restaurant_40000004",
+    "lat": "33.582746",
+    "lng": "130.382791",
+    "id": "kissaten-92"
+  }, {
+    "name": "珈琲貴族エジンバラ",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13017217/",
+    "address": "東京都 新宿区 新宿 3-2-4 新宿M&Eスクエアビル 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13017217",
+    "lat": "35.69047",
+    "lng": "139.706351",
+    "id": "kissaten-93"
+  }, {
+    "name": "ツェーンコーヒー",
+    "url": "https://tabelog.com/tokyo/A1311/A131101/13043953/",
+    "address": "東京都 台東区 上野 1-14-2",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13043953",
+    "lat": "35.706643",
+    "lng": "139.770197",
+    "id": "kissaten-94"
+  }, {
+    "name": "珈琲亭 ルアン",
+    "url": "https://tabelog.com/tokyo/A1315/A131502/13008294/",
+    "address": "東京都 大田区 大森北 1-36-2",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13008294",
+    "lat": "35.586116",
+    "lng": "139.726796",
+    "id": "kissaten-95"
+  }, {
+    "name": "モール&ホソイコーヒーズ",
+    "url": "https://tabelog.com/osaka/A2701/A270102/27020048/",
+    "address": "大阪府 大阪市中央区 伏見町 3-3-3 芝川ビル B1F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_27020048",
+    "lat": "34.689014",
+    "lng": "135.501851",
+    "id": "kissaten-96"
+  }, {
+    "name": "炭火焼珈琲 蔵",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13089625/",
+    "address": "東京都 豊島区 西池袋 1-39-1",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13089625",
+    "lat": "35.732733",
+    "lng": "139.709736",
+    "id": "kissaten-97"
+  }, {
+    "name": "珈琲道場 侍",
+    "url": "https://tabelog.com/tokyo/A1312/A131202/13018018/",
+    "address": "東京都 江東区 亀戸 6-57-22 サンポービル 2F",
+    "code": "hyakumeiten_kissaten_2022_restaurant_13018018",
+    "lat": "35.697003",
+    "lng": "139.828571",
+    "id": "kissaten-98"
+  }, {
+    "name": "モトマチ喫茶",
+    "url": "https://tabelog.com/hyogo/A2801/A280102/28024154/",
+    "address": "兵庫県 神戸市中央区 北長狭通 3-9-7",
+    "code": "hyakumeiten_kissaten_2022_restaurant_28024154",
+    "lat": "34.691758",
+    "lng": "135.187941",
+    "id": "kissaten-99"
+  }]
+}
