@@ -21,7 +21,7 @@ yarn build
 
 ## References
 
-- [食べログ ラーメン TOKYO 百名店 2020 [食べログ]](https://award.tabelog.com/hyakumeiten/ramen_tokyo)
+- [食べログ ラーメン TOKYO 百名店 [食べログ]](https://award.tabelog.com/hyakumeiten/ramen_tokyo)
 - [Leaflet](https://leafletjs.com/)
 - [React Leaflet](https://react-leaflet.js.org/)
 - [material-ui](https://material-ui.com/)
