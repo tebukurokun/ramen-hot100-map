@@ -1,7 +1,11 @@
 import Document, {
-  DocumentContext, Html, Head, Main, NextScript,
-} from 'next/document'
-import { ServerStyleSheets } from '@material-ui/core/styles'
+  DocumentContext,
+  Html,
+  Head,
+  Main,
+  NextScript,
+} from "next/document";
+import { ServerStyleSheets } from "@material-ui/core/styles";
 
 class MyDocument extends Document {
   render(): JSX.Element {
@@ -15,22 +19,22 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;
 
-MyDocument.getInitialProps = async ( ctx: DocumentContext ) => {
-  const sheets = new ServerStyleSheets()
-  const originalRenderPage = ctx.renderPage
+MyDocument.getInitialProps = async (ctx: DocumentContext) => {
+  const sheets = new ServerStyleSheets();
+  const originalRenderPage = ctx.renderPage;
 
-  ctx.renderPage = () => originalRenderPage( {
-    // eslint-disable-next-line react/jsx-props-no-spreading, react/display-name
-    enhanceApp: ( App ) => ( props ) => sheets.collect( <App {...props} /> ),
-  } )
+  ctx.renderPage = () =>
+    originalRenderPage({
+      enhanceApp: (App) => (props) => sheets.collect(<App {...props} />),
+    });
 
-  const initialProps = await Document.getInitialProps( ctx )
+  const initialProps = await Document.getInitialProps(ctx);
 
   return {
     ...initialProps,
@@ -40,5 +44,5 @@ MyDocument.getInitialProps = async ( ctx: DocumentContext ) => {
         {sheets.getStyleElement()}
       </>
     ),
-  }
-}
+  };
+};
