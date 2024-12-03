@@ -28,20 +28,23 @@ const Home = ({ ramenShops }: Props): JSX.Element => {
   // TODO: 別の関数にする.
   const markerItems: MarkerItem[] = ramenShops.map((shop) => ({
     position: [parseFloat(shop.lat), parseFloat(shop.lng)],
-    icon: "/static/marker-icons/Noodle Bowl_4.png",
+    icon: "/static/marker-icons/ramen.png",
     popUp: (
-      <div>
-        <p style={{ maxWidth: "100px", fontWeight: "bolder" }}>
-          <a href={shop.url} target="_blank" rel="noreferrer">
+      <div style={{ maxWidth: "120px" }}>
+        <p style={{ fontWeight: "bolder" }}>
+          <a href={shop.url} target="_blank" rel="noopener noreferrer">
             {shop.name}
           </a>
         </p>
-        <p style={{ maxWidth: "100px", fontSize: "smaller" }}>
+        <p>
+          <i>ラーメン百名店</i>
+        </p>
+        <p style={{ fontSize: "smaller" }}>
           <LocationOnIcon fontSize="small" />
           <a
             href={`http://maps.google.co.jp/maps?q=${shop.address}`}
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             {shop.address}
           </a>
@@ -71,7 +74,7 @@ const Home = ({ ramenShops }: Props): JSX.Element => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  // ramenShops.json の読み込み
+  // データ読み込み.
   const ramenFilePath = path.join(process.cwd(), "data", "ramen.json");
   const ramenFileContents = fs.readFileSync(ramenFilePath, "utf-8");
   const ramenShops = JSON.parse(ramenFileContents).shops;
