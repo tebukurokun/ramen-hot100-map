@@ -1,3 +1,4 @@
+import { CircularProgress } from "@mui/material";
 import { useAtomValue } from "jotai";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -40,8 +41,19 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
   }, []);
 
   if (!isClient) {
-    // SSR中は空のdivをレンダリング
-    return <div>Loading map...</div>;
+    // SSR中はローディング画面を表示.
+    return (
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "100vh",
+        }}
+      >
+        <CircularProgress />
+      </div>
+    );
   }
 
   return (
