@@ -1,4 +1,5 @@
 import CssBaseline from "@mui/material/CssBaseline";
+import { Analytics } from "@vercel/analytics/react";
 import { Provider } from "jotai";
 import { AppProps } from "next/app";
 import { useEffect } from "react";
@@ -16,6 +17,7 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
     <Provider>
       <CssBaseline />
       <Component {...pageProps} />
+      <Analytics />
     </Provider>
   );
 };

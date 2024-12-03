@@ -17,6 +17,7 @@
     "@material-ui/styles": "^4.11.4",
     "@mui/icons-material": "^6.1.9",
     "@mui/material": "^6.1.9",
+    "@vercel/analytics": "^1.4.1",
     "clsx": "^2.1.1",
     "jotai": "^2.10.3",
     "leaflet": "^1.7.1",
