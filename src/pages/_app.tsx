@@ -1,9 +1,7 @@
-import React, { useEffect } from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import { Provider } from "jotai";
 import { AppProps } from "next/app";
-import { ThemeProvider } from "@material-ui/core/styles";
-import { StylesProvider } from "@material-ui/styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import theme from "../components/theme";
+import { useEffect } from "react";
 
 const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   useEffect(() => {
@@ -15,12 +13,10 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   }, []);
 
   return (
-    <StylesProvider injectFirst>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Component {...pageProps} />
-      </ThemeProvider>
-    </StylesProvider>
+    <Provider>
+      <CssBaseline />
+      <Component {...pageProps} />
+    </Provider>
   );
 };
 

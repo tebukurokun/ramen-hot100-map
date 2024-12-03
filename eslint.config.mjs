@@ -14,11 +14,12 @@ const compat = new FlatCompat({
     allConfig: js.configs.all
 });
 
-export default [...compat.extends(
+const eslintConfig =  [...compat.extends(
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "prettier",
+    "next/core-web-vitals"
 ), {
     plugins: {
         "@typescript-eslint": typescriptEslint,
@@ -31,7 +32,7 @@ export default [...compat.extends(
         },
 
         parser: tsParser,
-        ecmaVersion: 5,
+        ecmaVersion: 14,
         sourceType: "module",
     },
 
@@ -42,8 +43,9 @@ export default [...compat.extends(
     },
 
     rules: {
-        "no-unused-vars": "off",
         "react/prop-types": "off",
-        "react/react-in-jsx-scope": "off",
+        "no-unused-vars": "off", // TODO: 不要コード削除後に削除
     },
 }];
+
+export default eslintConfig

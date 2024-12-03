@@ -1,10 +1,11 @@
+import { useAtomValue } from "jotai";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
-import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
+import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import { mapCenterAtom } from "../atoms";
 import { MarkerItem } from "../interfaces/MarkerItem";
-
-const position: [number, number] = [35.681236, 139.767125];
+import { GeolocationButton } from "./mapComponents/GeolocationButton";
 
 // Leaflet アイコンを動的に作成
 const createIcon = (iconUrl: string) => {
@@ -16,8 +17,22 @@ const createIcon = (iconUrl: string) => {
   });
 };
 
+// 地図の中心を動的に更新するコンポーネント
+const UpdateMapCenter = () => {
+  const center = useAtomValue(mapCenterAtom); // 現在の中心を取得
+  const map = useMap(); // Leafletの地図インスタンスを取得
+
+  useEffect(() => {
+    map.setView(center, map.getZoom()); // 中心を更新
+  }, [center, map]);
+
+  return null;
+};
+
 const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
   const [isClient, setIsClient] = useState(false);
+
+  const center: [number, number] = useAtomValue(mapCenterAtom);
 
   useEffect(() => {
     // クライアントサイドでのみ実行されるようにする
@@ -32,7 +47,7 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
   return (
     <div>
       <MapContainer
-        center={position}
+        center={center}
         zoom={13}
         scrollWheelZoom
         style={{ height: "100vh", width: "100%" }}
@@ -50,6 +65,18 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
             <Popup>{item.popUp}</Popup>
           </Marker>
         ))}
+        <UpdateMapCenter /> {/* 地図の中心を動的に更新 */}
+        <div
+          style={{
+            position: "absolute",
+            bottom: "20px",
+            right: "10px",
+            zIndex: 1000, // マップの要素より前面に表示
+            padding: "10px",
+          }}
+        >
+          <GeolocationButton />
+        </div>
       </MapContainer>
     </div>
   );

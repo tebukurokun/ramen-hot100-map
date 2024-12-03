@@ -1,40 +1,48 @@
-import React from "react";
+import MyLocationOutlinedIcon from "@mui/icons-material/MyLocationOutlined";
+import Button from "@mui/material/Button";
+import { keyframes, styled } from "@mui/material/styles";
+import { useSetAtom } from "jotai";
+import { useState } from "react";
+import { currentLocationAtom, mapCenterAtom } from "../../atoms";
 
-import Button from "@material-ui/core/Button";
-import MyLocationIcon from "@material-ui/icons/MyLocation";
-import { makeStyles, createStyles } from "@material-ui/core/styles";
-import {
-  mapSettingActions,
-  geolocationLoadingActions,
-  geolocationLoadingSelectors,
-} from "../../states";
+// アニメーションスタイル
+const blinkAnimation = keyframes`
+  0% { color: #E0E0E0; }
+  100% { color: #E0E0E0; }
+`;
 
-const useStyles = makeStyles(() =>
-  createStyles({
-    loadingLocationButton: {
-      animation: "$blinkAnime 0.4s infinite alternate",
-    },
-    "@keyframes blinkAnime": {
-      "0%": { color: "#E0E0E0" },
-      "100%": { color: "#1a1aff" },
-    },
-  })
-);
+// アイコンスタイル
+const StyledIcon = styled(MyLocationOutlinedIcon, {
+  shouldForwardProp: (prop) => prop !== "isLoading",
+})<{ isLoading: boolean }>(({ isLoading }) => ({
+  fontSize: "2rem",
+  color: "#1a1aff",
+  animation: isLoading ? `${blinkAnimation} 0.4s infinite alternate` : "none",
+}));
+
+// ボタンスタイル
+const StyledButton = styled(Button)({
+  backgroundColor: "#E0E0E0", // ボタンの背景を灰色に設定
+  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)", // ボタンに影を設定
+  "&:hover": {
+    backgroundColor: "#D6D6D6", // ホバー時の背景色
+    boxShadow: "0px 6px 8px rgba(0, 0, 0, 0.3)", // ホバー時に影を強調
+  },
+  padding: "10px",
+  borderRadius: "8px", // 角丸
+});
 
 export const GeolocationButton = (): JSX.Element => {
-  const classes = useStyles();
+  const [isLoading, setIsLoading] = useState(false);
 
-  const geolocationLoading =
-    geolocationLoadingSelectors.useGeolocationLoading();
-  const setGeolocationLoading =
-    geolocationLoadingActions.useUpdateGeolocationLoading();
-  const setMapSetting = mapSettingActions.useUpdateMapSetting();
+  const setMapCenter = useSetAtom(mapCenterAtom);
+  const setCurrentLocation = useSetAtom(currentLocationAtom);
 
   /**
    * 現在地を取得.
    */
   const getCurrentLocation = () => {
-    setGeolocationLoading(true);
+    setIsLoading(true);
 
     /**
      * option
@@ -51,36 +59,27 @@ export const GeolocationButton = (): JSX.Element => {
     const success = (position: GeolocationPosition) => {
       const { latitude, longitude } = position.coords;
 
-      setMapSetting({ lat: latitude, lng: longitude, zoom: 14 });
+      setMapCenter([latitude, longitude]);
+      setCurrentLocation([latitude, longitude]);
+      setIsLoading(false);
 
-      setGeolocationLoading(false);
-
-      console.debug(position);
+      console.info(position);
     };
 
     /**
      * 現在地取得失敗時
      */
     const error = (err: GeolocationPositionError) => {
-      console.warn(`ERROR(${err.code}): ${err.message}`);
-      setGeolocationLoading(false);
+      console.warn(`ERROR (${err.code}): ${err.message}`);
+      setIsLoading(false);
     };
 
     navigator.geolocation.getCurrentPosition(success, error, options);
   };
 
   return (
-    <Button
-      variant="contained"
-      color="default"
-      onClick={getCurrentLocation}
-      disabled={geolocationLoading}
-    >
-      <MyLocationIcon
-        fontSize="large"
-        color="primary"
-        className={geolocationLoading ? classes.loadingLocationButton : " "}
-      />
-    </Button>
+    <StyledButton onClick={getCurrentLocation} disabled={isLoading}>
+      <StyledIcon isLoading={isLoading} />
+    </StyledButton>
   );
 };
