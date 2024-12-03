@@ -19,6 +19,7 @@ type Shop = {
 
 type Props = {
   ramenShops: Shop[];
+  udonShops: Shop[];
 };
 
 /**
@@ -61,12 +62,17 @@ const createMarkerItem = (
   };
 };
 
-const Home = ({ ramenShops }: Props): JSX.Element => {
+const Home = ({ ramenShops, udonShops }: Props): JSX.Element => {
   console.info("Hyakumeiten Map v0.1.0");
 
-  const markerItems: MarkerItem[] = ramenShops.map((shop) =>
-    createMarkerItem(shop, "ラーメン百名店", "/static/marker-icons/ramen.png")
-  );
+  const markerItems: MarkerItem[] = [
+    ramenShops.map((shop) =>
+      createMarkerItem(shop, "ラーメン百名店", "/static/marker-icons/ramen.png")
+    ),
+    udonShops.map((shop) =>
+      createMarkerItem(shop, "うどん百名店", "/static/marker-icons/udon.png")
+    ),
+  ].flat();
 
   return (
     <div>
@@ -89,14 +95,21 @@ const Home = ({ ramenShops }: Props): JSX.Element => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
+  const getShopDataFromJson = (fileName: string) => {
+    const filePath = path.join(process.cwd(), "data", fileName);
+    const fileContents = fs.readFileSync(filePath, "utf-8");
+    const shops = JSON.parse(fileContents).shops;
+    return shops;
+  };
+
   // データ読み込み.
-  const ramenFilePath = path.join(process.cwd(), "data", "ramen.json");
-  const ramenFileContents = fs.readFileSync(ramenFilePath, "utf-8");
-  const ramenShops = JSON.parse(ramenFileContents).shops;
+  const ramenShops = getShopDataFromJson("ramen.json");
+  const udonShops = getShopDataFromJson("udon.json");
 
   return {
     props: {
       ramenShops,
+      udonShops,
     },
   };
 };

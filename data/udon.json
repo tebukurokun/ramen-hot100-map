@@ -1,0 +1,2435 @@
+{
+  "shops": [{
+    "name": "田舎打ち 麺蔵",
+    "url": "https://tabelog.com/saitama/A1103/A110304/11000974/",
+    "address": "埼玉県 川越市 大字小堤16-10",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11000974",
+    "lat": "35.937433",
+    "lng": "139.438042",
+    "id": "udon-0"
+  }, {
+    "name": "讃岐うどん 條辺",
+    "url": "https://tabelog.com/saitama/A1103/A110302/11004258/",
+    "address": "埼玉県 ふじみ野市 上福岡 1-7-9",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004258",
+    "lat": "35.874951",
+    "lng": "139.512944",
+    "id": "udon-1"
+  }, {
+    "name": "太門",
+    "url": "https://tabelog.com/aichi/A2301/A230106/23045911/",
+    "address": "愛知県 名古屋市千種区 今池 5-9-18 衣笠ビル 1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23045911",
+    "lat": "35.168242",
+    "lng": "136.937701",
+    "id": "udon-2"
+  }, {
+    "name": "うどん 錦",
+    "url": "https://tabelog.com/aichi/A2301/A230103/23000374/",
+    "address": "愛知県 名古屋市中区 錦 3-18-9 錦花園ビル 1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23000374",
+    "lat": "35.170486",
+    "lng": "136.905414",
+    "id": "udon-3"
+  }, {
+    "name": "藤店うどん 川越店",
+    "url": "https://tabelog.com/saitama/A1103/A110303/11004070/",
+    "address": "埼玉県 川越市 新宿町 4-1-5",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004070",
+    "lat": "35.898",
+    "lng": "139.480704",
+    "id": "udon-4"
+  }, {
+    "name": "ぶっかけうどん 小野",
+    "url": "https://tabelog.com/saitama/A1101/A110101/11000761/",
+    "address": "埼玉県 さいたま市中央区 本町東 5-13-21",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11000761",
+    "lat": "35.890248",
+    "lng": "139.61937",
+    "id": "udon-5"
+  }, {
+    "name": "藤店うどん",
+    "url": "https://tabelog.com/saitama/A1101/A110103/11000476/",
+    "address": "埼玉県 さいたま市西区 三橋 6-14-7",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11000476",
+    "lat": "35.910649",
+    "lng": "139.590416",
+    "id": "udon-6"
+  }, {
+    "name": "信濃屋",
+    "url": "https://tabelog.com/gifu/A2103/A210301/21000027/",
+    "address": "岐阜県 多治見市 上野町 3-46",
+    "code": "hyakumeiten_udon_east_2020_restaurant_21000027",
+    "lat": "35.338298",
+    "lng": "137.126201",
+    "id": "udon-7"
+  }, {
+    "name": "手打うどん 松屋",
+    "url": "https://tabelog.com/saitama/A1104/A110401/11004724/",
+    "address": "埼玉県 桶川市 寿 1-11-18",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004724",
+    "lat": "36.002003",
+    "lng": "139.563926",
+    "id": "udon-8"
+  }, {
+    "name": "手打うどん 長谷沼",
+    "url": "https://tabelog.com/saitama/A1103/A110303/11033610/",
+    "address": "埼玉県 川越市 中原町 2-1-13",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11033610",
+    "lat": "35.915723",
+    "lng": "139.481533",
+    "id": "udon-9"
+  }, {
+    "name": "うどん家　一",
+    "url": "https://tabelog.com/saitama/A1106/A110601/11026435/",
+    "address": "埼玉県 所沢市 小手指町 1-29-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11026435",
+    "lat": "35.805216",
+    "lng": "139.438002",
+    "id": "udon-10"
+  }, {
+    "name": "きしや",
+    "url": "https://tabelog.com/aichi/A2301/A230106/23001708/",
+    "address": "愛知県 名古屋市千種区 仲田 2-17-7 池下タワーズ1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23001708",
+    "lat": "35.168527",
+    "lng": "136.942531",
+    "id": "udon-11"
+  }, {
+    "name": "めん専門店 味良",
+    "url": "https://tabelog.com/aichi/A2301/A230110/23013430/",
+    "address": "愛知県 名古屋市北区 川中町 4-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23013430",
+    "lat": "35.212431",
+    "lng": "136.911152",
+    "id": "udon-12"
+  }, {
+    "name": "手打ちうどん さわいち",
+    "url": "https://tabelog.com/saitama/A1101/A110103/11003324/",
+    "address": "埼玉県 さいたま市見沼区 大和田町 2-1009-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11003324",
+    "lat": "35.934718",
+    "lng": "139.646353",
+    "id": "udon-13"
+  }, {
+    "name": "六助うどん",
+    "url": "https://tabelog.com/saitama/A1105/A110504/11004153/",
+    "address": "埼玉県 本庄市 傍示堂 575",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004153",
+    "lat": "36.236698",
+    "lng": "139.210106",
+    "id": "udon-14"
+  }, {
+    "name": "がむしゃら",
+    "url": "https://tabelog.com/saitama/A1106/A110602/11029324/",
+    "address": "埼玉県 入間市 野田 886-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11029324",
+    "lat": "35.846016",
+    "lng": "139.360883",
+    "id": "udon-15"
+  }, {
+    "name": "駕籠休み",
+    "url": "https://tabelog.com/saitama/A1101/A110101/11005442/",
+    "address": "埼玉県 さいたま市大宮区 吉敷町 2-108-12",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11005442",
+    "lat": "35.900879",
+    "lng": "139.631168",
+    "id": "udon-16"
+  }, {
+    "name": "永井",
+    "url": "https://tabelog.com/saitama/A1103/A110302/11033420/",
+    "address": "埼玉県 入間郡三芳町 北永井 264-2",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11033420",
+    "lat": "35.834486",
+    "lng": "139.511476",
+    "id": "udon-17"
+  }, {
+    "name": "ががちゃ屋",
+    "url": "https://tabelog.com/saitama/A1103/A110304/11017604/",
+    "address": "埼玉県 鶴ヶ島市 下新田 12-8",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11017604",
+    "lat": "35.942783",
+    "lng": "139.370134",
+    "id": "udon-18"
+  }, {
+    "name": "手打うどん かとう",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23039141/",
+    "address": "愛知県 名古屋市中村区 太閤通 3-26",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23039141",
+    "lat": "35.167425",
+    "lng": "136.872851",
+    "id": "udon-19"
+  }, {
+    "name": "みうらうどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000359/",
+    "address": "山梨県 富士吉田市 下吉田 1-22-5",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000359",
+    "lat": "35.494564",
+    "lng": "138.808989",
+    "id": "udon-20"
+  }, {
+    "name": "本手打うどん庄司",
+    "url": "https://tabelog.com/saitama/A1105/A110502/11001574/",
+    "address": "埼玉県 比企郡川島町 上伊草 743-9",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11001574",
+    "lat": "35.972803",
+    "lng": "139.462073",
+    "id": "udon-21"
+  }, {
+    "name": "三丁目の手打うどん",
+    "url": "https://tabelog.com/saitama/A1106/A110602/11001573/",
+    "address": "埼玉県 狭山市 水野 1266-49",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11001573",
+    "lat": "35.821401",
+    "lng": "139.418348",
+    "id": "udon-22"
+  }, {
+    "name": "由す美",
+    "url": "https://tabelog.com/saitama/A1104/A110403/11003505/",
+    "address": "埼玉県 行田市 棚田町 2-3-6",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11003505",
+    "lat": "36.124758",
+    "lng": "139.436533",
+    "id": "udon-23"
+  }, {
+    "name": "だるまや",
+    "url": "https://tabelog.com/saitama/A1105/A110502/11016730/",
+    "address": "埼玉県 比企郡川島町 上伊草 985",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11016730",
+    "lat": "35.978284",
+    "lng": "139.458458",
+    "id": "udon-24"
+  }, {
+    "name": "武蔵野うどん 藤原 北与野本店",
+    "url": "https://tabelog.com/saitama/A1101/A110101/11004286/",
+    "address": "埼玉県 さいたま市中央区 上落合 3-12-36",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004286",
+    "lat": "35.889354",
+    "lng": "139.624156",
+    "id": "udon-25"
+  }, {
+    "name": "野村屋本店",
+    "url": "https://tabelog.com/tochigi/A0902/A090202/9001007/",
+    "address": "栃木県 佐野市 相生町 2819",
+    "code": "hyakumeiten_udon_east_2020_restaurant_9001007",
+    "lat": "36.31315",
+    "lng": "139.581924",
+    "id": "udon-26"
+  }, {
+    "name": "武蔵野伝統の味 涼太郎",
+    "url": "https://tabelog.com/saitama/A1106/A110601/11000460/",
+    "address": "埼玉県 所沢市 くすのき台 3-14-4",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11000460",
+    "lat": "35.787118",
+    "lng": "139.4774",
+    "id": "udon-27"
+  }, {
+    "name": "田舎うどん てつ",
+    "url": "https://tabelog.com/saitama/A1103/A110303/11004160/",
+    "address": "埼玉県 川越市 久下戸 2881",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004160",
+    "lat": "35.889867",
+    "lng": "139.544766",
+    "id": "udon-28"
+  }, {
+    "name": "手打ちうどん いしづか",
+    "url": "https://tabelog.com/saitama/A1104/A110401/11005554/",
+    "address": "埼玉県 桶川市 南 1-7-5",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11005554",
+    "lat": "35.999932",
+    "lng": "139.566254",
+    "id": "udon-29"
+  }, {
+    "name": "喜多一",
+    "url": "https://tabelog.com/saitama/A1106/A110601/11003682/",
+    "address": "埼玉県 所沢市 喜多町 11-13",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11003682",
+    "lat": "35.800148",
+    "lng": "139.463195",
+    "id": "udon-30"
+  }, {
+    "name": "あそび",
+    "url": "https://tabelog.com/saitama/A1105/A110605/11017560/",
+    "address": "埼玉県 比企郡小川町 増尾 473-6",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11017560",
+    "lat": "36.051286",
+    "lng": "139.251496",
+    "id": "udon-31"
+  }, {
+    "name": "たけ川うどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190303/19000815/",
+    "address": "山梨県 南都留郡富士河口湖町 船津 3371",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000815",
+    "lat": "35.49292",
+    "lng": "138.767751",
+    "id": "udon-33"
+  }, {
+    "name": "麺許皆伝",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000136/",
+    "address": "山梨県 富士吉田市 上吉田 849-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000136",
+    "lat": "35.40731",
+    "lng": "138.78946",
+    "id": "udon-34"
+  }, {
+    "name": "手打ち 山もとうどん",
+    "url": "https://tabelog.com/yamanashi/A1905/A190501/19000292/",
+    "address": "山梨県 都留市 古川渡 397-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000292",
+    "lat": "35.572303",
+    "lng": "138.925025",
+    "id": "udon-35"
+  }, {
+    "name": "手打ちうどん ムサシ",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000243/",
+    "address": "山梨県 富士吉田市 上吉田 6-10-19",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000243",
+    "lat": "35.473873",
+    "lng": "138.793507",
+    "id": "udon-36"
+  }, {
+    "name": "うどん処 おはな",
+    "url": "https://tabelog.com/saitama/A1103/A110301/11022150/",
+    "address": "埼玉県 朝霞市 西弁財 1-10-25 第一保ビル １F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11022150",
+    "lat": "35.814625",
+    "lng": "139.585075",
+    "id": "udon-37"
+  }, {
+    "name": "田中屋",
+    "url": "https://tabelog.com/gunma/A1001/A100101/10000108/",
+    "address": "群馬県 前橋市 総社町総社 3600-11",
+    "code": "hyakumeiten_udon_east_2020_restaurant_10000108",
+    "lat": "36.392745",
+    "lng": "139.038069",
+    "id": "udon-38"
+  }, {
+    "name": "手打ちうどんZ",
+    "url": "https://tabelog.com/chiba/A1205/A120503/12005569/",
+    "address": "千葉県 大網白里市 季美の森南 1-8-15",
+    "code": "hyakumeiten_udon_east_2020_restaurant_12005569",
+    "lat": "35.54725",
+    "lng": "140.299636",
+    "id": "udon-39"
+  }, {
+    "name": "くれちうどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19004114/",
+    "address": "山梨県 富士吉田市 上暮地 1-18-22",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19004114",
+    "lat": "35.509808",
+    "lng": "138.828021",
+    "id": "udon-40"
+  }, {
+    "name": "ぶつをのうどん",
+    "url": "https://tabelog.com/tochigi/A0901/A090101/9003113/",
+    "address": "栃木県 宇都宮市 松が峰 2-9-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_9003113",
+    "lat": "36.555739",
+    "lng": "139.881829",
+    "id": "udon-41"
+  }, {
+    "name": "手打うどん 寿庵",
+    "url": "https://tabelog.com/saitama/A1101/A110103/11028810/",
+    "address": "埼玉県 さいたま市北区 本郷町 167-1 グランドプルミエール 1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11028810",
+    "lat": "35.939963",
+    "lng": "139.628271",
+    "id": "udon-42"
+  }, {
+    "name": "麦屋",
+    "url": "https://tabelog.com/saitama/A1105/A110503/11024696/",
+    "address": "埼玉県 深谷市 萱場 265-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11024696",
+    "lat": "36.19203",
+    "lng": "139.264546",
+    "id": "udon-43"
+  }, {
+    "name": "うどん本舗",
+    "url": "https://tabelog.com/saitama/A1103/A110303/11033050/",
+    "address": "埼玉県 川越市 大字寺山194-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11033050",
+    "lat": "35.937414",
+    "lng": "139.469661",
+    "id": "udon-44"
+  }, {
+    "name": "うどん 有田",
+    "url": "https://tabelog.com/saitama/A1104/A110401/11009188/",
+    "address": "埼玉県 上尾市 中妻 3-7-4 ヤマフジ中妻店 敷地内",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11009188",
+    "lat": "35.985639",
+    "lng": "139.568561",
+    "id": "udon-45"
+  }, {
+    "name": "カレーうどん 鯱乃家",
+    "url": "https://tabelog.com/aichi/A2301/A230110/23000050/",
+    "address": "愛知県 名古屋市北区 田幡 2-14-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23000050",
+    "lat": "35.196343",
+    "lng": "136.910359",
+    "id": "udon-46"
+  }, {
+    "name": "渡辺うどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190302/19000342/",
+    "address": "山梨県 南都留郡忍野村 内野 545-2",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000342",
+    "lat": "35.458169",
+    "lng": "138.858587",
+    "id": "udon-47"
+  }, {
+    "name": "彩花",
+    "url": "https://tabelog.com/yamanashi/A1903/A190303/19000050/",
+    "address": "山梨県 南都留郡富士河口湖町 船津 7436-2",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000050",
+    "lat": "35.486914",
+    "lng": "138.763856",
+    "id": "udon-48"
+  }, {
+    "name": "しょうね家",
+    "url": "https://tabelog.com/chiba/A1204/A120403/12004760/",
+    "address": "千葉県 富里市 十倉 208-104",
+    "code": "hyakumeiten_udon_east_2020_restaurant_12004760",
+    "lat": "35.696634",
+    "lng": "140.348224",
+    "id": "udon-49"
+  }, {
+    "name": "藤屋本店",
+    "url": "https://tabelog.com/gunma/A1002/A100201/10001147/",
+    "address": "群馬県 桐生市 本町 1-6-35",
+    "code": "hyakumeiten_udon_east_2020_restaurant_10001147",
+    "lat": "36.419077",
+    "lng": "139.345052",
+    "id": "udon-50"
+  }, {
+    "name": "寛文五年堂 秋田店",
+    "url": "https://tabelog.com/akita/A0501/A050101/5005720/",
+    "address": "秋田県 秋田市 中通 1-4-3 エリアなかいち 1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_5005720",
+    "lat": "39.716844",
+    "lng": "140.121635",
+    "id": "udon-51"
+  }, {
+    "name": "清平",
+    "url": "https://tabelog.com/aichi/A2301/A230109/23013234/",
+    "address": "愛知県 名古屋市西区 上名古屋 3-13-30",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23013234",
+    "lat": "35.195877",
+    "lng": "136.895842",
+    "id": "udon-52"
+  }, {
+    "name": "四方吉うどん 吉見本店",
+    "url": "https://tabelog.com/saitama/A1105/A110502/11006341/",
+    "address": "埼玉県 比企郡吉見町 中新井 990-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11006341",
+    "lat": "36.051596",
+    "lng": "139.455819",
+    "id": "udon-53"
+  }, {
+    "name": "まつ奈",
+    "url": "https://tabelog.com/saitama/A1101/A110102/11028299/",
+    "address": "埼玉県 さいたま市浦和区 岸町 3-3-16",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11028299",
+    "lat": "35.853664",
+    "lng": "139.659716",
+    "id": "udon-54"
+  }, {
+    "name": "粉家",
+    "url": "https://tabelog.com/saitama/A1105/A110503/11006382/",
+    "address": "埼玉県 深谷市 小前田 289-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11006382",
+    "lat": "36.122147",
+    "lng": "139.217543",
+    "id": "udon-55"
+  }, {
+    "name": "さわだ",
+    "url": "https://tabelog.com/saitama/A1106/A110602/11004534/",
+    "address": "埼玉県 入間市 根岸 461-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11004534",
+    "lat": "35.823008",
+    "lng": "139.355016",
+    "id": "udon-56"
+  }, {
+    "name": "大地",
+    "url": "https://tabelog.com/saitama/A1104/A110403/11034232/",
+    "address": "埼玉県 行田市 忍 2-18-37",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11034232",
+    "lat": "36.139219",
+    "lng": "139.456392",
+    "id": "udon-57"
+  }, {
+    "name": "美也樹",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000160/",
+    "address": "山梨県 富士吉田市 新西原 4-3-6",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000160",
+    "lat": "35.485162",
+    "lng": "138.783197",
+    "id": "udon-58"
+  }, {
+    "name": "うどん屋 源さん 本店",
+    "url": "https://tabelog.com/yamanashi/A1901/A190101/19000403/",
+    "address": "山梨県 甲府市 上石田 4-5-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000403",
+    "lat": "35.651093",
+    "lng": "138.554243",
+    "id": "udon-59"
+  }, {
+    "name": "かれーうどん 椿",
+    "url": "https://tabelog.com/hokkaido/A0101/A010102/1006400/",
+    "address": "北海道 札幌市中央区 大通西 17-1-5 ノワム大通ビル 1Ｆ",
+    "code": "hyakumeiten_udon_east_2020_restaurant_1006400",
+    "lat": "43.058288",
+    "lng": "141.331234",
+    "id": "udon-60"
+  }, {
+    "name": "白須うどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000055/",
+    "address": "山梨県 富士吉田市 上吉田東 6-1-44",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000055",
+    "lat": "35.478964",
+    "lng": "138.809625",
+    "id": "udon-61"
+  }, {
+    "name": "たかちゃんうどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000919/",
+    "address": "山梨県 富士吉田市 上暮地 2295-3",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000919",
+    "lat": "35.512814",
+    "lng": "138.826007",
+    "id": "udon-62"
+  }, {
+    "name": "手打ちうどん寺屋",
+    "url": "https://tabelog.com/hokkaido/A0101/A010204/1001950/",
+    "address": "北海道 札幌市西区 山の手 3条6丁目1-10",
+    "code": "hyakumeiten_udon_east_2020_restaurant_1001950",
+    "lat": "43.068331",
+    "lng": "141.295113",
+    "id": "udon-63"
+  }, {
+    "name": "玉川 豊橋広小路本店",
+    "url": "https://tabelog.com/aichi/A2306/A230601/23009617/",
+    "address": "愛知県 豊橋市 広小路 1-13",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23009617",
+    "lat": "34.764427",
+    "lng": "137.384448",
+    "id": "udon-64"
+  }, {
+    "name": "鬼はそと福はうち",
+    "url": "https://tabelog.com/hokkaido/A0101/A010104/1002856/",
+    "address": "北海道 札幌市中央区 伏見 1-3-11",
+    "code": "hyakumeiten_udon_east_2020_restaurant_1002856",
+    "lat": "43.036923",
+    "lng": "141.327012",
+    "id": "udon-65"
+  }, {
+    "name": "釜揚げうどん専門店もと",
+    "url": "https://tabelog.com/kanagawa/A1404/A140407/14061080/",
+    "address": "神奈川県 平塚市 宮松町 6-26",
+    "code": "hyakumeiten_udon_east_2020_restaurant_14061080",
+    "lat": "35.334243",
+    "lng": "139.350543",
+    "id": "udon-66"
+  }, {
+    "name": "讃岐うどん 麦福",
+    "url": "https://tabelog.com/aichi/A2301/A230106/23059222/",
+    "address": "愛知県 名古屋市千種区 内山 3-11-19",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23059222",
+    "lat": "35.170378",
+    "lng": "136.935286",
+    "id": "udon-67"
+  }, {
+    "name": "地酒と饂飩 たらいうどん椛や",
+    "url": "https://tabelog.com/ibaraki/A0801/A080101/8001852/",
+    "address": "茨城県 水戸市 有賀町 1021",
+    "code": "hyakumeiten_udon_east_2020_restaurant_8001852",
+    "lat": "36.387713",
+    "lng": "140.357599",
+    "id": "udon-68"
+  }, {
+    "name": "角丸",
+    "url": "https://tabelog.com/aichi/A2301/A230103/23000031/",
+    "address": "愛知県 名古屋市東区 泉 1-18-33",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23000031",
+    "lat": "35.175056",
+    "lng": "136.911672",
+    "id": "udon-69"
+  }, {
+    "name": "讃州手打ちうどん 我流",
+    "url": "https://tabelog.com/aichi/A2305/A230504/23032890/",
+    "address": "愛知県 西尾市 下羽角町 六反60-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23032890",
+    "lat": "34.880688",
+    "lng": "137.119959",
+    "id": "udon-70"
+  }, {
+    "name": "鯱市 錦通伏見店",
+    "url": "https://tabelog.com/aichi/A2301/A230102/23053858/",
+    "address": "愛知県 名古屋市中区 錦 2-16-21 GS伏見センタービル 1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23053858",
+    "lat": "35.169471",
+    "lng": "136.897717",
+    "id": "udon-71"
+  }, {
+    "name": "麺一滴",
+    "url": "https://tabelog.com/kanagawa/A1405/A140501/14041477/",
+    "address": "神奈川県 川崎市川崎区 東田町 10-21",
+    "code": "hyakumeiten_udon_east_2020_restaurant_14041477",
+    "lat": "35.528529",
+    "lng": "139.703352",
+    "id": "udon-72"
+  }, {
+    "name": "お多福",
+    "url": "https://tabelog.com/chiba/A1203/A120303/12007471/",
+    "address": "千葉県 鎌ケ谷市 鎌ケ谷 4丁目2-51",
+    "code": "hyakumeiten_udon_east_2020_restaurant_12007471",
+    "lat": "35.7565",
+    "lng": "140.015612",
+    "id": "udon-73"
+  }, {
+    "name": "鈴家",
+    "url": "https://tabelog.com/aichi/A2301/A230111/23007899/",
+    "address": "愛知県 名古屋市名東区 高針 2-2507-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23007899",
+    "lat": "35.154416",
+    "lng": "137.008273",
+    "id": "udon-74"
+  }, {
+    "name": "千年ニコ天",
+    "url": "https://tabelog.com/aichi/A2301/A230112/23012864/",
+    "address": "愛知県 名古屋市熱田区 千年 1-20-11",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23012864",
+    "lat": "35.115859",
+    "lng": "136.899849",
+    "id": "udon-75"
+  }, {
+    "name": "桜井うどん",
+    "url": "https://tabelog.com/yamanashi/A1903/A190301/19000357/",
+    "address": "山梨県 富士吉田市 下吉田 5-1-33",
+    "code": "hyakumeiten_udon_east_2020_restaurant_19000357",
+    "lat": "35.489852",
+    "lng": "138.807053",
+    "id": "udon-76"
+  }, {
+    "name": "田丸屋",
+    "url": "https://tabelog.com/gunma/A1004/A100401/10000215/",
+    "address": "群馬県 渋川市 伊香保町水沢 206-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_10000215",
+    "lat": "36.479655",
+    "lng": "138.947012",
+    "id": "udon-77"
+  }, {
+    "name": "佐藤養助 秋田店",
+    "url": "https://tabelog.com/akita/A0501/A050101/5000022/",
+    "address": "秋田県 秋田市 中通 2-6-1 西武秋田店 B1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_5000022",
+    "lat": "39.716974",
+    "lng": "140.12693",
+    "id": "udon-78"
+  }, {
+    "name": "うどん匠人 岡本",
+    "url": "https://tabelog.com/tochigi/A0905/A090501/9002782/",
+    "address": "栃木県 那須郡那須町 高久丙 1147-236",
+    "code": "hyakumeiten_udon_east_2020_restaurant_9002782",
+    "lat": "37.068143",
+    "lng": "140.043524",
+    "id": "udon-79"
+  }, {
+    "name": "讃岐うどん 本格手打 てつ家",
+    "url": "https://tabelog.com/aichi/A2306/A230601/23041118/",
+    "address": "愛知県 豊橋市 佐藤 1-11-1",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23041118",
+    "lat": "34.748695",
+    "lng": "137.402083",
+    "id": "udon-80"
+  }, {
+    "name": "讃岐饂飩 まるは",
+    "url": "https://tabelog.com/chiba/A1202/A120201/12023023/",
+    "address": "千葉県 船橋市 上山町 1-128 藤井マンション101号",
+    "code": "hyakumeiten_udon_east_2020_restaurant_12023023",
+    "lat": "35.730314",
+    "lng": "139.967304",
+    "id": "udon-81"
+  }, {
+    "name": "宗",
+    "url": "https://tabelog.com/kanagawa/A1405/A140506/14033545/",
+    "address": "神奈川県 川崎市多摩区 登戸 1883-4 グランメール遊園",
+    "code": "hyakumeiten_udon_east_2020_restaurant_14033545",
+    "lat": "35.618767",
+    "lng": "139.562712",
+    "id": "udon-82"
+  }, {
+    "name": "元祖武蔵野うどん めんこや 本店",
+    "url": "https://tabelog.com/saitama/A1103/A110303/11003031/",
+    "address": "埼玉県 川越市 大字鴨田1984-1 （埼玉医大となり）",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11003031",
+    "lat": "35.933809",
+    "lng": "139.518785",
+    "id": "udon-83"
+  }, {
+    "name": "久良一",
+    "url": "https://tabelog.com/saitama/A1104/A110401/11009882/",
+    "address": "埼玉県 鴻巣市 人形 4-1-36",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11009882",
+    "lat": "36.050913",
+    "lng": "139.520105",
+    "id": "udon-84"
+  }, {
+    "name": "饂飩頑陣 本店",
+    "url": "https://tabelog.com/kanagawa/A1401/A140104/14055488/",
+    "address": "神奈川県 横浜市中区 住吉町 6-74 A102",
+    "code": "hyakumeiten_udon_east_2020_restaurant_14055488",
+    "lat": "35.447875",
+    "lng": "139.63442",
+    "id": "udon-85"
+  }, {
+    "name": "深山うどん",
+    "url": "https://tabelog.com/saitama/A1104/A110401/11005759/",
+    "address": "埼玉県 上尾市 大字上字堤下303-4",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11005759",
+    "lat": "35.995684",
+    "lng": "139.574731",
+    "id": "udon-86"
+  }, {
+    "name": "手打うどん 郁兵衛",
+    "url": "https://tabelog.com/gifu/A2103/A210301/21001856/",
+    "address": "岐阜県 土岐市 下石町 378",
+    "code": "hyakumeiten_udon_east_2020_restaurant_21001856",
+    "lat": "35.323863",
+    "lng": "137.183995",
+    "id": "udon-87"
+  }, {
+    "name": "煮込うどん 山本屋本店 エスカ店",
+    "url": "https://tabelog.com/aichi/A2301/A230101/23000123/",
+    "address": "愛知県 名古屋市中村区 椿町 6-9 エスカ地下街",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23000123",
+    "lat": "35.170197",
+    "lng": "136.880371",
+    "id": "udon-88"
+  }, {
+    "name": "まことや",
+    "url": "https://tabelog.com/aichi/A2301/A230108/23000094/",
+    "address": "愛知県 名古屋市昭和区 檀渓通4-14",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23000094",
+    "lat": "35.138404",
+    "lng": "136.945148",
+    "id": "udon-89"
+  }, {
+    "name": "手打うどん 牛コロ 宮内",
+    "url": "https://tabelog.com/aichi/A2301/A230110/23040430/",
+    "address": "愛知県 名古屋市北区 大蔵町 22-2",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23040430",
+    "lat": "35.195453",
+    "lng": "136.921834",
+    "id": "udon-90"
+  }, {
+    "name": "清水屋",
+    "url": "https://tabelog.com/gunma/A1004/A100401/10000216/",
+    "address": "群馬県 渋川市 伊香保町水沢 204",
+    "code": "hyakumeiten_udon_east_2020_restaurant_10000216",
+    "lat": "36.479659",
+    "lng": "138.947199",
+    "id": "udon-91"
+  }, {
+    "name": "花山うどん 本店",
+    "url": "https://tabelog.com/gunma/A1002/A100204/10001132/",
+    "address": "群馬県 館林市 本町 2-3-48",
+    "code": "hyakumeiten_udon_east_2020_restaurant_10001132",
+    "lat": "36.245945",
+    "lng": "139.529412",
+    "id": "udon-92"
+  }, {
+    "name": "鈴や",
+    "url": "https://tabelog.com/chiba/A1204/A120402/12006332/",
+    "address": "千葉県 印西市 山田 1783-8 いんば農産物直売所「グリーブ」内",
+    "code": "hyakumeiten_udon_east_2020_restaurant_12006332",
+    "lat": "35.772265",
+    "lng": "140.230318",
+    "id": "udon-93"
+  }, {
+    "name": "うどん料理 千",
+    "url": "https://tabelog.com/aichi/A2301/A230102/23007583/",
+    "address": "愛知県 名古屋市中区 栄 2-4-24 谷口ビル １Ｆ",
+    "code": "hyakumeiten_udon_east_2020_restaurant_23007583",
+    "lat": "35.167559",
+    "lng": "136.90172",
+    "id": "udon-94"
+  }, {
+    "name": "うどん家 こむぎ",
+    "url": "https://tabelog.com/hokkaido/A0101/A010204/1002003/",
+    "address": "北海道 札幌市西区 八軒七条東 4-1-11",
+    "code": "hyakumeiten_udon_east_2020_restaurant_1002003",
+    "lat": "43.084227",
+    "lng": "141.323519",
+    "id": "udon-95"
+  }, {
+    "name": "手打ちうどん 自遊席",
+    "url": "https://tabelog.com/kanagawa/A1404/A140405/14014003/",
+    "address": "神奈川県 藤沢市 石川 5-24-11",
+    "code": "hyakumeiten_udon_east_2020_restaurant_14014003",
+    "lat": "35.383028",
+    "lng": "139.451903",
+    "id": "udon-96"
+  }, {
+    "name": "増田うどん",
+    "url": "https://tabelog.com/hokkaido/A0101/A010102/1043434/",
+    "address": "北海道 札幌市中央区 南3条西9-1000-6 イオ3条ビル １Ｆ",
+    "code": "hyakumeiten_udon_east_2020_restaurant_1043434",
+    "lat": "43.055257",
+    "lng": "141.343507",
+    "id": "udon-97"
+  }, {
+    "name": "ザンギうどん一久 狸小路店",
+    "url": "https://tabelog.com/hokkaido/A0101/A010102/1007039/",
+    "address": "北海道 札幌市中央区 南2条西1-5-1 広和ビルNO．21 1F",
+    "code": "hyakumeiten_udon_east_2020_restaurant_1007039",
+    "lat": "43.055551",
+    "lng": "141.336569",
+    "id": "udon-98"
+  }, {
+    "name": "あじめん 北浦和店",
+    "url": "https://tabelog.com/saitama/A1101/A110102/11024986/",
+    "address": "埼玉県 さいたま市浦和区 常盤 9-19-11 第3スミダビル1Ｆ",
+    "code": "hyakumeiten_udon_east_2020_restaurant_11024986",
+    "lat": "35.871031",
+    "lng": "139.645842",
+    "id": "udon-99"
+  }, {
+    "name": "手打うどん すみた",
+    "url": "https://tabelog.com/tokyo/A1323/A132305/13003783/",
+    "address": "東京都 北区 志茂 2-52-8",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13003783",
+    "lat": "35.780492",
+    "lng": "139.726698",
+    "id": "udon-100"
+  }, {
+    "name": "村山 満月うどん",
+    "url": "https://tabelog.com/tokyo/A1329/A132901/13026307/",
+    "address": "東京都 武蔵村山市 三ツ木 1-12-10",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13026307",
+    "lat": "35.757707",
+    "lng": "139.379329",
+    "id": "udon-101"
+  }, {
+    "name": "うどん 丸香",
+    "url": "https://tabelog.com/tokyo/A1310/A131003/13000629/",
+    "address": "東京都 千代田区 神田小川町 3-16-1 ニュー駿河台ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13000629",
+    "lat": "35.696716",
+    "lng": "139.760157",
+    "id": "udon-102"
+  }, {
+    "name": "おにやんま 五反田本店",
+    "url": "https://tabelog.com/tokyo/A1316/A131603/13111869/",
+    "address": "東京都 品川区 西五反田 1-6-3",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13111869",
+    "lat": "35.625426",
+    "lng": "139.723952",
+    "id": "udon-103"
+  }, {
+    "name": "うどん 慎",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13125862/",
+    "address": "東京都 渋谷区 代々木 2-20-16 相馬ビル1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13125862",
+    "lat": "35.686592",
+    "lng": "139.69709",
+    "id": "udon-104"
+  }, {
+    "name": "うちたて家",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13003889/",
+    "address": "東京都 豊島区 南池袋 3-13-17",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13003889",
+    "lat": "35.726143",
+    "lng": "139.712493",
+    "id": "udon-105"
+  }, {
+    "name": "香川 一福 神田店",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13185500/",
+    "address": "東京都 千代田区 内神田 1-18-11 東京ロイヤルプラザ102",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13185500",
+    "lat": "35.691905",
+    "lng": "139.767165",
+    "id": "udon-106"
+  }, {
+    "name": "初代 恵比寿店",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13118189/",
+    "address": "東京都 渋谷区 恵比寿南 1-1-10 サウスコラム小林 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13118189",
+    "lat": "35.646405",
+    "lng": "139.708509",
+    "id": "udon-107"
+  }, {
+    "name": "讃岐うどん 蔵之介",
+    "url": "https://tabelog.com/tokyo/A1305/A130503/13049983/",
+    "address": "東京都 豊島区 高田 3-7-15",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13049983",
+    "lat": "35.714424",
+    "lng": "139.707294",
+    "id": "udon-108"
+  }, {
+    "name": "讃岐うどん いわい",
+    "url": "https://tabelog.com/tokyo/A1323/A132304/13141130/",
+    "address": "東京都 北区 上十条 3-28-7",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13141130",
+    "lat": "35.761534",
+    "lng": "139.718793",
+    "id": "udon-109"
+  }, {
+    "name": "賞讃",
+    "url": "https://tabelog.com/tokyo/A1324/A132403/13022111/",
+    "address": "東京都 葛飾区 東四つ木 2-18-4",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13022111",
+    "lat": "35.7304",
+    "lng": "139.845899",
+    "id": "udon-110"
+  }, {
+    "name": "おにやんま 新橋店",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13162575/",
+    "address": "東京都 港区 新橋 3-16-23",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13162575",
+    "lat": "35.665804",
+    "lng": "139.756683",
+    "id": "udon-111"
+  }, {
+    "name": "純手打ち讃岐うどん五郎",
+    "url": "https://tabelog.com/tokyo/A1312/A131201/13156107/",
+    "address": "東京都 墨田区 江東橋 1-13-1",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13156107",
+    "lat": "35.695846",
+    "lng": "139.810601",
+    "id": "udon-112"
+  }, {
+    "name": "根津 釜竹",
+    "url": "https://tabelog.com/tokyo/A1311/A131106/13020252/",
+    "address": "東京都 文京区 根津 2-14-18",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13020252",
+    "lat": "35.718137",
+    "lng": "139.766805",
+    "id": "udon-113"
+  }, {
+    "name": "釜たけうどん 八重洲北口店",
+    "url": "https://tabelog.com/tokyo/A1302/A130201/13156494/",
+    "address": "東京都 千代田区 丸の内 1-9-1 キッチンストリート 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13156494",
+    "lat": "35.68229",
+    "lng": "139.767668",
+    "id": "udon-114"
+  }, {
+    "name": "釜あげうどん はつとみ",
+    "url": "https://tabelog.com/tokyo/A1309/A130905/13095976/",
+    "address": "東京都 文京区 関口 1-48-5 イシダビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13095976",
+    "lat": "35.7094",
+    "lng": "139.73025",
+    "id": "udon-115"
+  }, {
+    "name": "むさしの エン座",
+    "url": "https://tabelog.com/tokyo/A1321/A132103/13022818/",
+    "address": "東京都 練馬区 石神井町 5-12-16 石神井公園ふるさと文化館内",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13022818",
+    "lat": "35.737526",
+    "lng": "139.599374",
+    "id": "udon-116"
+  }, {
+    "name": "しまだ",
+    "url": "https://tabelog.com/tokyo/A1306/A130602/13006991/",
+    "address": "東京都 港区 南青山 3-13-3",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13006991",
+    "lat": "35.665778",
+    "lng": "139.713991",
+    "id": "udon-117"
+  }, {
+    "name": "手打うどん長谷川",
+    "url": "https://tabelog.com/tokyo/A1321/A132103/13105083/",
+    "address": "東京都 練馬区 東大泉 4-3-18-102",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13105083",
+    "lat": "35.750764",
+    "lng": "139.585122",
+    "id": "udon-118"
+  }, {
+    "name": "讃岐饂飩 元喜",
+    "url": "https://tabelog.com/tokyo/A1323/A132301/13023908/",
+    "address": "東京都 文京区 千石 1-19-8 エクセル千石 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13023908",
+    "lat": "35.727454",
+    "lng": "139.743029",
+    "id": "udon-119"
+  }, {
+    "name": "手打うどん あかう",
+    "url": "https://tabelog.com/tokyo/A1311/A131105/13018604/",
+    "address": "東京都 荒川区 西日暮里 2-39-6 ＧＳハイム日暮里 １０３",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13018604",
+    "lat": "35.730887",
+    "lng": "139.770839",
+    "id": "udon-120"
+  }, {
+    "name": "谷や",
+    "url": "https://tabelog.com/tokyo/A1302/A130204/13114085/",
+    "address": "東京都 中央区 日本橋人形町 2-15-17 １階",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13114085",
+    "lat": "35.684602",
+    "lng": "139.78557",
+    "id": "udon-121"
+  }, {
+    "name": "酒と味噌煮込み 味噌煮込罠",
+    "url": "https://tabelog.com/tokyo/A1310/A131004/13036030/",
+    "address": "東京都 文京区 本郷 3-31-15 菅谷ビル",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13036030",
+    "lat": "35.706333",
+    "lng": "139.761514",
+    "id": "udon-122"
+  }, {
+    "name": "でら打ち",
+    "url": "https://tabelog.com/tokyo/A1317/A131712/13003419/",
+    "address": "東京都 品川区 旗の台 2-7-3",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13003419",
+    "lat": "35.605842",
+    "lng": "139.703882",
+    "id": "udon-123"
+  }, {
+    "name": "本格手打うどん あらた",
+    "url": "https://tabelog.com/tokyo/A1329/A132904/13025001/",
+    "address": "東京都 八王子市 八日町 10-1",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13025001",
+    "lat": "35.660211",
+    "lng": "139.333495",
+    "id": "udon-124"
+  }, {
+    "name": "正太郎うどん",
+    "url": "https://tabelog.com/tokyo/A1321/A132105/13095768/",
+    "address": "東京都 練馬区 下石神井 5-1-36",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13095768",
+    "lat": "35.729677",
+    "lng": "139.603126",
+    "id": "udon-125"
+  }, {
+    "name": "手打ちうどん こげら",
+    "url": "https://tabelog.com/tokyo/A1328/A132805/13163619/",
+    "address": "東京都 東村山市 富士見町 2-6-72",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13163619",
+    "lat": "35.739603",
+    "lng": "139.452956",
+    "id": "udon-126"
+  }, {
+    "name": "籠や",
+    "url": "https://tabelog.com/tokyo/A1308/A130801/13015161/",
+    "address": "東京都 港区 赤坂 3-13-3 みすじ３１３ビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13015161",
+    "lat": "35.673375",
+    "lng": "139.73764",
+    "id": "udon-127"
+  }, {
+    "name": "讃岐のおうどん 花は咲く 新中野本店",
+    "url": "https://tabelog.com/tokyo/A1319/A131902/13156851/",
+    "address": "東京都 中野区 中央 4-6-12 新中野マンション 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13156851",
+    "lat": "35.698853",
+    "lng": "139.66789",
+    "id": "udon-128"
+  }, {
+    "name": "讃岐うどん いそや",
+    "url": "https://tabelog.com/tokyo/A1329/A132904/13022380/",
+    "address": "東京都 八王子市 元横山町 2-1-14 中島ビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13022380",
+    "lat": "35.66134",
+    "lng": "139.339738",
+    "id": "udon-129"
+  }, {
+    "name": "おにやんま 東品川店",
+    "url": "https://tabelog.com/tokyo/A1315/A131501/13142095/",
+    "address": "東京都 品川区 東品川 4-1-20",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13142095",
+    "lat": "35.610661",
+    "lng": "139.745336",
+    "id": "udon-130"
+  }, {
+    "name": "葉隠",
+    "url": "https://tabelog.com/tokyo/A1308/A130801/13024229/",
+    "address": "東京都 港区 赤坂 3-10-20 第三対翠館ビル Ｂ１Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13024229",
+    "lat": "35.676416",
+    "lng": "139.736517",
+    "id": "udon-131"
+  }, {
+    "name": "よしふじ",
+    "url": "https://tabelog.com/tokyo/A1328/A132804/13080472/",
+    "address": "東京都 小平市 大沼町 7-6-6",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13080472",
+    "lat": "35.737173",
+    "lng": "139.498873",
+    "id": "udon-132"
+  }, {
+    "name": "澤乃井",
+    "url": "https://tabelog.com/tokyo/A1303/A130301/13001352/",
+    "address": "東京都 渋谷区 渋谷 1-8-5 小山ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13001352",
+    "lat": "35.660298",
+    "lng": "139.705487",
+    "id": "udon-133"
+  }, {
+    "name": "二代目 甚八",
+    "url": "https://tabelog.com/tokyo/A1310/A131004/13121200/",
+    "address": "東京都 文京区 本郷 3-22-9 真鍋ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13121200",
+    "lat": "35.705409",
+    "lng": "139.764305",
+    "id": "udon-134"
+  }, {
+    "name": "cuud",
+    "url": "https://tabelog.com/tokyo/A1315/A131504/13193378/",
+    "address": "東京都 大田区 羽田空港 3-3-2 羽田空港第1旅客ターミナル 2F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13193378",
+    "lat": "35.548318",
+    "lng": "139.784039",
+    "id": "udon-135"
+  }, {
+    "name": "切麦や 甚六",
+    "url": "https://tabelog.com/tokyo/A1304/A130402/13182646/",
+    "address": "東京都 新宿区 新宿 1-17-1 LAND・DEN 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13182646",
+    "lat": "35.689201",
+    "lng": "139.711861",
+    "id": "udon-136"
+  }, {
+    "name": "五島うどん びぜん家",
+    "url": "https://tabelog.com/tokyo/A1325/A132501/13126103/",
+    "address": "東京都 小金井市 本町 6-9-42",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13126103",
+    "lat": "35.699771",
+    "lng": "139.503645",
+    "id": "udon-137"
+  }, {
+    "name": "福助",
+    "url": "https://tabelog.com/tokyo/A1328/A132804/13149268/",
+    "address": "東京都 小平市 小川町 2-1307-20",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13149268",
+    "lat": "35.727414",
+    "lng": "139.474936",
+    "id": "udon-138"
+  }, {
+    "name": "五葵",
+    "url": "https://tabelog.com/tokyo/A1324/A132403/13161758/",
+    "address": "東京都 葛飾区 西亀有 3-20-14",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13161758",
+    "lat": "35.759994",
+    "lng": "139.840121",
+    "id": "udon-139"
+  }, {
+    "name": "恵",
+    "url": "https://tabelog.com/tokyo/A1319/A131906/13141730/",
+    "address": "東京都 杉並区 天沼 3-6-21 船木ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13141730",
+    "lat": "35.707582",
+    "lng": "139.619719",
+    "id": "udon-140"
+  }, {
+    "name": "天茶屋 七蔵",
+    "url": "https://tabelog.com/tokyo/A1301/A130103/13002602/",
+    "address": "東京都 港区 新橋 2-20-15 新橋駅前ビル1号館 2F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13002602",
+    "lat": "35.666214",
+    "lng": "139.759538",
+    "id": "udon-141"
+  }, {
+    "name": "うどん山長",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13045327/",
+    "address": "東京都 渋谷区 恵比寿 1-1-5 エビスオークビル1 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13045327",
+    "lat": "35.648292",
+    "lng": "139.711115",
+    "id": "udon-142"
+  }, {
+    "name": "こんぴら茶屋",
+    "url": "https://tabelog.com/tokyo/A1316/A131601/13013189/",
+    "address": "東京都 品川区 上大崎 3-3-1 坂上ビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13013189",
+    "lat": "35.633793",
+    "lng": "139.717636",
+    "id": "udon-143"
+  }, {
+    "name": "あんぷく 池袋店",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13097934/",
+    "address": "東京都 豊島区 西池袋 1-37-8 ＪＰビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13097934",
+    "lat": "35.732361",
+    "lng": "139.709251",
+    "id": "udon-144"
+  }, {
+    "name": "自家製さぬきうどんと肉 甚三",
+    "url": "https://tabelog.com/tokyo/A1314/A131401/13188754/",
+    "address": "東京都 港区 芝大門 2-6-10 コンフォート芝大門 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13188754",
+    "lat": "35.654886",
+    "lng": "139.75361",
+    "id": "udon-145"
+  }, {
+    "name": "豚や",
+    "url": "https://tabelog.com/tokyo/A1319/A131907/13018776/",
+    "address": "東京都 杉並区 上荻 4-19-23",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13018776",
+    "lat": "35.710955",
+    "lng": "139.607556",
+    "id": "udon-146"
+  }, {
+    "name": "手打うどん いわしや 青山店",
+    "url": "https://tabelog.com/tokyo/A1306/A130603/13224471/",
+    "address": "東京都 港区 北青山 1-2-3 青山ビルヂング B1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13224471",
+    "lat": "35.673029",
+    "lng": "139.723603",
+    "id": "udon-147"
+  }, {
+    "name": "大地のうどん 東京馬場店",
+    "url": "https://tabelog.com/tokyo/A1305/A130503/13193668/",
+    "address": "東京都 新宿区 高田馬場 3-22-14 アビテヒデミ 101",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13193668",
+    "lat": "35.712463",
+    "lng": "139.699374",
+    "id": "udon-148"
+  }, {
+    "name": "一滴八銭屋 新宿本店",
+    "url": "https://tabelog.com/tokyo/A1304/A130401/13000760/",
+    "address": "東京都 新宿区 西新宿 1-15-9 KCビル ２Ｆ・３Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13000760",
+    "lat": "35.68904",
+    "lng": "139.697165",
+    "id": "udon-149"
+  }, {
+    "name": "讃岐うどん河野",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13109309/",
+    "address": "東京都 豊島区 西池袋 5-12-7",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13109309",
+    "lat": "35.732641",
+    "lng": "139.70388",
+    "id": "udon-150"
+  }, {
+    "name": "竹や",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13005072/",
+    "address": "東京都 文京区 湯島 1-9-15 御茶ノ水HYビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13005072",
+    "lat": "35.701887",
+    "lng": "139.765987",
+    "id": "udon-151"
+  }, {
+    "name": "香川 一福 立川店",
+    "url": "https://tabelog.com/tokyo/A1329/A132901/13209088/",
+    "address": "東京都 立川市 錦町 2-2-1 SK錦町ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13209088",
+    "lat": "35.695821",
+    "lng": "139.416226",
+    "id": "udon-152"
+  }, {
+    "name": "うどん豊前房",
+    "url": "https://tabelog.com/tokyo/A1317/A131701/13003158/",
+    "address": "東京都 目黒区 東山 1-11-15 中目黒 ARK-II 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13003158",
+    "lat": "35.648251",
+    "lng": "139.692047",
+    "id": "udon-153"
+  }, {
+    "name": "讃岐饂飩 恩家",
+    "url": "https://tabelog.com/tokyo/A1317/A131702/13008395/",
+    "address": "東京都 目黒区 鷹番 2-20-19",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13008395",
+    "lat": "35.629721",
+    "lng": "139.686445",
+    "id": "udon-154"
+  }, {
+    "name": "四ツ木製麺所",
+    "url": "https://tabelog.com/tokyo/A1324/A132403/13163404/",
+    "address": "東京都 葛飾区 東立石 2-11-7",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13163404",
+    "lat": "35.733867",
+    "lng": "139.846788",
+    "id": "udon-155"
+  }, {
+    "name": "元咲",
+    "url": "https://tabelog.com/tokyo/A1312/A131204/13041174/",
+    "address": "東京都 江戸川区 南小岩 6-25-15",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13041174",
+    "lat": "35.727885",
+    "lng": "139.881585",
+    "id": "udon-156"
+  }, {
+    "name": "銀座 佐藤養助",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13033146/",
+    "address": "東京都 中央区 銀座 6-4-17 出井本館 １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13033146",
+    "lat": "35.671464",
+    "lng": "139.761508",
+    "id": "udon-157"
+  }, {
+    "name": "博多うどん酒場イチカバチカ 恵比寿店",
+    "url": "https://tabelog.com/tokyo/A1303/A130302/13198167/",
+    "address": "東京都 渋谷区 恵比寿南 1-8-9 京城ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13198167",
+    "lat": "35.646044",
+    "lng": "139.709018",
+    "id": "udon-158"
+  }, {
+    "name": "ゆず屋製麺所",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13043315/",
+    "address": "東京都 千代田区 内神田 3-19-10 ソーシャルビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13043315",
+    "lat": "35.69212",
+    "lng": "139.770647",
+    "id": "udon-159"
+  }, {
+    "name": "千駄木うどん 汐満",
+    "url": "https://tabelog.com/tokyo/A1311/A131106/13119510/",
+    "address": "東京都 文京区 千駄木 2-33-9",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13119510",
+    "lat": "35.724591",
+    "lng": "139.763139",
+    "id": "udon-160"
+  }, {
+    "name": "JAZZ KEIRIN",
+    "url": "https://tabelog.com/tokyo/A1318/A131809/13000696/",
+    "address": "東京都 世田谷区 松原 3-30-17 大和屋ビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13000696",
+    "lat": "35.666783",
+    "lng": "139.642559",
+    "id": "udon-161"
+  }, {
+    "name": "ウドンスタンド五頭",
+    "url": "https://tabelog.com/tokyo/A1320/A132002/13117283/",
+    "address": "東京都 武蔵野市 西久保 1-6-20 FF三鷹",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13117283",
+    "lat": "35.707332",
+    "lng": "139.560711",
+    "id": "udon-162"
+  }, {
+    "name": "二◯加屋長介 中目黒店",
+    "url": "https://tabelog.com/tokyo/A1317/A131701/13201618/",
+    "address": "東京都 目黒区 上目黒 3-5-29",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13201618",
+    "lat": "35.643194",
+    "lng": "139.697696",
+    "id": "udon-163"
+  }, {
+    "name": "つるとんたん 六本木店",
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13001859/",
+    "address": "東京都 港区 六本木 3-14-12 六本木3丁目ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13001859",
+    "lat": "35.662532",
+    "lng": "139.734347",
+    "id": "udon-164"
+  }, {
+    "name": "古奈屋 丸の内オアゾ店",
+    "url": "https://tabelog.com/tokyo/A1302/A130201/13017139/",
+    "address": "東京都 千代田区 丸の内 1-6-4 丸の内オアゾ 5F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13017139",
+    "lat": "35.683602",
+    "lng": "139.766406",
+    "id": "udon-165"
+  }, {
+    "name": "小平うどん 小平本店",
+    "url": "https://tabelog.com/tokyo/A1328/A132804/13087964/",
+    "address": "東京都 小平市 回田町 300-2",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13087964",
+    "lat": "35.716987",
+    "lng": "139.496736",
+    "id": "udon-166"
+  }, {
+    "name": "雅楽",
+    "url": "https://tabelog.com/tokyo/A1309/A130905/13032356/",
+    "address": "東京都 千代田区 飯田橋 3-7-3 岡田ビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13032356",
+    "lat": "35.70191",
+    "lng": "139.746821",
+    "id": "udon-167"
+  }, {
+    "name": "とこ井",
+    "url": "https://tabelog.com/tokyo/A1319/A131904/13153065/",
+    "address": "東京都 杉並区 高円寺南 4-7-5 久万乃ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13153065",
+    "lat": "35.703288",
+    "lng": "139.649135",
+    "id": "udon-168"
+  }, {
+    "name": "きつね庵",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13181414/",
+    "address": "東京都 中央区 銀座 3-8-13 光生ビル 2F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13181414",
+    "lat": "35.671599",
+    "lng": "139.767455",
+    "id": "udon-169"
+  }, {
+    "name": "麻布久徳 六本木ヒルズ店",
+    "url": "https://tabelog.com/tokyo/A1307/A130701/13015611/",
+    "address": "東京都 港区 六本木 6-10-1 六本木ヒルズ ウェストウォーク 5F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13015611",
+    "lat": "35.660054",
+    "lng": "139.729203",
+    "id": "udon-170"
+  }, {
+    "name": "関西風手打うどん いらっしゃい",
+    "url": "https://tabelog.com/tokyo/A1311/A131104/13042758/",
+    "address": "東京都 台東区 下谷 1-13-10",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13042758",
+    "lat": "35.720348",
+    "lng": "139.781781",
+    "id": "udon-171"
+  }, {
+    "name": "むぎきり",
+    "url": "https://tabelog.com/tokyo/A1328/A132804/13005951/",
+    "address": "東京都 小平市 学園西町 1-26-26",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13005951",
+    "lat": "35.721418",
+    "lng": "139.477643",
+    "id": "udon-172"
+  }, {
+    "name": "玉丁本店 八重洲店",
+    "url": "https://tabelog.com/tokyo/A1302/A130201/13015841/",
+    "address": "東京都 中央区 八重洲 2-1 八重洲地下街 外堀地下2番通り",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13015841",
+    "lat": "35.680353",
+    "lng": "139.769219",
+    "id": "udon-173"
+  }, {
+    "name": "おにやんま 中目黒店",
+    "url": "https://tabelog.com/tokyo/A1317/A131701/13199054/",
+    "address": "東京都 目黒区 上目黒 3-3-1 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13199054",
+    "lat": "35.644578",
+    "lng": "139.698478",
+    "id": "udon-174"
+  }, {
+    "name": "おにやんま 人形町店",
+    "url": "https://tabelog.com/tokyo/A1302/A130204/13216456/",
+    "address": "東京都 中央区 日本橋人形町 2-6-1",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13216456",
+    "lat": "35.685998",
+    "lng": "139.782791",
+    "id": "udon-175"
+  }, {
+    "name": "うたた寝",
+    "url": "https://tabelog.com/tokyo/A1321/A132103/13012311/",
+    "address": "東京都 練馬区 石神井町 3-27-20 早川ビル １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13012311",
+    "lat": "35.743261",
+    "lng": "139.604036",
+    "id": "udon-176"
+  }, {
+    "name": "本格手打 もり家 東京店",
+    "url": "https://tabelog.com/tokyo/A1314/A131401/13227953/",
+    "address": "東京都 港区 浜松町 2-6-5 浜松町エクセレントビル ポンテせとうみ 2F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13227953",
+    "lat": "35.654262",
+    "lng": "139.755947",
+    "id": "udon-177"
+  }, {
+    "name": "石臼挽きうどん しゅはり",
+    "url": "https://tabelog.com/tokyo/A1312/A131201/13174640/",
+    "address": "東京都 墨田区 錦糸 2-5-10 私学ビル B1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13174640",
+    "lat": "35.698243",
+    "lng": "139.813163",
+    "id": "udon-178"
+  }, {
+    "name": "太常うどん 銀座本店",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13104580/",
+    "address": "東京都 中央区 銀座 7-15-17 だいつねビル１階",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13104580",
+    "lat": "35.667329",
+    "lng": "139.765275",
+    "id": "udon-179"
+  }, {
+    "name": "野口製麺所",
+    "url": "https://tabelog.com/tokyo/A1328/A132806/13016162/",
+    "address": "東京都 東村山市 野口町 4-46-1",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13016162",
+    "lat": "35.765392",
+    "lng": "139.459818",
+    "id": "udon-180"
+  }, {
+    "name": "笑乃讃",
+    "url": "https://tabelog.com/tokyo/A1329/A132901/13067097/",
+    "address": "東京都 武蔵村山市 三ツ藤 1-86-4",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13067097",
+    "lat": "35.746255",
+    "lng": "139.38266",
+    "id": "udon-181"
+  }, {
+    "name": "カレーうどん ひかり TOKYO",
+    "url": "https://tabelog.com/tokyo/A1305/A130501/13170124/",
+    "address": "東京都 豊島区 西池袋 3-22-8 パークサイドフキビル B1F 岸野宅",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13170124",
+    "lat": "35.730422",
+    "lng": "139.706321",
+    "id": "udon-182"
+  }, {
+    "name": "麺匠 釜善",
+    "url": "https://tabelog.com/tokyo/A1310/A131002/13201863/",
+    "address": "東京都 千代田区 神田司町 2-14-15 高梨ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13201863",
+    "lat": "35.693746",
+    "lng": "139.768357",
+    "id": "udon-183"
+  }, {
+    "name": "咲花善伝",
+    "url": "https://tabelog.com/tokyo/A1309/A130903/13104627/",
+    "address": "東京都 新宿区 左門町 12-8 NK第5ビル 1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13104627",
+    "lat": "35.686034",
+    "lng": "139.7204",
+    "id": "udon-184"
+  }, {
+    "name": "うどん弥 根古坂",
+    "url": "https://tabelog.com/tokyo/A1328/A132804/13137697/",
+    "address": "東京都 小平市 小川町 1-1104-1",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13137697",
+    "lat": "35.729177",
+    "lng": "139.464357",
+    "id": "udon-185"
+  }, {
+    "name": "稲庭うどんとめし 金子半之助 コレド室町店",
+    "url": "https://tabelog.com/tokyo/A1302/A130202/13193074/",
+    "address": "東京都 中央区 日本橋室町 2-3-1 コレド室町2 B1F",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13193074",
+    "lat": "35.686897",
+    "lng": "139.774847",
+    "id": "udon-186"
+  }, {
+    "name": "古奈屋 巣鴨本店",
+    "url": "https://tabelog.com/tokyo/A1323/A132301/13003814/",
+    "address": "東京都 豊島区 巣鴨 3-37-1 鈴越コーポ １Ｆ",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13003814",
+    "lat": "35.735813",
+    "lng": "139.735201",
+    "id": "udon-187"
+  }, {
+    "name": "慶屋",
+    "url": "https://tabelog.com/tokyo/A1301/A130102/13044658/",
+    "address": "東京都 千代田区 有楽町 2丁目4-11",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13044658",
+    "lat": "35.673762",
+    "lng": "139.761379",
+    "id": "udon-188"
+  }, {
+    "name": "五代目 花山うどん 銀座店",
+    "url": "https://tabelog.com/tokyo/A1301/A130101/13200630/",
+    "address": "東京都 中央区 銀座 3-14-13",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13200630",
+    "lat": "35.669968",
+    "lng": "139.769213",
+    "id": "udon-189"
+  }, {
+    "name": "さぬきや",
+    "url": "https://tabelog.com/tokyo/A1317/A131702/13018265/",
+    "address": "東京都 目黒区 鷹番 3-19-15",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13018265",
+    "lat": "35.629898",
+    "lng": "139.682943",
+    "id": "udon-190"
+  }, {
+    "name": "トウキョウライトブルー ホンゴウスリー",
+    "url": "https://tabelog.com/tokyo/A1310/A131004/13240246/",
+    "address": "東京都 文京区 本郷 2-39-7",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13240246",
+    "lat": "35.706442",
+    "lng": "139.760461",
+    "id": "udon-191"
+  }, {
+    "name": "きくや",
+    "url": "https://tabelog.com/tokyo/A1328/A132806/13010118/",
+    "address": "東京都 東村山市 廻田町 2-12-16",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13010118",
+    "lat": "35.75438",
+    "lng": "139.448507",
+    "id": "udon-192"
+  }, {
+    "name": "叶屋",
+    "url": "https://tabelog.com/tokyo/A1311/A131102/13025846/",
+    "address": "東京都 台東区 浅草 1-37-12",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13025846",
+    "lat": "35.712762",
+    "lng": "139.796363",
+    "id": "udon-193"
+  }, {
+    "name": "さぬきや",
+    "url": "https://tabelog.com/tokyo/A1319/A131904/13011726/",
+    "address": "東京都 杉並区 高円寺南 4-38-7",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13011726",
+    "lat": "35.704482",
+    "lng": "139.654511",
+    "id": "udon-194"
+  }, {
+    "name": "四国屋",
+    "url": "https://tabelog.com/tokyo/A1319/A131902/13046601/",
+    "address": "東京都 中野区 中央 4-1-23",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13046601",
+    "lat": "35.697911",
+    "lng": "139.670581",
+    "id": "udon-195"
+  }, {
+    "name": "つくつくぼうし",
+    "url": "https://tabelog.com/tokyo/A1321/A132104/13218651/",
+    "address": "東京都 中野区 野方 6-8-5",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13218651",
+    "lat": "35.720936",
+    "lng": "139.652448",
+    "id": "udon-196"
+  }, {
+    "name": "栄屋うどん店",
+    "url": "https://tabelog.com/tokyo/A1328/A132801/13070422/",
+    "address": "東京都 西東京市 ひばりが丘北 4-1-29",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13070422",
+    "lat": "35.752723",
+    "lng": "139.544473",
+    "id": "udon-197"
+  }, {
+    "name": "本格ぶっかけうどん 麺の里",
+    "url": "https://tabelog.com/tokyo/A1321/A132105/13182335/",
+    "address": "東京都 練馬区 上石神井 1-11-8",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13182335",
+    "lat": "35.724029",
+    "lng": "139.591436",
+    "id": "udon-198"
+  }, {
+    "name": "肉汁うどん長嶋屋",
+    "url": "https://tabelog.com/tokyo/A1329/A132901/13120176/",
+    "address": "東京都 武蔵村山市 大南 1-135-2",
+    "code": "hyakumeiten_udon_tokyo_2020_restaurant_13120176",
+    "lat": "35.739077",
+    "lng": "139.394541",
+    "id": "udon-199"
+  }, {
+    "name": "須崎食料品店",
+    "url": "https://tabelog.com/kagawa/A3703/A370303/37000143/",
+    "address": "香川県 三豊市 高瀬町上麻 3778",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000143",
+    "lat": "34.175",
+    "lng": "133.769528",
+    "id": "udon-200"
+  }, {
+    "name": "手造りうどん 楽々",
+    "url": "https://tabelog.com/osaka/A2707/A270704/27011240/",
+    "address": "大阪府 交野市 幾野 6-6-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27011240",
+    "lat": "34.801551",
+    "lng": "135.675023",
+    "id": "udon-201"
+  }, {
+    "name": "讃岐うどん がもう",
+    "url": "https://tabelog.com/kagawa/A3702/A370201/37000019/",
+    "address": "香川県 坂出市 加茂町 420-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000019",
+    "lat": "34.304966",
+    "lng": "133.914876",
+    "id": "udon-202"
+  }, {
+    "name": "日の出製麺所",
+    "url": "https://tabelog.com/kagawa/A3702/A370201/37000016/",
+    "address": "香川県 坂出市 富士見町 1-8-5",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000016",
+    "lat": "34.310363",
+    "lng": "133.850174",
+    "id": "udon-203"
+  }, {
+    "name": "手打うどん たむら",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000077/",
+    "address": "香川県 綾歌郡綾川町 陶 1090-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000077",
+    "lat": "34.266514",
+    "lng": "133.935315",
+    "id": "udon-204"
+  }, {
+    "name": "釜あげうどん 長田 in 香の香",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000015/",
+    "address": "香川県 善通寺市 金蔵寺町 本村1180",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000015",
+    "lat": "34.250854",
+    "lng": "133.779644",
+    "id": "udon-205"
+  }, {
+    "name": "うどん 一福",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37001209/",
+    "address": "香川県 高松市 国分寺町新居 169-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37001209",
+    "lat": "34.308026",
+    "lng": "133.975298",
+    "id": "udon-206"
+  }, {
+    "name": "三好うどん",
+    "url": "https://tabelog.com/kagawa/A3703/A370303/37008190/",
+    "address": "香川県 三豊市 高瀬町比地 1583-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37008190",
+    "lat": "34.182109",
+    "lng": "133.69213",
+    "id": "udon-207"
+  }, {
+    "name": "本格手打うどん はゆか",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000233/",
+    "address": "香川県 綾歌郡綾川町 羽床下 2222-5",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000233",
+    "lat": "34.232382",
+    "lng": "133.90478",
+    "id": "udon-208"
+  }, {
+    "name": "谷川米穀店",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000011/",
+    "address": "香川県 仲多度郡まんのう町 川東 1490",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000011",
+    "lat": "34.111379",
+    "lng": "133.976321",
+    "id": "udon-209"
+  }, {
+    "name": "西端手打 上戸",
+    "url": "https://tabelog.com/kagawa/A3703/A370301/37000152/",
+    "address": "香川県 観音寺市 豊浜町箕浦 974-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000152",
+    "lat": "34.047998",
+    "lng": "133.618924",
+    "id": "udon-210"
+  }, {
+    "name": "純手打うどん よしや",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37004606/",
+    "address": "香川県 丸亀市 飯野町東二 343-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37004606",
+    "lat": "34.265691",
+    "lng": "133.838601",
+    "id": "udon-211"
+  }, {
+    "name": "手打ちうどん はりや",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000049/",
+    "address": "香川県 高松市 郷東町 587-174",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000049",
+    "lat": "34.34937",
+    "lng": "134.015163",
+    "id": "udon-212"
+  }, {
+    "name": "讃岐うどん 白庵",
+    "url": "https://tabelog.com/osaka/A2701/A270302/27014852/",
+    "address": "大阪府 大阪市淀川区 新高 6-12-7 三和マンション 1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27014852",
+    "lat": "34.731979",
+    "lng": "135.473684",
+    "id": "udon-213"
+  }, {
+    "name": "本格手打うどん おか泉",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000074/",
+    "address": "香川県 綾歌郡宇多津町 浜八番丁 129-10",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000074",
+    "lat": "34.309309",
+    "lng": "133.820967",
+    "id": "udon-214"
+  }, {
+    "name": "手打うどん 麦蔵",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000874/",
+    "address": "香川県 高松市 福岡町 1-482-5",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000874",
+    "lat": "34.345338",
+    "lng": "134.068691",
+    "id": "udon-215"
+  }, {
+    "name": "うどん さか枝",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000026/",
+    "address": "香川県 高松市 番町 5-2-23",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000026",
+    "lat": "34.339782",
+    "lng": "134.041651",
+    "id": "udon-216"
+  }, {
+    "name": "うどん本陣 山田家 讃岐本店",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000002/",
+    "address": "香川県 高松市 牟礼町牟礼 3186",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000002",
+    "lat": "34.353295",
+    "lng": "134.129628",
+    "id": "udon-217"
+  }, {
+    "name": "山越うどん",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000080/",
+    "address": "香川県 綾歌郡綾川町 羽床上 602‐2",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000080",
+    "lat": "34.225795",
+    "lng": "133.928188",
+    "id": "udon-218"
+  }, {
+    "name": "本格手打 いわしや 西宮店",
+    "url": "https://tabelog.com/hyogo/A2803/A280301/28002495/",
+    "address": "兵庫県 西宮市 山口町下山口 3-12-20",
+    "code": "hyakumeiten_udon_west_2020_restaurant_28002495",
+    "lat": "34.83423",
+    "lng": "135.2373",
+    "id": "udon-219"
+  }, {
+    "name": "手打十段 うどんバカ一代",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000242/",
+    "address": "香川県 高松市 多賀町 1-6-7",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000242",
+    "lat": "34.33675",
+    "lng": "134.058564",
+    "id": "udon-220"
+  }, {
+    "name": "うどん棒 大阪本店",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27003766/",
+    "address": "大阪府 大阪市北区 梅田 1-1-3 大阪駅前第3ビル B2F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27003766",
+    "lat": "34.698826",
+    "lng": "135.49928",
+    "id": "udon-221"
+  }, {
+    "name": "中村うどん",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000135/",
+    "address": "香川県 丸亀市 土器町東 9-283 CLOVER SHOEIビル1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000135",
+    "lat": "34.300436",
+    "lng": "133.807407",
+    "id": "udon-222"
+  }, {
+    "name": "たけうちうどん店",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27006684/",
+    "address": "大阪府 大阪市北区 豊崎 5-2-19",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27006684",
+    "lat": "34.712523",
+    "lng": "135.499648",
+    "id": "udon-223"
+  }, {
+    "name": "吉本食品",
+    "url": "https://tabelog.com/kagawa/A3704/A370402/37000684/",
+    "address": "香川県 東かがわ市 三本松 608",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000684",
+    "lat": "34.250581",
+    "lng": "134.339666",
+    "id": "udon-224"
+  }, {
+    "name": "讃岐うどん 上原屋本店",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000048/",
+    "address": "香川県 高松市 栗林町 1-18-8",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000048",
+    "lat": "34.32717",
+    "lng": "134.045273",
+    "id": "udon-225"
+  }, {
+    "name": "本格手打 もり家",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000134/",
+    "address": "香川県 高松市 香川町川内原 1575-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000134",
+    "lat": "34.239692",
+    "lng": "134.051502",
+    "id": "udon-226"
+  }, {
+    "name": "極楽うどん TKU",
+    "url": "https://tabelog.com/osaka/A2701/A270204/27042400/",
+    "address": "大阪府 大阪市東成区 東小橋 1-1-4",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27042400",
+    "lat": "34.674246",
+    "lng": "135.533645",
+    "id": "udon-227"
+  }, {
+    "name": "山内うどん店",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000007/",
+    "address": "香川県 仲多度郡まんのう町 十郷字大口1010",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000007",
+    "lat": "34.137055",
+    "lng": "133.829742",
+    "id": "udon-228"
+  }, {
+    "name": "竹清 本店",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000051/",
+    "address": "香川県 高松市 亀岡町 2-23",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000051",
+    "lat": "34.338079",
+    "lng": "134.04232",
+    "id": "udon-229"
+  }, {
+    "name": "山元麺蔵",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26002504/",
+    "address": "京都府 京都市左京区 岡崎南御所町 34",
+    "code": "hyakumeiten_udon_west_2020_restaurant_26002504",
+    "lat": "35.01425",
+    "lng": "135.78489",
+    "id": "udon-230"
+  }, {
+    "name": "うどん屋 きすけ",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27015342/",
+    "address": "大阪府 大阪市北区 鶴野町 4-1 コープ野村梅田Ａ棟1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27015342",
+    "lat": "34.709053",
+    "lng": "135.501434",
+    "id": "udon-231"
+  }, {
+    "name": "山下うどん",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000012/",
+    "address": "香川県 善通寺市 与北町 284-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000012",
+    "lat": "34.229884",
+    "lng": "133.817727",
+    "id": "udon-232"
+  }, {
+    "name": "本格さぬきうどん 穂乃香",
+    "url": "https://tabelog.com/hyogo/A2803/A280304/28025306/",
+    "address": "兵庫県 尼崎市 神田中通 4-157-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_28025306",
+    "lat": "34.720497",
+    "lng": "135.411256",
+    "id": "udon-233"
+  }, {
+    "name": "極楽うどん Ah-麺",
+    "url": "https://tabelog.com/osaka/A2701/A270306/27075334/",
+    "address": "大阪府 大阪市生野区 生野西 2-1-29 宇野ビル 1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27075334",
+    "lat": "34.648155",
+    "lng": "135.524784",
+    "id": "udon-234"
+  }, {
+    "name": "うだま 梅田店",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27056300/",
+    "address": "大阪府 大阪市北区 梅田 1-1-3 大阪駅前第3ビル B1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27056300",
+    "lat": "34.699043",
+    "lng": "135.499371",
+    "id": "udon-235"
+  }, {
+    "name": "うどん 讃く",
+    "url": "https://tabelog.com/osaka/A2701/A270108/27066859/",
+    "address": "大阪府 大阪市福島区 福島 2-8-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27066859",
+    "lat": "34.694544",
+    "lng": "135.486944",
+    "id": "udon-236"
+  }, {
+    "name": "踊るうどん 滝井本店",
+    "url": "https://tabelog.com/osaka/A2707/A270701/27004023/",
+    "address": "大阪府 守口市 紅屋町 6-7",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27004023",
+    "lat": "34.72753",
+    "lng": "135.556875",
+    "id": "udon-237"
+  }, {
+    "name": "麺処 綿谷 丸亀店",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000289/",
+    "address": "香川県 丸亀市 北平山町 2-6-18",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000289",
+    "lat": "34.296256",
+    "lng": "133.796105",
+    "id": "udon-238"
+  }, {
+    "name": "饂飩工房 うばら",
+    "url": "https://tabelog.com/osaka/A2701/A270205/27060219/",
+    "address": "大阪府 大阪市天王寺区 東高津町 9-19",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27060219",
+    "lat": "34.667012",
+    "lng": "135.522739",
+    "id": "udon-239"
+  }, {
+    "name": "中西うどん",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000040/",
+    "address": "香川県 高松市 鹿角町 899-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000040",
+    "lat": "34.302379",
+    "lng": "134.029282",
+    "id": "udon-240"
+  }, {
+    "name": "うどん ゆきの",
+    "url": "https://tabelog.com/osaka/A2701/A270405/27000574/",
+    "address": "大阪府 大阪市東住吉区 山坂 3-10-14",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27000574",
+    "lat": "34.621269",
+    "lng": "135.520394",
+    "id": "udon-241"
+  }, {
+    "name": "讃岐屋 雅次郎",
+    "url": "https://tabelog.com/osaka/A2707/A270705/27019261/",
+    "address": "大阪府 八尾市 美園町 4丁目59",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27019261",
+    "lat": "34.640067",
+    "lng": "135.590841",
+    "id": "udon-242"
+  }, {
+    "name": "宮武うどん",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37005339/",
+    "address": "香川県 高松市 円座町 340",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37005339",
+    "lat": "34.293964",
+    "lng": "133.998347",
+    "id": "udon-243"
+  }, {
+    "name": "山下うどん",
+    "url": "https://tabelog.com/kagawa/A3702/A370201/37000020/",
+    "address": "香川県 坂出市 加茂町 147-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000020",
+    "lat": "34.299845",
+    "lng": "133.9197",
+    "id": "udon-244"
+  }, {
+    "name": "釜揚うどん一紀",
+    "url": "https://tabelog.com/osaka/A2701/A270406/27059480/",
+    "address": "大阪府 大阪市西成区 南開 1-6-10",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27059480",
+    "lat": "34.651469",
+    "lng": "135.490879",
+    "id": "udon-245"
+  }, {
+    "name": "三嶋製麺所",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000140/",
+    "address": "香川県 仲多度郡まんのう町 川東 276",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000140",
+    "lat": "34.141872",
+    "lng": "133.961369",
+    "id": "udon-246"
+  }, {
+    "name": "ゴッドハンド",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000710/",
+    "address": "香川県 高松市 内町 4-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000710",
+    "lat": "34.346578",
+    "lng": "134.053547",
+    "id": "udon-247"
+  }, {
+    "name": "うぶしな",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000231/",
+    "address": "香川県 綾歌郡宇多津町 1597-1 宇夫階神社",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000231",
+    "lat": "34.308153",
+    "lng": "133.820709",
+    "id": "udon-248"
+  }, {
+    "name": "がいな製麺所",
+    "url": "https://tabelog.com/hyogo/A2804/A280403/28003753/",
+    "address": "兵庫県 加西市 和泉町 25-2",
+    "code": "hyakumeiten_udon_west_2020_restaurant_28003753",
+    "lat": "34.946516",
+    "lng": "134.886625",
+    "id": "udon-249"
+  }, {
+    "name": "讃岐うどん 今雪",
+    "url": "https://tabelog.com/osaka/A2701/A270101/27067874/",
+    "address": "大阪府 大阪市北区 神山町 3-10 清覚ビル 1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27067874",
+    "lat": "34.702999",
+    "lng": "135.506063",
+    "id": "udon-250"
+  }, {
+    "name": "本格手打うどん 大河",
+    "url": "https://tabelog.com/kyoto/A2601/A260601/26020260/",
+    "address": "京都府 京都市伏見区 深草西浦町 7-45-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_26020260",
+    "lat": "34.957977",
+    "lng": "135.76466",
+    "id": "udon-251"
+  }, {
+    "name": "釜ひろ",
+    "url": "https://tabelog.com/osaka/A2701/A270405/27011913/",
+    "address": "大阪府 大阪市東住吉区 山坂 5-2-27 ジョイフル鶴が丘 １F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27011913",
+    "lat": "34.617575",
+    "lng": "135.517287",
+    "id": "udon-252"
+  }, {
+    "name": "宮川製麺所",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000128/",
+    "address": "香川県 善通寺市 中村町 1-1-20",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000128",
+    "lat": "34.238057",
+    "lng": "133.769315",
+    "id": "udon-253"
+  }, {
+    "name": "たからや",
+    "url": "https://tabelog.com/osaka/A2707/A270705/27019530/",
+    "address": "大阪府 八尾市 若林町 3-104-7",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27019530",
+    "lat": "34.593826",
+    "lng": "135.582292",
+    "id": "udon-254"
+  }, {
+    "name": "白川うどん",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000240/",
+    "address": "香川県 善通寺市 櫛梨町 500-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000240",
+    "lat": "34.224376",
+    "lng": "133.80241",
+    "id": "udon-255"
+  }, {
+    "name": "桂ちゃん",
+    "url": "https://tabelog.com/osaka/A2701/A270405/27013633/",
+    "address": "大阪府 大阪市平野区 長吉長原東 3-1-68",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27013633",
+    "lat": "34.601602",
+    "lng": "135.574196",
+    "id": "udon-256"
+  }, {
+    "name": "わら家",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000057/",
+    "address": "香川県 高松市 屋島中町 91",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000057",
+    "lat": "34.343772",
+    "lng": "134.108248",
+    "id": "udon-257"
+  }, {
+    "name": "松下製麺所",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000033/",
+    "address": "香川県 高松市 中野町 2-2",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000033",
+    "lat": "34.335034",
+    "lng": "134.044802",
+    "id": "udon-258"
+  }, {
+    "name": "讃歌うどん はんげしょう",
+    "url": "https://tabelog.com/hyogo/A2803/A280301/28026561/",
+    "address": "兵庫県 西宮市 本町 9-5",
+    "code": "hyakumeiten_udon_west_2020_restaurant_28026561",
+    "lat": "34.734287",
+    "lng": "135.337034",
+    "id": "udon-259"
+  }, {
+    "name": "どとう ぜにや",
+    "url": "https://tabelog.com/osaka/A2705/A270501/27013157/",
+    "address": "大阪府 堺市中区 土塔町 2076-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27013157",
+    "lat": "34.533793",
+    "lng": "135.507757",
+    "id": "udon-260"
+  }, {
+    "name": "うどん工房悠々",
+    "url": "https://tabelog.com/hyogo/A2803/A280304/28029478/",
+    "address": "兵庫県 尼崎市 南塚口町 2-1-2 塚口さんさんタウン２番館１Ｆ",
+    "code": "hyakumeiten_udon_west_2020_restaurant_28029478",
+    "lat": "34.752069",
+    "lng": "135.416396",
+    "id": "udon-261"
+  }, {
+    "name": "手打ちうどん 団平",
+    "url": "https://tabelog.com/osaka/A2707/A270702/27006805/",
+    "address": "大阪府 枚方市 三栗 1-1-10",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27006805",
+    "lat": "34.83228",
+    "lng": "135.655339",
+    "id": "udon-262"
+  }, {
+    "name": "空飛ぶうどん やまぶき家",
+    "url": "https://tabelog.com/osaka/A2706/A270601/27069779/",
+    "address": "大阪府 豊中市 岡上の町 2-2-5",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27069779",
+    "lat": "34.784773",
+    "lng": "135.463409",
+    "id": "udon-263"
+  }, {
+    "name": "根ッ子うどん",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000533/",
+    "address": "香川県 仲多度郡多度津町 大字青木565-2",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000533",
+    "lat": "34.258704",
+    "lng": "133.752557",
+    "id": "udon-264"
+  }, {
+    "name": "なかむら",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37000068/",
+    "address": "香川県 丸亀市 飯山町西坂元 1373-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000068",
+    "lat": "34.260421",
+    "lng": "133.835689",
+    "id": "udon-265"
+  }, {
+    "name": "長田うどん",
+    "url": "https://tabelog.com/kagawa/A3703/A370302/37000005/",
+    "address": "香川県 仲多度郡まんのう町 吉野 1290-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000005",
+    "lat": "34.185142",
+    "lng": "133.857583",
+    "id": "udon-266"
+  }, {
+    "name": "JUN大谷製麺処",
+    "url": "https://tabelog.com/osaka/A2701/A270202/27049353/",
+    "address": "大阪府 大阪市浪速区 元町 1-3-18 難波ミツミコープ 1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27049353",
+    "lat": "34.665866",
+    "lng": "135.496783",
+    "id": "udon-267"
+  }, {
+    "name": "讃岐うどん いってつ",
+    "url": "https://tabelog.com/osaka/A2708/A270802/27009072/",
+    "address": "大阪府 大阪狭山市 茱萸木 3丁目245-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27009072",
+    "lat": "34.493694",
+    "lng": "135.548101",
+    "id": "udon-268"
+  }, {
+    "name": "爽月",
+    "url": "https://tabelog.com/osaka/A2701/A270404/27051701/",
+    "address": "大阪府 大阪市住之江区 粉浜 2-11-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27051701",
+    "lat": "34.617351",
+    "lng": "135.491141",
+    "id": "udon-269"
+  }, {
+    "name": "うどん日和",
+    "url": "https://tabelog.com/osaka/A2707/A270703/27023042/",
+    "address": "大阪府 東大阪市 中新開 2-13-46-103 正起吉田ハイツ１階",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27023042",
+    "lat": "34.682311",
+    "lng": "135.620789",
+    "id": "udon-270"
+  }, {
+    "name": "うどん居酒屋 麦笑",
+    "url": "https://tabelog.com/osaka/A2701/A270107/27013801/",
+    "address": "大阪府 大阪市東成区 中道 1-10-19",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27013801",
+    "lat": "34.67797",
+    "lng": "135.535555",
+    "id": "udon-271"
+  }, {
+    "name": "手打うどん 三徳",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000142/",
+    "address": "香川県 高松市 林町 390-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000142",
+    "lat": "34.292687",
+    "lng": "134.068981",
+    "id": "udon-272"
+  }, {
+    "name": "手打麺や 大島",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000224/",
+    "address": "香川県 高松市 太田下町 3013-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000224",
+    "lat": "34.302871",
+    "lng": "134.05094",
+    "id": "udon-273"
+  }, {
+    "name": "麦きり トクオカ",
+    "url": "https://tabelog.com/hyogo/A2804/A280401/28001187/",
+    "address": "兵庫県 明石市 魚住町清水 2189",
+    "code": "hyakumeiten_udon_west_2020_restaurant_28001187",
+    "lat": "34.721965",
+    "lng": "134.891554",
+    "id": "udon-274"
+  }, {
+    "name": "活麺富蔵",
+    "url": "https://tabelog.com/osaka/A2707/A270704/27052338/",
+    "address": "大阪府 四條畷市 楠公 2-8-26 谷山ビル １F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27052338",
+    "lat": "34.73247",
+    "lng": "135.639824",
+    "id": "udon-275"
+  }, {
+    "name": "手打ちうどん 鶴丸",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000044/",
+    "address": "香川県 高松市 古馬場町 9-34",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000044",
+    "lat": "34.342386",
+    "lng": "134.052349",
+    "id": "udon-276"
+  }, {
+    "name": "江戸堀 木田 讃岐うどん",
+    "url": "https://tabelog.com/osaka/A2701/A270102/27027893/",
+    "address": "大阪府 大阪市西区 江戸堀 1丁目23-31",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27027893",
+    "lat": "34.689622",
+    "lng": "135.493396",
+    "id": "udon-277"
+  }, {
+    "name": "日の出うどん",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26000815/",
+    "address": "京都府 京都市左京区 南禅寺北ノ坊町 36",
+    "code": "hyakumeiten_udon_west_2020_restaurant_26000815",
+    "lat": "35.016384",
+    "lng": "135.793717",
+    "id": "udon-278"
+  }, {
+    "name": "釜揚げうどん 鈴庵",
+    "url": "https://tabelog.com/nara/A2903/A290301/29004110/",
+    "address": "奈良県 北葛城郡広陵町 馬見中 5-1-26",
+    "code": "hyakumeiten_udon_west_2020_restaurant_29004110",
+    "lat": "34.546961",
+    "lng": "135.729596",
+    "id": "udon-279"
+  }, {
+    "name": "さぬき手打ちうどん 銭形",
+    "url": "https://tabelog.com/osaka/A2706/A270601/27012525/",
+    "address": "大阪府 豊中市 服部西町 2-2-21",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27012525",
+    "lat": "34.762833",
+    "lng": "135.472671",
+    "id": "udon-280"
+  }, {
+    "name": "手打うどん 風月",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37001023/",
+    "address": "香川県 高松市 紺屋町 4-13 中井ビル１F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37001023",
+    "lat": "34.344879",
+    "lng": "134.047518",
+    "id": "udon-281"
+  }, {
+    "name": "うどん 蔵十",
+    "url": "https://tabelog.com/osaka/A2701/A270304/27000719/",
+    "address": "大阪府 大阪市旭区 中宮 1-12-18",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27000719",
+    "lat": "34.721735",
+    "lng": "135.54345",
+    "id": "udon-282"
+  }, {
+    "name": "本格手打うどん 麺むすび",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37004775/",
+    "address": "香川県 高松市 多肥下町 949",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37004775",
+    "lat": "34.30137",
+    "lng": "134.056799",
+    "id": "udon-283"
+  }, {
+    "name": "カマ喜ri",
+    "url": "https://tabelog.com/kagawa/A3703/A370301/37006622/",
+    "address": "香川県 観音寺市 柞田町 甲46-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37006622",
+    "lat": "34.112756",
+    "lng": "133.676694",
+    "id": "udon-284"
+  }, {
+    "name": "あやうた製麺",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37007004/",
+    "address": "香川県 丸亀市 綾歌町岡田西 1785",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37007004",
+    "lat": "34.232361",
+    "lng": "133.841626",
+    "id": "udon-285"
+  }, {
+    "name": "麦香",
+    "url": "https://tabelog.com/kagawa/A3702/A370202/37006914/",
+    "address": "香川県 丸亀市 綾歌町岡田上 1898-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37006914",
+    "lat": "34.21646",
+    "lng": "133.857793",
+    "id": "udon-286"
+  }, {
+    "name": "マルタニ製麺",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000378/",
+    "address": "香川県 高松市 円座町 1023-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000378",
+    "lat": "34.289405",
+    "lng": "134.011378",
+    "id": "udon-287"
+  }, {
+    "name": "うどんの田",
+    "url": "https://tabelog.com/kagawa/A3701/A370101/37000384/",
+    "address": "香川県 高松市 寺井町 38-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000384",
+    "lat": "34.282681",
+    "lng": "134.035367",
+    "id": "udon-288"
+  }, {
+    "name": "シラカワ",
+    "url": "https://tabelog.com/kagawa/A3703/A370303/37000147/",
+    "address": "香川県 三豊市 山本町大野 2854-8",
+    "code": "hyakumeiten_udon_west_2020_restaurant_37000147",
+    "lat": "34.123143",
+    "lng": "133.718978",
+    "id": "udon-289"
+  }, {
+    "name": "京うどん 生蕎麦 岡北",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26000919/",
+    "address": "京都府 京都市左京区 岡崎南御所町 34",
+    "code": "hyakumeiten_udon_west_2020_restaurant_26000919",
+    "lat": "35.01425",
+    "lng": "135.78489",
+    "id": "udon-290"
+  }, {
+    "name": "本町製麺所 本店",
+    "url": "https://tabelog.com/osaka/A2701/A270106/27014646/",
+    "address": "大阪府 大阪市中央区 北久宝寺町 2-6-13",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27014646",
+    "lat": "34.679857",
+    "lng": "135.504375",
+    "id": "udon-291"
+  }, {
+    "name": "葉隠うどん",
+    "url": "https://tabelog.com/fukuoka/A4001/A400101/40004342/",
+    "address": "福岡県 福岡市博多区 博多駅南 2-3-32",
+    "code": "hyakumeiten_udon_west_2020_restaurant_40004342",
+    "lat": "33.583602",
+    "lng": "130.424661",
+    "id": "udon-292"
+  }, {
+    "name": "手打ちうどん 紅屋",
+    "url": "https://tabelog.com/osaka/A2707/A270701/27017094/",
+    "address": "大阪府 守口市 紅屋町 5-4",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27017094",
+    "lat": "34.727998",
+    "lng": "135.556698",
+    "id": "udon-293"
+  }, {
+    "name": "糸庄",
+    "url": "https://tabelog.com/toyama/A1601/A160101/16000661/",
+    "address": "富山県 富山市 太郎丸本町 1-7-6",
+    "code": "hyakumeiten_udon_west_2020_restaurant_16000661",
+    "lat": "36.677313",
+    "lng": "137.211362",
+    "id": "udon-294"
+  }, {
+    "name": "一匠",
+    "url": "https://tabelog.com/tokushima/A3601/A360102/36002902/",
+    "address": "徳島県 鳴門市 大津町矢倉 六ノ越37-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_36002902",
+    "lat": "34.155645",
+    "lng": "134.591577",
+    "id": "udon-295"
+  }, {
+    "name": "道頓堀 今井 本店",
+    "url": "https://tabelog.com/osaka/A2701/A270202/27001289/",
+    "address": "大阪府 大阪市中央区 道頓堀 1-7-22",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27001289",
+    "lat": "34.668518",
+    "lng": "135.502716",
+    "id": "udon-296"
+  }, {
+    "name": "釜喜利うどん",
+    "url": "https://tabelog.com/fukuoka/A4001/A400104/40034851/",
+    "address": "福岡県 福岡市中央区 大名 1-7-8",
+    "code": "hyakumeiten_udon_west_2020_restaurant_40034851",
+    "lat": "33.585842",
+    "lng": "130.391611",
+    "id": "udon-297"
+  }, {
+    "name": "自家製粉石臼挽きうどん 青空blue 本店",
+    "url": "https://tabelog.com/osaka/A2701/A270102/27082212/",
+    "address": "大阪府 大阪市中央区 平野町 4-5-8",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27082212",
+    "lat": "34.68787",
+    "lng": "135.498373",
+    "id": "udon-298"
+  }, {
+    "name": "釜揚げうどん 織田薪 本店",
+    "url": "https://tabelog.com/miyazaki/A4501/A450101/45001975/",
+    "address": "宮崎県 宮崎市 中央通 2-23",
+    "code": "hyakumeiten_udon_west_2020_restaurant_45001975",
+    "lat": "31.914816",
+    "lng": "131.421481",
+    "id": "udon-299"
+  }, {
+    "name": "うどん居酒屋 江戸堀",
+    "url": "https://tabelog.com/osaka/A2701/A270102/27094721/",
+    "address": "大阪府 大阪市西区 江戸堀 1-23-20 ライフデザイン江戸堀 1F",
+    "code": "hyakumeiten_udon_west_2020_restaurant_27094721",
+    "lat": "34.689273",
+    "lng": "135.493212",
+    "id": "udon-300"
+  }, {
+    "name": "立花うどん",
+    "url": "https://tabelog.com/fukuoka/A4008/A400801/40006354/",
+    "address": "福岡県 久留米市 東合川 5-6-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_40006354",
+    "lat": "33.319655",
+    "lng": "130.552359",
+    "id": "udon-301"
+  }, {
+    "name": "仁王門 うね乃",
+    "url": "https://tabelog.com/kyoto/A2601/A260301/26023852/",
+    "address": "京都府 京都市左京区 新丸太町 41",
+    "code": "hyakumeiten_udon_west_2020_restaurant_26023852",
+    "lat": "35.011855",
+    "lng": "135.773135",
+    "id": "udon-302"
+  }, {
+    "name": "ふたみうどん研究所",
+    "url": "https://tabelog.com/miyazaki/A4503/A450302/45004957/",
+    "address": "宮崎県 都城市 神之山町 1793-1",
+    "code": "hyakumeiten_udon_west_2020_restaurant_45004957",
+    "lat": "31.75653",
+    "lng": "131.100906",
+    "id": "udon-303"
+  }, {
+    "name": "純手打 うどん 勝一",
+    "url": "https://tabelog.com/yamaguchi/A3501/A350101/35000311/",
+    "address": "山口県 山口市 大字吉敷3271-3",
+    "code": "hyakumeiten_udon_west_2020_restaurant_35000311",
+    "lat": "34.179981",
+    "lng": "131.41622",
+    "id": "udon-304"
+  }]
+}
