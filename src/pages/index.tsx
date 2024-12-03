@@ -1,11 +1,10 @@
-import LocationOnIcon from "@material-ui/icons/LocationOn";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import fs from "fs";
 import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import Head from "next/head";
 import path from "path";
 import { MarkerItem } from "../interfaces/MarkerItem";
-
 const Map = dynamic(() => import("../components/Map2"), { ssr: false });
 
 type Shop = {
@@ -22,13 +21,21 @@ type Props = {
   ramenShops: Shop[];
 };
 
-const Home = ({ ramenShops }: Props): JSX.Element => {
-  console.info("Hyakumeiten Map v0.1.0");
-
-  // TODO: 別の関数にする.
-  const markerItems: MarkerItem[] = ramenShops.map((shop) => ({
+/**
+ * マーカー用のオブジェクト作成.
+ *
+ * @param shop
+ * @param category
+ * @returns MarkerItem
+ */
+const createMarkerItem = (
+  shop: Shop,
+  category: string,
+  icon: string
+): MarkerItem => {
+  return {
     position: [parseFloat(shop.lat), parseFloat(shop.lng)],
-    icon: "/static/marker-icons/ramen.png",
+    icon: icon,
     popUp: (
       <div style={{ maxWidth: "120px" }}>
         <p style={{ fontWeight: "bolder" }}>
@@ -37,7 +44,7 @@ const Home = ({ ramenShops }: Props): JSX.Element => {
           </a>
         </p>
         <p>
-          <i>ラーメン百名店</i>
+          <i>{category}</i>
         </p>
         <p style={{ fontSize: "smaller" }}>
           <LocationOnIcon fontSize="small" />
@@ -51,7 +58,15 @@ const Home = ({ ramenShops }: Props): JSX.Element => {
         </p>
       </div>
     ),
-  }));
+  };
+};
+
+const Home = ({ ramenShops }: Props): JSX.Element => {
+  console.info("Hyakumeiten Map v0.1.0");
+
+  const markerItems: MarkerItem[] = ramenShops.map((shop) =>
+    createMarkerItem(shop, "ラーメン百名店", "/static/marker-icons/ramen.png")
+  );
 
   return (
     <div>
