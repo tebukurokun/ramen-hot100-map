@@ -2,8 +2,8 @@ import MyLocationOutlinedIcon from "@mui/icons-material/MyLocationOutlined";
 import IconButton from "@mui/material/IconButton";
 import { keyframes, styled } from "@mui/material/styles";
 import { useSetAtom } from "jotai";
-import { useState } from "react";
-import { currentLocationAtom, mapCenterAtom } from "../../atoms";
+import { useCallback, useEffect, useState } from "react";
+import { currentLocationAtom, mapCenterAtom } from "../atoms";
 
 // アニメーションスタイル
 const blinkAnimation = keyframes`
@@ -15,7 +15,7 @@ const blinkAnimation = keyframes`
 const StyledIcon = styled(MyLocationOutlinedIcon, {
   shouldForwardProp: (prop) => prop !== "isLoading",
 })<{ isLoading: boolean }>(({ isLoading }) => ({
-  fontSize: "1.5rem",
+  fontSize: "2rem",
   color: "#1a1aff",
   animation: isLoading ? `${blinkAnimation} 0.4s infinite alternate` : "none",
 }));
@@ -41,7 +41,7 @@ export const GeolocationButton = (): JSX.Element => {
   /**
    * 現在地を取得.
    */
-  const getCurrentLocation = () => {
+  const getCurrentLocation = useCallback(() => {
     setIsLoading(true);
 
     /**
@@ -75,7 +75,14 @@ export const GeolocationButton = (): JSX.Element => {
     };
 
     navigator.geolocation.getCurrentPosition(success, error, options);
-  };
+  }, [setMapCenter, setCurrentLocation]);
+
+  /**
+   * コンポーネントの初期レンダリング時に現在地を取得.
+   */
+  useEffect(() => {
+    getCurrentLocation();
+  }, [getCurrentLocation]);
 
   return (
     <StyledButton onClick={getCurrentLocation} disabled={isLoading}>

@@ -6,7 +6,9 @@ import { useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import { mapCenterAtom } from "../atoms";
 import { MarkerItem } from "../interfaces/MarkerItem";
-import { GeolocationButton } from "./mapComponents/GeolocationButton";
+import { GeolocationButton } from "./GeolocationButton";
+import { SettingButton } from "./SettingButton";
+import SettingDialog from "./SettingDialog";
 
 // Leaflet アイコンを動的に作成
 const createIcon = (iconUrl: string) => {
@@ -34,6 +36,8 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
   const [isClient, setIsClient] = useState(false);
 
   const center: [number, number] = useAtomValue(mapCenterAtom);
+
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   useEffect(() => {
     // クライアントサイドでのみ実行されるようにする
@@ -78,6 +82,18 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
           </Marker>
         ))}
         <UpdateMapCenter /> {/* 地図の中心を動的に更新 */}
+        <div
+          style={{
+            position: "absolute",
+            top: "0px",
+            right: "0px",
+            zIndex: 1000, // マップの要素より前面に表示
+            padding: "10px",
+          }}
+        >
+          <SettingButton onClick={() => setIsDialogOpen(true)} />
+        </div>
+        <SettingDialog isOpen={isDialogOpen} setIsOpen={setIsDialogOpen} />
         <div
           style={{
             position: "absolute",
