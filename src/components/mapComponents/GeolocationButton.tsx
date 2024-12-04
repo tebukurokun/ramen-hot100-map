@@ -1,5 +1,5 @@
 import MyLocationOutlinedIcon from "@mui/icons-material/MyLocationOutlined";
-import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
 import { keyframes, styled } from "@mui/material/styles";
 import { useSetAtom } from "jotai";
 import { useState } from "react";
@@ -15,21 +15,21 @@ const blinkAnimation = keyframes`
 const StyledIcon = styled(MyLocationOutlinedIcon, {
   shouldForwardProp: (prop) => prop !== "isLoading",
 })<{ isLoading: boolean }>(({ isLoading }) => ({
-  fontSize: "2rem",
+  fontSize: "1.5rem",
   color: "#1a1aff",
   animation: isLoading ? `${blinkAnimation} 0.4s infinite alternate` : "none",
 }));
 
 // ボタンスタイル
-const StyledButton = styled(Button)({
+const StyledButton = styled(IconButton)({
   backgroundColor: "#E0E0E0", // ボタンの背景を灰色に設定
   boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)", // ボタンに影を設定
   "&:hover": {
     backgroundColor: "#D6D6D6", // ホバー時の背景色
     boxShadow: "0px 6px 8px rgba(0, 0, 0, 0.3)", // ホバー時に影を強調
   },
-  padding: "10px",
-  borderRadius: "8px", // 角丸
+  padding: "5px",
+  borderRadius: "10px", // 角丸
 });
 
 export const GeolocationButton = (): JSX.Element => {

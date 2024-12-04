@@ -81,8 +81,8 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
         <div
           style={{
             position: "absolute",
-            bottom: "20px",
-            right: "10px",
+            bottom: "15px",
+            right: "0px",
             zIndex: 1000, // マップの要素より前面に表示
             padding: "10px",
           }}

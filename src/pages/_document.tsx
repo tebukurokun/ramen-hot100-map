@@ -1,19 +1,17 @@
+import { ServerStyleSheets } from "@material-ui/core/styles";
 import Document, {
   DocumentContext,
-  Html,
   Head,
+  Html,
   Main,
   NextScript,
 } from "next/document";
-import { ServerStyleSheets } from "@material-ui/core/styles";
 
 class MyDocument extends Document {
   render(): JSX.Element {
     return (
       <Html lang="ja">
-        <Head>
-          <link rel="shortcut icon" href="static/favicon/favicon.ico" />
-        </Head>
+        <Head></Head>
         <body>
           <Main />
           <NextScript />
