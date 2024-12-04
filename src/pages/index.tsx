@@ -1,8 +1,10 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import fs from "fs";
+import { useAtomValue } from "jotai";
 import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
+import { markerVisibilityAtom } from "../atoms";
 import { MarkerItem } from "../interfaces/MarkerItem";
 const Map = dynamic(() => import("../components/Map2"), { ssr: false });
 
@@ -64,13 +66,28 @@ const createMarkerItem = (
 const Home = ({ ramenShops, udonShops }: Props): JSX.Element => {
   console.info("Hyakumeiten Map v0.1.0");
 
+  // 表示フラグがONのカテゴリのみマーカー表示
+  const markerVisibility = useAtomValue(markerVisibilityAtom);
+
   const markerItems: MarkerItem[] = [
-    ramenShops.map((shop) =>
-      createMarkerItem(shop, "ラーメン百名店", "/static/marker-icons/ramen.png")
-    ),
-    udonShops.map((shop) =>
-      createMarkerItem(shop, "うどん百名店", "/static/marker-icons/udon.png")
-    ),
+    markerVisibility.ramen
+      ? ramenShops.map((shop) =>
+          createMarkerItem(
+            shop,
+            "ラーメン百名店",
+            "/static/marker-icons/ramen.png"
+          )
+        )
+      : [],
+    markerVisibility.udon
+      ? udonShops.map((shop) =>
+          createMarkerItem(
+            shop,
+            "うどん百名店",
+            "/static/marker-icons/udon.png"
+          )
+        )
+      : [],
   ].flat();
 
   return (

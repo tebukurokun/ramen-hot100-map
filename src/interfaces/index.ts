@@ -38,3 +38,8 @@ export interface MapIndexProps {
 export interface MapProps {
   items: ShopData[];
 }
+
+export type MarkerVisibility = {
+  ramen: boolean;
+  udon: boolean;
+};
