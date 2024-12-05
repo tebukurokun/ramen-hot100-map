@@ -1,9 +1,9 @@
-import CssBaseline from "@mui/material/CssBaseline";
 import { Analytics } from "@vercel/analytics/react";
 import { Provider } from "jotai";
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { useEffect } from "react";
+import "../styles/main.css";
 
 const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   useEffect(() => {
@@ -30,9 +30,7 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           content="ラーメン百名店の情報をマップで見ることができるサイトです。"
         />
         <link rel="preload" href="/static/marker-icons/ramen.png" as="image" />
-        <link rel="preload" href="/static/marker-icons/udon.png" as="image" />
       </Head>
-      <CssBaseline />
       <Component {...pageProps} />
       <Analytics />
     </Provider>

@@ -35,7 +35,7 @@ const SettingDialog = ({
 
   return (
     <Dialog open={isOpen} onClose={handleClose}>
-      <DialogTitle>マップ設定</DialogTitle>
+      <DialogTitle>表示設定</DialogTitle>
       <DialogContent>
         <FormGroup>
           <FormControlLabel
@@ -61,7 +61,7 @@ const SettingDialog = ({
       </DialogContent>
       <DialogActions>
         <Button onClick={handleClose} color="primary">
-          キャンセル
+          閉じる
         </Button>
       </DialogActions>
     </Dialog>

@@ -1,4 +1,9 @@
+const packageJson = require("./package.json");
+
 module.exports = {
+  env: {
+    NEXT_PUBLIC_APP_VERSION: packageJson.version,
+  },
 //   webpack: ( config ) => {
 //     config.module.rules.push(
 //       {

@@ -1,6 +1,6 @@
 {
   "name": "ramen-hot100-map",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -46,6 +46,7 @@
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
+    "autoprefixer": "^10.4.20",
     "babel-plugin-styled-components": "^2.1.4",
     "eslint": "^9.16.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -55,7 +56,9 @@
     "eslint-plugin-import": "^2.23.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.37.2",
+    "postcss": "^8.4.49",
     "prettier": "^3.4.2",
+    "tailwindcss": "^3.4.16",
     "typescript": "^5.7.2",
     "webpack": "^5.37.0"
   },

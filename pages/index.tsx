@@ -23,6 +23,9 @@ type Props = {
   udonShops: Shop[];
 };
 
+const version = process.env.NEXT_PUBLIC_APP_VERSION;
+console.info(`Hyakumeiten Map v${version}`);
+
 /**
  * マーカー用のオブジェクト作成.
  *
@@ -64,8 +67,6 @@ const createMarkerItem = (
 };
 
 const Home = ({ ramenShops, udonShops }: Props): JSX.Element => {
-  console.info("Hyakumeiten Map v0.1.0");
-
   // 表示フラグがONのカテゴリのみマーカー表示
   const markerVisibility = useAtomValue(markerVisibilityAtom);
 
