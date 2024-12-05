@@ -54,7 +54,7 @@ const createMarkerItem = (
         <p style={{ fontSize: "smaller" }}>
           <LocationOnIcon fontSize="small" />
           <a
-            href={`http://maps.google.co.jp/maps?q=${shop.address}`}
+            href={`http://maps.google.co.jp/maps?q=${shop.name} ${shop.address}`}
             target="_blank"
             rel="noopener noreferrer"
           >
