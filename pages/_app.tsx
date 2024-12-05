@@ -1,4 +1,4 @@
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { Provider } from "jotai";
 import { AppProps } from "next/app";
 import Head from "next/head";
