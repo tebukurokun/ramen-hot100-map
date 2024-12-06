@@ -4,8 +4,8 @@ import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
-import { mapCenterAtom } from "../atoms";
-import { MarkerItem } from "../interfaces/MarkerItem";
+import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
+import { MarkerItem } from "../interfaces";
 import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
@@ -38,6 +38,9 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
   const center: [number, number] = useAtomValue(mapCenterAtom);
 
   const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+  // 表示フラグがONのカテゴリのみマーカー表示
+  const markerVisibility = useAtomValue(markerVisibilityAtom);
 
   useEffect(() => {
     // クライアントサイドでのみ実行されるようにする
@@ -72,15 +75,17 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        {markerItems.map((item, index) => (
-          <Marker
-            position={item.position}
-            icon={createIcon(item.icon)}
-            key={`marker-${index}`}
-          >
-            <Popup>{item.popUp}</Popup>
-          </Marker>
-        ))}
+        {markerItems
+          .filter((item) => markerVisibility[item.category])
+          .map((item, index) => (
+            <Marker
+              position={item.position}
+              icon={createIcon(item.icon)}
+              key={`marker-${index}`}
+            >
+              <Popup>{item.popUp}</Popup>
+            </Marker>
+          ))}
         <UpdateMapCenter /> {/* 地図の中心を動的に更新 */}
         <div
           style={{

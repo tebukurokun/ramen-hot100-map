@@ -1,22 +1,10 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import fs from "fs";
-import { useAtomValue } from "jotai";
 import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
-import { markerVisibilityAtom } from "../atoms";
-import { MarkerItem } from "../interfaces/MarkerItem";
+import { MarkerItem, Shop, ShopCategory } from "../interfaces";
 const Map = dynamic(() => import("../components/Map2"), { ssr: false });
-
-type Shop = {
-  name: string;
-  url: string;
-  address: string;
-  code: string;
-  lat: string;
-  lng: string;
-  id: string;
-};
 
 type Props = {
   ramenShops: Shop[];
@@ -35,10 +23,11 @@ console.info(`Hyakumeiten Map v${version}`);
  */
 const createMarkerItem = (
   shop: Shop,
-  category: string,
+  category: keyof typeof ShopCategory,
   icon: string
 ): MarkerItem => {
   return {
+    category: category,
     position: [parseFloat(shop.lat), parseFloat(shop.lng)],
     icon: icon,
     popUp: (
@@ -49,7 +38,7 @@ const createMarkerItem = (
           </a>
         </p>
         <p>
-          <i>{category}</i>
+          <i>{ShopCategory[category]}</i>
         </p>
         <p style={{ fontSize: "smaller" }}>
           <LocationOnIcon fontSize="small" />
@@ -67,28 +56,14 @@ const createMarkerItem = (
 };
 
 const Home = ({ ramenShops, udonShops }: Props): JSX.Element => {
-  // 表示フラグがONのカテゴリのみマーカー表示
-  const markerVisibility = useAtomValue(markerVisibilityAtom);
-
+  // マーカー用データを作成して渡す.
   const markerItems: MarkerItem[] = [
-    markerVisibility.ramen
-      ? ramenShops.map((shop) =>
-          createMarkerItem(
-            shop,
-            "ラーメン百名店",
-            "/static/marker-icons/ramen.png"
-          )
-        )
-      : [],
-    markerVisibility.udon
-      ? udonShops.map((shop) =>
-          createMarkerItem(
-            shop,
-            "うどん百名店",
-            "/static/marker-icons/udon.png"
-          )
-        )
-      : [],
+    ramenShops.map((shop) =>
+      createMarkerItem(shop, "ramen", "/static/marker-icons/ramen.png")
+    ),
+    udonShops.map((shop) =>
+      createMarkerItem(shop, "udon", "/static/marker-icons/udon.png")
+    ),
   ].flat();
 
   return (

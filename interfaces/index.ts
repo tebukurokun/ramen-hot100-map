@@ -9,16 +9,15 @@ export type User = {
   name: string;
 };
 
-export interface Shop {
-  id: string;
+export type Shop = {
   name: string;
   url: string;
-  code: string;
-  imgPath: string;
   address: string;
-  lng: number;
-  lat: number;
-}
+  code: string;
+  lat: string;
+  lng: string;
+  id: string;
+};
 
 export interface ShopData {
   category: string;
@@ -39,7 +38,18 @@ export interface MapProps {
   items: ShopData[];
 }
 
+export enum ShopCategory {
+  ramen = "ラーメン百名店",
+  udon = "うどん百名店",
+}
+
 export type MarkerVisibility = {
-  ramen: boolean;
-  udon: boolean;
+  [key in keyof typeof ShopCategory]: boolean;
 };
+
+export interface MarkerItem {
+  category: keyof typeof ShopCategory;
+  position: [number, number];
+  icon: string;
+  popUp: React.ReactNode;
+}
