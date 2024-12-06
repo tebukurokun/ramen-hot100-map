@@ -4,7 +4,7 @@ import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
 import { MarkerItem, Shop, ShopCategory } from "../interfaces";
-const Map = dynamic(() => import("../components/Map2"), { ssr: false });
+const Map = dynamic(() => import("../components/Map"), { ssr: false });
 
 type Props = {
   ramenShops: Shop[];
