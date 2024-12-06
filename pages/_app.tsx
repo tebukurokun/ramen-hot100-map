@@ -16,6 +16,11 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           name="description"
           content="ラーメン百名店の情報をマップで見ることができるサイトです。"
         />
+        <meta
+          name="keywords"
+          content="ラーメン, 地図, マップ, 百名店, ラーメン百名店, 百名店マップ"
+        />
+        <meta name="author" content="tebukuro" />
         <meta property="og:title" content="Hyakumeiten Map" />
         <meta
           property="og:description"
@@ -24,6 +29,7 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         <meta property="og:site_name" content="Hyakumeiten Map" />
         <meta property="og:url" content="https://hyakumeiten-map.vercel.app/" />
         <meta property="og:image" content="/static/preview.jpg" />
+        <meta property="og:type" content="website" />
         <link rel="preload" href="/static/marker-icons/ramen.png" as="image" />
       </Head>
       <Component {...pageProps} />
