@@ -3137,7 +3137,7 @@ prop-types@^15.6.1, prop-types@^15.6.2, prop-types@^15.8.1:
     object-assign "^4.1.1"
     react-is "^16.13.1"
 
-punycode@^2.1.0:
+punycode@^2.1.0, punycode@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.3.1.tgz#027422e2faec0b25e1549c3e1bd8309b9133b6e5"
   integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
@@ -3198,9 +3198,9 @@ react-leaflet-locate-control@^0.1.6:
     react-leaflet "^1.9.1"
 
 react-leaflet-markercluster@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/react-leaflet-markercluster/-/react-leaflet-markercluster-4.1.1.tgz#86adee4060296c7e9e4e333ed53a14d7924fb7bc"
-  integrity sha512-e/q00K++Rl1px0lu8CEPR85zetK9GgIChIv+7hCAHLWh9XKFqf0za0h2PWv9kOxQ9C2wFpmsvac+MvTlnOmT8Q==
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/react-leaflet-markercluster/-/react-leaflet-markercluster-4.1.2.tgz#9239c7a0750beaea2904b167da9f75369e37721a"
+  integrity sha512-45gE3lqfooWRMfY7ZM9irq5AQQ9i/lR2h4x5gLqRD9sOveL7KzYct9sV5IDQHxLiZW3VcX2DDlGzWuMLSxBdng==
   dependencies:
     "@react-leaflet/core" "^2.0.0"
     leaflet "^1.8.0"

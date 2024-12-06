@@ -901,904 +901,2704 @@
       "id": "ramen-99"
     },
     {
-      "name": "中華蕎麦 とみ田",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12000422/",
-      "address": "千葉県松戸市松戸1339 高橋ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12000422",
-      "lat": "35.781751",
-      "lng": "139.900958",
+      "name": "麺屋 彩未",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1000018/",
+      "address": "北海道札幌市豊平区美園10条5-3-12",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000018",
+      "lat": "43.035264",
+      "lng": "141.381938",
       "id": "ramen-100"
     },
     {
-      "name": "中華そば 深緑",
-      "url": "https://tabelog.com/saitama/A1105/A110502/11053248/",
-      "address": "埼玉県東松山市今泉297-11",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11053248",
-      "lat": "36.006233",
-      "lng": "139.43628",
+      "name": "さっぽろ純連 札幌店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1000031/",
+      "address": "北海道札幌市豊平区平岸二条17丁目1-41 シャトー純連 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000031",
+      "lat": "43.020826",
+      "lng": "141.366892",
       "id": "ramen-101"
     },
     {
-      "name": "オランダ軒",
-      "url": "https://tabelog.com/saitama/A1101/A110103/11057845/",
-      "address": "埼玉県さいたま市岩槻区東岩槻6-1-4 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11057845",
-      "lat": "35.963315",
-      "lng": "139.714123",
+      "name": "Japanese Ramen Noodle Lab Q",
+      "url": "https://tabelog.com/hokkaido/A0101/A010102/1057715/",
+      "address": "北海道札幌市中央区北1条西2-1-3 りんどうビル B1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1057715",
+      "lat": "43.063468",
+      "lng": "141.354291",
       "id": "ramen-102"
     },
     {
-      "name": "自家製手もみ麺 鈴ノ木",
-      "url": "https://tabelog.com/saitama/A1106/A110601/11048539/",
-      "address": "埼玉県所沢市狭山ヶ丘1-3003-83",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11048539",
-      "lat": "35.809711",
-      "lng": "139.415811",
+      "name": "いそのかづお",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1034478/",
+      "address": "北海道札幌市中央区南5条西5丁目21 第2旭観光ビル1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1034478",
+      "lat": "43.054295",
+      "lng": "141.35071",
       "id": "ramen-103"
     },
     {
-      "name": "煮干中華ソバ イチカワ",
-      "url": "https://tabelog.com/ibaraki/A0802/A080201/8014295/",
-      "address": "茨城県つくば市天久保2-9-2 A101",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_8014295",
-      "lat": "36.098248",
-      "lng": "140.108304",
+      "name": "麺屋 菜々兵衛 本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1009634/",
+      "address": "北海道札幌市白石区川下3条4丁目3-21",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1009634",
+      "lat": "43.049492",
+      "lng": "141.445916",
       "id": "ramen-104"
     },
     {
-      "name": "らーめん かねかつ",
-      "url": "https://tabelog.com/saitama/A1101/A110102/11058235/",
-      "address": "埼玉県さいたま市浦和区北浦和3-1-6",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11058235",
-      "lat": "35.871742",
-      "lng": "139.647017",
+      "name": "麺屋 高橋",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1009886/",
+      "address": "北海道札幌市豊平区月寒東1条19-2-72 伸光ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1009886",
+      "lat": "43.012148",
+      "lng": "141.420271",
       "id": "ramen-105"
     },
     {
-      "name": "麦の空 GACHI SOBA DOJO",
-      "url": "https://tabelog.com/aichi/A2306/A230601/23077116/",
-      "address": "愛知県豊橋市神野新田町中道東246-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23077116",
-      "lat": "34.730301",
-      "lng": "137.35882",
+      "name": "らーめん佳",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1007919/",
+      "address": "北海道札幌市豊平区月寒西1条7丁目8-19",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1007919",
+      "lat": "43.029652",
+      "lng": "141.395492",
       "id": "ramen-106"
     },
     {
-      "name": "らぁ麺 紫陽花",
-      "url": "https://tabelog.com/aichi/A2301/A230112/23055953/",
-      "address": "愛知県名古屋市中川区八剱町4-20-1 コーポ源 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23055953",
-      "lat": "35.126806",
-      "lng": "136.879561",
+      "name": "MEN-EIJI HIRAGISHI BASE",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1034678/",
+      "address": "北海道札幌市豊平区平岸2条11丁目1-12",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1034678",
+      "lat": "43.029402",
+      "lng": "141.366333",
       "id": "ramen-107"
     },
     {
-      "name": "食煅 もみじ",
-      "url": "https://tabelog.com/saitama/A1104/A110402/11050143/",
-      "address": "埼玉県久喜市樋ノ口584-4",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11050143",
-      "lat": "36.03999",
-      "lng": "139.650292",
+      "name": "狼スープ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010104/1000799/",
+      "address": "北海道札幌市中央区南十一条西1-5-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000799",
+      "lat": "43.046521",
+      "lng": "141.357355",
       "id": "ramen-108"
     },
     {
-      "name": "中華そば 四つ葉",
-      "url": "https://tabelog.com/saitama/A1105/A110502/11034264/",
-      "address": "埼玉県比企郡川島町伊草298-20",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11034264",
-      "lat": "35.968253",
-      "lng": "139.468946",
+      "name": "麺や 麗",
+      "url": "https://tabelog.com/hokkaido/A0107/A010701/1026411/",
+      "address": "北海道千歳市高台4丁目2-10",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1026411",
+      "lat": "42.83688",
+      "lng": "141.652434",
       "id": "ramen-109"
     },
     {
-      "name": "ヨコクラストアハウス",
-      "url": "https://tabelog.com/tochigi/A0902/A090203/9018935/",
-      "address": "栃木県小山市横倉596-76",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_9018935",
-      "lat": "36.281566",
-      "lng": "139.828857",
+      "name": "ラーメン 木曜日",
+      "url": "https://tabelog.com/hokkaido/A0101/A010104/1038229/",
+      "address": "北海道札幌市中央区南8条西13-3-35",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1038229",
+      "lat": "43.048588",
+      "lng": "141.337343",
       "id": "ramen-110"
     },
     {
-      "name": "小麦そば 池",
-      "url": "https://tabelog.com/nagano/A2002/A200201/20026169/",
-      "address": "長野県松本市中央1-25-1 犬飼ビル1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_20026169",
-      "lat": "36.233675",
-      "lng": "137.964678",
+      "name": "麺屋 雪風 すすきの店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1004868/",
+      "address": "北海道札幌市中央区南七条西4-2-6 LC拾壱番館 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1004868",
+      "lat": "43.052329",
+      "lng": "141.352729",
       "id": "ramen-111"
     },
     {
-      "name": "支那ソバ　小むろ",
-      "url": "https://tabelog.com/chiba/A1202/A120202/12035648/",
-      "address": "千葉県市川市末広1-18-13 SATOMI-4番館",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12035648",
-      "lat": "35.68376",
-      "lng": "139.91817",
+      "name": "雨は、やさしく",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1045278/",
+      "address": "北海道札幌市白石区菊水元町4条2丁目1-7 古川ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1045278",
+      "lat": "43.06935",
+      "lng": "141.40367",
       "id": "ramen-112"
     },
     {
-      "name": "つけソバ いしい",
-      "url": "https://tabelog.com/chiba/A1202/A120202/12055768/",
-      "address": "千葉県市川市市川3‐27‐20 ライオンズステーションプラザ市川・国府台 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12055768",
-      "lat": "35.737355",
-      "lng": "139.902764",
+      "name": "麺や けせらせら",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1009525/",
+      "address": "北海道札幌市北区太平7-5-2-5",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1009525",
+      "lat": "43.130627",
+      "lng": "141.355014",
       "id": "ramen-113"
     },
     {
-      "name": "らぁ麺 麦一粒",
-      "url": "https://tabelog.com/nagano/A2005/A200502/20021423/",
-      "address": "長野県北安曇郡松川村赤芝7002-3",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_20021423",
-      "lat": "36.41703",
-      "lng": "137.858552",
+      "name": "八乃木",
+      "url": "https://tabelog.com/hokkaido/A0101/A010204/1051736/",
+      "address": "北海道札幌市西区発寒7条14丁目1-33",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1051736",
+      "lat": "43.097031",
+      "lng": "141.270833",
       "id": "ramen-114"
     },
     {
-      "name": "らぁ麺 飛鶏",
-      "url": "https://tabelog.com/aichi/A2303/A230301/23051026/",
-      "address": "愛知県春日井市御幸町3-4-6",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23051026",
-      "lat": "35.221591",
-      "lng": "136.943658",
+      "name": "我流麺舞 飛燕",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1026753/",
+      "address": "北海道札幌市豊平区中の島1条9丁目4-14",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1026753",
+      "lat": "43.023462",
+      "lng": "141.356782",
       "id": "ramen-115"
     },
     {
-      "name": "ぜんや",
-      "url": "https://tabelog.com/saitama/A1103/A110301/11000014/",
-      "address": "埼玉県新座市野火止4-10-5",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11000014",
-      "lat": "35.798826",
-      "lng": "139.556545",
+      "name": "喜来登",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1001849/",
+      "address": "北海道札幌市中央区南2条西6丁目3-2 岡田ビル",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1001849",
+      "lat": "43.056892",
+      "lng": "141.349207",
       "id": "ramen-116"
     },
     {
-      "name": "兎に角 松戸本店",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12001198/",
-      "address": "千葉県松戸市根本462 比嘉ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12001198",
-      "lat": "35.785838",
-      "lng": "139.901765",
+      "name": "けやき すすきの本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1000150/",
+      "address": "北海道札幌市中央区南六条西3 睦ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000150",
+      "lat": "43.053395",
+      "lng": "141.354695",
       "id": "ramen-117"
     },
     {
-      "name": "ラーメン 杉田家 千葉祐光店",
-      "url": "https://tabelog.com/chiba/A1201/A120101/12025333/",
-      "address": "千葉県千葉市中央区祐光4-17-7",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12025333",
-      "lat": "35.618971",
-      "lng": "140.131468",
+      "name": "札幌麺屋 美椿",
+      "url": "https://tabelog.com/hokkaido/A0101/A010204/1061580/",
+      "address": "北海道札幌市西区発寒10条4-6-25",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1061580",
+      "lat": "43.093125",
+      "lng": "141.293394",
       "id": "ramen-118"
     },
     {
-      "name": "とら食堂",
-      "url": "https://tabelog.com/fukushima/A0703/A070301/7000016/",
-      "address": "福島県白河市双石滝ノ尻1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7000016",
-      "lat": "37.112624",
-      "lng": "140.260494",
+      "name": "旭川らぅめん青葉 本店",
+      "url": "https://tabelog.com/hokkaido/A0104/A010401/1000314/",
+      "address": "北海道旭川市二条通8丁目左8 二条ビル 名店街",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000314",
+      "lat": "43.76684",
+      "lng": "142.361194",
       "id": "ramen-119"
     },
     {
-      "name": "豚骨醤油ラーメン 王道家 柏店",
-      "url": "https://tabelog.com/chiba/A1203/A120301/12047768/",
-      "address": "千葉県柏市明原1-7-26",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12047768",
-      "lat": "35.86299",
-      "lng": "139.967405",
+      "name": "札幌 凡の風",
+      "url": "https://tabelog.com/hokkaido/A0101/A010104/1002540/",
+      "address": "北海道札幌市中央区南8条西15-1-1 ブランノワールAMJ815 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1002540",
+      "lat": "43.049364",
+      "lng": "141.334983",
       "id": "ramen-120"
     },
     {
-      "name": "中華そば よしかわ 上尾店",
-      "url": "https://tabelog.com/saitama/A1104/A110401/11036997/",
-      "address": "埼玉県上尾市南97-5",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11036997",
-      "lat": "35.99561",
-      "lng": "139.586618",
+      "name": "ラーメン二郎  札幌店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1041731/",
+      "address": "北海道札幌市北区北6条西8丁目8-11",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1041731",
+      "lat": "43.06738",
+      "lng": "141.343861",
       "id": "ramen-121"
     },
     {
-      "name": "麺処 有彩",
-      "url": "https://tabelog.com/saitama/A1102/A110201/11038476/",
-      "address": "埼玉県川口市西川口1-8-5",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11038476",
-      "lat": "35.815979",
-      "lng": "139.703247",
+      "name": "らーめん侘助",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1014873/",
+      "address": "北海道札幌市東区北21条東16-2-29",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1014873",
+      "lat": "43.089018",
+      "lng": "141.368702",
       "id": "ramen-122"
     },
     {
-      "name": "とら食堂 松戸分店",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12026940/",
-      "address": "千葉県松戸市紙敷1-8-6",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12026940",
-      "lat": "35.776029",
-      "lng": "139.957819",
+      "name": "RAMEN RS 改",
+      "url": "https://tabelog.com/hokkaido/A0101/A010304/1056051/",
+      "address": "北海道札幌市清田区平岡1条4-2-11",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1056051",
+      "lat": "42.994174",
+      "lng": "141.449943",
       "id": "ramen-123"
     },
     {
-      "name": "らーめん芝浜",
-      "url": "https://tabelog.com/gunma/A1002/A100201/10014488/",
-      "address": "群馬県桐生市相生町1-303-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_10014488",
-      "lat": "36.404235",
-      "lng": "139.316848",
+      "name": "麺 鍾馗",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1070261/",
+      "address": "北海道札幌市東区北26条東1-2-25 ノース26 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1070261",
+      "lat": "43.093605",
+      "lng": "141.348946",
       "id": "ramen-124"
     },
     {
-      "name": "中華そば専門 とんちぼ",
-      "url": "https://tabelog.com/saitama/A1106/A110603/11045493/",
-      "address": "埼玉県日高市栗坪26-46",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11045493",
-      "lat": "35.886616",
-      "lng": "139.312399",
+      "name": "らーめん 信玄 南６条店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1002793/",
+      "address": "北海道札幌市中央区南六条西8",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1002793",
+      "lat": "43.052314",
+      "lng": "141.346887",
       "id": "ramen-125"
     },
     {
-      "name": "坂内食堂",
-      "url": "https://tabelog.com/fukushima/A0706/A070601/7000007/",
-      "address": "福島県喜多方市字細田7230",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7000007",
-      "lat": "37.651059",
-      "lng": "139.873463",
+      "name": "味の三平",
+      "url": "https://tabelog.com/hokkaido/A0101/A010102/1000316/",
+      "address": "北海道札幌市中央区南1条西3丁目2 大丸藤井セントラルビル 4F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000316",
+      "lat": "43.058824",
+      "lng": "141.35366",
       "id": "ramen-126"
     },
     {
-      "name": "麺家 獅子丸",
-      "url": "https://tabelog.com/aichi/A2301/A230101/23060674/",
-      "address": "愛知県名古屋市中村区亀島2-1-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23060674",
-      "lat": "35.174263",
-      "lng": "136.879427",
+      "name": "IOrI",
+      "url": "https://tabelog.com/hokkaido/A0107/A010701/1029291/",
+      "address": "北海道千歳市住吉1-12-2",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1029291",
+      "lat": "42.835831",
+      "lng": "141.660123",
       "id": "ramen-127"
     },
     {
-      "name": "青竹手打ラーメン 日向屋",
-      "url": "https://tabelog.com/tochigi/A0902/A090202/9009352/",
-      "address": "栃木県佐野市免鳥町548-7",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_9009352",
-      "lat": "36.311553",
-      "lng": "139.548969",
+      "name": "滋養軒",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1007287/",
+      "address": "北海道函館市松風町7-12",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1007287",
+      "lat": "41.773128",
+      "lng": "140.730761",
       "id": "ramen-128"
     },
     {
-      "name": "寿製麺 よしかわ 川越店",
-      "url": "https://tabelog.com/saitama/A1103/A110303/11040851/",
-      "address": "埼玉県川越市今福1738-14",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11040851",
-      "lat": "35.876049",
-      "lng": "139.47445",
+      "name": "中華そば カリフォルニア",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1049040/",
+      "address": "北海道札幌市白石区菊水3条4-4-6 ビバ菊水 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1049040",
+      "lat": "43.054315",
+      "lng": "141.376898",
       "id": "ramen-129"
     },
     {
-      "name": "頑者 本店",
-      "url": "https://tabelog.com/saitama/A1103/A110303/11000150/",
-      "address": "埼玉県川越市新富町1-1-8",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11000150",
-      "lat": "35.915099",
-      "lng": "139.482594",
+      "name": "ラーメン信月",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1000456/",
+      "address": "北海道札幌市中央区南5条西3丁目 N･グランデビル（旧･第4グリーンビル）1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000456",
+      "lat": "43.054577",
+      "lng": "141.35464",
       "id": "ramen-130"
     },
     {
-      "name": "次念序",
-      "url": "https://tabelog.com/saitama/A1104/A110401/11001881/",
-      "address": "埼玉県鴻巣市滝馬室214-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11001881",
-      "lat": "36.054348",
-      "lng": "139.510403",
+      "name": "麺屋 おざわ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1036118/",
+      "address": "北海道札幌市白石区菊水6条3丁目1-22 I'Sコート 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1036118",
+      "lat": "43.057203",
+      "lng": "141.378829",
       "id": "ramen-131"
     },
     {
-      "name": "和風楽麺 四代目 ひのでや",
-      "url": "https://tabelog.com/saitama/A1104/A110402/11030891/",
-      "address": "埼玉県蓮田市本町2-21 田中電機ビル 1F・2F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11030891",
-      "lat": "35.981062",
-      "lng": "139.652059",
+      "name": "らーめんや天金 四条店",
+      "url": "https://tabelog.com/hokkaido/A0104/A010401/1000090/",
+      "address": "北海道旭川市四条通9丁目1704-31",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000090",
+      "lat": "43.767808",
+      "lng": "142.36325",
       "id": "ramen-132"
     },
     {
-      "name": "らぁ麺や 汐そば雫",
-      "url": "https://tabelog.com/aichi/A2301/A230112/23050560/",
-      "address": "愛知県名古屋市瑞穂区下坂町4-15 スターリア1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23050560",
-      "lat": "35.122793",
-      "lng": "136.925673",
+      "name": "札幌らーめん輝風 すすきの店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1060348/",
+      "address": "北海道札幌市中央区南5条西3-1 大松ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1060348",
+      "lat": "43.054366",
+      "lng": "141.35474",
       "id": "ramen-133"
     },
     {
-      "name": "伊達屋",
-      "url": "https://tabelog.com/fukushima/A0701/A070101/7001032/",
-      "address": "福島県福島市南沢又字下番匠田22",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7001032",
-      "lat": "37.784293",
-      "lng": "140.439966",
+      "name": "らーめんサッポロ 赤星",
+      "url": "https://tabelog.com/hokkaido/A0101/A010102/1000912/",
+      "address": "北海道札幌市中央区南三条西7-7 狸小路商店街",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000912",
+      "lat": "43.05639",
+      "lng": "141.346845",
       "id": "ramen-134"
     },
     {
-      "name": "煮干乱舞",
-      "url": "https://tabelog.com/saitama/A1102/A110204/11043059/",
-      "address": "埼玉県春日部市大場1114-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11043059",
-      "lat": "35.948872",
-      "lng": "139.769794",
+      "name": "札幌つけ麺 札幌ラーメン 風来堂",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1030289/",
+      "address": "北海道札幌市豊平区豊平八条9-3-20 三信ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1030289",
+      "lat": "43.043402",
+      "lng": "141.370591",
       "id": "ramen-135"
     },
     {
-      "name": "中華ソバ 篤々",
-      "url": "https://tabelog.com/chiba/A1202/A120204/12040080/",
-      "address": "千葉県八千代市勝田台1-5-27",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12040080",
-      "lat": "35.714728",
-      "lng": "140.124371",
+      "name": "あらとん 本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010105/1004170/",
+      "address": "北海道札幌市中央区北十条西21-15-1 札幌場外市場 食堂長屋",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1004170",
+      "lat": "43.069743",
+      "lng": "141.320884",
       "id": "ramen-136"
     },
     {
-      "name": "麺屋 ようすけ",
-      "url": "https://tabelog.com/tochigi/A0902/A090202/9012617/",
-      "address": "栃木県佐野市田島町232",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_9012617",
-      "lat": "36.291074",
-      "lng": "139.564188",
+      "name": "Mari iida",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1053980/",
+      "address": "北海道札幌市白石区北郷4条12-6-19",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1053980",
+      "lat": "43.053722",
+      "lng": "141.440009",
       "id": "ramen-137"
     },
     {
-      "name": "ラーメン専門店 徳川町 如水",
-      "url": "https://tabelog.com/aichi/A2301/A230110/23000971/",
-      "address": "愛知県名古屋市東区徳川町201",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23000971",
-      "lat": "35.183043",
-      "lng": "136.928395",
+      "name": "蜂屋 五条創業店",
+      "url": "https://tabelog.com/hokkaido/A0104/A010401/1000269/",
+      "address": "北海道旭川市五条通7丁目右6",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000269",
+      "lat": "43.770002",
+      "lng": "142.360842",
       "id": "ramen-138"
     },
     {
-      "name": "仙台中華そば 銘店嘉一 国分町店",
-      "url": "https://tabelog.com/miyagi/A0401/A040101/4009075/",
-      "address": "宮城県仙台市青葉区国分町3-8-12",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_4009075",
-      "lat": "38.267684",
-      "lng": "140.868427",
+      "name": "ラーメン専門 つるや",
+      "url": "https://tabelog.com/hokkaido/A0104/A010401/1000533/",
+      "address": "北海道旭川市四条通19丁目左10",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000533",
+      "lat": "43.7638",
+      "lng": "142.378458",
       "id": "ramen-139"
     },
     {
-      "name": "らーめん奏",
-      "url": "https://tabelog.com/aichi/A2301/A230106/23056955/",
-      "address": "愛知県名古屋市昭和区阿由知通1-9",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23056955",
-      "lat": "35.156601",
-      "lng": "136.935139",
+      "name": "生姜ラーメン みづの",
+      "url": "https://tabelog.com/hokkaido/A0104/A010401/1003673/",
+      "address": "北海道旭川市常盤通2丁目",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1003673",
+      "lat": "43.775716",
+      "lng": "142.361833",
       "id": "ramen-140"
     },
     {
-      "name": "りきどう",
-      "url": "https://tabelog.com/gifu/A2101/A210101/21013064/",
-      "address": "岐阜県岐阜市島栄町2-53",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_21013064",
-      "lat": "35.432463",
-      "lng": "136.74466",
+      "name": "らぁめん 千寿",
+      "url": "https://tabelog.com/hokkaido/A0101/A010102/1000011/",
+      "address": "北海道札幌市中央区大通西8-2-39 北大通ビル B1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000011",
+      "lat": "43.060375",
+      "lng": "141.34432",
       "id": "ramen-141"
     },
     {
-      "name": "らぁ麺 めん奏心",
-      "url": "https://tabelog.com/shizuoka/A2203/A220302/22019502/",
-      "address": "静岡県島田市金谷栄町3538",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_22019502",
-      "lat": "34.830846",
-      "lng": "138.129196",
+      "name": "らーめん心繋",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1042590/",
+      "address": "北海道札幌市豊平区月寒東5条8-5-12",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1042590",
+      "lat": "43.035011",
+      "lng": "141.410828",
       "id": "ramen-142"
     },
     {
-      "name": "麺処 はら田",
-      "url": "https://tabelog.com/saitama/A1101/A110102/11049834/",
-      "address": "埼玉県さいたま市南区南浦和2-28-13",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11049834",
-      "lat": "35.849209",
-      "lng": "139.671219",
+      "name": "らーめん ほっぺ家",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1039493/",
+      "address": "北海道札幌市東区北十一条東6-1-40 館ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1039493",
+      "lat": "43.075868",
+      "lng": "141.3631",
       "id": "ramen-143"
     },
     {
-      "name": "味処 むさし野",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12000080/",
-      "address": "千葉県松戸市松戸新田133-4",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12000080",
-      "lat": "35.782912",
-      "lng": "139.918152",
+      "name": "あじさい 本店",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1000366/",
+      "address": "北海道函館市五稜郭町29-22",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000366",
+      "lat": "41.794612",
+      "lng": "140.753311",
       "id": "ramen-144"
     },
     {
-      "name": "杭州飯店",
-      "url": "https://tabelog.com/niigata/A1501/A150102/15000002/",
-      "address": "新潟県燕市燕49-4",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_15000002",
-      "lat": "37.675282",
-      "lng": "138.913023",
+      "name": "ラーメン札幌一粒庵",
+      "url": "https://tabelog.com/hokkaido/A0101/A010101/1001190/",
+      "address": "北海道札幌市中央区北四条西1-1 ホクレンビル B1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1001190",
+      "lat": "43.066878",
+      "lng": "141.354274",
       "id": "ramen-145"
     },
     {
-      "name": "はりけんラーメン 本店",
-      "url": "https://tabelog.com/ibaraki/A0802/A080201/8012178/",
-      "address": "茨城県つくば市栗原2857-8",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_8012178",
-      "lat": "36.119208",
-      "lng": "140.113694",
+      "name": "虎",
+      "url": "https://tabelog.com/hokkaido/A0101/A010304/1024014/",
+      "address": "北海道札幌市清田区北野3条3丁目15-30",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1024014",
+      "lat": "43.009516",
+      "lng": "141.437478",
       "id": "ramen-146"
     },
     {
-      "name": "いち井",
-      "url": "https://tabelog.com/niigata/A1502/A150201/15000043/",
-      "address": "新潟県長岡市曙1-1-5",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_15000043",
-      "lat": "37.425042",
-      "lng": "138.848908",
+      "name": "麺屋 すずらん",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1040041/",
+      "address": "北海道札幌市中央区南五条西4-13-4",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1040041",
+      "lat": "43.05406",
+      "lng": "141.352262",
       "id": "ramen-147"
     },
     {
-      "name": "中華蕎麦 生る",
-      "url": "https://tabelog.com/aichi/A2301/A230106/23061894/",
-      "address": "愛知県名古屋市千種区豊年町3-18",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23061894",
-      "lat": "35.177703",
-      "lng": "136.938814",
+      "name": "支那そば 鋳",
+      "url": "https://tabelog.com/hokkaido/A0101/A010105/1070050/",
+      "address": "北海道札幌市中央区北1条西27-2-13",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1070050",
+      "lat": "43.057311",
+      "lng": "141.31574",
       "id": "ramen-148"
     },
     {
-      "name": "自家製麺 うろた",
-      "url": "https://tabelog.com/fukushima/A0701/A070101/7012906/",
-      "address": "福島県福島市新町3-14 上州ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7012906",
-      "lat": "37.755861",
-      "lng": "140.467567",
+      "name": "らー麺 山さわ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1056128/",
+      "address": "北海道札幌市白石区栄通2-8-25",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1056128",
+      "lat": "43.040324",
+      "lng": "141.397606",
       "id": "ramen-149"
     },
     {
-      "name": "らーめんNageyari",
-      "url": "https://tabelog.com/gifu/A2101/A210102/21000295/",
-      "address": "岐阜県各務原市那加野畑町2-53",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_21000295",
-      "lat": "35.406647",
-      "lng": "136.831924",
+      "name": "麺や hide",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1056336/",
+      "address": "北海道札幌市北区新川7条16-709-8",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1056336",
+      "lat": "43.119023",
+      "lng": "141.300324",
       "id": "ramen-150"
     },
     {
-      "name": "中華蕎麦うゑず",
-      "url": "https://tabelog.com/yamanashi/A1901/A190101/19008413/",
-      "address": "山梨県中巨摩郡昭和町清水新居59-1 サンシャイン平岩 103",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_19008413",
-      "lat": "35.650711",
-      "lng": "138.543694",
+      "name": "らーめん みかん",
+      "url": "https://tabelog.com/hokkaido/A0106/A010601/1000904/",
+      "address": "北海道小樽市新富町13-13",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000904",
+      "lat": "43.181731",
+      "lng": "141.008893",
       "id": "ramen-151"
     },
     {
-      "name": "濃麺 海月",
-      "url": "https://tabelog.com/chiba/A1201/A120101/12033982/",
-      "address": "千葉県千葉市中央区要町1-4",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12033982",
-      "lat": "35.615787",
-      "lng": "140.121228",
+      "name": "眞麺 穂高",
+      "url": "https://tabelog.com/hokkaido/A0101/A010302/1006291/",
+      "address": "北海道札幌市厚別区大谷地東4丁目2-15 西村ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1006291",
+      "lat": "43.028837",
+      "lng": "141.456111",
       "id": "ramen-152"
     },
     {
-      "name": "自家製麺 くろ松",
-      "url": "https://tabelog.com/gunma/A1001/A100102/10017627/",
-      "address": "群馬県高崎市柳川町9-5",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_10017627",
-      "lat": "36.327317",
-      "lng": "139.002737",
+      "name": "いせのじょう",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1009504/",
+      "address": "北海道札幌市白石区菊水1条1-3-2 菊水会館 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1009504",
+      "lat": "43.056607",
+      "lng": "141.368522",
       "id": "ramen-153"
     },
     {
-      "name": "えびそば 緋彩",
-      "url": "https://tabelog.com/aichi/A2301/A230112/23072604/",
-      "address": "愛知県名古屋市瑞穂区明前町13-19 堀田グリーンハイツ 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23072604",
-      "lat": "35.111783",
-      "lng": "136.921572",
+      "name": "ラーメン ふくや",
+      "url": "https://tabelog.com/hokkaido/A0101/A010204/1036973/",
+      "address": "北海道札幌市西区二十四軒3条4丁目2-2",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1036973",
+      "lat": "43.072186",
+      "lng": "141.310443",
       "id": "ramen-154"
     },
     {
-      "name": "ヌードル＆スパイスカレー 今日の1番",
-      "url": "https://tabelog.com/saitama/A1102/A110201/11052642/",
-      "address": "埼玉県川口市飯塚3-2-12",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11052642",
-      "lat": "35.801575",
-      "lng": "139.710654",
+      "name": "麺や 亀陣",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1030240/",
+      "address": "北海道札幌市東区北47条東8丁目1-1 47ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1030240",
+      "lat": "43.117835",
+      "lng": "141.354699",
       "id": "ramen-155"
     },
     {
-      "name": "麺屋さくら",
-      "url": "https://tabelog.com/aichi/A2304/A230402/23036504/",
-      "address": "愛知県半田市出口町1-45-16",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23036504",
-      "lat": "34.90231",
-      "lng": "136.924375",
+      "name": "麺処まるは BEYOND",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1067548/",
+      "address": "北海道札幌市豊平区平岸3条13-7-7 第3アメニティ藤川 101",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1067548",
+      "lat": "43.027235",
+      "lng": "141.371144",
       "id": "ramen-156"
     },
     {
-      "name": "松戸中華そば 富田食堂",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12042171/",
-      "address": "千葉県松戸市松戸1239-1 関根ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12042171",
-      "lat": "35.78322",
-      "lng": "139.901465",
+      "name": "RAMEN ROOM 18",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1065227/",
+      "address": "北海道函館市昭和2-1-23",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1065227",
+      "lat": "41.809948",
+      "lng": "140.741624",
       "id": "ramen-157"
     },
     {
-      "name": "なるとや",
-      "url": "https://tabelog.com/aichi/A2301/A230104/23005819/",
-      "address": "愛知県名古屋市中区栄4-7-13 木村ビルディング １Ｆ",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23005819",
-      "lat": "35.16741",
-      "lng": "136.914494",
+      "name": "えびそば一幻 新千歳空港店",
+      "url": "https://tabelog.com/hokkaido/A0107/A010701/1034338/",
+      "address": "北海道千歳市美々 新千歳空港ターミナルビル 3F 北海道ラーメン道場内",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1034338",
+      "lat": "42.787977",
+      "lng": "141.68015",
       "id": "ramen-158"
     },
     {
-      "name": "さんくるげ",
-      "url": "https://tabelog.com/fukushima/A0702/A070203/7015807/",
-      "address": "福島県田村市滝根町神俣梵天川52",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7015807",
-      "lat": "37.32436",
-      "lng": "140.658031",
+      "name": "えびそば一幻 総本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1025072/",
+      "address": "北海道札幌市中央区南7条西9丁目1024-10",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1025072",
+      "lat": "43.051279",
+      "lng": "141.345479",
       "id": "ramen-159"
     },
     {
-      "name": "狼煙 本店",
-      "url": "https://tabelog.com/saitama/A1101/A110101/11004115/",
-      "address": "埼玉県さいたま市北区東大成町1-544",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11004115",
-      "lat": "35.923998",
-      "lng": "139.622189",
+      "name": "札幌味噌ラーメン専門店 けやき 新千歳空港店",
+      "url": "https://tabelog.com/hokkaido/A0107/A010701/1042872/",
+      "address": "北海道千歳市美々987-22 新千歳空港 国内線ターミナルビル 3F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1042872",
+      "lat": "42.788032",
+      "lng": "141.681223",
       "id": "ramen-160"
     },
     {
-      "name": "ラーメンショップ 牛久結束店",
-      "url": "https://tabelog.com/ibaraki/A0803/A080302/8011099/",
-      "address": "茨城県牛久市結束町504-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_8011099",
-      "lat": "35.966209",
-      "lng": "140.170888",
+      "name": "すみれ 中の島本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1000134/",
+      "address": "北海道札幌市豊平区中の島2条4-7-28",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000134",
+      "lat": "43.03256",
+      "lng": "141.361849",
       "id": "ramen-161"
     },
     {
-      "name": "湯河原 飯田商店 ららぽーと沼津店",
-      "url": "https://tabelog.com/shizuoka/A2205/A220501/22035546/",
-      "address": "静岡県沼津市東椎路字東荒301-3 ららぽーと沼津 3F フードコート内",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_22035546",
-      "lat": "35.118874",
-      "lng": "138.840259",
+      "name": "らーめん五丈原 本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1000281/",
+      "address": "北海道札幌市中央区南七条西8-1024-24",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000281",
+      "lat": "43.051312",
+      "lng": "141.345816",
       "id": "ramen-162"
     },
     {
-      "name": "酒楽亭 空庵",
-      "url": "https://tabelog.com/aichi/A2301/A230112/23051081/",
-      "address": "愛知県名古屋市緑区武路町122",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23051081",
-      "lat": "35.06175",
-      "lng": "136.970586",
+      "name": "味の大王 総本店",
+      "url": "https://tabelog.com/hokkaido/A0108/A010802/1003490/",
+      "address": "北海道苫小牧市字植苗138-3",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1003490",
+      "lat": "42.715092",
+      "lng": "141.707053",
       "id": "ramen-163"
     },
     {
-      "name": "手揉み中華そば 中村",
-      "url": "https://tabelog.com/saitama/A1101/A110101/11053705/",
-      "address": "埼玉県さいたま市大宮区下町1-30-3",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11053705",
-      "lat": "35.903636",
-      "lng": "139.627149",
+      "name": "らあめん 新",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1006022/",
+      "address": "北海道札幌市中央区南六条西7-1-6 高砂ビル1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1006022",
+      "lat": "43.052115",
+      "lng": "141.349095",
       "id": "ramen-164"
     },
     {
-      "name": "麦の道 すぐれ",
-      "url": "https://tabelog.com/aichi/A2302/A230201/23062847/",
-      "address": "愛知県一宮市本町3-5-2",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23062847",
-      "lat": "35.303201",
-      "lng": "136.802519",
+      "name": "ラーメン まるひら",
+      "url": "https://tabelog.com/hokkaido/A0112/A011201/1004357/",
+      "address": "北海道釧路市浦見8-1-13",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1004357",
+      "lat": "42.974192",
+      "lng": "144.376589",
       "id": "ramen-165"
     },
     {
-      "name": "とものもと",
-      "url": "https://tabelog.com/chiba/A1202/A120201/12049054/",
-      "address": "千葉県船橋市本町7-23-14 文平ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12049054",
-      "lat": "35.706652",
-      "lng": "139.981914",
+      "name": "らーめん優月",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1049135/",
+      "address": "北海道札幌市東区北12条東13丁目2-15 秀和ビル3",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1049135",
+      "lat": "43.079102",
+      "lng": "141.372818",
       "id": "ramen-166"
     },
     {
-      "name": "手打 焔",
-      "url": "https://tabelog.com/tochigi/A0905/A090501/9011436/",
-      "address": "栃木県那須塩原市上厚崎374-2",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_9011436",
-      "lat": "36.96202",
-      "lng": "140.029048",
+      "name": "旭川ラーメン ななし",
+      "url": "https://tabelog.com/hokkaido/A0101/A010204/1000059/",
+      "address": "北海道札幌市西区琴似一条1丁目6-16",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000059",
+      "lat": "43.079849",
+      "lng": "141.307611",
       "id": "ramen-167"
     },
     {
-      "name": "麺道 麒麟児",
-      "url": "https://tabelog.com/nagano/A2001/A200101/20017737/",
-      "address": "長野県長野市川中島町原657-4",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_20017737",
-      "lat": "36.58396",
-      "lng": "138.15011",
+      "name": "ラーメン屋 切田製麺",
+      "url": "https://tabelog.com/hokkaido/A0101/A010102/1048956/",
+      "address": "北海道札幌市中央区大通西5-8 昭和ビル B1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1048956",
+      "lat": "43.059479",
+      "lng": "141.349652",
       "id": "ramen-168"
     },
     {
-      "name": "らぁめん 喜乃壺",
-      "url": "https://tabelog.com/ibaraki/A0802/A080201/8010935/",
-      "address": "茨城県つくば市稲岡728-13",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_8010935",
-      "lat": "36.032964",
-      "lng": "140.14062",
+      "name": "鶏白湯そば 燠",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1066732/",
+      "address": "北海道札幌市白石区菊水6条1-1-22",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1066732",
+      "lat": "43.061764",
+      "lng": "141.375092",
       "id": "ramen-169"
     },
     {
-      "name": "The Noodles & Saloon Kiriya",
-      "url": "https://tabelog.com/chiba/A1203/A120305/12040892/",
-      "address": "千葉県流山市西初石4-475-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12040892",
-      "lat": "35.881485",
-      "lng": "139.916619",
+      "name": "花丸",
+      "url": "https://tabelog.com/hokkaido/A0101/A010304/1006995/",
+      "address": "北海道札幌市清田区美しが丘三条7-1-33",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1006995",
+      "lat": "42.97752",
+      "lng": "141.460395",
       "id": "ramen-170"
     },
     {
-      "name": "ユナイテッド ヌードル アメノオト",
-      "url": "https://tabelog.com/tochigi/A0902/A090202/9016306/",
-      "address": "栃木県佐野市堀米町455-1 シルフィード 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_9016306",
-      "lat": "36.327068",
-      "lng": "139.588388",
+      "name": "和だしらぁめん うめきち",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1055157/",
+      "address": "北海道札幌市中央区南5条東2-11-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1055157",
+      "lat": "43.056219",
+      "lng": "141.35991",
       "id": "ramen-171"
     },
     {
-      "name": "中華蕎麦 鳴神食堂",
-      "url": "https://tabelog.com/gunma/A1001/A100102/10021905/",
-      "address": "群馬県高崎市中泉町142-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_10021905",
-      "lat": "36.374148",
-      "lng": "139.000804",
+      "name": "札幌 Fuji屋",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1063705/",
+      "address": "北海道札幌市東区北14条東7-1-22",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1063705",
+      "lat": "43.080073",
+      "lng": "141.363272",
       "id": "ramen-172"
     },
     {
-      "name": "ラーメン濱野家",
-      "url": "https://tabelog.com/chiba/A1206/A120601/12050938/",
-      "address": "千葉県市原市五井2442-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12050938",
-      "lat": "35.51743",
-      "lng": "140.085156",
+      "name": "175°DENO〜担担麺〜 札幌北口店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010101/1050775/",
+      "address": "北海道札幌市北区北七条西4-1-1 東カン札幌ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1050775",
+      "lat": "43.069211",
+      "lng": "141.349602",
       "id": "ramen-173"
     },
     {
-      "name": "中華蕎麦 柳",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12056433/",
-      "address": "千葉県松戸市殿平賀82",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12056433",
-      "lat": "35.835402",
-      "lng": "139.930492",
+      "name": "らーめん初代 小樽本店",
+      "url": "https://tabelog.com/hokkaido/A0106/A010601/1000282/",
+      "address": "北海道小樽市住吉町14-8",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000282",
+      "lat": "43.186931",
+      "lng": "141.010917",
       "id": "ramen-174"
     },
     {
-      "name": "赤坂味一",
-      "url": "https://tabelog.com/chiba/A1202/A120201/12000108/",
-      "address": "千葉県船橋市湊町2-2-19",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12000108",
-      "lat": "35.695814",
-      "lng": "139.983812",
+      "name": "雨は、やさしく NO,2",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1055806/",
+      "address": "北海道札幌市東区北七条東3-1-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1055806",
+      "lat": "43.071356",
+      "lng": "141.359388",
       "id": "ramen-175"
     },
     {
-      "name": "らーめん大金",
-      "url": "https://tabelog.com/tochigi/A0902/A090202/9006290/",
-      "address": "栃木県佐野市大橋町3229-7",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_9006290",
-      "lat": "36.307799",
-      "lng": "139.564025",
+      "name": "山嵐 本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1003584/",
+      "address": "北海道札幌市豊平区平岸一条9-6-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1003584",
+      "lat": "43.027191",
+      "lng": "141.366846",
       "id": "ramen-176"
     },
     {
-      "name": "中華そば 幻六",
-      "url": "https://tabelog.com/saitama/A1103/A110301/11035642/",
-      "address": "埼玉県朝霞市東弁財1-3-10",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11035642",
-      "lat": "35.814047",
-      "lng": "139.586335",
+      "name": "醤油屋本店 サンピアザ店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010302/1001904/",
+      "address": "北海道札幌市厚別区厚別中央2条5-7-4 サンピアザ メトロモール B3F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1001904",
+      "lat": "43.037771",
+      "lng": "141.472204",
       "id": "ramen-177"
     },
     {
-      "name": "麺家 喜多楽",
-      "url": "https://tabelog.com/aichi/A2301/A230105/23000186/",
-      "address": "愛知県名古屋市中区橘1-28-6 近藤ビル １Ｆ",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23000186",
-      "lat": "35.152566",
-      "lng": "136.904496",
+      "name": "こく一番 ラーメン みどりや",
+      "url": "https://tabelog.com/hokkaido/A0101/A010104/1002116/",
+      "address": "北海道札幌市中央区南18条西15丁目2-13",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1002116",
+      "lat": "43.034447",
+      "lng": "141.336986",
       "id": "ramen-178"
     },
     {
-      "name": "らーめん カッパハウス",
-      "url": "https://tabelog.com/saitama/A1106/A110601/11035922/",
-      "address": "埼玉県所沢市旭町2-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11035922",
-      "lat": "35.789476",
-      "lng": "139.473962",
+      "name": "さっぽろ純連 北31条店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1041313/",
+      "address": "北海道札幌市東区北31条東1-1-8",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1041313",
+      "lat": "43.098839",
+      "lng": "141.345987",
       "id": "ramen-179"
     },
     {
-      "name": "中華そば ひらこ屋",
-      "url": "https://tabelog.com/aomori/A0201/A020101/2000625/",
-      "address": "青森県青森市新城山田588-16",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_2000625",
-      "lat": "40.832843",
-      "lng": "140.66945",
+      "name": "ふじ屋 NOODLE",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1051218/",
+      "address": "北海道札幌市中央区南4条西3 第3グリーンビル 1F 新ラーメン横丁",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1051218",
+      "lat": "43.055449",
+      "lng": "141.354224",
       "id": "ramen-180"
     },
     {
-      "name": "食堂 はせ川",
-      "url": "https://tabelog.com/fukushima/A0706/A070601/7000009/",
-      "address": "福島県喜多方市大荒井6",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7000009",
-      "lat": "37.670671",
-      "lng": "139.864107",
+      "name": "ラーメン･餃子 ハナウタ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010301/1047633/",
+      "address": "北海道札幌市白石区栄通10丁目1-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1047633",
+      "lat": "43.034549",
+      "lng": "141.412613",
       "id": "ramen-181"
     },
     {
-      "name": "中華そば まるき",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12000228/",
-      "address": "千葉県松戸市小根本51-2 １Ｆ",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12000228",
-      "lat": "35.78744",
-      "lng": "139.904734",
+      "name": "らーめん工房 魚一",
+      "url": "https://tabelog.com/hokkaido/A0112/A011201/1007709/",
+      "address": "北海道釧路市幸町13-1 釧路丹頂市場内",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1007709",
+      "lat": "42.98871",
+      "lng": "144.379571",
       "id": "ramen-182"
     },
     {
-      "name": "柳麺 呉田",
-      "url": "https://tabelog.com/saitama/A1101/A110102/11038398/",
-      "address": "埼玉県さいたま市浦和区常盤9-16-7",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11038398",
-      "lat": "35.870707",
-      "lng": "139.647149",
+      "name": "NOUILLES JAPONAISE とくいち",
+      "url": "https://tabelog.com/hokkaido/A0101/A010105/1073732/",
+      "address": "北海道札幌市中央区北11条西22-1-26 卸売センター 万歳市場 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1073732",
+      "lat": "43.070486",
+      "lng": "141.320266",
       "id": "ramen-183"
     },
     {
-      "name": "Handicraft Works",
-      "url": "https://tabelog.com/saitama/A1102/A110205/11044340/",
-      "address": "埼玉県八潮市伊勢野111-1",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11044340",
-      "lat": "35.809951",
-      "lng": "139.856383",
+      "name": "春一家 三代目 麺宿 本店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1028192/",
+      "address": "北海道札幌市豊平区美園11条6-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1028192",
+      "lat": "43.034601",
+      "lng": "141.381702",
       "id": "ramen-184"
     },
     {
-      "name": "麺処 にし尾",
-      "url": "https://tabelog.com/chiba/A1203/A120301/12054858/",
-      "address": "千葉県柏市東1-2-45 石戸第3ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12054858",
-      "lat": "35.857902",
-      "lng": "139.976692",
+      "name": "恵庭 おとん食堂",
+      "url": "https://tabelog.com/hokkaido/A0107/A010703/1009164/",
+      "address": "北海道恵庭市漁町13",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1009164",
+      "lat": "42.881678",
+      "lng": "141.576007",
       "id": "ramen-185"
     },
     {
-      "name": "ラーメン二郎 京成大久保店",
-      "url": "https://tabelog.com/chiba/A1202/A120204/12000911/",
-      "address": "千葉県船橋市三山2-1-11",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12000911",
-      "lat": "35.6915",
-      "lng": "140.049622",
+      "name": "麺屋 169",
+      "url": "https://tabelog.com/hokkaido/A0101/A010104/1049322/",
+      "address": "北海道札幌市中央区南16条西9丁目1-1 松名ビル1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1049322",
+      "lat": "43.038939",
+      "lng": "141.347155",
       "id": "ramen-186"
     },
     {
-      "name": "だし・麺 未蕾",
-      "url": "https://tabelog.com/aichi/A2306/A230603/23066516/",
-      "address": "愛知県蒲郡市本町1-25",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23066516",
-      "lat": "34.827023",
-      "lng": "137.22807",
+      "name": "まるたかラーメン",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1001347/",
+      "address": "北海道札幌市北区北十一条西4-1-28 三上コーポ 1Ｆ",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1001347",
+      "lat": "43.073715",
+      "lng": "141.348091",
       "id": "ramen-187"
     },
     {
-      "name": "喜一",
-      "url": "https://tabelog.com/fukushima/A0706/A070601/7000556/",
-      "address": "福島県喜多方市関柴町上高額境田635-7",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7000556",
-      "lat": "37.647159",
-      "lng": "139.882323",
+      "name": "四代目麺処 ゆうじ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1030914/",
+      "address": "北海道札幌市北区新琴似8条8丁目1-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1030914",
+      "lat": "43.116728",
+      "lng": "141.324596",
       "id": "ramen-188"
     },
     {
-      "name": "自家製麺 公園前",
-      "url": "https://tabelog.com/aichi/A2305/A230502/23056524/",
-      "address": "愛知県岡崎市柱4-8-16",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23056524",
-      "lat": "34.922714",
-      "lng": "137.150332",
+      "name": "斗香庵 HIGASHI",
+      "url": "https://tabelog.com/hokkaido/A0101/A010202/1057438/",
+      "address": "北海道札幌市東区北10条東4-2-51",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1057438",
+      "lat": "43.074075",
+      "lng": "141.360055",
       "id": "ramen-189"
     },
     {
-      "name": "ラーメン二郎 大宮公園駅前店",
-      "url": "https://tabelog.com/saitama/A1101/A110101/11052604/",
-      "address": "埼玉県さいたま市大宮区寿能町1-24 前場ビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11052604",
-      "lat": "35.922525",
-      "lng": "139.631959",
+      "name": "ラーメン ツバメ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010104/1050878/",
+      "address": "北海道札幌市中央区南22条西10-5-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1050878",
+      "lat": "43.03009",
+      "lng": "141.345294",
       "id": "ramen-190"
     },
     {
-      "name": "麺 㐂色",
-      "url": "https://tabelog.com/gifu/A2101/A210102/21019373/",
-      "address": "岐阜県羽島郡岐南町上印食9-101",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_21019373",
-      "lat": "35.389687",
-      "lng": "136.785266",
+      "name": "中華そば うさぎ",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1043647/",
+      "address": "北海道札幌市北区北27条西3-4-7 のりたマンション 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1043647",
+      "lat": "43.094646",
+      "lng": "141.343584",
       "id": "ramen-191"
     },
     {
-      "name": "だし廊",
-      "url": "https://tabelog.com/miyagi/A0401/A040101/4019493/",
-      "address": "宮城県仙台市青葉区一番町2-2-11 TKビル 1F",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_4019493",
-      "lat": "38.258629",
-      "lng": "140.874845",
+      "name": "北山龍",
+      "url": "https://tabelog.com/hokkaido/A0101/A010201/1000468/",
+      "address": "北海道札幌市北区麻生町2-4-8",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1000468",
+      "lat": "43.109494",
+      "lng": "141.339293",
       "id": "ramen-192"
     },
     {
-      "name": "みずさわ屋",
-      "url": "https://tabelog.com/miyagi/A0401/A040101/4000181/",
-      "address": "宮城県仙台市青葉区栗生5-22-3",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_4000181",
-      "lat": "38.26912",
-      "lng": "140.790369",
+      "name": "寅乃虎",
+      "url": "https://tabelog.com/hokkaido/A0101/A010105/1064277/",
+      "address": "北海道札幌市中央区南5条西24-1-17 藤栄ビル 1F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1064277",
+      "lat": "43.051245",
+      "lng": "141.322023",
       "id": "ramen-193"
     },
     {
-      "name": "中華蕎麦 瑞山",
-      "url": "https://tabelog.com/saitama/A1103/A110301/11024713/",
-      "address": "埼玉県朝霞市本町2-8-15",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11024713",
-      "lat": "35.799157",
-      "lng": "139.596012",
+      "name": "麺処 武壱",
+      "url": "https://tabelog.com/hokkaido/A0101/A010303/1054179/",
+      "address": "北海道札幌市豊平区豊平4条3丁目1-1",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1054179",
+      "lat": "43.052731",
+      "lng": "141.368164",
       "id": "ramen-194"
     },
     {
-      "name": "ケンチャンラーメン 山形",
-      "url": "https://tabelog.com/yamagata/A0601/A060101/6000555/",
-      "address": "山形県山形市西田2-1-17",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_6000555",
-      "lat": "38.266732",
-      "lng": "140.316071",
+      "name": "すみれ 札幌すすきの店",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1009050/",
+      "address": "北海道札幌市中央区南3条西3-9-2 ピクシスビル 2F",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1009050",
+      "lat": "43.056329",
+      "lng": "141.35357",
       "id": "ramen-195"
     },
     {
-      "name": "麺屋 桐龍",
-      "url": "https://tabelog.com/saitama/A1102/A110201/11028693/",
-      "address": "埼玉県川口市戸塚3-36-18",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_11028693",
-      "lat": "35.867537",
-      "lng": "139.752403",
+      "name": "はこだて塩らーめん　しなの",
+      "url": "https://tabelog.com/hokkaido/A0105/A010501/1020986/",
+      "address": "北海道函館市若松町20-10",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1020986",
+      "lat": "41.773471",
+      "lng": "140.728738",
       "id": "ramen-196"
     },
     {
-      "name": "ラーメン二郎 松戸駅前店",
-      "url": "https://tabelog.com/chiba/A1203/A120302/12000236/",
-      "address": "千葉県松戸市本町17-21",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_12000236",
-      "lat": "35.786019",
-      "lng": "139.899414",
+      "name": "蜂屋 旭川本店",
+      "url": "https://tabelog.com/hokkaido/A0104/A010401/1003302/",
+      "address": "北海道旭川市三条通15丁目左8",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1003302",
+      "lat": "43.764826",
+      "lng": "142.372326",
       "id": "ramen-197"
     },
     {
-      "name": "春木屋 郡山分店",
-      "url": "https://tabelog.com/fukushima/A0702/A070201/7000025/",
-      "address": "福島県郡山市桑野2-16-13",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_7000025",
-      "lat": "37.405134",
-      "lng": "140.35524",
+      "name": "元祖札幌ラーメン もぐら",
+      "url": "https://tabelog.com/hokkaido/A0101/A010103/1004842/",
+      "address": "北海道札幌市中央区南4条西3 新ラーメン横丁",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1004842",
+      "lat": "43.055449",
+      "lng": "141.354224",
       "id": "ramen-198"
     },
     {
-      "name": "麺屋 一八",
-      "url": "https://tabelog.com/aichi/A2304/A230402/23000973/",
-      "address": "愛知県知多郡武豊町鹿ノ子田2-60",
-      "code": "hyakumeiten_ramen_east_2024_restaurant_23000973",
-      "lat": "34.869017",
-      "lng": "136.905686",
+      "name": "味の大王 室蘭本店",
+      "url": "https://tabelog.com/hokkaido/A0108/A010803/1004612/",
+      "address": "北海道室蘭市中央町2-9-3",
+      "code": "hyakumeiten_ramen_hokkaido_2024_restaurant_1004612",
+      "lat": "42.317603",
+      "lng": "140.970351",
       "id": "ramen-199"
+    },
+    {
+      "name": "らぁ麺 飯田商店",
+      "url": "https://tabelog.com/kanagawa/A1410/A141002/14038776/",
+      "address": "神奈川県足柄下郡湯河原町土肥2-12-14",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14038776",
+      "lat": "35.144616",
+      "lng": "139.109756",
+      "id": "ramen-200"
+    },
+    {
+      "name": "中華そば 髙野",
+      "url": "https://tabelog.com/kanagawa/A1401/A140211/14071663/",
+      "address": "神奈川県横浜市神奈川区大口通135-11",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14071663",
+      "lat": "35.491291",
+      "lng": "139.645993",
+      "id": "ramen-201"
+    },
+    {
+      "name": "らぁ麺 すぎ本",
+      "url": "https://tabelog.com/kanagawa/A1401/A140202/14080372/",
+      "address": "神奈川県横浜市青葉区桜台26-1 第3アサキビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14080372",
+      "lat": "35.550295",
+      "lng": "139.515328",
+      "id": "ramen-202"
+    },
+    {
+      "name": "うずとかみなり",
+      "url": "https://tabelog.com/kanagawa/A1404/A140404/14086414/",
+      "address": "神奈川県藤沢市鵠沼桜が岡3-5-7",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14086414",
+      "lat": "35.330226",
+      "lng": "139.47594",
+      "id": "ramen-203"
+    },
+    {
+      "name": "日陰",
+      "url": "https://tabelog.com/kanagawa/A1405/A140503/14081996/",
+      "address": "神奈川県川崎市幸区南加瀬4-16-2",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14081996",
+      "lat": "35.546276",
+      "lng": "139.659925",
+      "id": "ramen-204"
+    },
+    {
+      "name": "らぁめん鴇",
+      "url": "https://tabelog.com/kanagawa/A1404/A140404/14059192/",
+      "address": "神奈川県藤沢市藤沢1034",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14059192",
+      "lat": "35.339007",
+      "lng": "139.481616",
+      "id": "ramen-205"
+    },
+    {
+      "name": "ラーメン 郷",
+      "url": "https://tabelog.com/kanagawa/A1407/A140702/14088100/",
+      "address": "神奈川県大和市鶴間2-12-32",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14088100",
+      "lat": "35.491183",
+      "lng": "139.454991",
+      "id": "ramen-206"
+    },
+    {
+      "name": "櫻井中華そば店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140301/14068897/",
+      "address": "神奈川県横浜市保土ケ谷区岩井町53 稲村ビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14068897",
+      "lat": "35.445387",
+      "lng": "139.59849",
+      "id": "ramen-207"
+    },
+    {
+      "name": "らーめん 鶏喰",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14048864/",
+      "address": "神奈川県横浜市南区吉野町4-20",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14048864",
+      "lat": "35.435092",
+      "lng": "139.618136",
+      "id": "ramen-208"
+    },
+    {
+      "name": "麺処 懐や",
+      "url": "https://tabelog.com/kanagawa/A1405/A140507/14049709/",
+      "address": "神奈川県川崎市宮前区鷺沼3-3-12",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14049709",
+      "lat": "35.579677",
+      "lng": "139.571707",
+      "id": "ramen-209"
+    },
+    {
+      "name": "ラーメン 厚木家",
+      "url": "https://tabelog.com/kanagawa/A1408/A140802/14013886/",
+      "address": "神奈川県厚木市妻田東2-25-11",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14013886",
+      "lat": "35.457929",
+      "lng": "139.359505",
+      "id": "ramen-210"
+    },
+    {
+      "name": "Sagamihara 欅",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14068944/",
+      "address": "神奈川県相模原市南区相南4-1-33",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14068944",
+      "lat": "35.515406",
+      "lng": "139.425761",
+      "id": "ramen-211"
+    },
+    {
+      "name": "支那そばや 本店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140305/14014445/",
+      "address": "神奈川県横浜市戸塚区戸塚町4081-1",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14014445",
+      "lat": "35.401401",
+      "lng": "139.531825",
+      "id": "ramen-212"
+    },
+    {
+      "name": "丿貫 福富町本店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14062435/",
+      "address": "神奈川県横浜市中区福富町仲通2-4",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14062435",
+      "lat": "35.445592",
+      "lng": "139.631691",
+      "id": "ramen-213"
+    },
+    {
+      "name": "らぁめん夢",
+      "url": "https://tabelog.com/kanagawa/A1401/A140212/14053385/",
+      "address": "神奈川県横浜市神奈川区二ツ谷町1-21",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14053385",
+      "lat": "35.476082",
+      "lng": "139.630772",
+      "id": "ramen-214"
+    },
+    {
+      "name": "貝ガラ屋",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14056997/",
+      "address": "神奈川県相模原市中央区淵野辺本町3-24-3 マンション色利 101",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14056997",
+      "lat": "35.572882",
+      "lng": "139.405266",
+      "id": "ramen-215"
+    },
+    {
+      "name": "うまいヨゆうちゃんラーメン",
+      "url": "https://tabelog.com/kanagawa/A1407/A140702/14057313/",
+      "address": "神奈川県大和市上草柳3-15-15",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14057313",
+      "lat": "35.476347",
+      "lng": "139.454313",
+      "id": "ramen-216"
+    },
+    {
+      "name": "ラーメン 杉田家 本店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140308/14000917/",
+      "address": "神奈川県横浜市磯子区新杉田町3-5",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000917",
+      "lat": "35.388163",
+      "lng": "139.618215",
+      "id": "ramen-217"
+    },
+    {
+      "name": "中華そば 麺や食堂 本店",
+      "url": "https://tabelog.com/kanagawa/A1408/A140802/14001610/",
+      "address": "神奈川県厚木市幸町9-6",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14001610",
+      "lat": "35.441284",
+      "lng": "139.370835",
+      "id": "ramen-218"
+    },
+    {
+      "name": "横浜中華そば 維新商店 本店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140102/14051850/",
+      "address": "神奈川県横浜市西区北幸2-10-21 横浜太陽ビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14051850",
+      "lat": "35.465487",
+      "lng": "139.614381",
+      "id": "ramen-219"
+    },
+    {
+      "name": "寿々喜家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140302/14000063/",
+      "address": "神奈川県横浜市保土ケ谷区上星川2-3-1 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000063",
+      "lat": "35.471208",
+      "lng": "139.576143",
+      "id": "ramen-220"
+    },
+    {
+      "name": "ラーメン 末廣家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140205/14051496/",
+      "address": "神奈川県横浜市神奈川区六角橋1-14-7",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14051496",
+      "lat": "35.488051",
+      "lng": "139.624738",
+      "id": "ramen-221"
+    },
+    {
+      "name": "中華蕎麦 時雨 伊勢佐木長者町本店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14067138/",
+      "address": "神奈川県横浜市中区不老町2-10-5 三陣ビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14067138",
+      "lat": "35.441496",
+      "lng": "139.635167",
+      "id": "ramen-222"
+    },
+    {
+      "name": "ラーメン星印",
+      "url": "https://tabelog.com/kanagawa/A1401/A140205/14054005/",
+      "address": "神奈川県横浜市神奈川区反町1-3-4 ルミノ反町 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14054005",
+      "lat": "35.474074",
+      "lng": "139.628096",
+      "id": "ramen-223"
+    },
+    {
+      "name": "流星軒",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14000569/",
+      "address": "神奈川県横浜市南区日枝町4-97-2",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000569",
+      "lat": "35.437047",
+      "lng": "139.617458",
+      "id": "ramen-224"
+    },
+    {
+      "name": "らーめん森や。",
+      "url": "https://tabelog.com/kanagawa/A1401/A140309/14055421/",
+      "address": "神奈川県横浜市栄区長沼町339 二本松ハイツ 105",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14055421",
+      "lat": "35.379205",
+      "lng": "139.537911",
+      "id": "ramen-225"
+    },
+    {
+      "name": "ラーメン二郎 横浜関内店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14001518/",
+      "address": "神奈川県横浜市中区長者町6-94",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14001518",
+      "lat": "35.442006",
+      "lng": "139.630675",
+      "id": "ramen-226"
+    },
+    {
+      "name": "ZUND-BAR",
+      "url": "https://tabelog.com/kanagawa/A1408/A140802/14000184/",
+      "address": "神奈川県厚木市七沢1954-7",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000184",
+      "lat": "35.451682",
+      "lng": "139.292441",
+      "id": "ramen-227"
+    },
+    {
+      "name": "くり山",
+      "url": "https://tabelog.com/kanagawa/A1401/A140205/14012001/",
+      "address": "神奈川県横浜市神奈川区六角橋1-17-29",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14012001",
+      "lat": "35.488978",
+      "lng": "139.624709",
+      "id": "ramen-228"
+    },
+    {
+      "name": "支那蕎麦屋 藤花",
+      "url": "https://tabelog.com/kanagawa/A1401/A140207/14070248/",
+      "address": "神奈川県横浜市都筑区池辺町4800-6",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14070248",
+      "lat": "35.518081",
+      "lng": "139.576171",
+      "id": "ramen-229"
+    },
+    {
+      "name": "らーめん いのうえ",
+      "url": "https://tabelog.com/kanagawa/A1401/A140210/14054147/",
+      "address": "神奈川県横浜市鶴見区矢向1-7-26",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14054147",
+      "lat": "35.529554",
+      "lng": "139.677258",
+      "id": "ramen-230"
+    },
+    {
+      "name": "豚星。",
+      "url": "https://tabelog.com/kanagawa/A1405/A140504/14058333/",
+      "address": "神奈川県川崎市中原区木月4-5-20 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14058333",
+      "lat": "35.559966",
+      "lng": "139.654422",
+      "id": "ramen-231"
+    },
+    {
+      "name": "ラーメン 環2家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140307/14000161/",
+      "address": "神奈川県横浜市港南区下永谷3-3-21",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000161",
+      "lat": "35.408528",
+      "lng": "139.564443",
+      "id": "ramen-232"
+    },
+    {
+      "name": "ラーメン二郎 中山駅前店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140207/14038422/",
+      "address": "神奈川県横浜市緑区台村町309-1 土井ビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14038422",
+      "lat": "35.513185",
+      "lng": "139.538476",
+      "id": "ramen-233"
+    },
+    {
+      "name": "厚木本丸亭",
+      "url": "https://tabelog.com/kanagawa/A1408/A140802/14000181/",
+      "address": "神奈川県厚木市幸町4-10",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000181",
+      "lat": "35.439644",
+      "lng": "139.3704",
+      "id": "ramen-234"
+    },
+    {
+      "name": "啜磨専科",
+      "url": "https://tabelog.com/kanagawa/A1401/A140307/14043755/",
+      "address": "神奈川県横浜市港南区上大岡西2-14-15",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14043755",
+      "lat": "35.404271",
+      "lng": "139.593712",
+      "id": "ramen-235"
+    },
+    {
+      "name": "中華そば 笑歩",
+      "url": "https://tabelog.com/kanagawa/A1401/A140204/14070233/",
+      "address": "神奈川県横浜市港北区綱島西3-22-14",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14070233",
+      "lat": "35.539053",
+      "lng": "139.627828",
+      "id": "ramen-236"
+    },
+    {
+      "name": "ラーメン フリーバーズ",
+      "url": "https://tabelog.com/kanagawa/A1401/A140309/14072025/",
+      "address": "神奈川県横浜市栄区桂町181-12",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14072025",
+      "lat": "35.361621",
+      "lng": "139.549454",
+      "id": "ramen-237"
+    },
+    {
+      "name": "麺処 秋もと",
+      "url": "https://tabelog.com/kanagawa/A1401/A140201/14086053/",
+      "address": "神奈川県横浜市青葉区市ヶ尾町1157-1 アネックスショッピングビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14086053",
+      "lat": "35.55243",
+      "lng": "139.541611",
+      "id": "ramen-238"
+    },
+    {
+      "name": "家系総本山 吉村家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140102/14090328/",
+      "address": "神奈川県横浜市西区岡野1-6-4",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14090328",
+      "lat": "35.462279",
+      "lng": "139.615861",
+      "id": "ramen-239"
+    },
+    {
+      "name": "川の先の上",
+      "url": "https://tabelog.com/kanagawa/A1401/A140307/14075882/",
+      "address": "神奈川県横浜市港南区大久保1-15-36 第1ミツワセンター 2F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14075882",
+      "lat": "35.409072",
+      "lng": "139.593472",
+      "id": "ramen-240"
+    },
+    {
+      "name": "味噌ラーメン 雪ぐに",
+      "url": "https://tabelog.com/kanagawa/A1401/A140304/14082640/",
+      "address": "神奈川県横浜市泉区中田東2-6-13",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14082640",
+      "lat": "35.412418",
+      "lng": "139.512503",
+      "id": "ramen-241"
+    },
+    {
+      "name": "自家製麺 麺や 六等星",
+      "url": "https://tabelog.com/kanagawa/A1405/A140506/14077566/",
+      "address": "神奈川県川崎市多摩区菅稲田堤1-1-2",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14077566",
+      "lat": "35.633659",
+      "lng": "139.535534",
+      "id": "ramen-242"
+    },
+    {
+      "name": "麺庭つむぎ",
+      "url": "https://tabelog.com/kanagawa/A1407/A140702/14090776/",
+      "address": "神奈川県大和市南林間2-3-5",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14090776",
+      "lat": "35.496954",
+      "lng": "139.446533",
+      "id": "ramen-243"
+    },
+    {
+      "name": "横濱丿貫 アソビル店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140101/14075484/",
+      "address": "神奈川県横浜市西区高島2-14-9 アソビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14075484",
+      "lat": "35.46423",
+      "lng": "139.622422",
+      "id": "ramen-244"
+    },
+    {
+      "name": "つけめん 玉",
+      "url": "https://tabelog.com/kanagawa/A1405/A140502/14013437/",
+      "address": "神奈川県川崎市川崎区追分町6-12",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14013437",
+      "lat": "35.519311",
+      "lng": "139.71596",
+      "id": "ramen-245"
+    },
+    {
+      "name": "拉麺大公",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14050344/",
+      "address": "神奈川県横浜市南区南太田1-8-24",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14050344",
+      "lat": "35.436699",
+      "lng": "139.61445",
+      "id": "ramen-246"
+    },
+    {
+      "name": "麺庵ちとせ",
+      "url": "https://tabelog.com/kanagawa/A1410/A141001/14083221/",
+      "address": "神奈川県小田原市風祭77-1",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14083221",
+      "lat": "35.244406",
+      "lng": "139.127587",
+      "id": "ramen-247"
+    },
+    {
+      "name": "地球の中華そば",
+      "url": "https://tabelog.com/kanagawa/A1401/A140310/14089878/",
+      "address": "神奈川県横浜市金沢区谷津町347 千輝ビル 101",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14089878",
+      "lat": "35.518408",
+      "lng": "139.662477",
+      "id": "ramen-248"
+    },
+    {
+      "name": "麺や でこ",
+      "url": "https://tabelog.com/kanagawa/A1405/A140504/14054555/",
+      "address": "神奈川県川崎市中原区小杉町1-520-6",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14054555",
+      "lat": "35.579781",
+      "lng": "139.659495",
+      "id": "ramen-249"
+    },
+    {
+      "name": "ラーメン二郎 相模大野店",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14000839/",
+      "address": "神奈川県相模原市南区相模大野6-14-9",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000839",
+      "lat": "35.529961",
+      "lng": "139.43293",
+      "id": "ramen-250"
+    },
+    {
+      "name": "煮干しらぁめん 猫トラ亭",
+      "url": "https://tabelog.com/kanagawa/A1407/A140702/14056037/",
+      "address": "神奈川県大和市上草柳3-19-23",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14056037",
+      "lat": "35.478055",
+      "lng": "139.453452",
+      "id": "ramen-251"
+    },
+    {
+      "name": "白河手打中華そば こすが",
+      "url": "https://tabelog.com/kanagawa/A1401/A140201/14085710/",
+      "address": "神奈川県横浜市青葉区新石川1-19-4",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14085710",
+      "lat": "35.56844",
+      "lng": "139.556106",
+      "id": "ramen-252"
+    },
+    {
+      "name": "KITCHEN TAKANO",
+      "url": "https://tabelog.com/kanagawa/A1401/A140211/14085368/",
+      "address": "神奈川県横浜市神奈川区大口通11-5",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14085368",
+      "lat": "35.490618",
+      "lng": "139.644761",
+      "id": "ramen-253"
+    },
+    {
+      "name": "利尻らーめん味楽 新横浜ラーメン博物館店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140206/14066708/",
+      "address": "神奈川県横浜市港北区新横浜2-14-21 新横浜ラーメン博物館 B2F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14066708",
+      "lat": "35.509929",
+      "lng": "139.614626",
+      "id": "ramen-254"
+    },
+    {
+      "name": "ラーメン二郎 湘南藤沢店",
+      "url": "https://tabelog.com/kanagawa/A1404/A140404/14035072/",
+      "address": "神奈川県藤沢市本町1-10-14",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14035072",
+      "lat": "35.343065",
+      "lng": "139.482256",
+      "id": "ramen-255"
+    },
+    {
+      "name": "家系ラーメン クックら",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14068809/",
+      "address": "神奈川県相模原市南区相模大野5-27-5 ショウ・ハウジング 2F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14068809",
+      "lat": "35.532115",
+      "lng": "139.432811",
+      "id": "ramen-256"
+    },
+    {
+      "name": "G麺７",
+      "url": "https://tabelog.com/kanagawa/A1401/A140307/14015182/",
+      "address": "神奈川県横浜市港南区上大岡西3-10-6",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14015182",
+      "lat": "35.403622",
+      "lng": "139.597666",
+      "id": "ramen-257"
+    },
+    {
+      "name": "弘明寺丿貫",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14068127/",
+      "address": "神奈川県横浜市南区通町4-111",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14068127",
+      "lat": "35.423951",
+      "lng": "139.602234",
+      "id": "ramen-258"
+    },
+    {
+      "name": "らーめん 藁",
+      "url": "https://tabelog.com/kanagawa/A1404/A140404/14087347/",
+      "address": "神奈川県茅ヶ崎市代官町5-1",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14087347",
+      "lat": "35.338814",
+      "lng": "139.434587",
+      "id": "ramen-259"
+    },
+    {
+      "name": "ラーメン二郎 京急川崎店",
+      "url": "https://tabelog.com/kanagawa/A1405/A140501/14000765/",
+      "address": "神奈川県川崎市川崎区本町2-10",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000765",
+      "lat": "35.534876",
+      "lng": "139.705721",
+      "id": "ramen-260"
+    },
+    {
+      "name": "ShiNaChiKu亭",
+      "url": "https://tabelog.com/kanagawa/A1401/A140205/14002008/",
+      "address": "神奈川県横浜市神奈川区反町2-15-14 ヒルトップ反町",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14002008",
+      "lat": "35.476092",
+      "lng": "139.627611",
+      "id": "ramen-261"
+    },
+    {
+      "name": "横浜ラーメン 田上家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14056326/",
+      "address": "神奈川県横浜市南区通町3-48",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14056326",
+      "lat": "35.426257",
+      "lng": "139.603786",
+      "id": "ramen-262"
+    },
+    {
+      "name": "手打ち中華そば 酒田",
+      "url": "https://tabelog.com/kanagawa/A1405/A140502/14072941/",
+      "address": "神奈川県川崎市川崎区京町3-13-10",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14072941",
+      "lat": "35.509116",
+      "lng": "139.698236",
+      "id": "ramen-263"
+    },
+    {
+      "name": "自家製麺 カミカゼ",
+      "url": "https://tabelog.com/kanagawa/A1401/A140305/14064633/",
+      "address": "神奈川県横浜市戸塚区汲沢町1207-3",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14064633",
+      "lat": "35.389488",
+      "lng": "139.520861",
+      "id": "ramen-264"
+    },
+    {
+      "name": "横浜家系らーめん 天王家 寒川総本店",
+      "url": "https://tabelog.com/kanagawa/A1404/A140406/14080094/",
+      "address": "神奈川県高座郡寒川町小谷1-1-43",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14080094",
+      "lat": "35.37627",
+      "lng": "139.396331",
+      "id": "ramen-265"
+    },
+    {
+      "name": "すみれ 横浜店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140102/14074387/",
+      "address": "神奈川県横浜市中区野毛町1-26-5 野毛サーク 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14074387",
+      "lat": "35.447926",
+      "lng": "139.630655",
+      "id": "ramen-266"
+    },
+    {
+      "name": "塩らー麺 本丸亭 横浜店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140212/14049658/",
+      "address": "神奈川県横浜市神奈川区鶴屋町1-7-21 タクエー横浜西口第三ビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14049658",
+      "lat": "35.469371",
+      "lng": "139.62398",
+      "id": "ramen-267"
+    },
+    {
+      "name": "らーめん くじら軒 横浜本店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140203/14000169/",
+      "address": "神奈川県横浜市都筑区牛久保西1-2-10 アネックスパーク 1-B",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000169",
+      "lat": "35.558584",
+      "lng": "139.578882",
+      "id": "ramen-268"
+    },
+    {
+      "name": "ヌードルズキッチン ガナーズ",
+      "url": "https://tabelog.com/kanagawa/A1405/A140504/14067309/",
+      "address": "神奈川県川崎市中原区新丸子町754",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14067309",
+      "lat": "35.579988",
+      "lng": "139.659947",
+      "id": "ramen-269"
+    },
+    {
+      "name": "麺小屋 てち",
+      "url": "https://tabelog.com/kanagawa/A1405/A140504/14059560/",
+      "address": "神奈川県川崎市中原区新城4-4-15 森善ビル 101",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14059560",
+      "lat": "35.5837",
+      "lng": "139.629834",
+      "id": "ramen-270"
+    },
+    {
+      "name": "自家製麺 二丁目ラーメン",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14088226/",
+      "address": "神奈川県相模原市緑区橋本2-2-13",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14088226",
+      "lat": "35.595225",
+      "lng": "139.342088",
+      "id": "ramen-271"
+    },
+    {
+      "name": "らー麺土俵 鶴嶺峰",
+      "url": "https://tabelog.com/kanagawa/A1401/A140210/14048930/",
+      "address": "神奈川県横浜市鶴見区鶴見中央4-25-6 1Ｆ",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14048930",
+      "lat": "35.507467",
+      "lng": "139.679509",
+      "id": "ramen-272"
+    },
+    {
+      "name": "横浜ラーメン 真砂家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14081395/",
+      "address": "神奈川県横浜市中区真砂町3-33 セルテ 6F 関内ラーメン横丁内",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14081395",
+      "lat": "35.444884",
+      "lng": "139.635951",
+      "id": "ramen-273"
+    },
+    {
+      "name": "麺屋 歩夢",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14071127/",
+      "address": "神奈川県相模原市中央区淵野辺本町3-29-13",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14071127",
+      "lat": "35.574094",
+      "lng": "139.406777",
+      "id": "ramen-274"
+    },
+    {
+      "name": "麺処 ら塾",
+      "url": "https://tabelog.com/kanagawa/A1404/A140404/14011366/",
+      "address": "神奈川県藤沢市鵠沼花沢町2-16",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14011366",
+      "lat": "35.337817",
+      "lng": "139.485276",
+      "id": "ramen-275"
+    },
+    {
+      "name": "麺屋 ぬまた",
+      "url": "https://tabelog.com/kanagawa/A1401/A140210/14078862/",
+      "address": "神奈川県横浜市鶴見区鶴見中央1-27-15 トモエビル",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14078862",
+      "lat": "35.5083",
+      "lng": "139.678408",
+      "id": "ramen-276"
+    },
+    {
+      "name": "バロンヌードル",
+      "url": "https://tabelog.com/kanagawa/A1401/A140102/14086339/",
+      "address": "神奈川県横浜市西区岡野1-9-12 加藤ビル 2F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14086339",
+      "lat": "35.462704",
+      "lng": "139.616532",
+      "id": "ramen-277"
+    },
+    {
+      "name": "トーキョー ベイ フィッシャーマンズ ヌードル",
+      "url": "https://tabelog.com/kanagawa/A1406/A140601/14079528/",
+      "address": "神奈川県横須賀市森崎2-11-13",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14079528",
+      "lat": "35.249448",
+      "lng": "139.679798",
+      "id": "ramen-278"
+    },
+    {
+      "name": "麺場 浜虎",
+      "url": "https://tabelog.com/kanagawa/A1401/A140101/14000361/",
+      "address": "神奈川県横浜市神奈川区鶴屋町2-12-1 鶴屋町第二ビル １Ｆ",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000361",
+      "lat": "35.468925",
+      "lng": "139.623257",
+      "id": "ramen-279"
+    },
+    {
+      "name": "三三七",
+      "url": "https://tabelog.com/kanagawa/A1405/A140501/14032399/",
+      "address": "神奈川県川崎市川崎区小川町9-7",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14032399",
+      "lat": "35.525917",
+      "lng": "139.69586",
+      "id": "ramen-280"
+    },
+    {
+      "name": "らーめん 雅楽",
+      "url": "https://tabelog.com/kanagawa/A1401/A140201/14055006/",
+      "address": "神奈川県横浜市青葉区新石川2-15-1",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14055006",
+      "lat": "35.571598",
+      "lng": "139.555035",
+      "id": "ramen-281"
+    },
+    {
+      "name": "ラーメン二郎 生田駅前店",
+      "url": "https://tabelog.com/kanagawa/A1405/A140506/14091118/",
+      "address": "神奈川県川崎市多摩区生田8-1-15",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14091118",
+      "lat": "35.615488",
+      "lng": "139.545443",
+      "id": "ramen-282"
+    },
+    {
+      "name": "らーめん まつや",
+      "url": "https://tabelog.com/kanagawa/A1404/A140406/14044665/",
+      "address": "神奈川県茅ヶ崎市堤73-5",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14044665",
+      "lat": "35.367286",
+      "lng": "139.433763",
+      "id": "ramen-283"
+    },
+    {
+      "name": "麺工房 隠國 愛川本店",
+      "url": "https://tabelog.com/kanagawa/A1407/A140704/14000874/",
+      "address": "神奈川県愛甲郡愛川町角田768-9",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000874",
+      "lat": "35.537134",
+      "lng": "139.328072",
+      "id": "ramen-284"
+    },
+    {
+      "name": "煮干しらーめん 田中にぼる",
+      "url": "https://tabelog.com/kanagawa/A1405/A140504/14083610/",
+      "address": "神奈川県川崎市高津区末長4-25-3",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14083610",
+      "lat": "35.588626",
+      "lng": "139.627109",
+      "id": "ramen-285"
+    },
+    {
+      "name": "53'sNoodle",
+      "url": "https://tabelog.com/kanagawa/A1404/A140405/14085551/",
+      "address": "神奈川県藤沢市湘南台2-1-1 53田中ビル 2F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14085551",
+      "lat": "35.397097",
+      "lng": "139.465113",
+      "id": "ramen-286"
+    },
+    {
+      "name": "元祖一条流 がんこ総本家 分店",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14067394/",
+      "address": "神奈川県相模原市緑区向原4-2-3 コピオ相模原インター店 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14067394",
+      "lat": "35.589327",
+      "lng": "139.305017",
+      "id": "ramen-287"
+    },
+    {
+      "name": "まっち棒 溝の口店",
+      "url": "https://tabelog.com/kanagawa/A1405/A140505/14006090/",
+      "address": "神奈川県川崎市高津区溝口2-3-7 サウスウイング １Ｆ",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14006090",
+      "lat": "35.599503",
+      "lng": "139.609721",
+      "id": "ramen-288"
+    },
+    {
+      "name": "ラーメン丸仙",
+      "url": "https://tabelog.com/kanagawa/A1405/A140504/14002807/",
+      "address": "神奈川県川崎市中原区小杉町3-66",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14002807",
+      "lat": "35.573153",
+      "lng": "139.656979",
+      "id": "ramen-289"
+    },
+    {
+      "name": "麺や魁星",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14073157/",
+      "address": "神奈川県横浜市中区吉田町3-11",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14073157",
+      "lat": "35.445934",
+      "lng": "139.632518",
+      "id": "ramen-290"
+    },
+    {
+      "name": "横濱家系ラーメン 勝鬨家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14064625/",
+      "address": "神奈川県横浜市中区長者町2-5-4",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14064625",
+      "lat": "35.438792",
+      "lng": "139.635665",
+      "id": "ramen-291"
+    },
+    {
+      "name": "寿々喜家 曙町店",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14062589/",
+      "address": "神奈川県横浜市中区曙町3-42-5",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14062589",
+      "lat": "35.439488",
+      "lng": "139.627736",
+      "id": "ramen-292"
+    },
+    {
+      "name": "横浜家系ラーメン 黄金家",
+      "url": "https://tabelog.com/kanagawa/A1401/A140306/14072621/",
+      "address": "神奈川県横浜市中区末吉町3-67-7",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14072621",
+      "lat": "35.439197",
+      "lng": "139.624278",
+      "id": "ramen-293"
+    },
+    {
+      "name": "肉煮干中華そば 鈴木ラーメン店",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14044862/",
+      "address": "神奈川県相模原市南区相模大野3-18-3 新井ビル 1F",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14044862",
+      "lat": "35.533435",
+      "lng": "139.436186",
+      "id": "ramen-294"
+    },
+    {
+      "name": "めん処 樹",
+      "url": "https://tabelog.com/kanagawa/A1401/A140301/14009887/",
+      "address": "神奈川県横浜市保土ケ谷区天王町1-32-17",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14009887",
+      "lat": "35.45765",
+      "lng": "139.600178",
+      "id": "ramen-295"
+    },
+    {
+      "name": "大勝軒 淵野辺店",
+      "url": "https://tabelog.com/kanagawa/A1407/A140701/14000842/",
+      "address": "神奈川県相模原市中央区淵野辺2-6-24",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14000842",
+      "lat": "35.572956",
+      "lng": "139.392936",
+      "id": "ramen-296"
+    },
+    {
+      "name": "鮮魚鶏出汁麺 沢むら",
+      "url": "https://tabelog.com/kanagawa/A1404/A140404/14063346/",
+      "address": "神奈川県藤沢市大鋸999-8",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14063346",
+      "lat": "35.349806",
+      "lng": "139.493997",
+      "id": "ramen-297"
+    },
+    {
+      "name": "支那ソバ すずき",
+      "url": "https://tabelog.com/kanagawa/A1407/A140702/14050334/",
+      "address": "神奈川県大和市福田2-14-4",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14050334",
+      "lat": "35.449846",
+      "lng": "139.464298",
+      "id": "ramen-298"
+    },
+    {
+      "name": "ラーメン＆カレー専門店 太源",
+      "url": "https://tabelog.com/kanagawa/A1401/A140104/14001113/",
+      "address": "神奈川県横浜市中区伊勢佐木町2-81",
+      "code": "hyakumeiten_ramen_kanagawa_2024_restaurant_14001113",
+      "lat": "35.44313",
+      "lng": "139.630725",
+      "id": "ramen-299"
+    },
+    {
+      "name": "カドヤ食堂 総本店",
+      "url": "https://tabelog.com/osaka/A2701/A270105/27001084/",
+      "address": "大阪府大阪市西区新町4-16-13 キャピタル西長堀 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27001084",
+      "lat": "34.676182",
+      "lng": "135.483766",
+      "id": "ramen-300"
+    },
+    {
+      "name": "人類みな麺類",
+      "url": "https://tabelog.com/osaka/A2701/A270301/27064584/",
+      "address": "大阪府大阪市淀川区西中島1-12-15",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27064584",
+      "lat": "34.725452",
+      "lng": "135.499204",
+      "id": "ramen-301"
+    },
+    {
+      "name": "ラーメン人生JET",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27050827/",
+      "address": "大阪府大阪市福島区福島7-12-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27050827",
+      "lat": "34.698626",
+      "lng": "135.486654",
+      "id": "ramen-302"
+    },
+    {
+      "name": "燃えよ麺助",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27091454/",
+      "address": "大阪府大阪市福島区福島5-12-21",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27091454",
+      "lat": "34.696338",
+      "lng": "135.486822",
+      "id": "ramen-303"
+    },
+    {
+      "name": "麦と麺助",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27104891/",
+      "address": "大阪府大阪市北区豊崎3-4-12",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27104891",
+      "lat": "34.71132",
+      "lng": "135.499998",
+      "id": "ramen-304"
+    },
+    {
+      "name": "中華そば うえまち",
+      "url": "https://tabelog.com/osaka/A2701/A270204/27069769/",
+      "address": "大阪府大阪市中央区上町A番22号",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27069769",
+      "lat": "34.67688",
+      "lng": "135.52104",
+      "id": "ramen-305"
+    },
+    {
+      "name": "ストライク軒",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27074457/",
+      "address": "大阪府大阪市北区天神橋5-8-8",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27074457",
+      "lat": "34.708174",
+      "lng": "135.511042",
+      "id": "ramen-306"
+    },
+    {
+      "name": "らーめん弥七",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27003232/",
+      "address": "大阪府大阪市北区豊崎3-4-8",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27003232",
+      "lat": "34.711284",
+      "lng": "135.499709",
+      "id": "ramen-307"
+    },
+    {
+      "name": "中華蕎麦 葛",
+      "url": "https://tabelog.com/osaka/A2701/A270106/27087256/",
+      "address": "大阪府大阪市西区阿波座1-12-21 喜多ビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27087256",
+      "lat": "34.681392",
+      "lng": "135.495025",
+      "id": "ramen-308"
+    },
+    {
+      "name": "中華そば 無限",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27053626/",
+      "address": "大阪府大阪市福島区海老江5-5-10",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27053626",
+      "lat": "34.696627",
+      "lng": "135.472194",
+      "id": "ramen-309"
+    },
+    {
+      "name": "らーめん颯人",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27083921/",
+      "address": "大阪府大阪市北区南森町1-2-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27083921",
+      "lat": "34.695711",
+      "lng": "135.510053",
+      "id": "ramen-310"
+    },
+    {
+      "name": "麺や而今 大東本店",
+      "url": "https://tabelog.com/osaka/A2707/A270704/27054613/",
+      "address": "大阪府大東市灰塚6-7-9",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27054613",
+      "lat": "34.699134",
+      "lng": "135.607605",
+      "id": "ramen-311"
+    },
+    {
+      "name": "烈志笑魚油 麺香房 三く",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27058993/",
+      "address": "大阪府大阪市福島区福島2-6-5 AKパレス 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27058993",
+      "lat": "34.693757",
+      "lng": "135.485945",
+      "id": "ramen-312"
+    },
+    {
+      "name": "麺屋 丈六 なんば店",
+      "url": "https://tabelog.com/osaka/A2701/A270202/27084754/",
+      "address": "大阪府大阪市中央区難波千日前6-16",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27084754",
+      "lat": "34.663647",
+      "lng": "135.504884",
+      "id": "ramen-313"
+    },
+    {
+      "name": "総大醤",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27003383/",
+      "address": "大阪府大阪市北区浮田2-4-16",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27003383",
+      "lat": "34.710266",
+      "lng": "135.507702",
+      "id": "ramen-314"
+    },
+    {
+      "name": "ラーメン人生JET600",
+      "url": "https://tabelog.com/osaka/A2701/A270204/27059047/",
+      "address": "大阪府大阪市東成区東小橋1-3-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27059047",
+      "lat": "34.674193",
+      "lng": "135.5344",
+      "id": "ramen-315"
+    },
+    {
+      "name": "群青",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27018753/",
+      "address": "大阪府大阪市北区天神橋6-3-26",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27018753",
+      "lat": "34.710044",
+      "lng": "135.512545",
+      "id": "ramen-316"
+    },
+    {
+      "name": "麺や 福はら",
+      "url": "https://tabelog.com/osaka/A2701/A270306/27099659/",
+      "address": "大阪府大阪市生野区新今里5-1-8",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27099659",
+      "lat": "34.661738",
+      "lng": "135.548958",
+      "id": "ramen-317"
+    },
+    {
+      "name": "手打ち麺 やす田",
+      "url": "https://tabelog.com/osaka/A2701/A270301/27060153/",
+      "address": "大阪府大阪市東淀川区東中島1-21-2 新大阪ハイツ106号",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27060153",
+      "lat": "34.732954",
+      "lng": "135.504019",
+      "id": "ramen-318"
+    },
+    {
+      "name": "いかれたヌードル フィッシュトンズ",
+      "url": "https://tabelog.com/osaka/A2701/A270201/27101904/",
+      "address": "大阪府大阪市西区新町1-25-18 レナジア新町ビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27101904",
+      "lat": "34.676296",
+      "lng": "135.495058",
+      "id": "ramen-319"
+    },
+    {
+      "name": "洛二神",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27000534/",
+      "address": "大阪府大阪市北区浪花町4-22 藤ビル １Ｆ",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27000534",
+      "lat": "34.707536",
+      "lng": "135.510547",
+      "id": "ramen-320"
+    },
+    {
+      "name": "麺や 紡",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27064537/",
+      "address": "大阪府茨木市宇野辺2-1-24",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27064537",
+      "lat": "34.803508",
+      "lng": "135.556764",
+      "id": "ramen-321"
+    },
+    {
+      "name": "とんぴととりの光龍益",
+      "url": "https://tabelog.com/osaka/A2701/A270304/27015801/",
+      "address": "大阪府大阪市都島区中野町5-9-5",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27015801",
+      "lat": "34.705624",
+      "lng": "135.523089",
+      "id": "ramen-322"
+    },
+    {
+      "name": "京都 麺屋たけ井 阪急梅田店",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27092383/",
+      "address": "大阪府大阪市北区芝田1-1-2 阪急梅田駅改札内 2F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27092383",
+      "lat": "34.705084",
+      "lng": "135.498414",
+      "id": "ramen-323"
+    },
+    {
+      "name": "時屋",
+      "url": "https://tabelog.com/osaka/A2701/A270301/27040424/",
+      "address": "大阪府大阪市淀川区西中島5-1-4 １Ｆ",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27040424",
+      "lat": "34.728329",
+      "lng": "135.501208",
+      "id": "ramen-324"
+    },
+    {
+      "name": "鶏 soba 座銀 本店",
+      "url": "https://tabelog.com/osaka/A2701/A270102/27079112/",
+      "address": "大阪府大阪市西区江戸堀1-19-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27079112",
+      "lat": "34.689573",
+      "lng": "135.495034",
+      "id": "ramen-325"
+    },
+    {
+      "name": "中華そば 桐麺 総本店",
+      "url": "https://tabelog.com/osaka/A2701/A270302/27097422/",
+      "address": "大阪府大阪市淀川区十三本町2-1-6",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27097422",
+      "lat": "34.720129",
+      "lng": "135.480886",
+      "id": "ramen-326"
+    },
+    {
+      "name": "らーめん香澄 阿波座本店",
+      "url": "https://tabelog.com/osaka/A2701/A270105/27065090/",
+      "address": "大阪府大阪市西区京町堀2-12-13",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27065090",
+      "lat": "34.684993",
+      "lng": "135.489401",
+      "id": "ramen-327"
+    },
+    {
+      "name": "麺のようじ",
+      "url": "https://tabelog.com/osaka/A2701/A270202/27072765/",
+      "address": "大阪府大阪市中央区高津2-1-2 大越ビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27072765",
+      "lat": "34.668291",
+      "lng": "135.511292",
+      "id": "ramen-328"
+    },
+    {
+      "name": "中華そば いぶき",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27062565/",
+      "address": "大阪府大阪市北区浪花町4-16",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27062565",
+      "lat": "34.70754",
+      "lng": "135.509893",
+      "id": "ramen-329"
+    },
+    {
+      "name": "田中の中華そば",
+      "url": "https://tabelog.com/osaka/A2701/A270106/27102601/",
+      "address": "大阪府大阪市西区靭本町1-18-23 ウルトラビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27102601",
+      "lat": "34.68422",
+      "lng": "135.495054",
+      "id": "ramen-330"
+    },
+    {
+      "name": "極汁美麺 umami",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27093539/",
+      "address": "大阪府東大阪市菱屋西3-1-1",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27093539",
+      "lat": "34.663945",
+      "lng": "135.578316",
+      "id": "ramen-331"
+    },
+    {
+      "name": "あす流",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27007898/",
+      "address": "大阪府高槻市紺屋町8-30 ２Ｆ",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27007898",
+      "lat": "34.849108",
+      "lng": "135.618099",
+      "id": "ramen-332"
+    },
+    {
+      "name": "麺屋 八海山",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27061072/",
+      "address": "大阪府高槻市芥川町1-14-9",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27061072",
+      "lat": "34.853403",
+      "lng": "135.617021",
+      "id": "ramen-333"
+    },
+    {
+      "name": "無鉄砲  大阪店",
+      "url": "https://tabelog.com/osaka/A2701/A270206/27005006/",
+      "address": "大阪府大阪市浪速区戎本町1-5-21 米田ビル １Ｆ",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27005006",
+      "lat": "34.6546",
+      "lng": "135.500218",
+      "id": "ramen-334"
+    },
+    {
+      "name": "世界一暇なラーメン屋",
+      "url": "https://tabelog.com/osaka/A2701/A270102/27077402/",
+      "address": "大阪府大阪市北区中之島3-3-23 中之島ダイビル 2F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27077402",
+      "lat": "34.693131",
+      "lng": "135.49362",
+      "id": "ramen-335"
+    },
+    {
+      "name": "大阪麺哲",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27080479/",
+      "address": "大阪府大阪市北区曾根崎2-10-27",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27080479",
+      "lat": "34.70083",
+      "lng": "135.501694",
+      "id": "ramen-336"
+    },
+    {
+      "name": "なにわ 麺次郎",
+      "url": "https://tabelog.com/osaka/A2701/A270202/27112089/",
+      "address": "大阪府大阪市中央区難波4-1-17 近鉄大阪難波駅 改札内",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27112089",
+      "lat": "34.667101",
+      "lng": "135.498293",
+      "id": "ramen-337"
+    },
+    {
+      "name": "彩色ラーメンきんせい 高槻本店",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27040392/",
+      "address": "大阪府高槻市北園町18番1 コーケンビル１Ｆ103号",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27040392",
+      "lat": "34.849914",
+      "lng": "135.621657",
+      "id": "ramen-338"
+    },
+    {
+      "name": "麺屋彩々 昭和町本店",
+      "url": "https://tabelog.com/osaka/A2701/A270203/27059500/",
+      "address": "大阪府大阪市阿倍野区阪南町1-46-8",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27059500",
+      "lat": "34.634063",
+      "lng": "135.516375",
+      "id": "ramen-339"
+    },
+    {
+      "name": "烈火 本店",
+      "url": "https://tabelog.com/osaka/A2706/A270601/27059898/",
+      "address": "大阪府豊中市庄内東町2-2-14",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27059898",
+      "lat": "34.748963",
+      "lng": "135.475769",
+      "id": "ramen-340"
+    },
+    {
+      "name": "らーめん香澄 中崎町店",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27088923/",
+      "address": "大阪府大阪市北区中崎2-1-1 小川ビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27088923",
+      "lat": "34.708475",
+      "lng": "135.507062",
+      "id": "ramen-341"
+    },
+    {
+      "name": "博多とんこつ 天神旗",
+      "url": "https://tabelog.com/osaka/A2701/A270307/27002613/",
+      "address": "大阪府大阪市東淀川区上新庄3-19-87",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27002613",
+      "lat": "34.752205",
+      "lng": "135.532475",
+      "id": "ramen-342"
+    },
+    {
+      "name": "麺屋 はなぶさ",
+      "url": "https://tabelog.com/osaka/A2701/A270106/27071670/",
+      "address": "大阪府大阪市中央区本町1-1-4",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27071670",
+      "lat": "34.683884",
+      "lng": "135.509598",
+      "id": "ramen-343"
+    },
+    {
+      "name": "ラーメン坊也哲",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27073370/",
+      "address": "大阪府東大阪市西岩田4-4-46",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27073370",
+      "lat": "34.667343",
+      "lng": "135.599028",
+      "id": "ramen-344"
+    },
+    {
+      "name": "かしや",
+      "url": "https://tabelog.com/osaka/A2701/A270406/27052519/",
+      "address": "大阪府大阪市西成区玉出中2-4-21",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27052519",
+      "lat": "34.626163",
+      "lng": "135.491547",
+      "id": "ramen-345"
+    },
+    {
+      "name": "麺や しき",
+      "url": "https://tabelog.com/osaka/A2707/A270701/27061274/",
+      "address": "大阪府守口市豊秀町2-1-3 エスポワール豊秀ワン1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27061274",
+      "lat": "34.738307",
+      "lng": "135.564911",
+      "id": "ramen-346"
+    },
+    {
+      "name": "極麺 青二犀",
+      "url": "https://tabelog.com/osaka/A2706/A270602/27074166/",
+      "address": "大阪府吹田市末広町21-53",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27074166",
+      "lat": "34.765338",
+      "lng": "135.53347",
+      "id": "ramen-347"
+    },
+    {
+      "name": "麺や 清流",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27103068/",
+      "address": "大阪府東大阪市小若江1-4-3",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27103068",
+      "lat": "34.65106",
+      "lng": "135.580613",
+      "id": "ramen-348"
+    },
+    {
+      "name": "麺哲 豊中",
+      "url": "https://tabelog.com/osaka/A2706/A270601/27004096/",
+      "address": "大阪府豊中市岡上の町2-2-6",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27004096",
+      "lat": "34.784839",
+      "lng": "135.463388",
+      "id": "ramen-349"
+    },
+    {
+      "name": "中華そば ココカラサキゑ",
+      "url": "https://tabelog.com/osaka/A2701/A270301/27105350/",
+      "address": "大阪府大阪市淀川区西宮原1-7-39",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27105350",
+      "lat": "34.733383",
+      "lng": "135.490766",
+      "id": "ramen-350"
+    },
+    {
+      "name": "上方レインボー",
+      "url": "https://tabelog.com/osaka/A2701/A270203/27116315/",
+      "address": "大阪府大阪市天王寺区勝山4-6-3",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27116315",
+      "lat": "34.655015",
+      "lng": "135.525762",
+      "id": "ramen-351"
+    },
+    {
+      "name": "魚々麺 園",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27121916/",
+      "address": "大阪府東大阪市足代南1-3-12",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27121916",
+      "lat": "34.661044",
+      "lng": "135.56281",
+      "id": "ramen-352"
+    },
+    {
+      "name": "麺元素",
+      "url": "https://tabelog.com/osaka/A2701/A270103/27042439/",
+      "address": "大阪府大阪市北区天神橋5-2-16",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27042439",
+      "lat": "34.707145",
+      "lng": "135.512075",
+      "id": "ramen-353"
+    },
+    {
+      "name": "福島壱麺",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27079245/",
+      "address": "大阪府大阪市福島区福島5-6-16 ホテル阪神 B1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27079245",
+      "lat": "34.696774",
+      "lng": "135.487596",
+      "id": "ramen-354"
+    },
+    {
+      "name": "中村商店 高槻本店",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27064101/",
+      "address": "大阪府高槻市上田辺町4-14",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27064101",
+      "lat": "34.849839",
+      "lng": "135.617398",
+      "id": "ramen-355"
+    },
+    {
+      "name": "らーめん これこれ",
+      "url": "https://tabelog.com/osaka/A2706/A270602/27118157/",
+      "address": "大阪府吹田市江坂町1-20-30 キャロル江坂 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27118157",
+      "lat": "34.758248",
+      "lng": "135.499963",
+      "id": "ramen-356"
+    },
+    {
+      "name": "創作ラーメン STYLE林 本店",
+      "url": "https://tabelog.com/osaka/A2701/A270302/27089090/",
+      "address": "大阪府大阪市淀川区塚本2-23-9",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27089090",
+      "lat": "34.712457",
+      "lng": "135.469435",
+      "id": "ramen-357"
+    },
+    {
+      "name": "馬鹿坊",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27084317/",
+      "address": "大阪府大阪市北区浮田1-4-10",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27084317",
+      "lat": "34.708891",
+      "lng": "135.508131",
+      "id": "ramen-358"
+    },
+    {
+      "name": "麺匠 而今",
+      "url": "https://tabelog.com/osaka/A2707/A270701/27078739/",
+      "address": "大阪府守口市紅屋町6-16",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27078739",
+      "lat": "34.727874",
+      "lng": "135.556773",
+      "id": "ramen-359"
+    },
+    {
+      "name": "自家製麺 つきよみ",
+      "url": "https://tabelog.com/osaka/A2701/A270307/27117612/",
+      "address": "大阪府大阪市東淀川区豊新5-11-4",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27117612",
+      "lat": "34.746224",
+      "lng": "135.536817",
+      "id": "ramen-360"
+    },
+    {
+      "name": "ラーメン家 あかぎ",
+      "url": "https://tabelog.com/osaka/A2701/A270307/27101092/",
+      "address": "大阪府大阪市東淀川区瑞光2-2-21",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27101092",
+      "lat": "34.749882",
+      "lng": "135.536998",
+      "id": "ramen-361"
+    },
+    {
+      "name": "麺一盃",
+      "url": "https://tabelog.com/osaka/A2701/A270302/27052471/",
+      "address": "大阪府大阪市西淀川区柏里2-1-25",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27052471",
+      "lat": "34.711264",
+      "lng": "135.469448",
+      "id": "ramen-362"
+    },
+    {
+      "name": "RAMEN ガモウスマイル",
+      "url": "https://tabelog.com/osaka/A2701/A270305/27117675/",
+      "address": "大阪府大阪市城東区今福西1-11-5",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27117675",
+      "lat": "34.699649",
+      "lng": "135.548055",
+      "id": "ramen-363"
+    },
+    {
+      "name": "NAKAGAWA わず",
+      "url": "https://tabelog.com/osaka/A2701/A270307/27105320/",
+      "address": "大阪府大阪市東淀川区菅原6-24-12",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27105320",
+      "lat": "34.741607",
+      "lng": "135.520207",
+      "id": "ramen-364"
+    },
+    {
+      "name": "らぁ麺屋 はりねずみ",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27097061/",
+      "address": "大阪府高槻市野見町4-6 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27097061",
+      "lat": "34.845538",
+      "lng": "135.618475",
+      "id": "ramen-365"
+    },
+    {
+      "name": "彩哲",
+      "url": "https://tabelog.com/osaka/A2706/A270602/27114537/",
+      "address": "大阪府吹田市朝日町5-24",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27114537",
+      "lat": "34.761914",
+      "lng": "135.52487",
+      "id": "ramen-366"
+    },
+    {
+      "name": "鯛白湯らーめん ○de▽",
+      "url": "https://tabelog.com/osaka/A2701/A270301/27107953/",
+      "address": "大阪府大阪市淀川区西宮原1-5-6",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27107953",
+      "lat": "34.732879",
+      "lng": "135.494091",
+      "id": "ramen-367"
+    },
+    {
+      "name": "Ramen 辻",
+      "url": "https://tabelog.com/osaka/A2701/A270104/27092793/",
+      "address": "大阪府大阪市中央区鎗屋町1-1-10 山大ビル1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27092793",
+      "lat": "34.682827",
+      "lng": "135.515846",
+      "id": "ramen-368"
+    },
+    {
+      "name": "中華そば 閃",
+      "url": "https://tabelog.com/osaka/A2701/A270404/27061126/",
+      "address": "大阪府大阪市住吉区苅田7-6-15",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27061126",
+      "lat": "34.599164",
+      "lng": "135.514847",
+      "id": "ramen-369"
+    },
+    {
+      "name": "麺匠至誠",
+      "url": "https://tabelog.com/osaka/A2701/A270201/27085783/",
+      "address": "大阪府大阪市西区新町1-5-7 四ツ橋ビルディング B1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27085783",
+      "lat": "34.675681",
+      "lng": "135.496689",
+      "id": "ramen-370"
+    },
+    {
+      "name": "自己流ラーメン綿麺",
+      "url": "https://tabelog.com/osaka/A2708/A270801/27007813/",
+      "address": "大阪府松原市松ヶ丘3-6-15",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27007813",
+      "lat": "34.583745",
+      "lng": "135.562238",
+      "id": "ramen-371"
+    },
+    {
+      "name": "麺麓menroku",
+      "url": "https://tabelog.com/osaka/A2707/A270702/27093194/",
+      "address": "大阪府枚方市大峰元町1-6-30",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27093194",
+      "lat": "34.812925",
+      "lng": "135.685594",
+      "id": "ramen-372"
+    },
+    {
+      "name": "らぁめん真",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27083381/",
+      "address": "大阪府茨木市駅前1-3-4",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27083381",
+      "lat": "34.816278",
+      "lng": "135.563593",
+      "id": "ramen-373"
+    },
+    {
+      "name": "ラーメン哲史",
+      "url": "https://tabelog.com/osaka/A2706/A270601/27093541/",
+      "address": "大阪府豊中市小曽根4-9-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27093541",
+      "lat": "34.755191",
+      "lng": "135.48345",
+      "id": "ramen-374"
+    },
+    {
+      "name": "らーめん 小僧",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27077479/",
+      "address": "大阪府大阪市福島区福島3-8-10",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27077479",
+      "lat": "34.693589",
+      "lng": "135.485472",
+      "id": "ramen-375"
+    },
+    {
+      "name": "麺や拓",
+      "url": "https://tabelog.com/osaka/A2701/A270105/27042868/",
+      "address": "大阪府大阪市西区北堀江3-5-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27042868",
+      "lat": "34.673011",
+      "lng": "135.490243",
+      "id": "ramen-376"
+    },
+    {
+      "name": "麺ファクトリー ジョーズ",
+      "url": "https://tabelog.com/osaka/A2701/A270204/27080284/",
+      "address": "大阪府大阪市中央区上本町西2-1-11 楠本ビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27080284",
+      "lat": "34.673283",
+      "lng": "135.520301",
+      "id": "ramen-377"
+    },
+    {
+      "name": "西中島 光龍益",
+      "url": "https://tabelog.com/osaka/A2701/A270301/27084534/",
+      "address": "大阪府大阪市淀川区西中島6-5-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27084534",
+      "lat": "34.72854",
+      "lng": "135.497016",
+      "id": "ramen-378"
+    },
+    {
+      "name": "縁乃助商店",
+      "url": "https://tabelog.com/osaka/A2701/A270307/27075534/",
+      "address": "大阪府大阪市東淀川区淡路4-9-5",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27075534",
+      "lat": "34.740102",
+      "lng": "135.516974",
+      "id": "ramen-379"
+    },
+    {
+      "name": "友愛亭",
+      "url": "https://tabelog.com/osaka/A2701/A270202/27079226/",
+      "address": "大阪府大阪市浪速区日本橋4-12-1 旭日旅行ビル 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27079226",
+      "lat": "34.659586",
+      "lng": "135.505634",
+      "id": "ramen-380"
+    },
+    {
+      "name": "KUCHE",
+      "url": "https://tabelog.com/osaka/A2701/A270307/27076936/",
+      "address": "大阪府大阪市東淀川区瑞光1-5-32",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27076936",
+      "lat": "34.748109",
+      "lng": "135.535827",
+      "id": "ramen-381"
+    },
+    {
+      "name": "らーめん工房 RISE",
+      "url": "https://tabelog.com/osaka/A2707/A270705/27051582/",
+      "address": "大阪府八尾市本町3-11-22",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27051582",
+      "lat": "34.627866",
+      "lng": "135.594906",
+      "id": "ramen-382"
+    },
+    {
+      "name": "麺や 一想",
+      "url": "https://tabelog.com/osaka/A2707/A270705/27091749/",
+      "address": "大阪府八尾市末広町4-8-21",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27091749",
+      "lat": "34.634618",
+      "lng": "135.590186",
+      "id": "ramen-383"
+    },
+    {
+      "name": "麺処 天川",
+      "url": "https://tabelog.com/osaka/A2701/A270105/27109749/",
+      "address": "大阪府大阪市西区本田1-11-20",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27109749",
+      "lat": "34.676772",
+      "lng": "135.479187",
+      "id": "ramen-384"
+    },
+    {
+      "name": "銀座 篝 ルクア大阪店",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27102306/",
+      "address": "大阪府大阪市北区梅田3-1-3 ルクア B2F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27102306",
+      "lat": "34.702909",
+      "lng": "135.495098",
+      "id": "ramen-385"
+    },
+    {
+      "name": "醤油と貝と麺 そして人と夢",
+      "url": "https://tabelog.com/osaka/A2701/A270302/27090343/",
+      "address": "大阪府大阪市西淀川区柏里3-12-22",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27090343",
+      "lat": "34.713415",
+      "lng": "135.467548",
+      "id": "ramen-386"
+    },
+    {
+      "name": "麺屋 一慶",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27041576/",
+      "address": "大阪府茨木市竹橋町8-2 ホウキビル １Ｆ",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27041576",
+      "lat": "34.820088",
+      "lng": "135.57537",
+      "id": "ramen-387"
+    },
+    {
+      "name": "中華そば かみなり雲呑",
+      "url": "https://tabelog.com/osaka/A2701/A270404/27105005/",
+      "address": "大阪府大阪市住吉区長居東3-14-22",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27105005",
+      "lat": "34.606715",
+      "lng": "135.513729",
+      "id": "ramen-388"
+    },
+    {
+      "name": "らぁめん しゅき",
+      "url": "https://tabelog.com/osaka/A2701/A270205/27117861/",
+      "address": "大阪府大阪市東成区東小橋3-14-10",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27117861",
+      "lat": "34.666687",
+      "lng": "135.531416",
+      "id": "ramen-389"
+    },
+    {
+      "name": "布施 細見商店",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27066822/",
+      "address": "大阪府東大阪市足代新町8-2",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27066822",
+      "lat": "34.664295",
+      "lng": "135.560442",
+      "id": "ramen-390"
+    },
+    {
+      "name": "らーめん 久遠",
+      "url": "https://tabelog.com/osaka/A2701/A270106/27115366/",
+      "address": "大阪府大阪市中央区船場中央1-4-3 船場センタービル3号館 B2F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27115366",
+      "lat": "34.681817",
+      "lng": "135.506283",
+      "id": "ramen-391"
+    },
+    {
+      "name": "塩々",
+      "url": "https://tabelog.com/osaka/A2701/A270101/27100567/",
+      "address": "大阪府大阪市福島区玉川1-2-51",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27100567",
+      "lat": "34.689754",
+      "lng": "135.483705",
+      "id": "ramen-392"
+    },
+    {
+      "name": "中華蕎麦 福はら",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27122790/",
+      "address": "大阪府東大阪市俊徳町1-3-24",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27122790",
+      "lat": "34.657533",
+      "lng": "135.571712",
+      "id": "ramen-393"
+    },
+    {
+      "name": "みつ星製麺所 福島本店",
+      "url": "https://tabelog.com/osaka/A2701/A270108/27057392/",
+      "address": "大阪府大阪市福島区福島7-17-21 ベルメゾン福島1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27057392",
+      "lat": "34.699549",
+      "lng": "135.485467",
+      "id": "ramen-394"
+    },
+    {
+      "name": "麺厨房 華燕",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27003934/",
+      "address": "大阪府高槻市牧田町7-54 109",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27003934",
+      "lat": "34.822475",
+      "lng": "135.603647",
+      "id": "ramen-395"
+    },
+    {
+      "name": "超多加水純手打ち麺 仁しむら",
+      "url": "https://tabelog.com/osaka/A2707/A270703/27120794/",
+      "address": "大阪府東大阪市長堂1-28-14",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27120794",
+      "lat": "34.668955",
+      "lng": "135.564138",
+      "id": "ramen-396"
+    },
+    {
+      "name": "唯一無二のらぁ麺専門店 イ袋ワシづかみ",
+      "url": "https://tabelog.com/osaka/A2701/A270203/27127973/",
+      "address": "大阪府大阪市天王寺区四天王寺2-2-7",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27127973",
+      "lat": "34.656553",
+      "lng": "135.51877",
+      "id": "ramen-397"
+    },
+    {
+      "name": "鶏Soba 座銀 にぼし店",
+      "url": "https://tabelog.com/osaka/A2701/A270201/27086371/",
+      "address": "大阪府大阪市中央区南船場3-9-6",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27086371",
+      "lat": "34.677822",
+      "lng": "135.501136",
+      "id": "ramen-398"
+    },
+    {
+      "name": "らーめん鱗 茨木店",
+      "url": "https://tabelog.com/osaka/A2706/A270604/27077480/",
+      "address": "大阪府茨木市永代町10-19 永代町壱番館 1F",
+      "code": "hyakumeiten_ramen_osaka_2024_restaurant_27077480",
+      "lat": "34.818511",
+      "lng": "135.577065",
+      "id": "ramen-399"
     },
     {
       "name": "らーめん専門 和海",
@@ -1807,7 +3607,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28031755",
       "lat": "34.716726",
       "lng": "135.387008",
-      "id": "ramen-200"
+      "id": "ramen-400"
     },
     {
       "name": "ロックンビリーS1",
@@ -1816,7 +3616,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28040893",
       "lat": "34.74824",
       "lng": "135.420947",
-      "id": "ramen-201"
+      "id": "ramen-401"
     },
     {
       "name": "らーめん 鉢ノ葦葉",
@@ -1825,7 +3625,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_24000851",
       "lat": "34.965341",
       "lng": "136.611939",
-      "id": "ramen-202"
+      "id": "ramen-402"
     },
     {
       "name": "貪瞋癡",
@@ -1834,7 +3634,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_16001104",
       "lat": "36.855653",
       "lng": "136.986198",
-      "id": "ramen-203"
+      "id": "ramen-403"
     },
     {
       "name": "本家 第一旭 本店",
@@ -1843,7 +3643,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26000873",
       "lat": "34.986695",
       "lng": "135.7625",
-      "id": "ramen-204"
+      "id": "ramen-404"
     },
     {
       "name": "麺屋 極鶏 一乗寺本店",
@@ -1852,7 +3652,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26017870",
       "lat": "35.047223",
       "lng": "135.787093",
-      "id": "ramen-205"
+      "id": "ramen-405"
     },
     {
       "name": "俺のラーメン あっぱれ屋",
@@ -1861,7 +3661,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26011617",
       "lat": "34.838927",
       "lng": "135.831823",
-      "id": "ramen-206"
+      "id": "ramen-406"
     },
     {
       "name": "ぶたのほし",
@@ -1870,7 +3670,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28050830",
       "lat": "34.727499",
       "lng": "135.428267",
-      "id": "ramen-207"
+      "id": "ramen-407"
     },
     {
       "name": "ラーメン家 みつ葉",
@@ -1879,7 +3679,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29006502",
       "lat": "34.692373",
       "lng": "135.731859",
-      "id": "ramen-208"
+      "id": "ramen-408"
     },
     {
       "name": "らーめん専門 和心 武庫之荘店",
@@ -1888,7 +3688,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28042762",
       "lat": "34.750418",
       "lng": "135.390848",
-      "id": "ramen-209"
+      "id": "ramen-409"
     },
     {
       "name": "和 dining 清乃 本店",
@@ -1897,7 +3697,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30010371",
       "lat": "34.078559",
       "lng": "135.131407",
-      "id": "ramen-210"
+      "id": "ramen-410"
     },
     {
       "name": "博多元気一杯!!",
@@ -1906,7 +3706,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40000488",
       "lat": "33.601037",
       "lng": "130.407228",
-      "id": "ramen-211"
+      "id": "ramen-411"
     },
     {
       "name": "吟醸らーめん 久保田",
@@ -1915,7 +3715,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26004660",
       "lat": "34.992937",
       "lng": "135.755247",
-      "id": "ramen-212"
+      "id": "ramen-412"
     },
     {
       "name": "つけ麺 繁田",
@@ -1924,7 +3724,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28045107",
       "lat": "34.712049",
       "lng": "135.238521",
-      "id": "ramen-213"
+      "id": "ramen-413"
     },
     {
       "name": "自然派ラーメン 神楽",
@@ -1933,7 +3733,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_17001321",
       "lat": "36.55169",
       "lng": "136.654536",
-      "id": "ramen-214"
+      "id": "ramen-414"
     },
     {
       "name": "らぁめん登里勝",
@@ -1942,7 +3742,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_24003363",
       "lat": "35.063347",
       "lng": "136.693484",
-      "id": "ramen-215"
+      "id": "ramen-415"
     },
     {
       "name": "麺や高倉二条",
@@ -1951,7 +3751,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26003182",
       "lat": "35.013548",
       "lng": "135.762456",
-      "id": "ramen-216"
+      "id": "ramen-416"
     },
     {
       "name": "セアブラノ神 壬生本店",
@@ -1960,7 +3760,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26022456",
       "lat": "35.000658",
       "lng": "135.746784",
-      "id": "ramen-217"
+      "id": "ramen-417"
     },
     {
       "name": "がふうあん",
@@ -1969,7 +3769,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28022134",
       "lat": "34.781196",
       "lng": "135.410934",
-      "id": "ramen-218"
+      "id": "ramen-418"
     },
     {
       "name": "麺屋 そにどり",
@@ -1978,7 +3778,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_24015239",
       "lat": "34.973624",
       "lng": "136.617167",
-      "id": "ramen-219"
+      "id": "ramen-419"
     },
     {
       "name": "博多一双 博多駅東本店",
@@ -1987,7 +3787,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40032701",
       "lat": "33.586341",
       "lng": "130.425159",
-      "id": "ramen-220"
+      "id": "ramen-420"
     },
     {
       "name": "麺屋大河",
@@ -1996,7 +3796,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_17007507",
       "lat": "36.578919",
       "lng": "136.652392",
-      "id": "ramen-221"
+      "id": "ramen-421"
     },
     {
       "name": "担担麺専門店 DAN DAN NOODLES. ENISHI",
@@ -2005,7 +3805,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28040621",
       "lat": "34.704227",
       "lng": "135.216586",
-      "id": "ramen-222"
+      "id": "ramen-422"
     },
     {
       "name": "あいつのラーメン かたぐるま 本店",
@@ -2014,7 +3814,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26023737",
       "lat": "34.992857",
       "lng": "135.736239",
-      "id": "ramen-223"
+      "id": "ramen-423"
     },
     {
       "name": "無鉄砲 総本店",
@@ -2023,7 +3823,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26002160",
       "lat": "34.721776",
       "lng": "135.84447",
-      "id": "ramen-224"
+      "id": "ramen-424"
     },
     {
       "name": "ラーメンにっこう",
@@ -2032,7 +3832,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_25000362",
       "lat": "35.240725",
       "lng": "136.225786",
-      "id": "ramen-225"
+      "id": "ramen-425"
     },
     {
       "name": "拳ラーメン",
@@ -2041,7 +3841,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26017616",
       "lat": "34.989357",
       "lng": "135.743705",
-      "id": "ramen-226"
+      "id": "ramen-426"
     },
     {
       "name": "山崎麺二郎",
@@ -2050,7 +3850,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26008681",
       "lat": "35.019509",
       "lng": "135.731631",
-      "id": "ramen-227"
+      "id": "ramen-427"
     },
     {
       "name": "つけ麺無心",
@@ -2059,7 +3859,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29004440",
       "lat": "34.674612",
       "lng": "135.752108",
-      "id": "ramen-228"
+      "id": "ramen-428"
     },
     {
       "name": "麺屋 さん田",
@@ -2068,7 +3868,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26029285",
       "lat": "34.997647",
       "lng": "135.72587",
-      "id": "ramen-229"
+      "id": "ramen-429"
     },
     {
       "name": "麺処 と市",
@@ -2077,7 +3877,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29006955",
       "lat": "34.529551",
       "lng": "135.79819",
-      "id": "ramen-230"
+      "id": "ramen-430"
     },
     {
       "name": "らぁめん トリカヂ イッパイ",
@@ -2086,7 +3886,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29008833",
       "lat": "34.703285",
       "lng": "135.697122",
-      "id": "ramen-231"
+      "id": "ramen-431"
     },
     {
       "name": "中華そば麦右衛門",
@@ -2095,7 +3895,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28037743",
       "lat": "34.834495",
       "lng": "134.575879",
-      "id": "ramen-232"
+      "id": "ramen-432"
     },
     {
       "name": "晴耕雨読",
@@ -2104,7 +3904,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26030760",
       "lat": "34.885845",
       "lng": "135.794947",
-      "id": "ramen-233"
+      "id": "ramen-433"
     },
     {
       "name": "中華そば 高安",
@@ -2113,7 +3913,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26001199",
       "lat": "35.045089",
       "lng": "135.78515",
-      "id": "ramen-234"
+      "id": "ramen-434"
     },
     {
       "name": "麺屋 猪一",
@@ -2122,7 +3922,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26032368",
       "lat": "35.001328",
       "lng": "135.766964",
-      "id": "ramen-235"
+      "id": "ramen-435"
     },
     {
       "name": "がむしゃら 奈良",
@@ -2131,7 +3931,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29001411",
       "lat": "34.645183",
       "lng": "135.815546",
-      "id": "ramen-236"
+      "id": "ramen-436"
     },
     {
       "name": "麺屋 Somie's",
@@ -2140,7 +3940,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26023025",
       "lat": "35.298843",
       "lng": "135.119143",
-      "id": "ramen-237"
+      "id": "ramen-437"
     },
     {
       "name": "らぁ麺 とうひち",
@@ -2149,7 +3949,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26037391",
       "lat": "35.050062",
       "lng": "135.791184",
-      "id": "ramen-238"
+      "id": "ramen-438"
     },
     {
       "name": "麺食堂 88",
@@ -2158,7 +3958,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29011843",
       "lat": "34.635619",
       "lng": "135.82858",
-      "id": "ramen-239"
+      "id": "ramen-439"
     },
     {
       "name": "八ちゃんラーメン",
@@ -2167,7 +3967,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40000195",
       "lat": "33.581572",
       "lng": "130.403676",
-      "id": "ramen-240"
+      "id": "ramen-440"
     },
     {
       "name": "麺 ヒキュウ 六甲道店",
@@ -2176,7 +3976,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28041599",
       "lat": "34.716524",
       "lng": "135.239257",
-      "id": "ramen-241"
+      "id": "ramen-441"
     },
     {
       "name": "新宿めんや風花",
@@ -2185,7 +3985,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26000827",
       "lat": "35.000315",
       "lng": "135.761484",
-      "id": "ramen-242"
+      "id": "ramen-442"
     },
     {
       "name": "ラーメン二郎  京都店",
@@ -2194,7 +3994,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26028749",
       "lat": "35.043863",
       "lng": "135.787525",
-      "id": "ramen-243"
+      "id": "ramen-443"
     },
     {
       "name": "麺屋 K",
@@ -2203,7 +4003,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29011962",
       "lat": "34.679832",
       "lng": "135.829116",
-      "id": "ramen-244"
+      "id": "ramen-444"
     },
     {
       "name": "麺や一芯",
@@ -2212,7 +4012,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28050731",
       "lat": "34.711005",
       "lng": "135.24174",
-      "id": "ramen-245"
+      "id": "ramen-445"
     },
     {
       "name": "うらしま",
@@ -2221,7 +4021,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30000859",
       "lat": "34.26195",
       "lng": "135.356837",
-      "id": "ramen-246"
+      "id": "ramen-446"
     },
     {
       "name": "麺や 江陽軒",
@@ -2230,7 +4030,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_25009492",
       "lat": "35.240073",
       "lng": "136.226289",
-      "id": "ramen-247"
+      "id": "ramen-447"
     },
     {
       "name": "麦の夜明け",
@@ -2239,7 +4039,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26037048",
       "lat": "34.992693",
       "lng": "135.731303",
-      "id": "ramen-248"
+      "id": "ramen-448"
     },
     {
       "name": "和醸良麺 すがり",
@@ -2248,7 +4048,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26006820",
       "lat": "35.004314",
       "lng": "135.757284",
-      "id": "ramen-249"
+      "id": "ramen-449"
     },
     {
       "name": "丸高中華そば 神戸二宮 二宮店",
@@ -2257,7 +4057,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28002413",
       "lat": "34.698586",
       "lng": "135.194998",
-      "id": "ramen-250"
+      "id": "ramen-450"
     },
     {
       "name": "ふくちゃんラーメン 田隈本店",
@@ -2266,7 +4066,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40000102",
       "lat": "33.547242",
       "lng": "130.336641",
-      "id": "ramen-251"
+      "id": "ramen-451"
     },
     {
       "name": "つけ麺 きらり",
@@ -2275,7 +4075,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26015996",
       "lat": "34.927975",
       "lng": "135.758678",
-      "id": "ramen-252"
+      "id": "ramen-452"
     },
     {
       "name": "はまんど",
@@ -2284,7 +4084,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_37000174",
       "lat": "34.210879",
       "lng": "133.715465",
-      "id": "ramen-253"
+      "id": "ramen-453"
     },
     {
       "name": "弘雅流製麺",
@@ -2293,7 +4093,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28008528",
       "lat": "34.717781",
       "lng": "135.259915",
-      "id": "ramen-254"
+      "id": "ramen-454"
     },
     {
       "name": "佐賀ラーメン いちげん。",
@@ -2302,7 +4102,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_41000068",
       "lat": "33.205141",
       "lng": "130.313535",
-      "id": "ramen-255"
+      "id": "ramen-455"
     },
     {
       "name": "麺道はなもこし",
@@ -2311,7 +4111,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40028964",
       "lat": "33.580987",
       "lng": "130.395361",
-      "id": "ramen-256"
+      "id": "ramen-456"
     },
     {
       "name": "ラーメン ロケット開発",
@@ -2320,7 +4120,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28054125",
       "lat": "34.797076",
       "lng": "135.35169",
-      "id": "ramen-257"
+      "id": "ramen-457"
     },
     {
       "name": "梅花亭",
@@ -2329,7 +4129,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_25000980",
       "lat": "35.368833",
       "lng": "136.281861",
-      "id": "ramen-258"
+      "id": "ramen-458"
     },
     {
       "name": "元祖赤のれん 節ちゃんラーメン 天神本店",
@@ -2338,7 +4138,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40035496",
       "lat": "33.589167",
       "lng": "130.395823",
-      "id": "ramen-259"
+      "id": "ramen-459"
     },
     {
       "name": "支那そば 王王軒 本店",
@@ -2347,7 +4147,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_36000071",
       "lat": "34.11285",
       "lng": "134.490819",
-      "id": "ramen-260"
+      "id": "ramen-460"
     },
     {
       "name": "麺屋 優光",
@@ -2356,7 +4156,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26029638",
       "lat": "35.009785",
       "lng": "135.759408",
-      "id": "ramen-261"
+      "id": "ramen-461"
     },
     {
       "name": "麺屋 たけ井 本店",
@@ -2365,7 +4165,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26017227",
       "lat": "34.835573",
       "lng": "135.791794",
-      "id": "ramen-262"
+      "id": "ramen-462"
     },
     {
       "name": "麺処 鶏谷",
@@ -2374,7 +4174,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26023597",
       "lat": "35.003655",
       "lng": "135.723908",
-      "id": "ramen-263"
+      "id": "ramen-463"
     },
     {
       "name": "山為食堂",
@@ -2383,7 +4183,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30000037",
       "lat": "34.233261",
       "lng": "135.171109",
-      "id": "ramen-264"
+      "id": "ramen-464"
     },
     {
       "name": "Gion Duck Noodles",
@@ -2392,7 +4192,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26031755",
       "lat": "35.004327",
       "lng": "135.776787",
-      "id": "ramen-265"
+      "id": "ramen-465"
     },
     {
       "name": "MENYA BIBIRI",
@@ -2401,7 +4201,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29010427",
       "lat": "34.662161",
       "lng": "135.788798",
-      "id": "ramen-266"
+      "id": "ramen-466"
     },
     {
       "name": "いっぽし",
@@ -2410,7 +4210,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28038421",
       "lat": "34.711548",
       "lng": "135.241063",
-      "id": "ramen-267"
+      "id": "ramen-467"
     },
     {
       "name": "博多とんこつ 真咲雄",
@@ -2419,7 +4219,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_25003987",
       "lat": "35.049311",
       "lng": "135.949842",
-      "id": "ramen-268"
+      "id": "ramen-468"
     },
     {
       "name": "中華そば おしたに",
@@ -2428,7 +4228,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29010416",
       "lat": "34.678834",
       "lng": "135.788674",
-      "id": "ramen-269"
+      "id": "ramen-469"
     },
     {
       "name": "らーめんや亜喜英",
@@ -2437,7 +4237,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26002155",
       "lat": "35.046057",
       "lng": "135.786847",
-      "id": "ramen-270"
+      "id": "ramen-470"
     },
     {
       "name": "まほろば",
@@ -2446,7 +4246,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_18007900",
       "lat": "36.047064",
       "lng": "136.185999",
-      "id": "ramen-271"
+      "id": "ramen-471"
     },
     {
       "name": "中華そば専門店 井出商店",
@@ -2455,7 +4255,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30000031",
       "lat": "34.22847",
       "lng": "135.189461",
-      "id": "ramen-272"
+      "id": "ramen-472"
     },
     {
       "name": "いのたに 本店",
@@ -2464,7 +4264,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_36000011",
       "lat": "34.074509",
       "lng": "134.543042",
-      "id": "ramen-273"
+      "id": "ramen-473"
     },
     {
       "name": "丸星ラーメン",
@@ -2473,7 +4273,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40000225",
       "lat": "33.334095",
       "lng": "130.526296",
-      "id": "ramen-274"
+      "id": "ramen-474"
     },
     {
       "name": "清乃 近鉄百貨店和歌山店",
@@ -2482,7 +4282,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30007393",
       "lat": "34.232871",
       "lng": "135.190629",
-      "id": "ramen-275"
+      "id": "ramen-475"
     },
     {
       "name": "魁龍 博多本店",
@@ -2491,7 +4291,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40001034",
       "lat": "33.578151",
       "lng": "130.445486",
-      "id": "ramen-276"
+      "id": "ramen-476"
     },
     {
       "name": "ぎょらん亭 本店",
@@ -2500,7 +4300,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40000363",
       "lat": "33.868524",
       "lng": "130.887854",
-      "id": "ramen-277"
+      "id": "ramen-477"
     },
     {
       "name": "拉麺男",
@@ -2509,7 +4309,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_45000172",
       "lat": "31.951331",
       "lng": "131.44283",
-      "id": "ramen-278"
+      "id": "ramen-478"
     },
     {
       "name": "金田家 本店",
@@ -2518,7 +4318,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40017922",
       "lat": "33.729549",
       "lng": "130.982245",
-      "id": "ramen-279"
+      "id": "ramen-479"
     },
     {
       "name": "安全食堂",
@@ -2527,7 +4327,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40000509",
       "lat": "33.581897",
       "lng": "130.260453",
-      "id": "ramen-280"
+      "id": "ramen-480"
     },
     {
       "name": "麺屋 一徳",
@@ -2536,7 +4336,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29001646",
       "lat": "34.598604",
       "lng": "135.836018",
-      "id": "ramen-281"
+      "id": "ramen-481"
     },
     {
       "name": "らーめん 与七 堅田店",
@@ -2545,7 +4345,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_25005689",
       "lat": "35.124237",
       "lng": "135.918798",
-      "id": "ramen-282"
+      "id": "ramen-482"
     },
     {
       "name": "Clutch Hitter",
@@ -2554,7 +4354,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28046105",
       "lat": "34.792644",
       "lng": "135.398889",
-      "id": "ramen-283"
+      "id": "ramen-483"
     },
     {
       "name": "ラーメン家 みつ葉 the second",
@@ -2563,7 +4363,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29010664",
       "lat": "34.614848",
       "lng": "135.743716",
-      "id": "ramen-284"
+      "id": "ramen-484"
     },
     {
       "name": "麺や　福座",
@@ -2572,7 +4372,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_17002724",
       "lat": "36.541477",
       "lng": "136.639251",
-      "id": "ramen-285"
+      "id": "ramen-485"
     },
     {
       "name": "重厚軍団",
@@ -2581,7 +4381,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26003582",
       "lat": "35.046608",
       "lng": "135.78498",
-      "id": "ramen-286"
+      "id": "ramen-486"
     },
     {
       "name": "丸幸ラーメンセンター 基山本店",
@@ -2590,7 +4390,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_41000021",
       "lat": "33.428517",
       "lng": "130.533328",
-      "id": "ramen-287"
+      "id": "ramen-487"
     },
     {
       "name": "丸三",
@@ -2599,7 +4399,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30000014",
       "lat": "34.197317",
       "lng": "135.177895",
-      "id": "ramen-288"
+      "id": "ramen-488"
     },
     {
       "name": "火の国文龍 総本店",
@@ -2608,7 +4408,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_43000770",
       "lat": "32.822659",
       "lng": "130.79082",
-      "id": "ramen-289"
+      "id": "ramen-489"
     },
     {
       "name": "らーめん 鶴武者",
@@ -2617,7 +4417,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26019331",
       "lat": "35.000515",
       "lng": "135.73015",
-      "id": "ramen-290"
+      "id": "ramen-490"
     },
     {
       "name": "風来房",
@@ -2626,7 +4426,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26003956",
       "lat": "34.921677",
       "lng": "135.70957",
-      "id": "ramen-291"
+      "id": "ramen-491"
     },
     {
       "name": "はじめ家",
@@ -2635,7 +4435,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_16000104",
       "lat": "36.824182",
       "lng": "137.418725",
-      "id": "ramen-292"
+      "id": "ramen-492"
     },
     {
       "name": "麺dining 月乃家",
@@ -2644,7 +4444,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_30003817",
       "lat": "34.060132",
       "lng": "135.210029",
-      "id": "ramen-293"
+      "id": "ramen-493"
     },
     {
       "name": "麺場 力皇",
@@ -2653,7 +4453,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_29008425",
       "lat": "34.606632",
       "lng": "135.835634",
-      "id": "ramen-294"
+      "id": "ramen-494"
     },
     {
       "name": "来来",
@@ -2662,7 +4462,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_40036441",
       "lat": "33.644357",
       "lng": "130.683377",
-      "id": "ramen-295"
+      "id": "ramen-495"
     },
     {
       "name": "熊本ラーメン 黒亭 本店",
@@ -2671,7 +4471,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_43000091",
       "lat": "32.786091",
       "lng": "130.691821",
-      "id": "ramen-296"
+      "id": "ramen-496"
     },
     {
       "name": "ラーメンたんろん 本店",
@@ -2680,7 +4480,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28008582",
       "lat": "34.741519",
       "lng": "135.339455",
-      "id": "ramen-297"
+      "id": "ramen-497"
     },
     {
       "name": "貝だし麺 きた田",
@@ -2689,7 +4489,7 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_26036754",
       "lat": "34.987286",
       "lng": "135.754773",
-      "id": "ramen-298"
+      "id": "ramen-498"
     },
     {
       "name": "METRO RAMEN",
@@ -2698,7 +4498,907 @@
       "code": "hyakumeiten_ramen_west_2024_restaurant_28054153",
       "lat": "34.692001",
       "lng": "135.192514",
-      "id": "ramen-299"
+      "id": "ramen-499"
+    },
+    {
+      "name": "中華蕎麦 とみ田",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12000422/",
+      "address": "千葉県松戸市松戸1339 高橋ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12000422",
+      "lat": "35.781751",
+      "lng": "139.900958",
+      "id": "ramen-500"
+    },
+    {
+      "name": "中華そば 深緑",
+      "url": "https://tabelog.com/saitama/A1105/A110502/11053248/",
+      "address": "埼玉県東松山市今泉297-11",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11053248",
+      "lat": "36.006233",
+      "lng": "139.43628",
+      "id": "ramen-501"
+    },
+    {
+      "name": "オランダ軒",
+      "url": "https://tabelog.com/saitama/A1101/A110103/11057845/",
+      "address": "埼玉県さいたま市岩槻区東岩槻6-1-4 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11057845",
+      "lat": "35.963315",
+      "lng": "139.714123",
+      "id": "ramen-502"
+    },
+    {
+      "name": "自家製手もみ麺 鈴ノ木",
+      "url": "https://tabelog.com/saitama/A1106/A110601/11048539/",
+      "address": "埼玉県所沢市狭山ヶ丘1-3003-83",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11048539",
+      "lat": "35.809711",
+      "lng": "139.415811",
+      "id": "ramen-503"
+    },
+    {
+      "name": "煮干中華ソバ イチカワ",
+      "url": "https://tabelog.com/ibaraki/A0802/A080201/8014295/",
+      "address": "茨城県つくば市天久保2-9-2 A101",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_8014295",
+      "lat": "36.098248",
+      "lng": "140.108304",
+      "id": "ramen-504"
+    },
+    {
+      "name": "らーめん かねかつ",
+      "url": "https://tabelog.com/saitama/A1101/A110102/11058235/",
+      "address": "埼玉県さいたま市浦和区北浦和3-1-6",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11058235",
+      "lat": "35.871742",
+      "lng": "139.647017",
+      "id": "ramen-505"
+    },
+    {
+      "name": "麦の空 GACHI SOBA DOJO",
+      "url": "https://tabelog.com/aichi/A2306/A230601/23077116/",
+      "address": "愛知県豊橋市神野新田町中道東246-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23077116",
+      "lat": "34.730301",
+      "lng": "137.35882",
+      "id": "ramen-506"
+    },
+    {
+      "name": "らぁ麺 紫陽花",
+      "url": "https://tabelog.com/aichi/A2301/A230112/23055953/",
+      "address": "愛知県名古屋市中川区八剱町4-20-1 コーポ源 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23055953",
+      "lat": "35.126806",
+      "lng": "136.879561",
+      "id": "ramen-507"
+    },
+    {
+      "name": "食煅 もみじ",
+      "url": "https://tabelog.com/saitama/A1104/A110402/11050143/",
+      "address": "埼玉県久喜市樋ノ口584-4",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11050143",
+      "lat": "36.03999",
+      "lng": "139.650292",
+      "id": "ramen-508"
+    },
+    {
+      "name": "中華そば 四つ葉",
+      "url": "https://tabelog.com/saitama/A1105/A110502/11034264/",
+      "address": "埼玉県比企郡川島町伊草298-20",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11034264",
+      "lat": "35.968253",
+      "lng": "139.468946",
+      "id": "ramen-509"
+    },
+    {
+      "name": "ヨコクラストアハウス",
+      "url": "https://tabelog.com/tochigi/A0902/A090203/9018935/",
+      "address": "栃木県小山市横倉596-76",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_9018935",
+      "lat": "36.281566",
+      "lng": "139.828857",
+      "id": "ramen-510"
+    },
+    {
+      "name": "小麦そば 池",
+      "url": "https://tabelog.com/nagano/A2002/A200201/20026169/",
+      "address": "長野県松本市中央1-25-1 犬飼ビル1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_20026169",
+      "lat": "36.233675",
+      "lng": "137.964678",
+      "id": "ramen-511"
+    },
+    {
+      "name": "支那ソバ　小むろ",
+      "url": "https://tabelog.com/chiba/A1202/A120202/12035648/",
+      "address": "千葉県市川市末広1-18-13 SATOMI-4番館",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12035648",
+      "lat": "35.68376",
+      "lng": "139.91817",
+      "id": "ramen-512"
+    },
+    {
+      "name": "つけソバ いしい",
+      "url": "https://tabelog.com/chiba/A1202/A120202/12055768/",
+      "address": "千葉県市川市市川3‐27‐20 ライオンズステーションプラザ市川・国府台 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12055768",
+      "lat": "35.737355",
+      "lng": "139.902764",
+      "id": "ramen-513"
+    },
+    {
+      "name": "らぁ麺 麦一粒",
+      "url": "https://tabelog.com/nagano/A2005/A200502/20021423/",
+      "address": "長野県北安曇郡松川村赤芝7002-3",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_20021423",
+      "lat": "36.41703",
+      "lng": "137.858552",
+      "id": "ramen-514"
+    },
+    {
+      "name": "らぁ麺 飛鶏",
+      "url": "https://tabelog.com/aichi/A2303/A230301/23051026/",
+      "address": "愛知県春日井市御幸町3-4-6",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23051026",
+      "lat": "35.221591",
+      "lng": "136.943658",
+      "id": "ramen-515"
+    },
+    {
+      "name": "ぜんや",
+      "url": "https://tabelog.com/saitama/A1103/A110301/11000014/",
+      "address": "埼玉県新座市野火止4-10-5",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11000014",
+      "lat": "35.798826",
+      "lng": "139.556545",
+      "id": "ramen-516"
+    },
+    {
+      "name": "兎に角 松戸本店",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12001198/",
+      "address": "千葉県松戸市根本462 比嘉ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12001198",
+      "lat": "35.785838",
+      "lng": "139.901765",
+      "id": "ramen-517"
+    },
+    {
+      "name": "ラーメン 杉田家 千葉祐光店",
+      "url": "https://tabelog.com/chiba/A1201/A120101/12025333/",
+      "address": "千葉県千葉市中央区祐光4-17-7",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12025333",
+      "lat": "35.618971",
+      "lng": "140.131468",
+      "id": "ramen-518"
+    },
+    {
+      "name": "とら食堂",
+      "url": "https://tabelog.com/fukushima/A0703/A070301/7000016/",
+      "address": "福島県白河市双石滝ノ尻1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7000016",
+      "lat": "37.112624",
+      "lng": "140.260494",
+      "id": "ramen-519"
+    },
+    {
+      "name": "豚骨醤油ラーメン 王道家 柏店",
+      "url": "https://tabelog.com/chiba/A1203/A120301/12047768/",
+      "address": "千葉県柏市明原1-7-26",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12047768",
+      "lat": "35.86299",
+      "lng": "139.967405",
+      "id": "ramen-520"
+    },
+    {
+      "name": "中華そば よしかわ 上尾店",
+      "url": "https://tabelog.com/saitama/A1104/A110401/11036997/",
+      "address": "埼玉県上尾市南97-5",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11036997",
+      "lat": "35.99561",
+      "lng": "139.586618",
+      "id": "ramen-521"
+    },
+    {
+      "name": "麺処 有彩",
+      "url": "https://tabelog.com/saitama/A1102/A110201/11038476/",
+      "address": "埼玉県川口市西川口1-8-5",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11038476",
+      "lat": "35.815979",
+      "lng": "139.703247",
+      "id": "ramen-522"
+    },
+    {
+      "name": "とら食堂 松戸分店",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12026940/",
+      "address": "千葉県松戸市紙敷1-8-6",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12026940",
+      "lat": "35.776029",
+      "lng": "139.957819",
+      "id": "ramen-523"
+    },
+    {
+      "name": "らーめん芝浜",
+      "url": "https://tabelog.com/gunma/A1002/A100201/10014488/",
+      "address": "群馬県桐生市相生町1-303-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_10014488",
+      "lat": "36.404235",
+      "lng": "139.316848",
+      "id": "ramen-524"
+    },
+    {
+      "name": "中華そば専門 とんちぼ",
+      "url": "https://tabelog.com/saitama/A1106/A110603/11045493/",
+      "address": "埼玉県日高市栗坪26-46",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11045493",
+      "lat": "35.886616",
+      "lng": "139.312399",
+      "id": "ramen-525"
+    },
+    {
+      "name": "坂内食堂",
+      "url": "https://tabelog.com/fukushima/A0706/A070601/7000007/",
+      "address": "福島県喜多方市字細田7230",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7000007",
+      "lat": "37.651059",
+      "lng": "139.873463",
+      "id": "ramen-526"
+    },
+    {
+      "name": "麺家 獅子丸",
+      "url": "https://tabelog.com/aichi/A2301/A230101/23060674/",
+      "address": "愛知県名古屋市中村区亀島2-1-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23060674",
+      "lat": "35.174263",
+      "lng": "136.879427",
+      "id": "ramen-527"
+    },
+    {
+      "name": "青竹手打ラーメン 日向屋",
+      "url": "https://tabelog.com/tochigi/A0902/A090202/9009352/",
+      "address": "栃木県佐野市免鳥町548-7",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_9009352",
+      "lat": "36.311553",
+      "lng": "139.548969",
+      "id": "ramen-528"
+    },
+    {
+      "name": "寿製麺 よしかわ 川越店",
+      "url": "https://tabelog.com/saitama/A1103/A110303/11040851/",
+      "address": "埼玉県川越市今福1738-14",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11040851",
+      "lat": "35.876049",
+      "lng": "139.47445",
+      "id": "ramen-529"
+    },
+    {
+      "name": "頑者 本店",
+      "url": "https://tabelog.com/saitama/A1103/A110303/11000150/",
+      "address": "埼玉県川越市新富町1-1-8",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11000150",
+      "lat": "35.915099",
+      "lng": "139.482594",
+      "id": "ramen-530"
+    },
+    {
+      "name": "次念序",
+      "url": "https://tabelog.com/saitama/A1104/A110401/11001881/",
+      "address": "埼玉県鴻巣市滝馬室214-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11001881",
+      "lat": "36.054348",
+      "lng": "139.510403",
+      "id": "ramen-531"
+    },
+    {
+      "name": "和風楽麺 四代目 ひのでや",
+      "url": "https://tabelog.com/saitama/A1104/A110402/11030891/",
+      "address": "埼玉県蓮田市本町2-21 田中電機ビル 1F・2F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11030891",
+      "lat": "35.981062",
+      "lng": "139.652059",
+      "id": "ramen-532"
+    },
+    {
+      "name": "らぁ麺や 汐そば雫",
+      "url": "https://tabelog.com/aichi/A2301/A230112/23050560/",
+      "address": "愛知県名古屋市瑞穂区下坂町4-15 スターリア1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23050560",
+      "lat": "35.122793",
+      "lng": "136.925673",
+      "id": "ramen-533"
+    },
+    {
+      "name": "伊達屋",
+      "url": "https://tabelog.com/fukushima/A0701/A070101/7001032/",
+      "address": "福島県福島市南沢又字下番匠田22",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7001032",
+      "lat": "37.784293",
+      "lng": "140.439966",
+      "id": "ramen-534"
+    },
+    {
+      "name": "煮干乱舞",
+      "url": "https://tabelog.com/saitama/A1102/A110204/11043059/",
+      "address": "埼玉県春日部市大場1114-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11043059",
+      "lat": "35.948872",
+      "lng": "139.769794",
+      "id": "ramen-535"
+    },
+    {
+      "name": "中華ソバ 篤々",
+      "url": "https://tabelog.com/chiba/A1202/A120204/12040080/",
+      "address": "千葉県八千代市勝田台1-5-27",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12040080",
+      "lat": "35.714728",
+      "lng": "140.124371",
+      "id": "ramen-536"
+    },
+    {
+      "name": "麺屋 ようすけ",
+      "url": "https://tabelog.com/tochigi/A0902/A090202/9012617/",
+      "address": "栃木県佐野市田島町232",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_9012617",
+      "lat": "36.291074",
+      "lng": "139.564188",
+      "id": "ramen-537"
+    },
+    {
+      "name": "ラーメン専門店 徳川町 如水",
+      "url": "https://tabelog.com/aichi/A2301/A230110/23000971/",
+      "address": "愛知県名古屋市東区徳川町201",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23000971",
+      "lat": "35.183043",
+      "lng": "136.928395",
+      "id": "ramen-538"
+    },
+    {
+      "name": "仙台中華そば 銘店嘉一 国分町店",
+      "url": "https://tabelog.com/miyagi/A0401/A040101/4009075/",
+      "address": "宮城県仙台市青葉区国分町3-8-12",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_4009075",
+      "lat": "38.267684",
+      "lng": "140.868427",
+      "id": "ramen-539"
+    },
+    {
+      "name": "らーめん奏",
+      "url": "https://tabelog.com/aichi/A2301/A230106/23056955/",
+      "address": "愛知県名古屋市昭和区阿由知通1-9",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23056955",
+      "lat": "35.156601",
+      "lng": "136.935139",
+      "id": "ramen-540"
+    },
+    {
+      "name": "りきどう",
+      "url": "https://tabelog.com/gifu/A2101/A210101/21013064/",
+      "address": "岐阜県岐阜市島栄町2-53",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_21013064",
+      "lat": "35.432463",
+      "lng": "136.74466",
+      "id": "ramen-541"
+    },
+    {
+      "name": "らぁ麺 めん奏心",
+      "url": "https://tabelog.com/shizuoka/A2203/A220302/22019502/",
+      "address": "静岡県島田市金谷栄町3538",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_22019502",
+      "lat": "34.830846",
+      "lng": "138.129196",
+      "id": "ramen-542"
+    },
+    {
+      "name": "麺処 はら田",
+      "url": "https://tabelog.com/saitama/A1101/A110102/11049834/",
+      "address": "埼玉県さいたま市南区南浦和2-28-13",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11049834",
+      "lat": "35.849209",
+      "lng": "139.671219",
+      "id": "ramen-543"
+    },
+    {
+      "name": "味処 むさし野",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12000080/",
+      "address": "千葉県松戸市松戸新田133-4",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12000080",
+      "lat": "35.782912",
+      "lng": "139.918152",
+      "id": "ramen-544"
+    },
+    {
+      "name": "杭州飯店",
+      "url": "https://tabelog.com/niigata/A1501/A150102/15000002/",
+      "address": "新潟県燕市燕49-4",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_15000002",
+      "lat": "37.675282",
+      "lng": "138.913023",
+      "id": "ramen-545"
+    },
+    {
+      "name": "はりけんラーメン 本店",
+      "url": "https://tabelog.com/ibaraki/A0802/A080201/8012178/",
+      "address": "茨城県つくば市栗原2857-8",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_8012178",
+      "lat": "36.119208",
+      "lng": "140.113694",
+      "id": "ramen-546"
+    },
+    {
+      "name": "いち井",
+      "url": "https://tabelog.com/niigata/A1502/A150201/15000043/",
+      "address": "新潟県長岡市曙1-1-5",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_15000043",
+      "lat": "37.425042",
+      "lng": "138.848908",
+      "id": "ramen-547"
+    },
+    {
+      "name": "中華蕎麦 生る",
+      "url": "https://tabelog.com/aichi/A2301/A230106/23061894/",
+      "address": "愛知県名古屋市千種区豊年町3-18",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23061894",
+      "lat": "35.177703",
+      "lng": "136.938814",
+      "id": "ramen-548"
+    },
+    {
+      "name": "自家製麺 うろた",
+      "url": "https://tabelog.com/fukushima/A0701/A070101/7012906/",
+      "address": "福島県福島市新町3-14 上州ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7012906",
+      "lat": "37.755861",
+      "lng": "140.467567",
+      "id": "ramen-549"
+    },
+    {
+      "name": "らーめんNageyari",
+      "url": "https://tabelog.com/gifu/A2101/A210102/21000295/",
+      "address": "岐阜県各務原市那加野畑町2-53",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_21000295",
+      "lat": "35.406647",
+      "lng": "136.831924",
+      "id": "ramen-550"
+    },
+    {
+      "name": "中華蕎麦うゑず",
+      "url": "https://tabelog.com/yamanashi/A1901/A190101/19008413/",
+      "address": "山梨県中巨摩郡昭和町清水新居59-1 サンシャイン平岩 103",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_19008413",
+      "lat": "35.650711",
+      "lng": "138.543694",
+      "id": "ramen-551"
+    },
+    {
+      "name": "濃麺 海月",
+      "url": "https://tabelog.com/chiba/A1201/A120101/12033982/",
+      "address": "千葉県千葉市中央区要町1-4",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12033982",
+      "lat": "35.615787",
+      "lng": "140.121228",
+      "id": "ramen-552"
+    },
+    {
+      "name": "自家製麺 くろ松",
+      "url": "https://tabelog.com/gunma/A1001/A100102/10017627/",
+      "address": "群馬県高崎市柳川町9-5",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_10017627",
+      "lat": "36.327317",
+      "lng": "139.002737",
+      "id": "ramen-553"
+    },
+    {
+      "name": "えびそば 緋彩",
+      "url": "https://tabelog.com/aichi/A2301/A230112/23072604/",
+      "address": "愛知県名古屋市瑞穂区明前町13-19 堀田グリーンハイツ 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23072604",
+      "lat": "35.111783",
+      "lng": "136.921572",
+      "id": "ramen-554"
+    },
+    {
+      "name": "ヌードル＆スパイスカレー 今日の1番",
+      "url": "https://tabelog.com/saitama/A1102/A110201/11052642/",
+      "address": "埼玉県川口市飯塚3-2-12",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11052642",
+      "lat": "35.801575",
+      "lng": "139.710654",
+      "id": "ramen-555"
+    },
+    {
+      "name": "麺屋さくら",
+      "url": "https://tabelog.com/aichi/A2304/A230402/23036504/",
+      "address": "愛知県半田市出口町1-45-16",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23036504",
+      "lat": "34.90231",
+      "lng": "136.924375",
+      "id": "ramen-556"
+    },
+    {
+      "name": "松戸中華そば 富田食堂",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12042171/",
+      "address": "千葉県松戸市松戸1239-1 関根ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12042171",
+      "lat": "35.78322",
+      "lng": "139.901465",
+      "id": "ramen-557"
+    },
+    {
+      "name": "なるとや",
+      "url": "https://tabelog.com/aichi/A2301/A230104/23005819/",
+      "address": "愛知県名古屋市中区栄4-7-13 木村ビルディング １Ｆ",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23005819",
+      "lat": "35.16741",
+      "lng": "136.914494",
+      "id": "ramen-558"
+    },
+    {
+      "name": "さんくるげ",
+      "url": "https://tabelog.com/fukushima/A0702/A070203/7015807/",
+      "address": "福島県田村市滝根町神俣梵天川52",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7015807",
+      "lat": "37.32436",
+      "lng": "140.658031",
+      "id": "ramen-559"
+    },
+    {
+      "name": "狼煙 本店",
+      "url": "https://tabelog.com/saitama/A1101/A110101/11004115/",
+      "address": "埼玉県さいたま市北区東大成町1-544",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11004115",
+      "lat": "35.923998",
+      "lng": "139.622189",
+      "id": "ramen-560"
+    },
+    {
+      "name": "ラーメンショップ 牛久結束店",
+      "url": "https://tabelog.com/ibaraki/A0803/A080302/8011099/",
+      "address": "茨城県牛久市結束町504-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_8011099",
+      "lat": "35.966209",
+      "lng": "140.170888",
+      "id": "ramen-561"
+    },
+    {
+      "name": "湯河原 飯田商店 ららぽーと沼津店",
+      "url": "https://tabelog.com/shizuoka/A2205/A220501/22035546/",
+      "address": "静岡県沼津市東椎路字東荒301-3 ららぽーと沼津 3F フードコート内",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_22035546",
+      "lat": "35.118874",
+      "lng": "138.840259",
+      "id": "ramen-562"
+    },
+    {
+      "name": "酒楽亭 空庵",
+      "url": "https://tabelog.com/aichi/A2301/A230112/23051081/",
+      "address": "愛知県名古屋市緑区武路町122",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23051081",
+      "lat": "35.06175",
+      "lng": "136.970586",
+      "id": "ramen-563"
+    },
+    {
+      "name": "手揉み中華そば 中村",
+      "url": "https://tabelog.com/saitama/A1101/A110101/11053705/",
+      "address": "埼玉県さいたま市大宮区下町1-30-3",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11053705",
+      "lat": "35.903636",
+      "lng": "139.627149",
+      "id": "ramen-564"
+    },
+    {
+      "name": "麦の道 すぐれ",
+      "url": "https://tabelog.com/aichi/A2302/A230201/23062847/",
+      "address": "愛知県一宮市本町3-5-2",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23062847",
+      "lat": "35.303201",
+      "lng": "136.802519",
+      "id": "ramen-565"
+    },
+    {
+      "name": "とものもと",
+      "url": "https://tabelog.com/chiba/A1202/A120201/12049054/",
+      "address": "千葉県船橋市本町7-23-14 文平ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12049054",
+      "lat": "35.706652",
+      "lng": "139.981914",
+      "id": "ramen-566"
+    },
+    {
+      "name": "手打 焔",
+      "url": "https://tabelog.com/tochigi/A0905/A090501/9011436/",
+      "address": "栃木県那須塩原市上厚崎374-2",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_9011436",
+      "lat": "36.96202",
+      "lng": "140.029048",
+      "id": "ramen-567"
+    },
+    {
+      "name": "麺道 麒麟児",
+      "url": "https://tabelog.com/nagano/A2001/A200101/20017737/",
+      "address": "長野県長野市川中島町原657-4",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_20017737",
+      "lat": "36.58396",
+      "lng": "138.15011",
+      "id": "ramen-568"
+    },
+    {
+      "name": "らぁめん 喜乃壺",
+      "url": "https://tabelog.com/ibaraki/A0802/A080201/8010935/",
+      "address": "茨城県つくば市稲岡728-13",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_8010935",
+      "lat": "36.032964",
+      "lng": "140.14062",
+      "id": "ramen-569"
+    },
+    {
+      "name": "The Noodles & Saloon Kiriya",
+      "url": "https://tabelog.com/chiba/A1203/A120305/12040892/",
+      "address": "千葉県流山市西初石4-475-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12040892",
+      "lat": "35.881485",
+      "lng": "139.916619",
+      "id": "ramen-570"
+    },
+    {
+      "name": "ユナイテッド ヌードル アメノオト",
+      "url": "https://tabelog.com/tochigi/A0902/A090202/9016306/",
+      "address": "栃木県佐野市堀米町455-1 シルフィード 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_9016306",
+      "lat": "36.327068",
+      "lng": "139.588388",
+      "id": "ramen-571"
+    },
+    {
+      "name": "中華蕎麦 鳴神食堂",
+      "url": "https://tabelog.com/gunma/A1001/A100102/10021905/",
+      "address": "群馬県高崎市中泉町142-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_10021905",
+      "lat": "36.374148",
+      "lng": "139.000804",
+      "id": "ramen-572"
+    },
+    {
+      "name": "ラーメン濱野家",
+      "url": "https://tabelog.com/chiba/A1206/A120601/12050938/",
+      "address": "千葉県市原市五井2442-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12050938",
+      "lat": "35.51743",
+      "lng": "140.085156",
+      "id": "ramen-573"
+    },
+    {
+      "name": "中華蕎麦 柳",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12056433/",
+      "address": "千葉県松戸市殿平賀82",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12056433",
+      "lat": "35.835402",
+      "lng": "139.930492",
+      "id": "ramen-574"
+    },
+    {
+      "name": "赤坂味一",
+      "url": "https://tabelog.com/chiba/A1202/A120201/12000108/",
+      "address": "千葉県船橋市湊町2-2-19",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12000108",
+      "lat": "35.695814",
+      "lng": "139.983812",
+      "id": "ramen-575"
+    },
+    {
+      "name": "らーめん大金",
+      "url": "https://tabelog.com/tochigi/A0902/A090202/9006290/",
+      "address": "栃木県佐野市大橋町3229-7",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_9006290",
+      "lat": "36.307799",
+      "lng": "139.564025",
+      "id": "ramen-576"
+    },
+    {
+      "name": "中華そば 幻六",
+      "url": "https://tabelog.com/saitama/A1103/A110301/11035642/",
+      "address": "埼玉県朝霞市東弁財1-3-10",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11035642",
+      "lat": "35.814047",
+      "lng": "139.586335",
+      "id": "ramen-577"
+    },
+    {
+      "name": "麺家 喜多楽",
+      "url": "https://tabelog.com/aichi/A2301/A230105/23000186/",
+      "address": "愛知県名古屋市中区橘1-28-6 近藤ビル １Ｆ",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23000186",
+      "lat": "35.152566",
+      "lng": "136.904496",
+      "id": "ramen-578"
+    },
+    {
+      "name": "らーめん カッパハウス",
+      "url": "https://tabelog.com/saitama/A1106/A110601/11035922/",
+      "address": "埼玉県所沢市旭町2-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11035922",
+      "lat": "35.789476",
+      "lng": "139.473962",
+      "id": "ramen-579"
+    },
+    {
+      "name": "中華そば ひらこ屋",
+      "url": "https://tabelog.com/aomori/A0201/A020101/2000625/",
+      "address": "青森県青森市新城山田588-16",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_2000625",
+      "lat": "40.832843",
+      "lng": "140.66945",
+      "id": "ramen-580"
+    },
+    {
+      "name": "食堂 はせ川",
+      "url": "https://tabelog.com/fukushima/A0706/A070601/7000009/",
+      "address": "福島県喜多方市大荒井6",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7000009",
+      "lat": "37.670671",
+      "lng": "139.864107",
+      "id": "ramen-581"
+    },
+    {
+      "name": "中華そば まるき",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12000228/",
+      "address": "千葉県松戸市小根本51-2 １Ｆ",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12000228",
+      "lat": "35.78744",
+      "lng": "139.904734",
+      "id": "ramen-582"
+    },
+    {
+      "name": "柳麺 呉田",
+      "url": "https://tabelog.com/saitama/A1101/A110102/11038398/",
+      "address": "埼玉県さいたま市浦和区常盤9-16-7",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11038398",
+      "lat": "35.870707",
+      "lng": "139.647149",
+      "id": "ramen-583"
+    },
+    {
+      "name": "Handicraft Works",
+      "url": "https://tabelog.com/saitama/A1102/A110205/11044340/",
+      "address": "埼玉県八潮市伊勢野111-1",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11044340",
+      "lat": "35.809951",
+      "lng": "139.856383",
+      "id": "ramen-584"
+    },
+    {
+      "name": "麺処 にし尾",
+      "url": "https://tabelog.com/chiba/A1203/A120301/12054858/",
+      "address": "千葉県柏市東1-2-45 石戸第3ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12054858",
+      "lat": "35.857902",
+      "lng": "139.976692",
+      "id": "ramen-585"
+    },
+    {
+      "name": "ラーメン二郎 京成大久保店",
+      "url": "https://tabelog.com/chiba/A1202/A120204/12000911/",
+      "address": "千葉県船橋市三山2-1-11",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12000911",
+      "lat": "35.6915",
+      "lng": "140.049622",
+      "id": "ramen-586"
+    },
+    {
+      "name": "だし・麺 未蕾",
+      "url": "https://tabelog.com/aichi/A2306/A230603/23066516/",
+      "address": "愛知県蒲郡市本町1-25",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23066516",
+      "lat": "34.827023",
+      "lng": "137.22807",
+      "id": "ramen-587"
+    },
+    {
+      "name": "喜一",
+      "url": "https://tabelog.com/fukushima/A0706/A070601/7000556/",
+      "address": "福島県喜多方市関柴町上高額境田635-7",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7000556",
+      "lat": "37.647159",
+      "lng": "139.882323",
+      "id": "ramen-588"
+    },
+    {
+      "name": "自家製麺 公園前",
+      "url": "https://tabelog.com/aichi/A2305/A230502/23056524/",
+      "address": "愛知県岡崎市柱4-8-16",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23056524",
+      "lat": "34.922714",
+      "lng": "137.150332",
+      "id": "ramen-589"
+    },
+    {
+      "name": "ラーメン二郎 大宮公園駅前店",
+      "url": "https://tabelog.com/saitama/A1101/A110101/11052604/",
+      "address": "埼玉県さいたま市大宮区寿能町1-24 前場ビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11052604",
+      "lat": "35.922525",
+      "lng": "139.631959",
+      "id": "ramen-590"
+    },
+    {
+      "name": "麺 㐂色",
+      "url": "https://tabelog.com/gifu/A2101/A210102/21019373/",
+      "address": "岐阜県羽島郡岐南町上印食9-101",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_21019373",
+      "lat": "35.389687",
+      "lng": "136.785266",
+      "id": "ramen-591"
+    },
+    {
+      "name": "だし廊",
+      "url": "https://tabelog.com/miyagi/A0401/A040101/4019493/",
+      "address": "宮城県仙台市青葉区一番町2-2-11 TKビル 1F",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_4019493",
+      "lat": "38.258629",
+      "lng": "140.874845",
+      "id": "ramen-592"
+    },
+    {
+      "name": "みずさわ屋",
+      "url": "https://tabelog.com/miyagi/A0401/A040101/4000181/",
+      "address": "宮城県仙台市青葉区栗生5-22-3",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_4000181",
+      "lat": "38.26912",
+      "lng": "140.790369",
+      "id": "ramen-593"
+    },
+    {
+      "name": "中華蕎麦 瑞山",
+      "url": "https://tabelog.com/saitama/A1103/A110301/11024713/",
+      "address": "埼玉県朝霞市本町2-8-15",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11024713",
+      "lat": "35.799157",
+      "lng": "139.596012",
+      "id": "ramen-594"
+    },
+    {
+      "name": "ケンチャンラーメン 山形",
+      "url": "https://tabelog.com/yamagata/A0601/A060101/6000555/",
+      "address": "山形県山形市西田2-1-17",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_6000555",
+      "lat": "38.266732",
+      "lng": "140.316071",
+      "id": "ramen-595"
+    },
+    {
+      "name": "麺屋 桐龍",
+      "url": "https://tabelog.com/saitama/A1102/A110201/11028693/",
+      "address": "埼玉県川口市戸塚3-36-18",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_11028693",
+      "lat": "35.867537",
+      "lng": "139.752403",
+      "id": "ramen-596"
+    },
+    {
+      "name": "ラーメン二郎 松戸駅前店",
+      "url": "https://tabelog.com/chiba/A1203/A120302/12000236/",
+      "address": "千葉県松戸市本町17-21",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_12000236",
+      "lat": "35.786019",
+      "lng": "139.899414",
+      "id": "ramen-597"
+    },
+    {
+      "name": "春木屋 郡山分店",
+      "url": "https://tabelog.com/fukushima/A0702/A070201/7000025/",
+      "address": "福島県郡山市桑野2-16-13",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_7000025",
+      "lat": "37.405134",
+      "lng": "140.35524",
+      "id": "ramen-598"
+    },
+    {
+      "name": "麺屋 一八",
+      "url": "https://tabelog.com/aichi/A2304/A230402/23000973/",
+      "address": "愛知県知多郡武豊町鹿ノ子田2-60",
+      "code": "hyakumeiten_ramen_east_2024_restaurant_23000973",
+      "lat": "34.869017",
+      "lng": "136.905686",
+      "id": "ramen-599"
     }
   ]
 }
