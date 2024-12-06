@@ -79,11 +79,7 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {/* @ts-ignore */}
-        <MarkerClusterGroup
-          zoomToBoundsOnClick={true}
-          disableClusteringAtZoom={10}
-          maxClusterRadius={5}
-        >
+        <MarkerClusterGroup maxClusterRadius={40}>
           {markerItems
             .filter((item) => markerVisibility[item.category])
             .map((item, index) => (
