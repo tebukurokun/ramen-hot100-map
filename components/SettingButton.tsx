@@ -26,7 +26,7 @@ export const SettingButton = ({
   onClick: () => void;
 }): JSX.Element => {
   return (
-    <StyledButton onClick={onClick}>
+    <StyledButton onClick={onClick} aria-label="マーカーの表示設定を開く">
       <StyledIcon />
     </StyledButton>
   );

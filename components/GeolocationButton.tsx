@@ -85,7 +85,11 @@ export const GeolocationButton = (): JSX.Element => {
   }, [getCurrentLocation]);
 
   return (
-    <StyledButton onClick={getCurrentLocation} disabled={isLoading}>
+    <StyledButton
+      onClick={getCurrentLocation}
+      disabled={isLoading}
+      aria-label="現在位置に移動する"
+    >
       <StyledIcon isLoading={isLoading} />
     </StyledButton>
   );
