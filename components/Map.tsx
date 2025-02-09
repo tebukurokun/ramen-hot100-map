@@ -14,18 +14,6 @@ import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
 
-// 地図の中心を動的に更新するコンポーネント
-const UpdateMapCenter = () => {
-  const center = useAtomValue(mapCenterAtom); // 現在の中心を取得
-  const map = useMap(); // Leafletの地図インスタンスを取得
-
-  useEffect(() => {
-    map.setView(center, map.getZoom()); // 中心を更新
-  }, [center, map]);
-
-  return null;
-};
-
 /**
  * マーカーのエレメント生成.
  * @param shop
@@ -113,6 +101,18 @@ const Map = ({
       </div>
     );
   }
+
+  // 地図の中心を動的に更新するコンポーネント
+  const UpdateMapCenter = () => {
+    const center = useAtomValue(mapCenterAtom); // 現在の中心を取得
+    const map = useMap(); // Leafletの地図インスタンスを取得
+
+    useEffect(() => {
+      map.setView(center, map.getZoom()); // 中心を更新
+    }, [center, map]);
+
+    return null;
+  };
 
   return (
     <div>
