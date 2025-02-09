@@ -1,27 +1,18 @@
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { CircularProgress } from "@mui/material";
 import { useAtomValue } from "jotai";
 import L from "leaflet";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet/dist/leaflet.css";
-import { useEffect, useState } from "react";
+import { ReactNode, useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
-import { MarkerItem } from "../interfaces";
+import { Shop, ShopCategory } from "../interfaces";
 import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
-
-// Leaflet アイコンを動的に作成
-const createIcon = (iconUrl: string) => {
-  return L.icon({
-    iconUrl,
-    iconSize: [48, 48], // アイコンのサイズ（幅: 25px, 高さ: 41px）
-    iconAnchor: [24, 48], // 下中央 (幅の半分, 高さ)
-    popupAnchor: [0, -48], // ポップアップの位置
-  });
-};
 
 // 地図の中心を動的に更新するコンポーネント
 const UpdateMapCenter = () => {
@@ -35,7 +26,64 @@ const UpdateMapCenter = () => {
   return null;
 };
 
-const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
+/**
+ * マーカーのエレメント生成.
+ * @param shop
+ * @param category
+ * @param icon
+ * @returns
+ */
+const createMarker = (shop: Shop, iconUrl: string): ReactNode => {
+  return (
+    <Marker
+      key={shop.id}
+      position={[parseFloat(shop.lat), parseFloat(shop.lng)]}
+      icon={L.icon({
+        iconUrl: iconUrl,
+        iconSize: [48, 48], // アイコンのサイズ（幅: 48px, 高さ: 48px）
+        iconAnchor: [24, 48], // アイコンの中心下部
+        popupAnchor: [0, -48], // ポップアップの表示位置
+      })}
+    >
+      <Popup>
+        <div style={{ maxWidth: "120px" }}>
+          <p style={{ fontWeight: "bolder" }}>
+            <a
+              href={shop.url}
+              target="_blank"
+              rel={shop.url ? "noopener noreferrer" : undefined}
+            >
+              {shop.name}
+            </a>
+          </p>
+          <p>
+            <i>{ShopCategory["ramen"]}</i>
+          </p>
+          <p style={{ fontSize: "smaller" }}>
+            <LocationOnIcon fontSize="small" />
+            <a
+              href={`http://maps.google.co.jp/maps?q=${encodeURIComponent(
+                shop.name
+              )} ${encodeURIComponent(shop.address)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {shop.address}
+            </a>
+          </p>
+        </div>
+      </Popup>
+    </Marker>
+  );
+};
+
+const Map = ({
+  ramenShops,
+  udonShops,
+}: {
+  ramenShops: Shop[];
+  udonShops: Shop[];
+}) => {
   const [isClient, setIsClient] = useState(false);
 
   const center: [number, number] = useAtomValue(mapCenterAtom);
@@ -80,17 +128,14 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
         />
         {/* @ts-ignore */}
         <MarkerClusterGroup maxClusterRadius={40}>
-          {markerItems
-            .filter((item) => markerVisibility[item.category])
-            .map((item, index) => (
-              <Marker
-                position={item.position}
-                icon={createIcon(item.icon)}
-                key={`marker-${index}`}
-              >
-                <Popup>{item.popUp}</Popup>
-              </Marker>
-            ))}
+          {markerVisibility.ramen &&
+            ramenShops.map((shop) =>
+              createMarker(shop, "/static/marker-icons/ramen.png")
+            )}
+          {markerVisibility.udon &&
+            udonShops.map((shop) =>
+              createMarker(shop, "/static/marker-icons/udon.png")
+            )}
         </MarkerClusterGroup>
         <UpdateMapCenter /> {/* 地図の中心を動的に更新 */}
         <div
@@ -102,6 +147,7 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
             padding: "10px",
           }}
         >
+          {/* 設定ボタン */}
           <SettingButton onClick={() => setIsDialogOpen(true)} />
         </div>
         <SettingDialog isOpen={isDialogOpen} setIsOpen={setIsDialogOpen} />
@@ -121,4 +167,4 @@ const Map2 = ({ markerItems }: { markerItems: MarkerItem[] }) => {
   );
 };
 
-export default Map2;
+export default Map;

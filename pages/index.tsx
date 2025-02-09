@@ -1,9 +1,8 @@
-import LocationOnIcon from "@mui/icons-material/LocationOn";
 import fs from "fs";
 import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
-import { MarkerItem, Shop, ShopCategory } from "../interfaces";
+import { Shop } from "../interfaces";
 const Map = dynamic(() => import("../components/Map"), { ssr: false });
 
 type Props = {
@@ -14,61 +13,10 @@ type Props = {
 const version = process.env.NEXT_PUBLIC_APP_VERSION;
 console.info(`Hyakumeiten Map v${version}`);
 
-/**
- * マーカー用のオブジェクト作成.
- *
- * @param shop
- * @param category
- * @returns MarkerItem
- */
-const createMarkerItem = (
-  shop: Shop,
-  category: keyof typeof ShopCategory,
-  icon: string
-): MarkerItem => {
-  return {
-    category: category,
-    position: [parseFloat(shop.lat), parseFloat(shop.lng)],
-    icon: icon,
-    popUp: (
-      <div style={{ maxWidth: "120px" }}>
-        <p style={{ fontWeight: "bolder" }}>
-          <a href={shop.url} target="_blank" rel="noopener noreferrer">
-            {shop.name}
-          </a>
-        </p>
-        <p>
-          <i>{ShopCategory[category]}</i>
-        </p>
-        <p style={{ fontSize: "smaller" }}>
-          <LocationOnIcon fontSize="small" />
-          <a
-            href={`http://maps.google.co.jp/maps?q=${shop.name} ${shop.address}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {shop.address}
-          </a>
-        </p>
-      </div>
-    ),
-  };
-};
-
 const Home = ({ ramenShops, udonShops }: Props): JSX.Element => {
-  // マーカー用データを作成して渡す.
-  const markerItems: MarkerItem[] = [
-    ramenShops.map((shop) =>
-      createMarkerItem(shop, "ramen", "/static/marker-icons/ramen.png")
-    ),
-    udonShops.map((shop) =>
-      createMarkerItem(shop, "udon", "/static/marker-icons/udon.png")
-    ),
-  ].flat();
-
   return (
     <div>
-      <Map markerItems={markerItems}></Map>
+      <Map ramenShops={ramenShops} udonShops={udonShops}></Map>
     </div>
   );
 };
