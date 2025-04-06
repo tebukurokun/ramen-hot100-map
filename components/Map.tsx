@@ -68,9 +68,11 @@ const createMarker = (shop: Shop, iconUrl: string): ReactNode => {
 const Map = ({
   ramenShops,
   udonShops,
+  curryShops,
 }: {
   ramenShops: Shop[];
   udonShops: Shop[];
+  curryShops: Shop[];
 }) => {
   const [isClient, setIsClient] = useState(false);
 
@@ -135,6 +137,10 @@ const Map = ({
           {markerVisibility.udon &&
             udonShops.map((shop) =>
               createMarker(shop, "/static/marker-icons/udon.png")
+            )}
+          {markerVisibility.curry &&
+            curryShops.map((shop) =>
+              createMarker(shop, "/static/marker-icons/curry.png")
             )}
         </MarkerClusterGroup>
         <UpdateMapCenter /> {/* 地図の中心を動的に更新 */}

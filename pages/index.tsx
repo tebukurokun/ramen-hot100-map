@@ -8,15 +8,20 @@ const Map = dynamic(() => import("../components/Map"), { ssr: false });
 type Props = {
   ramenShops: Shop[];
   udonShops: Shop[];
+  curryShops: Shop[];
 };
 
 const version = process.env.NEXT_PUBLIC_APP_VERSION;
 console.info(`Hyakumeiten Map v${version}`);
 
-const Home = ({ ramenShops, udonShops }: Props): JSX.Element => {
+const Home = ({ ramenShops, udonShops, curryShops }: Props): JSX.Element => {
   return (
     <div>
-      <Map ramenShops={ramenShops} udonShops={udonShops}></Map>
+      <Map
+        ramenShops={ramenShops}
+        udonShops={udonShops}
+        curryShops={curryShops}
+      ></Map>
     </div>
   );
 };
@@ -40,10 +45,16 @@ export const getStaticProps: GetStaticProps = async () => {
     category: ShopCategory["udon"],
   }));
 
+  const curryShops = getShopDataFromJson("curry.json").map((shop: Shop) => ({
+    ...shop,
+    category: ShopCategory["curry"],
+  }));
+
   return {
     props: {
       ramenShops,
       udonShops,
+      curryShops,
     },
   };
 };

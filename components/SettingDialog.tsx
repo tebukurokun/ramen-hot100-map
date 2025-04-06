@@ -26,7 +26,8 @@ const SettingDialog = ({
   };
 
   const handleToggle =
-    (key: "ramen" | "udon") => (event: React.ChangeEvent<HTMLInputElement>) => {
+    (key: "ramen" | "udon" | "curry") =>
+    (event: React.ChangeEvent<HTMLInputElement>) => {
       setMarkerVisibility({
         ...markerVisibility,
         [key]: event.target.checked,
@@ -56,6 +57,23 @@ const SettingDialog = ({
               />
             }
             label="うどん"
+          />
+          <FormControlLabel
+            control={
+              <Switch
+                checked={markerVisibility.curry}
+                onChange={handleToggle("curry")}
+                sx={{
+                  "& .MuiSwitch-switchBase.Mui-checked": {
+                    color: "#D4A017", // カレーっぽい色 (ゴールデンブラウン)
+                  },
+                  "& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track": {
+                    backgroundColor: "#D4A017",
+                  },
+                }}
+              />
+            }
+            label="カレー"
           />
         </FormGroup>
       </DialogContent>
