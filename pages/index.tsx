@@ -2,7 +2,7 @@ import fs from "fs";
 import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
-import { Shop } from "../interfaces";
+import { Shop, ShopCategory } from "../interfaces";
 const Map = dynamic(() => import("../components/Map"), { ssr: false });
 
 type Props = {
@@ -29,9 +29,16 @@ export const getStaticProps: GetStaticProps = async () => {
     return shops;
   };
 
-  // データ読み込み.
-  const ramenShops = getShopDataFromJson("ramen.json");
-  const udonShops = getShopDataFromJson("udon.json");
+  // データ読み込みとカテゴリー設定.
+  const ramenShops = getShopDataFromJson("ramen.json").map((shop: Shop) => ({
+    ...shop,
+    category: ShopCategory["ramen"],
+  }));
+
+  const udonShops = getShopDataFromJson("udon.json").map((shop: Shop) => ({
+    ...shop,
+    category: ShopCategory["udon"],
+  }));
 
   return {
     props: {

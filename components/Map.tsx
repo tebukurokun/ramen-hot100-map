@@ -9,7 +9,7 @@ import { ReactNode, useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
-import { Shop, ShopCategory } from "../interfaces";
+import { Shop } from "../interfaces";
 import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
@@ -45,7 +45,7 @@ const createMarker = (shop: Shop, iconUrl: string): ReactNode => {
             </a>
           </p>
           <p>
-            <i>{ShopCategory["ramen"]}</i>
+            <i>{shop.category}</i>
           </p>
           <p style={{ fontSize: "smaller" }}>
             <LocationOnIcon fontSize="small" />
