@@ -1,59 +1,49 @@
 {
-  "name": "ramen-hot100-map",
-  "version": "0.1.1",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint .",
-    "type-check": "tsc"
-  },
-  "dependencies": {
-    "@emotion/react": "^11.13.5",
-    "@emotion/styled": "^11.13.5",
-    "@mui/icons-material": "^6.1.10",
-    "@mui/material": "^6.1.10",
-    "@vercel/analytics": "^1.4.1",
-    "clsx": "^2.1.1",
-    "jotai": "^2.11.3",
-    "leaflet": "^1.9.4",
-    "leaflet.markercluster": "^1.5.3",
-    "next": "^15.1.6",
-    "next-sitemap": "^4.2.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-leaflet": "^4.2.1",
-    "react-leaflet-markercluster": "^4.1.1",
-    "url-loader": "^4.1.1"
-  },
-  "devDependencies": {
-    "@next/eslint-plugin-next": "^15.0.3",
-    "@types/leaflet": "1.9.16",
-    "@types/node": "^22.11.0",
-    "@types/react": "^19.0.8",
-    "@types/react-dom": "^19.0.3",
-    "@types/react-leaflet": "3.0.0",
-    "@types/react-leaflet-markercluster": "^3.0.4",
-    "@typescript-eslint/eslint-plugin": "^8.17.0",
-    "@typescript-eslint/parser": "^8.17.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^9.16.0",
-    "eslint-config-next": "^15.1.6",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-import-resolver-typescript": "^3.6.3",
-    "eslint-plugin-import": "^2.23.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.37.4",
-    "postcss": "^8.4.49",
-    "prettier": "^3.4.2",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.3",
-    "webpack": "^5.37.0"
-  },
-  "license": "MIT",
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not op_mini all"
-  ]
+	"name": "ramen-hot100-map",
+	"version": "0.1.1",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint .",
+		"type-check": "tsc"
+	},
+	"dependencies": {
+		"@emotion/react": "^11",
+		"@emotion/styled": "^11",
+		"@mui/icons-material": "^7",
+		"@mui/material": "^7",
+		"@react-leaflet/core": "^3.0.0",
+		"@vercel/analytics": "^1.5.0",
+		"clsx": "^2.1.1",
+		"jotai": "^2.13.0",
+		"leaflet": "^1.9.4",
+		"leaflet.markercluster": "^1.5.3",
+		"next": "^15.4.6",
+		"next-sitemap": "^4.2.3",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"react-leaflet": "^5.0.0",
+		"react-leaflet-markercluster": "^5.0.0-rc.0",
+		"url-loader": "^4.1.1"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.1.4",
+		"@types/leaflet": "1.9.16",
+		"@types/node": "^22.11.0",
+		"@types/react": "^19.0.8",
+		"@types/react-dom": "^19.0.3",
+		"@types/react-leaflet-markercluster": "^3.0.4",
+		"autoprefixer": "^10.4.21",
+		"postcss": "^8.4.49",
+		"tailwindcss": "^3.4.16",
+		"typescript": "^5.9.2",
+		"webpack": "^5.101.0"
+	},
+	"license": "MIT",
+	"browserslist": [
+		">0.2%",
+		"not dead",
+		"not op_mini all"
+	]
 }
