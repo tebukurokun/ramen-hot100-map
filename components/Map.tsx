@@ -65,7 +65,7 @@ const createMarker = (shop: Shop, iconUrl: string): ReactNode => {
 	);
 };
 
-const Map = ({
+const MapComponent = ({
 	ramenShops,
 	udonShops,
 	curryShops,
@@ -173,4 +173,4 @@ const Map = ({
 	);
 };
 
-export default Map;
+export default MapComponent;

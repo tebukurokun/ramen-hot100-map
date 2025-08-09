@@ -3,7 +3,8 @@ import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
 import { Shop, ShopCategory } from "../interfaces";
-const Map = dynamic(() => import("../components/Map"), { ssr: false });
+
+const MapComponent = dynamic(() => import("../components/Map"), { ssr: false });
 
 type Props = {
 	ramenShops: Shop[];
@@ -17,11 +18,11 @@ console.info(`Hyakumeiten Map v${version}`);
 const Home = ({ ramenShops, udonShops, curryShops }: Props): JSX.Element => {
 	return (
 		<div>
-			<Map
+			<MapComponent
 				ramenShops={ramenShops}
 				udonShops={udonShops}
 				curryShops={curryShops}
-			></Map>
+			></MapComponent>
 		</div>
 	);
 };
