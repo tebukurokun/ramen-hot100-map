@@ -1,5 +1,7 @@
 # Ramen Hot 100 Map
 
+[![Check](https://github.com/tebukurokun/ramen-hot100-map/actions/workflows/check.yml/badge.svg?branch=develop)](https://github.com/tebukurokun/ramen-hot100-map/actions/workflows/check.yml)
+
 view [ramen hyakumeiten](https://award.tabelog.com/hyakumeiten/ramen_tokyo) on map
 
 [ラーメン百名店](https://award.tabelog.com/hyakumeiten/ramen_tokyo)を地図上で見るためのアプリです。
@@ -10,13 +12,16 @@ Deploying to the cloud with [Vercel](https://vercel.com/) ([Documentation](https
 
 ``` bash
 # install
-yarn install
+npm i
 
 # run
-yarn dev
+npm run dev
 
 # build
-yarn build
+npm run build
+
+# lint
+npm run lint
 ```
 
 ## References
