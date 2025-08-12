@@ -166,6 +166,7 @@ const MapComponent = ({
             padding: "10px",
           }}
         >
+          {/* 現在地ボタン */}
           <GeolocationButton />
         </div>
       </MapContainer>

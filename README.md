@@ -26,7 +26,7 @@ npm run lint
 
 ## References
 
-- [食べログ ラーメン TOKYO 百名店 [食べログ]](https://award.tabelog.com/hyakumeiten/ramen_tokyo)
+- [食べログ 百名店](https://award.tabelog.com/hyakumeiten/)
 - [Leaflet](https://leafletjs.com/)
 - [React Leaflet](https://react-leaflet.js.org/)
 - [material-ui](https://material-ui.com/)
