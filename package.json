@@ -9,7 +9,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@emotion/react": "^11",
+    "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11",
     "@mui/icons-material": "^7",
     "@mui/material": "^7",
