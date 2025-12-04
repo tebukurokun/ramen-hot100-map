@@ -2,6 +2,7 @@ import fs from "fs";
 import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
+import { JSX } from "react";
 import { Shop, ShopCategory } from "../interfaces";
 
 const MapComponent = dynamic(() => import("../components/Map"), { ssr: false });

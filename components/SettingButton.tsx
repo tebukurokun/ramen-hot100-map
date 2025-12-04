@@ -1,6 +1,7 @@
 import SettingsIcon from "@mui/icons-material/Settings";
 import IconButton from "@mui/material/IconButton";
 import { styled } from "@mui/material/styles";
+import { JSX } from "react";
 
 // アイコンスタイル
 const StyledIcon = styled(SettingsIcon)(() => ({

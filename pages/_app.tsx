@@ -2,6 +2,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { Provider } from "jotai";
 import { AppProps } from "next/app";
 import Head from "next/head";
+import { JSX } from "react";
 import "../styles/main.css";
 
 const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {

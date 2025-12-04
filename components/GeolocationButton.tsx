@@ -2,7 +2,7 @@ import MyLocationOutlinedIcon from "@mui/icons-material/MyLocationOutlined";
 import IconButton from "@mui/material/IconButton";
 import { keyframes, styled } from "@mui/material/styles";
 import { useSetAtom } from "jotai";
-import { useCallback, useEffect, useState } from "react";
+import { JSX, useCallback, useEffect, useState } from "react";
 import { currentLocationAtom, mapCenterAtom } from "../atoms";
 
 // アニメーションスタイル
