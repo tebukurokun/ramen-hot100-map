@@ -16,7 +16,7 @@
     "@react-leaflet/core": "^3.0.0",
     "@vercel/analytics": "^1.6.1",
     "clsx": "^2.1.1",
-    "jotai": "^2.16.0",
+    "jotai": "^2.16.1",
     "leaflet": "^1.9.4",
     "leaflet.markercluster": "^1.5.3",
     "next": "^16.0.10",
