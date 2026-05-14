@@ -65,6 +65,18 @@ const createMarker = (shop: Shop, iconUrl: string): ReactNode => {
   );
 };
 
+// 地図の中心を動的に更新するコンポーネント
+const UpdateMapCenter = () => {
+  const center = useAtomValue(mapCenterAtom);
+  const map = useMap();
+
+  useEffect(() => {
+    map.setView(center, map.getZoom());
+  }, [center, map]);
+
+  return null;
+};
+
 const MapComponent = ({
   ramenShops,
   udonShops,
@@ -104,18 +116,6 @@ const MapComponent = ({
     );
   }
 
-  // 地図の中心を動的に更新するコンポーネント
-  const UpdateMapCenter = () => {
-    const center = useAtomValue(mapCenterAtom); // 現在の中心を取得
-    const map = useMap(); // Leafletの地図インスタンスを取得
-
-    useEffect(() => {
-      map.setView(center, map.getZoom()); // 中心を更新
-    }, [center, map]);
-
-    return null;
-  };
-
   return (
     <div>
       <MapContainer
@@ -143,7 +143,7 @@ const MapComponent = ({
               createMarker(shop, "/static/marker-icons/curry.png"),
             )}
         </MarkerClusterGroup>
-        <UpdateMapCenter /> {/* 地図の中心を動的に更新 */}
+        <UpdateMapCenter />
         <div
           style={{
             position: "absolute",
