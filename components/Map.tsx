@@ -122,7 +122,7 @@ const MapComponent = ({
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         {/* @ts-ignore */}
-        <MarkerClusterGroup maxClusterRadius={40}>
+        <MarkerClusterGroup maxClusterRadius={30}>
           {CATEGORY_KEYS.map(
             (key) =>
               markerVisibility[key] &&
