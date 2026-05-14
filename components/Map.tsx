@@ -9,7 +9,7 @@ import { ReactNode, useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
-import { CATEGORY_EMOJI, Shop } from "../interfaces";
+import { CATEGORIES, CATEGORY_KEYS, CategoryKey, Shop } from "../interfaces";
 import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
@@ -42,7 +42,7 @@ const createMarker = (shop: Shop, emoji: string): ReactNode => {
             </a>
           </p>
           <p>
-            <i>{shop.category}</i>
+            <i>{CATEGORIES[shop.category].label}</i>
           </p>
           <p style={{ fontSize: "smaller" }}>
             <LocationOnIcon fontSize="small" />
@@ -75,13 +75,9 @@ const UpdateMapCenter = () => {
 };
 
 const MapComponent = ({
-  ramenShops,
-  udonShops,
-  curryShops,
+  shopsByCategory,
 }: {
-  ramenShops: Shop[];
-  udonShops: Shop[];
-  curryShops: Shop[];
+  shopsByCategory: Record<CategoryKey, Shop[]>;
 }) => {
   const [isClient, setIsClient] = useState(false);
 
@@ -127,14 +123,13 @@ const MapComponent = ({
         />
         {/* @ts-ignore */}
         <MarkerClusterGroup maxClusterRadius={40}>
-          {markerVisibility.ramen &&
-            ramenShops.map((shop) => createMarker(shop, CATEGORY_EMOJI.ramen))}
-          {markerVisibility.udon &&
-            udonShops.map((shop) => createMarker(shop, CATEGORY_EMOJI.udon))}
-          {markerVisibility.curry &&
-            curryShops.map((shop) =>
-              createMarker(shop, CATEGORY_EMOJI.curry),
-            )}
+          {CATEGORY_KEYS.map(
+            (key) =>
+              markerVisibility[key] &&
+              shopsByCategory[key].map((shop) =>
+                createMarker(shop, CATEGORIES[key].emoji),
+              ),
+          )}
         </MarkerClusterGroup>
         <UpdateMapCenter />
         <div

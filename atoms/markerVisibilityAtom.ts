@@ -1,8 +1,11 @@
 import { atom } from "jotai";
-import { MarkerVisibility } from "../interfaces";
+import { CATEGORIES, CategoryKey, MarkerVisibility } from "../interfaces";
 
-export const markerVisibilityAtom = atom<MarkerVisibility>({
-  ramen: true,
-  udon: false,
-  curry: false,
-});
+const initial = Object.fromEntries(
+  (Object.keys(CATEGORIES) as CategoryKey[]).map((key) => [
+    key,
+    CATEGORIES[key].defaultVisible,
+  ]),
+) as MarkerVisibility;
+
+export const markerVisibilityAtom = atom<MarkerVisibility>(initial);

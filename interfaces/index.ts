@@ -1,3 +1,12 @@
+import type { CategoryKey } from "./categories";
+
+export {
+  CATEGORIES,
+  CATEGORY_KEYS,
+  type CategoryConfig,
+  type CategoryKey,
+} from "./categories";
+
 // 店データ
 export type Shop = {
   name: string;
@@ -7,24 +16,8 @@ export type Shop = {
   lat: string;
   lng: string;
   id: string;
-  category: ShopCategory;
+  category: CategoryKey;
 };
-
-// 店カテゴリー
-export enum ShopCategory {
-  ramen = "ラーメン百名店",
-  udon = "うどん百名店",
-  curry = "カレー百名店",
-}
 
 // 店カテゴリー表示設定
-export type MarkerVisibility = {
-  [key in keyof typeof ShopCategory]: boolean;
-};
-
-// カテゴリーごとの絵文字
-export const CATEGORY_EMOJI: Record<keyof typeof ShopCategory, string> = {
-  ramen: "🍜",
-  udon: "🥣",
-  curry: "🍛",
-};
+export type MarkerVisibility = Record<CategoryKey, boolean>;

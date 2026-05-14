@@ -3,61 +3,39 @@ import { GetStaticProps } from "next";
 import dynamic from "next/dynamic";
 import path from "path";
 import { JSX } from "react";
-import { Shop, ShopCategory } from "../interfaces";
+import { CATEGORIES, CATEGORY_KEYS, CategoryKey, Shop } from "../interfaces";
 
 const MapComponent = dynamic(() => import("../components/Map"), { ssr: false });
 
 type Props = {
-  ramenShops: Shop[];
-  udonShops: Shop[];
-  curryShops: Shop[];
+  shopsByCategory: Record<CategoryKey, Shop[]>;
 };
 
 const version = process.env.NEXT_PUBLIC_APP_VERSION;
 console.info(`Hyakumeiten Map v${version}`);
 
-const Home = ({ ramenShops, udonShops, curryShops }: Props): JSX.Element => {
+const Home = ({ shopsByCategory }: Props): JSX.Element => {
   return (
     <div>
-      <MapComponent
-        ramenShops={ramenShops}
-        udonShops={udonShops}
-        curryShops={curryShops}
-      ></MapComponent>
+      <MapComponent shopsByCategory={shopsByCategory} />
     </div>
   );
 };
 
-export const getStaticProps: GetStaticProps = async () => {
-  const getShopDataFromJson = (fileName: string) => {
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const loadShops = (fileName: string, key: CategoryKey): Shop[] => {
     const filePath = path.join(process.cwd(), "data", fileName);
     const fileContents = fs.readFileSync(filePath, "utf-8");
-    const shops = JSON.parse(fileContents).shops;
-    return shops;
+    const shops = JSON.parse(fileContents).shops as Omit<Shop, "category">[];
+    return shops.map((shop) => ({ ...shop, category: key }));
   };
 
-  // データ読み込みとカテゴリー設定.
-  const ramenShops = getShopDataFromJson("ramen.json").map((shop: Shop) => ({
-    ...shop,
-    category: ShopCategory["ramen"],
-  }));
-
-  const udonShops = getShopDataFromJson("udon.json").map((shop: Shop) => ({
-    ...shop,
-    category: ShopCategory["udon"],
-  }));
-
-  const curryShops = getShopDataFromJson("curry.json").map((shop: Shop) => ({
-    ...shop,
-    category: ShopCategory["curry"],
-  }));
+  const shopsByCategory = Object.fromEntries(
+    CATEGORY_KEYS.map((key) => [key, loadShops(CATEGORIES[key].dataFile, key)]),
+  ) as Record<CategoryKey, Shop[]>;
 
   return {
-    props: {
-      ramenShops,
-      udonShops,
-      curryShops,
-    },
+    props: { shopsByCategory },
   };
 };
 

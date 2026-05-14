@@ -8,7 +8,7 @@ import FormGroup from "@mui/material/FormGroup";
 import Switch from "@mui/material/Switch";
 import { useAtom } from "jotai";
 import { markerVisibilityAtom } from "../atoms";
-import { CATEGORY_EMOJI } from "../interfaces";
+import { CATEGORIES, CATEGORY_KEYS, CategoryKey } from "../interfaces";
 
 /**
  * 設定ダイアログ
@@ -27,8 +27,7 @@ const SettingDialog = ({
   };
 
   const handleToggle =
-    (key: "ramen" | "udon" | "curry") =>
-    (event: React.ChangeEvent<HTMLInputElement>) => {
+    (key: CategoryKey) => (event: React.ChangeEvent<HTMLInputElement>) => {
       setMarkerVisibility({
         ...markerVisibility,
         [key]: event.target.checked,
@@ -40,42 +39,30 @@ const SettingDialog = ({
       <DialogTitle>表示設定</DialogTitle>
       <DialogContent>
         <FormGroup>
-          <FormControlLabel
-            control={
-              <Switch
-                color="warning"
-                checked={markerVisibility.ramen}
-                onChange={handleToggle("ramen")}
+          {CATEGORY_KEYS.map((key) => {
+            const { emoji, shortLabel, switchColor } = CATEGORIES[key];
+            return (
+              <FormControlLabel
+                key={key}
+                control={
+                  <Switch
+                    checked={markerVisibility[key]}
+                    onChange={handleToggle(key)}
+                    sx={{
+                      "& .MuiSwitch-switchBase.Mui-checked": {
+                        color: switchColor,
+                      },
+                      "& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track":
+                        {
+                          backgroundColor: switchColor,
+                        },
+                    }}
+                  />
+                }
+                label={`${emoji} ${shortLabel}`}
               />
-            }
-            label={`${CATEGORY_EMOJI.ramen} ラーメン`}
-          />
-          <FormControlLabel
-            control={
-              <Switch
-                checked={markerVisibility.udon}
-                onChange={handleToggle("udon")}
-              />
-            }
-            label={`${CATEGORY_EMOJI.udon} うどん`}
-          />
-          <FormControlLabel
-            control={
-              <Switch
-                checked={markerVisibility.curry}
-                onChange={handleToggle("curry")}
-                sx={{
-                  "& .MuiSwitch-switchBase.Mui-checked": {
-                    color: "#D4A017", // カレーっぽい色 (ゴールデンブラウン)
-                  },
-                  "& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track": {
-                    backgroundColor: "#D4A017",
-                  },
-                }}
-              />
-            }
-            label={`${CATEGORY_EMOJI.curry} カレー`}
-          />
+            );
+          })}
         </FormGroup>
       </DialogContent>
       <DialogActions>
