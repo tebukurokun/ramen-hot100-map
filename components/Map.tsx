@@ -14,24 +14,21 @@ import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
 
-/**
- * マーカーのエレメント生成.
- * @param shop
- * @param category
- * @param icon
- * @returns
- */
-const createMarker = (shop: Shop, iconUrl: string): ReactNode => {
+const createEmojiIcon = (emoji: string): L.DivIcon =>
+  L.divIcon({
+    html: `<div style="width:44px;height:44px;background:white;border:2px solid #666;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 2px 6px rgba(0,0,0,0.35);">${emoji}</div>`,
+    iconSize: [44, 44],
+    iconAnchor: [22, 22],
+    popupAnchor: [0, -22],
+    className: "",
+  });
+
+const createMarker = (shop: Shop, emoji: string): ReactNode => {
   return (
     <Marker
       key={shop.id}
       position={[parseFloat(shop.lat), parseFloat(shop.lng)]}
-      icon={L.icon({
-        iconUrl: iconUrl,
-        iconSize: [48, 48], // アイコンのサイズ（幅: 48px, 高さ: 48px）
-        iconAnchor: [24, 48], // アイコンの中心下部
-        popupAnchor: [0, -48], // ポップアップの表示位置
-      })}
+      icon={createEmojiIcon(emoji)}
     >
       <Popup>
         <div style={{ maxWidth: "120px" }}>
@@ -131,17 +128,11 @@ const MapComponent = ({
         {/* @ts-ignore */}
         <MarkerClusterGroup maxClusterRadius={40}>
           {markerVisibility.ramen &&
-            ramenShops.map((shop) =>
-              createMarker(shop, "/static/marker-icons/ramen.png"),
-            )}
+            ramenShops.map((shop) => createMarker(shop, "🍜"))}
           {markerVisibility.udon &&
-            udonShops.map((shop) =>
-              createMarker(shop, "/static/marker-icons/udon.png"),
-            )}
+            udonShops.map((shop) => createMarker(shop, "🥣"))}
           {markerVisibility.curry &&
-            curryShops.map((shop) =>
-              createMarker(shop, "/static/marker-icons/curry.png"),
-            )}
+            curryShops.map((shop) => createMarker(shop, "🍛"))}
         </MarkerClusterGroup>
         <UpdateMapCenter />
         <div
