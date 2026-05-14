@@ -9,7 +9,7 @@ import { ReactNode, useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
-import { Shop } from "../interfaces";
+import { CATEGORY_EMOJI, Shop } from "../interfaces";
 import { GeolocationButton } from "./GeolocationButton";
 import { SettingButton } from "./SettingButton";
 import SettingDialog from "./SettingDialog";
@@ -128,11 +128,13 @@ const MapComponent = ({
         {/* @ts-ignore */}
         <MarkerClusterGroup maxClusterRadius={40}>
           {markerVisibility.ramen &&
-            ramenShops.map((shop) => createMarker(shop, "🍜"))}
+            ramenShops.map((shop) => createMarker(shop, CATEGORY_EMOJI.ramen))}
           {markerVisibility.udon &&
-            udonShops.map((shop) => createMarker(shop, "🥣"))}
+            udonShops.map((shop) => createMarker(shop, CATEGORY_EMOJI.udon))}
           {markerVisibility.curry &&
-            curryShops.map((shop) => createMarker(shop, "🍛"))}
+            curryShops.map((shop) =>
+              createMarker(shop, CATEGORY_EMOJI.curry),
+            )}
         </MarkerClusterGroup>
         <UpdateMapCenter />
         <div

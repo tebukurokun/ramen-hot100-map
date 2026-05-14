@@ -8,6 +8,7 @@ import FormGroup from "@mui/material/FormGroup";
 import Switch from "@mui/material/Switch";
 import { useAtom } from "jotai";
 import { markerVisibilityAtom } from "../atoms";
+import { CATEGORY_EMOJI } from "../interfaces";
 
 /**
  * 設定ダイアログ
@@ -47,7 +48,7 @@ const SettingDialog = ({
                 onChange={handleToggle("ramen")}
               />
             }
-            label="ラーメン"
+            label={`${CATEGORY_EMOJI.ramen} ラーメン`}
           />
           <FormControlLabel
             control={
@@ -56,7 +57,7 @@ const SettingDialog = ({
                 onChange={handleToggle("udon")}
               />
             }
-            label="うどん"
+            label={`${CATEGORY_EMOJI.udon} うどん`}
           />
           <FormControlLabel
             control={
@@ -73,7 +74,7 @@ const SettingDialog = ({
                 }}
               />
             }
-            label="カレー"
+            label={`${CATEGORY_EMOJI.curry} カレー`}
           />
         </FormGroup>
       </DialogContent>

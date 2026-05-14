@@ -21,3 +21,10 @@ export enum ShopCategory {
 export type MarkerVisibility = {
   [key in keyof typeof ShopCategory]: boolean;
 };
+
+// カテゴリーごとの絵文字
+export const CATEGORY_EMOJI: Record<keyof typeof ShopCategory, string> = {
+  ramen: "🍜",
+  udon: "🥣",
+  curry: "🍛",
+};
