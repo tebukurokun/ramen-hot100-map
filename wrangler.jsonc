@@ -1,23 +1,9 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "main": ".open-next/worker.js",
   "name": "ramen-hot100-map",
   "compatibility_date": "2026-05-16",
-  "compatibility_flags": [
-    "nodejs_compat"
-  ],
   "assets": {
-    "directory": ".open-next/assets",
-    "binding": "ASSETS"
-  },
-  "services": [
-    {
-      "binding": "WORKER_SELF_REFERENCE",
-      "service": "ramen-hot100-map"
-    }
-  ],
-  "images": {
-    "binding": "IMAGES"
+    "directory": "./out"
   },
   "observability": {
     "enabled": true

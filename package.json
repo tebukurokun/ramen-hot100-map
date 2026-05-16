@@ -7,17 +7,14 @@
     "start": "next start",
     "lint": "biome check .",
     "type-check": "tsc",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
-    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
+    "preview": "next build && wrangler dev",
+    "deploy": "next build && wrangler deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.11",
     "@mui/material": "^7.3.11",
-    "@opennextjs/cloudflare": "^1.19.10",
     "@react-leaflet/core": "^3.0.0",
     "@vercel/analytics": "^1.6.1",
     "clsx": "^2.1.1",
