@@ -1,4 +1,4 @@
-import { atom } from "jotai";
+import { atomWithStorage } from "jotai/utils";
 import { CATEGORIES, CategoryKey, MarkerVisibility } from "../interfaces";
 
 const initial = Object.fromEntries(
@@ -8,4 +8,10 @@ const initial = Object.fromEntries(
   ]),
 ) as MarkerVisibility;
 
-export const markerVisibilityAtom = atom<MarkerVisibility>(initial);
+// localStorage に永続化（キーは将来のスキーマ変更に備えて v1 を付与）
+export const markerVisibilityAtom = atomWithStorage<MarkerVisibility>(
+  "hyakumeiten-map:marker-visibility:v1",
+  initial,
+  undefined,
+  { getOnInit: true },
+);
