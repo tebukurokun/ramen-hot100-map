@@ -545,9 +545,9 @@
       "url": "https://tabelog.com/hokkaido/A0104/A010401/1014057/",
       "address": "北海道旭川市2条通5丁目左7号",
       "code": "hyakumeiten_izakaya_east_2025_restaurant_1014057",
-      "lat": "999.9",
-      "lng": "999.9",
-      "geocode_source": "failed",
+      "lat": "43.76817915",
+      "lng": "142.35641134",
+      "geocode_source": "yahoo",
       "coordinate_level": "prefecture",
       "normalized_address": "北海道旭川市2条通5左7",
       "id": "izakaya-45"

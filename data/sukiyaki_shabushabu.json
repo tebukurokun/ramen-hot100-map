@@ -281,9 +281,9 @@
       "url": "https://tabelog.com/hokkaido/A0101/A010103/1008058/",
       "address": "北海道札幌市中央区南三条西5-14 三条美松ビル3F",
       "code": "hyakumeiten_sukiyaki_shabushabu_2024_restaurant_1008058",
-      "lat": "999.9",
-      "lng": "999.9",
-      "geocode_source": "failed",
+      "lat": "43.05672904",
+      "lng": "141.35074611",
+      "geocode_source": "yahoo",
       "coordinate_level": "prefecture",
       "normalized_address": "北海道札幌市中央区南三条西5-14 三条美松ビル 3F",
       "id": "sukiyaki_shabushabu-23"
