@@ -2,17 +2,22 @@
   "name": "ramen-hot100-map",
   "version": "0.2.2",
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
     "start": "next start",
     "lint": "biome check .",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/icons-material": "^7.3.11",
     "@mui/material": "^7.3.11",
+    "@opennextjs/cloudflare": "^1.19.10",
     "@react-leaflet/core": "^3.0.0",
     "@vercel/analytics": "^1.6.1",
     "clsx": "^2.1.1",
@@ -38,7 +43,8 @@
     "postcss": "^8.5.14",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3",
-    "webpack": "^5.106.2"
+    "webpack": "^5.106.2",
+    "wrangler": "^4.92.0"
   },
   "license": "MIT",
   "browserslist": [

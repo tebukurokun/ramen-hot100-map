@@ -16,3 +16,5 @@ module.exports = {
   //   },
   //   webpack5: false,
 };
+
+import('@opennextjs/cloudflare').then(m => m.initOpenNextCloudflareForDev());
