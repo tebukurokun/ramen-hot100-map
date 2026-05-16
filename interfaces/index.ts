@@ -5,7 +5,13 @@ export {
   CATEGORY_KEYS,
   type CategoryConfig,
   type CategoryKey,
+  SECTION_KEYS,
+  SECTIONS,
+  type SectionKey,
 } from "./categories";
+
+// ピン留め状態
+export type PinnedCategories = Record<CategoryKey, boolean>;
 
 // 店データ
 export type Shop = {
