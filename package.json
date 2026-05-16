@@ -2,11 +2,13 @@
   "name": "ramen-hot100-map",
   "version": "0.2.2",
   "scripts": {
-    "dev": "next",
     "build": "next build",
+    "dev": "next",
     "start": "next start",
     "lint": "biome check .",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "preview": "next build && wrangler dev",
+    "deploy": "next build && wrangler deploy"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -38,7 +40,8 @@
     "postcss": "^8.5.14",
     "tailwindcss": "^3.4.19",
     "typescript": "^5.9.3",
-    "webpack": "^5.106.2"
+    "webpack": "^5.106.2",
+    "wrangler": "^4.92.0"
   },
   "license": "MIT",
   "browserslist": [
