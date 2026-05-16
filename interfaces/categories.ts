@@ -34,6 +34,30 @@ export const CATEGORIES = {
     dataFile: "curry.json",
     defaultVisible: false,
   },
+  shokudo: {
+    label: "食堂百名店",
+    shortLabel: "食堂",
+    emoji: "🍚",
+    switchColor: "#795548",
+    dataFile: "shokudo.json",
+    defaultVisible: false,
+  },
+  italian: {
+    label: "イタリアン百名店",
+    shortLabel: "イタリアン",
+    emoji: "🍝",
+    switchColor: "#388E3C",
+    dataFile: "italian.json",
+    defaultVisible: false,
+  },
+  chinese: {
+    label: "中国料理百名店",
+    shortLabel: "中国料理",
+    emoji: "🥮",
+    switchColor: "#C62828",
+    dataFile: "chinese.json",
+    defaultVisible: false,
+  },
 } as const satisfies Record<string, CategoryConfig>;
 
 export type CategoryKey = keyof typeof CATEGORIES;
