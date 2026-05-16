@@ -199,7 +199,7 @@ export const CATEGORIES = {
     section: "meat",
   },
   steak: {
-    label: "ステーキ百名店",
+    label: "ステーキ・鉄板焼き百名店",
     shortLabel: "ステーキ",
     emoji: "🥩",
     switchColor: "#8E0000",
@@ -239,8 +239,8 @@ export const CATEGORIES = {
     section: "meat",
   },
   toriryori: {
-    label: "鶏料理百名店",
-    shortLabel: "鶏料理",
+    label: "鳥料理百名店",
+    shortLabel: "鳥料理",
     emoji: "🍗",
     switchColor: "#FB8C00",
     dataFile: "toriryori.json",
@@ -289,7 +289,7 @@ export const CATEGORIES = {
     section: "bakery",
   },
   wagashi: {
-    label: "和菓子百名店",
+    label: "和菓子・甘味処百名店",
     shortLabel: "和菓子",
     emoji: "🍡",
     switchColor: "#C2185B",
@@ -349,7 +349,7 @@ export const CATEGORIES = {
     section: "drinks",
   },
   creative_innovative: {
-    label: "創作・イノベーティブ百名店",
+    label: "創作料理・イノベーティブ百名店",
     shortLabel: "創作",
     emoji: "✨",
     switchColor: "#00838F",
