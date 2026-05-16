@@ -10,9 +10,9 @@ import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
 import { CATEGORIES, CATEGORY_KEYS, CategoryKey, Shop } from "../interfaces";
+import { CategoryChipBar } from "./CategoryChipBar";
+import { CategorySheet } from "./CategorySheet";
 import { GeolocationButton } from "./GeolocationButton";
-import { SettingButton } from "./SettingButton";
-import SettingDialog from "./SettingDialog";
 
 const createEmojiIcon = (emoji: string): L.DivIcon =>
   L.divIcon({
@@ -83,7 +83,7 @@ const MapComponent = ({
 
   const center: [number, number] = useAtomValue(mapCenterAtom);
 
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   // 表示フラグがONのカテゴリのみマーカー表示
   const markerVisibility = useAtomValue(markerVisibilityAtom);
@@ -132,31 +132,21 @@ const MapComponent = ({
           )}
         </MarkerClusterGroup>
         <UpdateMapCenter />
+        {/* 現在地ボタン（右下、チップバーの真上） */}
         <div
           style={{
             position: "absolute",
-            top: "0px",
-            right: "0px",
-            zIndex: 1000, // マップの要素より前面に表示
-            padding: "10px",
+            bottom: "70px",
+            right: "10px",
+            zIndex: 1000,
           }}
         >
-          {/* 設定ボタン */}
-          <SettingButton onClick={() => setIsDialogOpen(true)} />
-        </div>
-        <SettingDialog isOpen={isDialogOpen} setIsOpen={setIsDialogOpen} />
-        <div
-          style={{
-            position: "absolute",
-            bottom: "15px",
-            right: "0px",
-            zIndex: 1000, // マップの要素より前面に表示
-            padding: "10px",
-          }}
-        >
-          {/* 現在地ボタン */}
           <GeolocationButton />
         </div>
+        {/* カテゴリチップバー（下端） */}
+        <CategoryChipBar onOpenSheet={() => setIsSheetOpen(true)} />
+        {/* カテゴリシート */}
+        <CategorySheet isOpen={isSheetOpen} setIsOpen={setIsSheetOpen} />
       </MapContainer>
     </div>
   );
