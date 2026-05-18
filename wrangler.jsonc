@@ -2,6 +2,9 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "ramen-hot100-map",
   "compatibility_date": "2026-05-16",
+  "build": {
+    "command": "npm run build"
+  },
   "assets": {
     "directory": "./out"
   },
