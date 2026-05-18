@@ -1,5 +1,5 @@
 {
-  "name": "ramen-hot100-map",
+  "name": "hyakumeiten-map",
   "version": "0.2.2",
   "scripts": {
     "build": "next build",
