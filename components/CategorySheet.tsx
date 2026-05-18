@@ -57,6 +57,15 @@ export const CategorySheet = ({
     );
   };
 
+  // 全カテゴリの visibility を ON に
+  const handleSelectAll = () => {
+    setMarkerVisibility(
+      Object.fromEntries(
+        CATEGORY_KEYS.map((k) => [k, true]),
+      ) as MarkerVisibility,
+    );
+  };
+
   // ピン留めはそのまま。ピン留めされているカテゴリのみ表示ONにする
   const handleResetToDefaults = () => {
     setMarkerVisibility(
@@ -148,6 +157,13 @@ export const CategorySheet = ({
             sx={{ minWidth: 0, color: "#666", fontSize: "0.8rem" }}
           >
             ★のみON
+          </Button>
+          <Button
+            onClick={handleSelectAll}
+            size="small"
+            sx={{ minWidth: 0, color: "#666", fontSize: "0.8rem" }}
+          >
+            全てON
           </Button>
           <IconButton
             onClick={() => setIsOpen(false)}

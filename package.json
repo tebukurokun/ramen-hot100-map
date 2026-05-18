@@ -1,5 +1,5 @@
 {
-  "name": "ramen-hot100-map",
+  "name": "hyakumeiten-map",
   "version": "0.2.2",
   "scripts": {
     "build": "next build",
@@ -7,6 +7,7 @@
     "start": "next start",
     "lint": "biome check .",
     "type-check": "tsc",
+    "build-data": "node scripts/build-data.mjs",
     "preview": "next build && wrangler dev",
     "deploy": "next build && wrangler deploy"
   },
