@@ -5,7 +5,7 @@ import L from "leaflet";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet/dist/leaflet.css";
-import { ReactNode, useEffect, useState } from "react";
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
@@ -74,11 +74,7 @@ const UpdateMapCenter = () => {
   return null;
 };
 
-const MapComponent = ({
-  shopsByCategory,
-}: {
-  shopsByCategory: Record<CategoryKey, Shop[]>;
-}) => {
+const MapComponent = () => {
   const [isClient, setIsClient] = useState(false);
 
   const center: [number, number] = useAtomValue(mapCenterAtom);
@@ -88,10 +84,40 @@ const MapComponent = ({
   // 表示フラグがONのカテゴリのみマーカー表示
   const markerVisibility = useAtomValue(markerVisibilityAtom);
 
+  // カテゴリごとのデータを on-demand で取得・キャッシュ
+  const [shopsByCategory, setShopsByCategory] = useState<
+    Partial<Record<CategoryKey, Shop[]>>
+  >({});
+  const inFlightRef = useRef<Set<CategoryKey>>(new Set());
+
   useEffect(() => {
     // クライアントサイドでのみ実行されるようにする
     setIsClient(true);
   }, []);
+
+  useEffect(() => {
+    for (const key of CATEGORY_KEYS) {
+      if (!markerVisibility[key]) continue;
+      if (shopsByCategory[key]) continue;
+      if (inFlightRef.current.has(key)) continue;
+      inFlightRef.current.add(key);
+      CATEGORIES[key]
+        .loader()
+        .then((mod) => {
+          const withCategory: Shop[] = mod.default.map((s) => ({
+            ...s,
+            category: key,
+          }));
+          setShopsByCategory((prev) => ({ ...prev, [key]: withCategory }));
+        })
+        .catch((err) => {
+          console.error(`Failed to load category ${key}:`, err);
+        })
+        .finally(() => {
+          inFlightRef.current.delete(key);
+        });
+    }
+  }, [markerVisibility, shopsByCategory]);
 
   if (!isClient) {
     // SSR中はローディング画面を表示.
@@ -126,7 +152,7 @@ const MapComponent = ({
           {CATEGORY_KEYS.map(
             (key) =>
               markerVisibility[key] &&
-              shopsByCategory[key].map((shop) =>
+              shopsByCategory[key]?.map((shop) =>
                 createMarker(shop, CATEGORIES[key].emoji),
               ),
           )}
