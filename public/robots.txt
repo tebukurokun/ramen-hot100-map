@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://hyakumeiten-map.vercel.app/
+Host: https://hyakumeiten-map.tebukuro.me/
 
 # Sitemaps
-Sitemap: https://hyakumeiten-map.vercel.app/sitemap.xml
+Sitemap: https://hyakumeiten-map.tebukuro.me/sitemap.xml

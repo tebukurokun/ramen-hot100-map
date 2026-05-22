@@ -1,4 +1,4 @@
 module.exports = {
-  siteUrl: "https://hyakumeiten-map.vercel.app/",
+  siteUrl: "https://hyakumeiten-map.tebukuro.me/",
   generateRobotsTxt: true, // robots.txtを生成
 };
