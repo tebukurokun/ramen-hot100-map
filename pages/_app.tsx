@@ -28,7 +28,10 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           content="ラーメン百名店の情報をマップで見ることができるサイトです。"
         />
         <meta property="og:site_name" content="Hyakumeiten Map" />
-        <meta property="og:url" content="https://hyakumeiten-map.tebukuro.me/" />
+        <meta
+          property="og:url"
+          content="https://hyakumeiten-map.tebukuro.me/"
+        />
         <meta property="og:image" content="/static/preview.jpg" />
         <meta property="og:type" content="website" />
         <link rel="preload" href="/static/marker-icons/ramen.png" as="image" />
