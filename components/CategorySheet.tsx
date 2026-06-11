@@ -104,11 +104,13 @@ export const CategorySheet = ({
       onClose={() => setIsOpen(false)}
       onOpen={() => setIsOpen(true)}
       disableSwipeToOpen
-      PaperProps={{
-        sx: {
-          borderTopLeftRadius: "16px",
-          borderTopRightRadius: "16px",
-          maxHeight: "75vh",
+      slotProps={{
+        paper: {
+          sx: {
+            borderTopLeftRadius: "16px",
+            borderTopRightRadius: "16px",
+            maxHeight: "75vh",
+          },
         },
       }}
     >
@@ -183,12 +185,14 @@ export const CategorySheet = ({
           placeholder="カテゴリを検索"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          InputProps={{
-            startAdornment: (
-              <InputAdornment position="start">
-                <SearchIcon fontSize="small" />
-              </InputAdornment>
-            ),
+          slotProps={{
+            input: {
+              startAdornment: (
+                <InputAdornment position="start">
+                  <SearchIcon fontSize="small" />
+                </InputAdornment>
+              ),
+            },
           }}
         />
       </div>
