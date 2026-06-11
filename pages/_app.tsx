@@ -10,7 +10,23 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
     <Provider>
       <Head>
         <title>Hyakumeiten Map</title>
-        <link rel="shortcut icon" href="/static/favicon/favicon.ico" />
+        <link rel="icon" href="/static/favicon/favicon.ico" sizes="48x48" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/static/favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+          href="/static/favicon/icon-192.png"
+        />
+        <link
+          rel="apple-touch-icon"
+          href="/static/favicon/apple-touch-icon.png"
+        />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
