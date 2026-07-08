@@ -7,7 +7,8 @@
     "start": "next start",
     "lint": "biome check .",
     "type-check": "next typegen && tsc",
-    "build-data": "node scripts/build-data.mjs"
+    "build-data": "node scripts/build-data.mjs",
+    "prepare": "git config core.hooksPath .githooks || true"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
