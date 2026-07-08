@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+# ステージ済みファイルに biome の整形・自動修正を適用して再ステージする
+npx biome check --write --staged --no-errors-on-unmatched
+git update-index --again
