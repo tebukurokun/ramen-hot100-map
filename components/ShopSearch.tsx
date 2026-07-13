@@ -1,17 +1,16 @@
 import SearchIcon from "@mui/icons-material/Search";
 import CircularProgress from "@mui/material/CircularProgress";
 import Dialog from "@mui/material/Dialog";
-import IconButton from "@mui/material/IconButton";
 import InputAdornment from "@mui/material/InputAdornment";
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
-import { styled } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import { useSetAtom } from "jotai";
 import { JSX, useEffect, useMemo, useState } from "react";
 import { focusedShopAtom, markerVisibilityAtom } from "../atoms";
 import { CATEGORIES, Shop } from "../interfaces";
 import { loadAllShops, normalizeForSearch } from "../utils/shops";
+import { MapControlButton } from "./MapControlButton";
 
 // 検索結果の最大表示件数
 const MAX_RESULTS = 30;
@@ -21,18 +20,6 @@ type SearchEntry = {
   shop: Shop;
   nameKey: string;
 };
-
-// GeolocationButton と同じ見た目のボタン
-const StyledButton = styled(IconButton)({
-  backgroundColor: "#E0E0E0",
-  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)",
-  "&:hover": {
-    backgroundColor: "#D6D6D6",
-    boxShadow: "0px 6px 8px rgba(0, 0, 0, 0.3)",
-  },
-  padding: "5px",
-  borderRadius: "10px",
-});
 
 /**
  * 全カテゴリ横断の店名検索。
@@ -92,9 +79,12 @@ export const ShopSearch = (): JSX.Element => {
 
   return (
     <>
-      <StyledButton onClick={() => setIsOpen(true)} aria-label="店名で検索する">
+      <MapControlButton
+        onClick={() => setIsOpen(true)}
+        aria-label="店名で検索する"
+      >
         <SearchIcon sx={{ fontSize: "2rem", color: "#555" }} />
-      </StyledButton>
+      </MapControlButton>
       <Dialog
         open={isOpen}
         onClose={() => setIsOpen(false)}

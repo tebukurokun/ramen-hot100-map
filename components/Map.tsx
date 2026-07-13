@@ -1,4 +1,5 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import StarIcon from "@mui/icons-material/Star";
 import { Chip, CircularProgress } from "@mui/material";
 import { useAtom, useAtomValue } from "jotai";
 import L from "leaflet";
@@ -30,6 +31,8 @@ import { getShopMarkKey } from "../utils/shops";
 import { CategoryChipBar } from "./CategoryChipBar";
 import { CategorySheet } from "./CategorySheet";
 import { GeolocationButton } from "./GeolocationButton";
+import { MapControlButton } from "./MapControlButton";
+import { ShopListSheet } from "./ShopListSheet";
 import { ShopSearch } from "./ShopSearch";
 
 // 行きたい/行ったマークの色・バッジ定義（ポップアップのボタンとマーカーで共用）
@@ -98,7 +101,7 @@ const ShopMarker = ({ shop }: { shop: Shop }): JSX.Element => {
       if (prev[markKey]?.status === status) {
         delete next[markKey];
       } else {
-        next[markKey] = { status, category: shop.category };
+        next[markKey] = { status, category: shop.category, name: shop.name };
       }
       return next;
     });
@@ -239,6 +242,7 @@ const MapComponent = () => {
   const center: [number, number] = useAtomValue(mapCenterAtom);
 
   const [isSheetOpen, setIsSheetOpen] = useState(false);
+  const [isListOpen, setIsListOpen] = useState(false);
 
   // 表示フラグがONのカテゴリのみマーカー表示
   const markerVisibility = useAtomValue(markerVisibilityAtom);
@@ -319,16 +323,25 @@ const MapComponent = () => {
         <CurrentLocationMarker />
         <UpdateMapCenter />
         <FocusShopHandler />
-        {/* 店名検索ボタン（右上） */}
+        {/* 店名検索・マークリストボタン（右上） */}
         <div
           style={{
             position: "absolute",
             top: "10px",
             right: "10px",
             zIndex: 1000,
+            display: "flex",
+            flexDirection: "column",
+            gap: "8px",
           }}
         >
           <ShopSearch />
+          <MapControlButton
+            onClick={() => setIsListOpen(true)}
+            aria-label="行きたい/行った店の一覧を開く"
+          >
+            <StarIcon sx={{ fontSize: "2rem", color: "#F5B400" }} />
+          </MapControlButton>
         </div>
         {/* 現在地ボタン（右下、チップバーの真上） */}
         <div
@@ -345,6 +358,8 @@ const MapComponent = () => {
         <CategoryChipBar onOpenSheet={() => setIsSheetOpen(true)} />
         {/* カテゴリシート */}
         <CategorySheet isOpen={isSheetOpen} setIsOpen={setIsSheetOpen} />
+        {/* 行きたい/行った店リストシート */}
+        <ShopListSheet isOpen={isListOpen} setIsOpen={setIsListOpen} />
       </MapContainer>
     </div>
   );

@@ -7,6 +7,9 @@ export type ShopMark = {
   status: ShopMarkStatus;
   // 達成数のカテゴリ別集計にデータ読み込みなしで使えるよう、マーク時のカテゴリを保持する
   category: CategoryKey;
+  // 一覧表示用。データ更新で百名店から外れた店でも店名を出せるようマーク時の店名を保持する
+  // （初期のマークには入っていないことがある）
+  name?: string;
 };
 
 // キーは utils/shops.ts の getShopMarkKey()（tabelog URL ベース）。
