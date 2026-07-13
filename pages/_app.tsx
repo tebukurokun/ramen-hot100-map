@@ -50,7 +50,6 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         />
         <meta property="og:image" content="/static/preview.jpg" />
         <meta property="og:type" content="website" />
-        <link rel="preload" href="/static/marker-icons/ramen.png" as="image" />
       </Head>
       <Component {...pageProps} />
       <Analytics />
