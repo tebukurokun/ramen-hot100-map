@@ -27,6 +27,10 @@ const CustomApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           rel="apple-touch-icon"
           href="/static/favicon/apple-touch-icon.png"
         />
+        {/* PWA: ホーム画面インストール用 manifest（Service Worker なしの最小構成） */}
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
