@@ -8,9 +8,13 @@ import InputAdornment from "@mui/material/InputAdornment";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Switch from "@mui/material/Switch";
 import TextField from "@mui/material/TextField";
-import { useAtom } from "jotai";
+import { useAtom, useAtomValue } from "jotai";
 import { JSX, useMemo, useState } from "react";
-import { markerVisibilityAtom, pinnedCategoriesAtom } from "../atoms";
+import {
+  markerVisibilityAtom,
+  pinnedCategoriesAtom,
+  shopMarksAtom,
+} from "../atoms";
 import {
   CATEGORIES,
   CATEGORY_KEYS,
@@ -35,7 +39,21 @@ export const CategorySheet = ({
 }): JSX.Element => {
   const [markerVisibility, setMarkerVisibility] = useAtom(markerVisibilityAtom);
   const [pinned, setPinned] = useAtom(pinnedCategoriesAtom);
+  const marks = useAtomValue(shopMarksAtom);
   const [query, setQuery] = useState("");
+
+  // カテゴリ別の行った/行きたい件数（マークに保持しているカテゴリから集計）
+  const markCounts = useMemo(() => {
+    const counts = Object.fromEntries(
+      CATEGORY_KEYS.map((key) => [key, { want: 0, visited: 0 }]),
+    ) as Record<CategoryKey, { want: number; visited: number }>;
+    for (const mark of Object.values(marks)) {
+      // 過去のマークにカテゴリ廃止等で不明なキーが残っていても落ちないようにする
+      const entry = counts[mark.category];
+      if (entry) entry[mark.status]++;
+    }
+    return counts;
+  }, [marks]);
 
   const handleToggleVisibility = (key: CategoryKey) => () => {
     setMarkerVisibility({
@@ -224,6 +242,7 @@ export const CategorySheet = ({
                 const { emoji, label, switchColor } = CATEGORIES[key];
                 const isOn = markerVisibility[key];
                 const isPinned = pinned[key];
+                const { want, visited } = markCounts[key];
                 return (
                   <div
                     key={key}
@@ -236,8 +255,24 @@ export const CategorySheet = ({
                     <span style={{ fontSize: "1.4rem", marginRight: "10px" }}>
                       {emoji}
                     </span>
-                    <span style={{ flex: 1, fontSize: "0.95rem" }}>
-                      {label}
+                    <span style={{ flex: 1, minWidth: 0 }}>
+                      <span style={{ fontSize: "0.95rem" }}>{label}</span>
+                      {(visited > 0 || want > 0) && (
+                        <span
+                          style={{
+                            display: "block",
+                            fontSize: "0.7rem",
+                            color: "#888",
+                          }}
+                        >
+                          {[
+                            visited > 0 ? `✅ 行った ${visited}` : null,
+                            want > 0 ? `⭐ 行きたい ${want}` : null,
+                          ]
+                            .filter(Boolean)
+                            .join(" ・ ")}
+                        </span>
+                      )}
                     </span>
                     <IconButton
                       onClick={handleTogglePin(key)}

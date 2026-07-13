@@ -1,11 +1,11 @@
 import MyLocationOutlinedIcon from "@mui/icons-material/MyLocationOutlined";
 import Alert from "@mui/material/Alert";
-import IconButton from "@mui/material/IconButton";
 import Snackbar from "@mui/material/Snackbar";
 import { keyframes, styled } from "@mui/material/styles";
 import { useSetAtom } from "jotai";
 import { JSX, useCallback, useEffect, useState } from "react";
 import { currentLocationAtom, mapCenterAtom } from "../atoms";
+import { MapControlButton } from "./MapControlButton";
 
 // アニメーションスタイル
 const blinkAnimation = keyframes`
@@ -21,18 +21,6 @@ const StyledIcon = styled(MyLocationOutlinedIcon, {
   color: "#1a1aff",
   animation: isLoading ? `${blinkAnimation} 0.4s infinite alternate` : "none",
 }));
-
-// ボタンスタイル
-const StyledButton = styled(IconButton)({
-  backgroundColor: "#E0E0E0", // ボタンの背景を灰色に設定
-  boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.2)", // ボタンに影を設定
-  "&:hover": {
-    backgroundColor: "#D6D6D6", // ホバー時の背景色
-    boxShadow: "0px 6px 8px rgba(0, 0, 0, 0.3)", // ホバー時に影を強調
-  },
-  padding: "5px",
-  borderRadius: "10px", // 角丸
-});
 
 const getErrorMessage = (err: GeolocationPositionError): string => {
   switch (err.code) {
@@ -106,13 +94,13 @@ export const GeolocationButton = (): JSX.Element => {
 
   return (
     <>
-      <StyledButton
+      <MapControlButton
         onClick={() => getCurrentLocation(true)}
         disabled={isLoading}
         aria-label="現在位置に移動する"
       >
         <StyledIcon isLoading={isLoading} />
-      </StyledButton>
+      </MapControlButton>
       {/* 位置情報取得失敗時の通知 */}
       <Snackbar
         open={errorMessage !== null}
