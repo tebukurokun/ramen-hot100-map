@@ -35,7 +35,11 @@ import {
   Shop,
 } from "../interfaces";
 import { formatMapHash, parseMapHash } from "../utils/mapHash";
-import { getShopMarkKey, loadCategoryShops } from "../utils/shops";
+import {
+  getAwardYear,
+  getShopMarkKey,
+  loadCategoryShops,
+} from "../utils/shops";
 import { CategoryChipBar } from "./CategoryChipBar";
 import { CategorySheet } from "./CategorySheet";
 import { GeolocationButton } from "./GeolocationButton";
@@ -138,6 +142,22 @@ const ShopMarker = ({ shop }: { shop: Shop }): JSX.Element => {
           </p>
           <p>
             <i>{CATEGORIES[shop.category].label}</i>
+            {getAwardYear(shop) && (
+              <span
+                style={{
+                  marginLeft: "6px",
+                  padding: "1px 6px",
+                  borderRadius: "8px",
+                  background: "#FFF4D6",
+                  color: "#8A6D00",
+                  fontSize: "0.7rem",
+                  fontWeight: 600,
+                  whiteSpace: "nowrap",
+                }}
+              >
+                {getAwardYear(shop)}年選出
+              </span>
+            )}
           </p>
           <p style={{ fontSize: "smaller" }}>
             <LocationOnIcon fontSize="small" />
