@@ -1,5 +1,11 @@
 import { atom } from "jotai";
 
-export const currentLocationAtom = atom<[number, number]>([
-  35.681236, 139.767125,
-]);
+export type CurrentLocation = {
+  /** 取得した現在地の座標 */
+  position: [number, number];
+  /** 取得精度（メートル） */
+  accuracy: number;
+};
+
+// null = まだ現在地を取得できていない（マーカー非表示）
+export const currentLocationAtom = atom<CurrentLocation | null>(null);
