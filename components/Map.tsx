@@ -6,9 +6,22 @@ import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet/dist/leaflet.css";
 import { ReactNode, useEffect, useRef, useState } from "react";
-import { MapContainer, Marker, Popup, TileLayer, useMap } from "react-leaflet";
+import {
+  Circle,
+  CircleMarker,
+  MapContainer,
+  Marker,
+  Pane,
+  Popup,
+  TileLayer,
+  useMap,
+} from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
-import { mapCenterAtom, markerVisibilityAtom } from "../atoms";
+import {
+  currentLocationAtom,
+  mapCenterAtom,
+  markerVisibilityAtom,
+} from "../atoms";
 import { CATEGORIES, CATEGORY_KEYS, CategoryKey, Shop } from "../interfaces";
 import { CategoryChipBar } from "./CategoryChipBar";
 import { CategorySheet } from "./CategorySheet";
@@ -31,7 +44,7 @@ const createMarker = (shop: Shop, emoji: string): ReactNode => {
       icon={createEmojiIcon(emoji)}
     >
       <Popup>
-        <div style={{ maxWidth: "120px" }}>
+        <div style={{ maxWidth: "200px" }}>
           <p style={{ fontWeight: "bolder" }}>
             <a
               href={shop.url}
@@ -59,6 +72,44 @@ const createMarker = (shop: Shop, emoji: string): ReactNode => {
         </div>
       </Popup>
     </Marker>
+  );
+};
+
+// 現在地マーカー（青点＋精度円）。現在地未取得の間は何も表示しない
+const CurrentLocationMarker = () => {
+  const currentLocation = useAtomValue(currentLocationAtom);
+
+  if (!currentLocation) return null;
+
+  const { position, accuracy } = currentLocation;
+
+  // マーカーペイン(600)より上、ポップアップ(700)より下に表示する
+  return (
+    <Pane name="current-location" style={{ zIndex: 650 }}>
+      <Circle
+        center={position}
+        radius={accuracy}
+        interactive={false}
+        pathOptions={{
+          color: "#1a73e8",
+          weight: 1,
+          opacity: 0.4,
+          fillColor: "#1a73e8",
+          fillOpacity: 0.15,
+        }}
+      />
+      <CircleMarker
+        center={position}
+        radius={8}
+        interactive={false}
+        pathOptions={{
+          color: "#ffffff",
+          weight: 3,
+          fillColor: "#1a73e8",
+          fillOpacity: 1,
+        }}
+      />
+    </Pane>
   );
 };
 
@@ -157,6 +208,7 @@ const MapComponent = () => {
               ),
           )}
         </MarkerClusterGroup>
+        <CurrentLocationMarker />
         <UpdateMapCenter />
         {/* 現在地ボタン（右下、チップバーの真上） */}
         <div
