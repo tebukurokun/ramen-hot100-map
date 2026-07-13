@@ -27,6 +27,11 @@ export const loadAllShops = (): Promise<Shop[]> =>
 export const getShopMarkKey = (shop: Shop): string =>
   shop.url || `${shop.name}|${shop.address}`;
 
+// code（例: hyakumeiten_ramen_aichi_2025_restaurant_23055953）から受賞年を取り出す。
+// 全データに年が含まれることは確認済みだが、形式変更に備えて取れない場合は null
+export const getAwardYear = (shop: Shop): string | null =>
+  shop.code.match(/_(20\d{2})_/)?.[1] ?? null;
+
 // 2点間の距離（メートル、ハバースイン式）
 export const distanceMeters = (
   a: [number, number],
