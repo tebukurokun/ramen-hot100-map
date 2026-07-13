@@ -5,6 +5,7 @@ import { keyframes, styled } from "@mui/material/styles";
 import { useSetAtom } from "jotai";
 import { JSX, useCallback, useEffect, useState } from "react";
 import { currentLocationAtom, mapCenterAtom } from "../atoms";
+import { parseMapHash } from "../utils/mapHash";
 import { MapControlButton } from "./MapControlButton";
 
 // アニメーションスタイル
@@ -43,10 +44,17 @@ export const GeolocationButton = (): JSX.Element => {
   /**
    * 現在地を取得.
    *
-   * @param notifyOnError 取得失敗時に Snackbar で通知するか（初回自動取得では通知しない）
+   * @param options.notifyOnError 取得失敗時に Snackbar で通知するか（初回自動取得では通知しない）
+   * @param options.recenter 取得成功時に地図を現在地へ移動するか（共有リンクで開いた初回は動かさない）
    */
   const getCurrentLocation = useCallback(
-    (notifyOnError: boolean) => {
+    ({
+      notifyOnError,
+      recenter,
+    }: {
+      notifyOnError: boolean;
+      recenter: boolean;
+    }) => {
       setIsLoading(true);
 
       /**
@@ -64,7 +72,9 @@ export const GeolocationButton = (): JSX.Element => {
       const success = (position: GeolocationPosition) => {
         const { latitude, longitude, accuracy } = position.coords;
 
-        setMapCenter([latitude, longitude]);
+        if (recenter) {
+          setMapCenter([latitude, longitude]);
+        }
         setCurrentLocation({ position: [latitude, longitude], accuracy });
         setIsLoading(false);
       };
@@ -87,15 +97,22 @@ export const GeolocationButton = (): JSX.Element => {
 
   /**
    * コンポーネントの初期レンダリング時に現在地を取得.
+   * URLハッシュ（共有リンク）で位置が指定されている場合は、共有された表示位置を
+   * 上書きしないよう現在地マーカーの表示だけ行い、地図は動かさない.
    */
   useEffect(() => {
-    getCurrentLocation(false);
+    getCurrentLocation({
+      notifyOnError: false,
+      recenter: parseMapHash(window.location.hash) === null,
+    });
   }, [getCurrentLocation]);
 
   return (
     <>
       <MapControlButton
-        onClick={() => getCurrentLocation(true)}
+        onClick={() =>
+          getCurrentLocation({ notifyOnError: true, recenter: true })
+        }
         disabled={isLoading}
         aria-label="現在位置に移動する"
       >
