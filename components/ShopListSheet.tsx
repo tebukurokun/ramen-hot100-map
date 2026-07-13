@@ -7,25 +7,35 @@ import ListItemButton from "@mui/material/ListItemButton";
 import SwipeableDrawer from "@mui/material/SwipeableDrawer";
 import Tab from "@mui/material/Tab";
 import Tabs from "@mui/material/Tabs";
-import { useAtom, useSetAtom } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import { JSX, useEffect, useMemo, useState } from "react";
 import {
+  currentLocationAtom,
   focusedShopAtom,
+  mapViewAtom,
   markerVisibilityAtom,
   ShopMark,
   shopMarksAtom,
 } from "../atoms";
 import { CATEGORIES, CATEGORY_KEYS, Shop } from "../interfaces";
-import { getShopMarkKey, loadCategoryShops } from "../utils/shops";
+import {
+  distanceMeters,
+  formatDistance,
+  getShopMarkKey,
+  loadCategoryShops,
+} from "../utils/shops";
 
-// リストシートのタブ定義。将来「周辺」タブ等を足すときはここに追加して
-// タブごとの行データソースを分岐する
+// リストシートのタブ定義。タブを足すときはここに追加して行データソースを分岐する
 const LIST_TABS = [
+  { key: "nearby", label: "📍 周辺" },
   { key: "want", label: "⭐ 行きたい" },
   { key: "visited", label: "✅ 行った" },
 ] as const;
 
 type ListTabKey = (typeof LIST_TABS)[number]["key"];
+
+// 周辺タブの最大表示件数
+const MAX_NEARBY = 30;
 
 // マーク1件の表示用データ。shop が null のときは現在の百名店データに
 // 引き当てられなかった（データ更新で百名店から外れた等）
@@ -36,8 +46,8 @@ type MarkRow = {
 };
 
 /**
- * 行きたい/行った店の一覧を表示するボトムシート。
- * 行タップで該当店へ地図移動、ゴミ箱でマーク解除。
+ * 店リストのボトムシート（周辺 / 行きたい / 行った のタブ切り替え）。
+ * 行タップで該当店へ地図移動、マークタブではゴミ箱でマーク解除。
  */
 export const ShopListSheet = ({
   isOpen,
@@ -47,12 +57,16 @@ export const ShopListSheet = ({
   setIsOpen: (open: boolean) => void;
 }): JSX.Element => {
   const [marks, setMarks] = useAtom(shopMarksAtom);
-  const setMarkerVisibility = useSetAtom(markerVisibilityAtom);
+  const [markerVisibility, setMarkerVisibility] = useAtom(markerVisibilityAtom);
   const setFocusedShop = useSetAtom(focusedShopAtom);
+  const currentLocation = useAtomValue(currentLocationAtom);
+  const mapView = useAtomValue(mapViewAtom);
 
-  const [tab, setTab] = useState<ListTabKey>("want");
+  const [tab, setTab] = useState<ListTabKey>("nearby");
   // マークキー(tabelog URL) → 店 の索引。null は読み込み中
   const [shopsByKey, setShopsByKey] = useState<Map<string, Shop> | null>(null);
+  // 周辺タブ用: 表示中カテゴリの全店。null は読み込み中
+  const [visibleShops, setVisibleShops] = useState<Shop[] | null>(null);
 
   // シートを開いたとき、マークが付いているカテゴリのデータだけ読み込んで索引を作る
   useEffect(() => {
@@ -78,7 +92,43 @@ export const ShopListSheet = ({
     };
   }, [isOpen, marks]);
 
-  // 表示中タブの行（カテゴリ順 → 店名順）
+  // 周辺タブ: 表示中カテゴリの店データを読み込む
+  useEffect(() => {
+    if (!isOpen || tab !== "nearby") return;
+    const categories = CATEGORY_KEYS.filter((key) => markerVisibility[key]);
+    let cancelled = false;
+    setVisibleShops(null);
+    Promise.all(categories.map(loadCategoryShops))
+      .then((lists) => {
+        if (!cancelled) setVisibleShops(lists.flat());
+      })
+      .catch((err) => {
+        console.error("Failed to load shops for nearby list:", err);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [isOpen, tab, markerVisibility]);
+
+  // 距離の基準点: 現在地があれば現在地、なければ地図の中心
+  const nearbyBasis = currentLocation?.position ?? mapView?.center ?? null;
+
+  // 周辺タブの行（距離昇順）
+  const nearbyRows = useMemo<{ shop: Shop; distance: number }[]>(() => {
+    if (!visibleShops || !nearbyBasis) return [];
+    return visibleShops
+      .map((shop) => ({
+        shop,
+        distance: distanceMeters(nearbyBasis, [
+          parseFloat(shop.lat),
+          parseFloat(shop.lng),
+        ]),
+      }))
+      .sort((a, b) => a.distance - b.distance)
+      .slice(0, MAX_NEARBY);
+  }, [visibleShops, nearbyBasis]);
+
+  // マークタブの行（カテゴリ順 → 店名順）
   const rows = useMemo<MarkRow[]>(() => {
     const entries: MarkRow[] = Object.entries(marks)
       .filter(([, mark]) => mark.status === tab)
@@ -155,7 +205,7 @@ export const ShopListSheet = ({
         }}
       >
         <h2 style={{ margin: 0, fontSize: "1.1rem", fontWeight: 700 }}>
-          マークした店
+          店リスト
         </h2>
         <IconButton
           onClick={() => setIsOpen(false)}
@@ -174,14 +224,17 @@ export const ShopListSheet = ({
         sx={{ borderBottom: "1px solid #eee", minHeight: "40px" }}
       >
         {LIST_TABS.map(({ key, label }) => {
-          const count = Object.values(marks).filter(
-            (mark) => mark.status === key,
-          ).length;
+          // マークタブのみ件数を表示する
+          const count =
+            key === "nearby"
+              ? null
+              : Object.values(marks).filter((mark) => mark.status === key)
+                  .length;
           return (
             <Tab
               key={key}
               value={key}
-              label={`${label} (${count})`}
+              label={count === null ? label : `${label} (${count})`}
               sx={{ minHeight: "40px", fontSize: "0.85rem" }}
             />
           );
@@ -190,8 +243,91 @@ export const ShopListSheet = ({
 
       {/* リスト */}
       <div style={{ overflowY: "auto", padding: "4px 8px 16px" }}>
+        {/* --- 周辺タブ --- */}
+        {tab === "nearby" && (
+          <>
+            {!Object.values(markerVisibility).some(Boolean) ? (
+              <div
+                style={{ textAlign: "center", color: "#888", padding: "24px" }}
+              >
+                表示中のカテゴリがありません。
+                <br />
+                カテゴリをONにすると周辺の店を表示します。
+              </div>
+            ) : !visibleShops || !nearbyBasis ? (
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  padding: "24px",
+                }}
+              >
+                <CircularProgress size={28} />
+              </div>
+            ) : (
+              <>
+                <div
+                  style={{
+                    fontSize: "0.7rem",
+                    color: "#888",
+                    padding: "6px 16px 2px",
+                  }}
+                >
+                  {currentLocation ? "現在地" : "地図の中心"}
+                  から近い順（表示中のカテゴリ）
+                </div>
+                {nearbyRows.map(({ shop, distance }) => (
+                  <ListItemButton
+                    key={shop.id}
+                    onClick={() => handleSelect(shop)}
+                    sx={{ borderRadius: "8px", py: "6px", minWidth: 0 }}
+                  >
+                    <span style={{ fontSize: "1.4rem", marginRight: "10px" }}>
+                      {CATEGORIES[shop.category].emoji}
+                    </span>
+                    <div style={{ minWidth: 0, flex: 1 }}>
+                      <div
+                        style={{
+                          fontSize: "0.95rem",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        {shop.name}
+                      </div>
+                      <div
+                        style={{
+                          fontSize: "0.75rem",
+                          color: "#888",
+                          overflow: "hidden",
+                          textOverflow: "ellipsis",
+                          whiteSpace: "nowrap",
+                        }}
+                      >
+                        {CATEGORIES[shop.category].shortLabel} ・ {shop.address}
+                      </div>
+                    </div>
+                    <span
+                      style={{
+                        fontSize: "0.8rem",
+                        color: "#555",
+                        fontWeight: 600,
+                        marginLeft: "8px",
+                        flexShrink: 0,
+                      }}
+                    >
+                      {formatDistance(distance)}
+                    </span>
+                  </ListItemButton>
+                ))}
+              </>
+            )}
+          </>
+        )}
+        {/* --- マークタブ（行きたい/行った） --- */}
         {/* データ読み込み中 */}
-        {!shopsByKey && rows.length > 0 && (
+        {tab !== "nearby" && !shopsByKey && rows.length > 0 && (
           <div
             style={{
               display: "flex",
@@ -203,14 +339,15 @@ export const ShopListSheet = ({
           </div>
         )}
         {/* 0件 */}
-        {rows.length === 0 && (
+        {tab !== "nearby" && rows.length === 0 && (
           <div style={{ textAlign: "center", color: "#888", padding: "24px" }}>
             マークした店がありません。
             <br />
             店のポップアップから追加できます。
           </div>
         )}
-        {shopsByKey &&
+        {tab !== "nearby" &&
+          shopsByKey &&
           rows.map(({ markKey, mark, shop }) => (
             <div
               key={markKey}

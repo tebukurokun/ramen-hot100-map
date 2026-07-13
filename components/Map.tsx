@@ -1,7 +1,7 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import StarIcon from "@mui/icons-material/Star";
 import { Chip, CircularProgress } from "@mui/material";
-import { useAtom, useAtomValue } from "jotai";
+import { useAtom, useAtomValue, useSetAtom } from "jotai";
 import L from "leaflet";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
@@ -22,12 +22,20 @@ import {
   currentLocationAtom,
   focusedShopAtom,
   mapCenterAtom,
+  mapViewAtom,
   markerVisibilityAtom,
   ShopMarkStatus,
   shopMarksAtom,
 } from "../atoms";
-import { CATEGORIES, CATEGORY_KEYS, CategoryKey, Shop } from "../interfaces";
-import { getShopMarkKey } from "../utils/shops";
+import {
+  CATEGORIES,
+  CATEGORY_KEYS,
+  CategoryKey,
+  MarkerVisibility,
+  Shop,
+} from "../interfaces";
+import { formatMapHash, parseMapHash } from "../utils/mapHash";
+import { getShopMarkKey, loadCategoryShops } from "../utils/shops";
 import { CategoryChipBar } from "./CategoryChipBar";
 import { CategorySheet } from "./CategorySheet";
 import { GeolocationButton } from "./GeolocationButton";
@@ -44,20 +52,24 @@ const MARK_STYLE: Record<
   visited: { color: "#2E7D32", badge: "✓", label: "✅ 行った" },
 };
 
-// divIcon は (絵文字, マーク) の組み合わせごとにメモ化する
+// divIcon は (カテゴリ, マーク) の組み合わせごとにメモ化する
 const iconCache = new Map<string, L.DivIcon>();
 
-const createEmojiIcon = (emoji: string, mark?: ShopMarkStatus): L.DivIcon => {
-  const cacheKey = `${emoji}:${mark ?? "none"}`;
+const createEmojiIcon = (
+  category: CategoryKey,
+  mark?: ShopMarkStatus,
+): L.DivIcon => {
+  const cacheKey = `${category}:${mark ?? "none"}`;
   const cached = iconCache.get(cacheKey);
   if (cached) return cached;
 
-  const borderColor = mark ? MARK_STYLE[mark].color : "#666";
+  // 枠線色はカテゴリのチップ色に対応させる。マークはバッジのみで表現する
+  const { emoji, switchColor } = CATEGORIES[category];
   const badge = mark
     ? `<div style="position:absolute;top:-5px;right:-5px;width:18px;height:18px;background:${MARK_STYLE[mark].color};border-radius:50%;color:white;font-size:12px;line-height:18px;text-align:center;font-weight:bold;">${MARK_STYLE[mark].badge}</div>`
     : "";
   const icon = L.divIcon({
-    html: `<div style="position:relative;width:44px;height:44px;background:white;border:2px solid ${borderColor};border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 2px 6px rgba(0,0,0,0.35);">${emoji}${badge}</div>`,
+    html: `<div style="position:relative;width:44px;height:44px;background:white;border:2px solid ${switchColor};border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 2px 6px rgba(0,0,0,0.35);">${emoji}${badge}</div>`,
     iconSize: [44, 44],
     iconAnchor: [22, 22],
     popupAnchor: [0, -22],
@@ -111,7 +123,7 @@ const ShopMarker = ({ shop }: { shop: Shop }): JSX.Element => {
     <Marker
       ref={markerRef}
       position={position}
-      icon={createEmojiIcon(CATEGORIES[shop.category].emoji, mark?.status)}
+      icon={createEmojiIcon(shop.category, mark?.status)}
     >
       <Popup>
         <div style={{ maxWidth: "200px" }}>
@@ -229,9 +241,44 @@ const UpdateMapCenter = () => {
   const center = useAtomValue(mapCenterAtom);
   const map = useMap();
 
+  // マウント時は動かさない（URLハッシュから復元した初期位置を
+  // atom のデフォルト値で上書きしないため）。atom の変更にのみ反応する
+  const isFirstRun = useRef(true);
   useEffect(() => {
+    if (isFirstRun.current) {
+      isFirstRun.current = false;
+      return;
+    }
     map.setView(center, map.getZoom());
   }, [center, map]);
+
+  return null;
+};
+
+// 地図状態（中心・ズーム・ONカテゴリ）をURLハッシュと mapViewAtom に同期するコンポーネント
+const MapHashSync = () => {
+  const map = useMap();
+  const markerVisibility = useAtomValue(markerVisibilityAtom);
+  const setMapView = useSetAtom(mapViewAtom);
+
+  useEffect(() => {
+    const update = () => {
+      const center = map.getCenter();
+      const zoom = map.getZoom();
+      setMapView({ center: [center.lat, center.lng], zoom });
+      // 履歴を汚さないよう replaceState でハッシュだけ書き換える
+      history.replaceState(
+        null,
+        "",
+        formatMapHash(zoom, center.lat, center.lng, markerVisibility),
+      );
+    };
+    update();
+    map.on("moveend", update);
+    return () => {
+      map.off("moveend", update);
+    };
+  }, [map, markerVisibility, setMapView]);
 
   return null;
 };
@@ -245,7 +292,25 @@ const MapComponent = () => {
   const [isListOpen, setIsListOpen] = useState(false);
 
   // 表示フラグがONのカテゴリのみマーカー表示
-  const markerVisibility = useAtomValue(markerVisibilityAtom);
+  const [markerVisibility, setMarkerVisibility] = useAtom(markerVisibilityAtom);
+
+  // URLハッシュからの初期状態復元（共有リンク・リロード用）。初回レンダー時に一度だけ読む
+  const initialHash = useMemo(
+    () =>
+      typeof window === "undefined" ? null : parseMapHash(window.location.hash),
+    [],
+  );
+
+  // ハッシュに cats 指定があればカテゴリ表示状態を復元する
+  useEffect(() => {
+    const cats = initialHash?.cats;
+    if (!cats) return;
+    setMarkerVisibility(
+      Object.fromEntries(
+        CATEGORY_KEYS.map((key) => [key, cats.includes(key)]),
+      ) as MarkerVisibility,
+    );
+  }, [initialHash, setMarkerVisibility]);
 
   // カテゴリごとのデータを on-demand で取得・キャッシュ
   const [shopsByCategory, setShopsByCategory] = useState<
@@ -264,14 +329,9 @@ const MapComponent = () => {
       if (shopsByCategory[key]) continue;
       if (inFlightRef.current.has(key)) continue;
       inFlightRef.current.add(key);
-      CATEGORIES[key]
-        .loader()
-        .then((mod) => {
-          const withCategory: Shop[] = mod.default.map((s) => ({
-            ...s,
-            category: key,
-          }));
-          setShopsByCategory((prev) => ({ ...prev, [key]: withCategory }));
+      loadCategoryShops(key)
+        .then((shops) => {
+          setShopsByCategory((prev) => ({ ...prev, [key]: shops }));
         })
         .catch((err) => {
           console.error(`Failed to load category ${key}:`, err);
@@ -301,8 +361,8 @@ const MapComponent = () => {
   return (
     <div>
       <MapContainer
-        center={center}
-        zoom={13}
+        center={initialHash ? [initialHash.lat, initialHash.lng] : center}
+        zoom={initialHash?.zoom ?? 13}
         scrollWheelZoom
         style={{ height: "100vh", width: "100%" }}
       >
@@ -323,6 +383,7 @@ const MapComponent = () => {
         <CurrentLocationMarker />
         <UpdateMapCenter />
         <FocusShopHandler />
+        <MapHashSync />
         {/* 店名検索・マークリストボタン（右上） */}
         <div
           style={{
@@ -338,7 +399,7 @@ const MapComponent = () => {
           <ShopSearch />
           <MapControlButton
             onClick={() => setIsListOpen(true)}
-            aria-label="行きたい/行った店の一覧を開く"
+            aria-label="店リストを開く"
           >
             <StarIcon sx={{ fontSize: "2rem", color: "#F5B400" }} />
           </MapControlButton>
@@ -358,7 +419,7 @@ const MapComponent = () => {
         <CategoryChipBar onOpenSheet={() => setIsSheetOpen(true)} />
         {/* カテゴリシート */}
         <CategorySheet isOpen={isSheetOpen} setIsOpen={setIsSheetOpen} />
-        {/* 行きたい/行った店リストシート */}
+        {/* 店リストシート（周辺/行きたい/行った） */}
         <ShopListSheet isOpen={isListOpen} setIsOpen={setIsListOpen} />
       </MapContainer>
     </div>

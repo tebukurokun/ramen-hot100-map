@@ -4,6 +4,7 @@ export {
 } from "./currentLocationAtom";
 export { type FocusedShop, focusedShopAtom } from "./focusedShopAtom";
 export { mapCenterAtom } from "./mapCenterAtom";
+export { type MapView, mapViewAtom } from "./mapViewAtom";
 export { markerVisibilityAtom } from "./markerVisibilityAtom";
 export { pinnedCategoriesAtom } from "./pinnedCategoriesAtom";
 export {
