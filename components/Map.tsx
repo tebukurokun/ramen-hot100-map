@@ -1,11 +1,11 @@
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import { CircularProgress } from "@mui/material";
-import { useAtomValue } from "jotai";
+import { Chip, CircularProgress } from "@mui/material";
+import { useAtom, useAtomValue } from "jotai";
 import L from "leaflet";
 import "leaflet.markercluster/dist/MarkerCluster.css";
 import "leaflet.markercluster/dist/MarkerCluster.Default.css";
 import "leaflet/dist/leaflet.css";
-import { ReactNode, useEffect, useRef, useState } from "react";
+import { JSX, useEffect, useMemo, useRef, useState } from "react";
 import {
   Circle,
   CircleMarker,
@@ -19,29 +19,96 @@ import {
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import {
   currentLocationAtom,
+  focusedShopAtom,
   mapCenterAtom,
   markerVisibilityAtom,
+  ShopMarkStatus,
+  shopMarksAtom,
 } from "../atoms";
 import { CATEGORIES, CATEGORY_KEYS, CategoryKey, Shop } from "../interfaces";
+import { getShopMarkKey } from "../utils/shops";
 import { CategoryChipBar } from "./CategoryChipBar";
 import { CategorySheet } from "./CategorySheet";
 import { GeolocationButton } from "./GeolocationButton";
+import { ShopSearch } from "./ShopSearch";
 
-const createEmojiIcon = (emoji: string): L.DivIcon =>
-  L.divIcon({
-    html: `<div style="width:44px;height:44px;background:white;border:2px solid #666;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 2px 6px rgba(0,0,0,0.35);">${emoji}</div>`,
+// 行きたい/行ったマークの色・バッジ定義（ポップアップのボタンとマーカーで共用）
+const MARK_STYLE: Record<
+  ShopMarkStatus,
+  { color: string; badge: string; label: string }
+> = {
+  want: { color: "#F5B400", badge: "★", label: "⭐ 行きたい" },
+  visited: { color: "#2E7D32", badge: "✓", label: "✅ 行った" },
+};
+
+// divIcon は (絵文字, マーク) の組み合わせごとにメモ化する
+const iconCache = new Map<string, L.DivIcon>();
+
+const createEmojiIcon = (emoji: string, mark?: ShopMarkStatus): L.DivIcon => {
+  const cacheKey = `${emoji}:${mark ?? "none"}`;
+  const cached = iconCache.get(cacheKey);
+  if (cached) return cached;
+
+  const borderColor = mark ? MARK_STYLE[mark].color : "#666";
+  const badge = mark
+    ? `<div style="position:absolute;top:-5px;right:-5px;width:18px;height:18px;background:${MARK_STYLE[mark].color};border-radius:50%;color:white;font-size:12px;line-height:18px;text-align:center;font-weight:bold;">${MARK_STYLE[mark].badge}</div>`
+    : "";
+  const icon = L.divIcon({
+    html: `<div style="position:relative;width:44px;height:44px;background:white;border:2px solid ${borderColor};border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:26px;box-shadow:0 2px 6px rgba(0,0,0,0.35);">${emoji}${badge}</div>`,
     iconSize: [44, 44],
     iconAnchor: [22, 22],
     popupAnchor: [0, -22],
     className: "",
   });
+  iconCache.set(cacheKey, icon);
+  return icon;
+};
 
-const createMarker = (shop: Shop, emoji: string): ReactNode => {
+// 店マーカー（ポップアップに店情報＋行きたい/行ったトグルを表示）
+const ShopMarker = ({ shop }: { shop: Shop }): JSX.Element => {
+  const [marks, setMarks] = useAtom(shopMarksAtom);
+  const focusedShop = useAtomValue(focusedShopAtom);
+  const markerRef = useRef<L.Marker>(null);
+
+  // position の参照を安定させる。毎レンダー新しい配列を渡すと react-leaflet が
+  // setLatLng を呼び、markercluster がマーカーを付け外しして開いているポップアップが閉じてしまう
+  const position = useMemo<[number, number]>(
+    () => [parseFloat(shop.lat), parseFloat(shop.lng)],
+    [shop.lat, shop.lng],
+  );
+
+  const markKey = getShopMarkKey(shop);
+  const mark = marks[markKey];
+
+  // 店名検索で選択された店ならポップアップを開く（flyTo が落ち着いてから）。
+  // クラスタに含まれている間は開けないので best-effort
+  const focusToken =
+    focusedShop?.shop.id === shop.id ? focusedShop.token : null;
+  useEffect(() => {
+    if (focusToken === null) return;
+    const timer = setTimeout(() => {
+      markerRef.current?.openPopup();
+    }, 900);
+    return () => clearTimeout(timer);
+  }, [focusToken]);
+
+  const handleToggleMark = (status: ShopMarkStatus) => () => {
+    setMarks((prev) => {
+      const next = { ...prev };
+      if (prev[markKey]?.status === status) {
+        delete next[markKey];
+      } else {
+        next[markKey] = { status, category: shop.category };
+      }
+      return next;
+    });
+  };
+
   return (
     <Marker
-      key={shop.id}
-      position={[parseFloat(shop.lat), parseFloat(shop.lng)]}
-      icon={createEmojiIcon(emoji)}
+      ref={markerRef}
+      position={position}
+      icon={createEmojiIcon(CATEGORIES[shop.category].emoji, mark?.status)}
     >
       <Popup>
         <div style={{ maxWidth: "200px" }}>
@@ -69,10 +136,51 @@ const createMarker = (shop: Shop, emoji: string): ReactNode => {
               {shop.address}
             </a>
           </p>
+          {/* 行きたい/行ったトグル */}
+          <div style={{ display: "flex", gap: "6px", marginTop: "8px" }}>
+            {(Object.keys(MARK_STYLE) as ShopMarkStatus[]).map((status) => {
+              const isActive = mark?.status === status;
+              const { color, label } = MARK_STYLE[status];
+              return (
+                <Chip
+                  key={status}
+                  label={label}
+                  size="small"
+                  variant={isActive ? "filled" : "outlined"}
+                  onClick={handleToggleMark(status)}
+                  sx={
+                    isActive
+                      ? {
+                          backgroundColor: color,
+                          color: "white",
+                          "&:hover": { backgroundColor: color },
+                        }
+                      : { color: "#666" }
+                  }
+                />
+              );
+            })}
+          </div>
         </div>
       </Popup>
     </Marker>
   );
+};
+
+// 店名検索で選択された店へ地図を移動するコンポーネント
+const FocusShopHandler = () => {
+  const focusedShop = useAtomValue(focusedShopAtom);
+  const map = useMap();
+
+  useEffect(() => {
+    if (!focusedShop) return;
+    const { shop } = focusedShop;
+    map.flyTo([parseFloat(shop.lat), parseFloat(shop.lng)], 17, {
+      duration: 0.8,
+    });
+  }, [focusedShop, map]);
+
+  return null;
 };
 
 // 現在地マーカー（青点＋精度円）。現在地未取得の間は何も表示しない
@@ -203,13 +311,25 @@ const MapComponent = () => {
           {CATEGORY_KEYS.map(
             (key) =>
               markerVisibility[key] &&
-              shopsByCategory[key]?.map((shop) =>
-                createMarker(shop, CATEGORIES[key].emoji),
-              ),
+              shopsByCategory[key]?.map((shop) => (
+                <ShopMarker key={shop.id} shop={shop} />
+              )),
           )}
         </MarkerClusterGroup>
         <CurrentLocationMarker />
         <UpdateMapCenter />
+        <FocusShopHandler />
+        {/* 店名検索ボタン（右上） */}
+        <div
+          style={{
+            position: "absolute",
+            top: "10px",
+            right: "10px",
+            zIndex: 1000,
+          }}
+        >
+          <ShopSearch />
+        </div>
         {/* 現在地ボタン（右下、チップバーの真上） */}
         <div
           style={{
