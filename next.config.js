@@ -5,6 +5,10 @@ module.exports = {
   env: {
     NEXT_PUBLIC_APP_VERSION: packageJson.version,
   },
+  experimental: {
+    // TypeScript 7 (native compiler) は Next.js の Compiler API を提供しないため
+    useTypeScriptCli: true,
+  },
   //   webpack: ( config ) => {
   //     config.module.rules.push(
   //       {
