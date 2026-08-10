@@ -1057,18 +1057,6 @@
       "id": "kissaten-87"
     },
     {
-      "name": "月光茶房",
-      "url": "https://tabelog.com/tokyo/A1306/A130602/13010596/",
-      "address": "東京都渋谷区神宮前3-5-2 ＥＦビル Ｂ１Ｆ",
-      "code": "hyakumeiten_kissaten_2026_restaurant_13010596",
-      "lat": "35.668944418706616",
-      "lng": "139.71240110429818",
-      "geocode_source": "tabelog",
-      "coordinate_level": "",
-      "normalized_address": "",
-      "id": "kissaten-88"
-    },
-    {
       "name": "珈琲 王城",
       "url": "https://tabelog.com/tokyo/A1311/A131101/13016735/",
       "address": "東京都台東区上野6-8-15",
@@ -1078,7 +1066,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-89"
+      "id": "kissaten-88"
     },
     {
       "name": "珈琲 天国",
@@ -1090,7 +1078,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-90"
+      "id": "kissaten-89"
     },
     {
       "name": "小野珈琲",
@@ -1102,7 +1090,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-91"
+      "id": "kissaten-90"
     },
     {
       "name": "築地",
@@ -1114,7 +1102,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-92"
+      "id": "kissaten-91"
     },
     {
       "name": "七つ森",
@@ -1126,7 +1114,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-93"
+      "id": "kissaten-92"
     },
     {
       "name": "カフェ ウィーン 日本橋三越本店",
@@ -1138,7 +1126,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-94"
+      "id": "kissaten-93"
     },
     {
       "name": "ミロンガ ヌオーバ",
@@ -1150,7 +1138,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-95"
+      "id": "kissaten-94"
     },
     {
       "name": "自家焙煎珈琲庵",
@@ -1162,7 +1150,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-96"
+      "id": "kissaten-95"
     },
     {
       "name": "銀座ブラジル 浅草支店",
@@ -1174,7 +1162,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-97"
+      "id": "kissaten-96"
     },
     {
       "name": "カフェテラス ポンヌフ",
@@ -1186,7 +1174,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-98"
+      "id": "kissaten-97"
     },
     {
       "name": "ボンボン",
@@ -1198,7 +1186,7 @@
       "geocode_source": "tabelog",
       "coordinate_level": "",
       "normalized_address": "",
-      "id": "kissaten-99"
+      "id": "kissaten-98"
     }
   ]
 }
