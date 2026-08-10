@@ -796,22 +796,13 @@ const shops: Omit<Shop, "category">[] = [
     id: "kissaten-87",
   },
   {
-    name: "月光茶房",
-    url: "https://tabelog.com/tokyo/A1306/A130602/13010596/",
-    address: "東京都渋谷区神宮前3-5-2 ＥＦビル Ｂ１Ｆ",
-    code: "hyakumeiten_kissaten_2026_restaurant_13010596",
-    lat: "35.668944418706616",
-    lng: "139.71240110429818",
-    id: "kissaten-88",
-  },
-  {
     name: "珈琲 王城",
     url: "https://tabelog.com/tokyo/A1311/A131101/13016735/",
     address: "東京都台東区上野6-8-15",
     code: "hyakumeiten_kissaten_2026_restaurant_13016735",
     lat: "35.710036988700736",
     lng: "139.7758688746688",
-    id: "kissaten-89",
+    id: "kissaten-88",
   },
   {
     name: "珈琲 天国",
@@ -820,7 +811,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13025425",
     lat: "35.71304604870464",
     lng: "139.79413523468637",
-    id: "kissaten-90",
+    id: "kissaten-89",
   },
   {
     name: "小野珈琲",
@@ -829,7 +820,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13074345",
     lat: "35.687914337916666",
     lng: "139.7986238832676",
-    id: "kissaten-91",
+    id: "kissaten-90",
   },
   {
     name: "築地",
@@ -838,7 +829,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_26001588",
     lat: "35.00437529241532",
     lng: "135.76969295402165",
-    id: "kissaten-92",
+    id: "kissaten-91",
   },
   {
     name: "七つ森",
@@ -847,7 +838,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13000675",
     lat: "35.70014743866611",
     lng: "139.64744995465892",
-    id: "kissaten-93",
+    id: "kissaten-92",
   },
   {
     name: "カフェ ウィーン 日本橋三越本店",
@@ -856,7 +847,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13011194",
     lat: "35.68590443791001",
     lng: "139.7737432832647",
-    id: "kissaten-94",
+    id: "kissaten-93",
   },
   {
     name: "ミロンガ ヌオーバ",
@@ -865,7 +856,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13281958",
     lat: "35.695607318704745",
     lng: "139.75969369453438",
-    id: "kissaten-95",
+    id: "kissaten-94",
   },
   {
     name: "自家焙煎珈琲庵",
@@ -874,7 +865,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13058418",
     lat: "35.71120230869288",
     lng: "139.7535299546962",
-    id: "kissaten-96",
+    id: "kissaten-95",
   },
   {
     name: "銀座ブラジル 浅草支店",
@@ -883,7 +874,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13022134",
     lat: "35.712176137899945",
     lng: "139.79456418351552",
-    id: "kissaten-97",
+    id: "kissaten-96",
   },
   {
     name: "カフェテラス ポンヌフ",
@@ -892,7 +883,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_13024964",
     lat: "35.66628835289867",
     lng: "139.7595702861036",
-    id: "kissaten-98",
+    id: "kissaten-97",
   },
   {
     name: "ボンボン",
@@ -901,7 +892,7 @@ const shops: Omit<Shop, "category">[] = [
     code: "hyakumeiten_kissaten_2026_restaurant_23000428",
     lat: "35.17765509812759",
     lng: "136.91442152129704",
-    id: "kissaten-99",
+    id: "kissaten-98",
   },
 ];
 
