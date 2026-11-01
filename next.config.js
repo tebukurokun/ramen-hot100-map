@@ -2,6 +2,8 @@ const packageJson = require("./package.json");
 
 module.exports = {
   output: "export",
+  // next dev が AI エージェント検知時に AGENTS.md を自動生成するのを無効化
+  agentRules: false,
   env: {
     NEXT_PUBLIC_APP_VERSION: packageJson.version,
   },
