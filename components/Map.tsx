@@ -370,7 +370,7 @@ const MapComponent = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "100vh",
+          height: "100dvh",
         }}
       >
         <CircularProgress />
@@ -384,7 +384,7 @@ const MapComponent = () => {
         center={initialHash ? [initialHash.lat, initialHash.lng] : center}
         zoom={initialHash?.zoom ?? 13}
         scrollWheelZoom
-        style={{ height: "100vh", width: "100%" }}
+        style={{ height: "100dvh", width: "100%" }}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
