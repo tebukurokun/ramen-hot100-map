@@ -10,7 +10,7 @@ Deploying to the cloud with [Vercel](https://vercel.com/) ([Documentation](https
 
 ## Usage
 
-``` bash
+```bash
 # install
 npm i
 
